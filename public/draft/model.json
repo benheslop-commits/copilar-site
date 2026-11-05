@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T18:56+10:30",
+  "built": "2026-11-05T19:24+10:30",
   "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -126,13 +126,13 @@
     "faces": {
      "E": {
       "label": "Capability spread across the members",
-      "description": "How far you feel the group, as it now stands, can pull off the venture it has agreed to take on and not yet finished. It is confidence in the group's capability for that venture, spread across its members, their skill included, and including whoever the band looks to for this venture for the day, so long as they lead by being followed and not by command. It is not luck, not your own prospects (Payoff), not whether each will do their part (Dependability), and not a general sense that the group is strong.",
+      "description": "How far you feel the group, as it now stands, can pull off the venture it has agreed to take on and not yet finished. It is confidence in the group's capability for that venture, spread across its members, their skill included, and including the skill of whoever the band looks to for this venture for the day. Whether that member pushes others about is Parity's ground, and whether the others look to you is Esteem's. It is not luck, not your own prospects (Payoff), not whether each will do their part (Dependability), and not a general sense that the group is strong.",
       "anchors": {
        "10": "You feel sure the group, as it stands, can pull off what it has set itself; the venture looks well within its reach.",
        "1": "You feel sure the group, as it stands, cannot pull off what it has set itself; the venture looks beyond it."
       },
       "subtitle": "Can the group pull this off?",
-      "summary": "Team Confidence, egalitarian face, is how far you feel the group as it now stands can finish the venture it has agreed to take on. It rests on capability spread across the members, including whoever the band follows for the day. It is not luck, your own Payoff, or Dependability.",
+      "summary": "Team Confidence in its egalitarian face is how far you feel the group, as it stands, can finish the venture it has agreed to take on. It rests on capability spread across the members, including whoever the band follows for the day. It is not luck, your own Payoff, or Dependability.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      },
      "H": {
@@ -145,8 +145,8 @@
       "pre_language": {
        "core": "A felt sense, before any words, that the ones in front know where to take the band: the troop's readiness to rise and follow when the lead animal moves off, as subordinate chacma baboons followed the dominant male's foraging moves even at a cost to themselves (King et al. 2008), against hanging back, lagging or drifting off when the lead's moves have come to nothing. Read with care: in King's study following depended on the followers' social bonds with the leader, so it rests on ties as well as on any reading of where he leads; and in olive baboons movement is settled among many initiators and the dominant is not simply followed (Strandburg-Peshkin et al. 2015). Following a single leader is therefore one primate pattern among several, and the model borrows it for ranked orders only. Intimates read it from how she meets a call from the top: moving with it at once, eyes on the task, or a pause, a glance at the others and a slow, half-hearted start; and, if she is at the front herself, from a sure, unhurried move off against a false start and a look back."
       },
-      "subtitle": "Trust in those who steer",
-      "summary": "Team Confidence, hierarchical face, is how far you feel those at the top can steer the group through the venture it has taken on. It covers reading the ground, choosing the course and righting it. It is their competence only, not Parity, Esteem, Rank, Payoff or Dependability. A well-meaning leader out of their depth rates low.",
+      "subtitle": "Confidence in those who steer",
+      "summary": "Team Confidence in its hierarchical face is how far you feel those at the top can steer the group through its unfinished venture: reading the ground, choosing the course, placing members and correcting mistakes. It judges only their competence to direct. It is not Parity, Esteem, Rank, Payoff or Dependability.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      }
     },
@@ -299,6 +299,44 @@
        }
       },
       "why": "Hierarchical face points to Parity as 'whether they push you about or take more than their due', which is the egalitarian face of Levelling. The revised hierarchical face of Levelling reads even dealing from those above (a hearing, the same rules, no favourites first, no threat, courtesy), and itself excludes whether those at the top can steer (Team Confidence). The pointer should name that ground so the two clauses mirror each other. Tier 3 wording edit. General definition and egalitarian face pass; collective efficacy (Bandura 1997; Zaccaro et al. 1995) supports the construct."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the group, as it now stands, can pull off the venture it has taken on and not yet finished: a game, project, season or campaign. It is confidence in the capability the venture will run on, not luck, not your own prospects (Payoff), not whether each will do their part (Dependability) and not a general sense that the group is strong. The culture's face sets where that capability is looked for.",
+       "anchors": {
+        "10": "You feel sure the group, as it stands, can pull off what it has set itself; the venture looks well within its reach.",
+        "1": "You feel sure the group, as it stands, cannot pull off what it has set itself; the venture looks beyond it."
+       },
+       "face_E": {
+        "description": "How far you feel the group, as it now stands, can pull off the venture it has agreed to take on and not yet finished. It is confidence in the group's capability for that venture, spread across its members, their skill included, and including whoever the band looks to for this venture for the day, so long as they lead by being followed and not by command. It is not luck, not your own prospects (Payoff), not whether each will do their part (Dependability), and not a general sense that the group is strong.",
+        "anchors": {
+         "10": "You feel sure the group, as it stands, can pull off what it has set itself; the venture looks well within its reach.",
+         "1": "You feel sure the group, as it stands, cannot pull off what it has set itself; the venture looks beyond it."
+        }
+       }
+      },
+      "why": "Egalitarian face counts the capability of whoever the band looks to 'so long as they lead by being followed and not by command'. That leaves the skill of a commanding or bullying member unclaimed: it is still capability the venture runs on, while the commanding is Parity's ground (Levelling egalitarian face; E:Levelling->GrpProsp 'Cowed hands' already carries its cost to the venture). Smallest fix: count the skill and point the manner of leading to Parity. General definition and hierarchical face pass."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the group, as it now stands, can pull off the venture it has taken on and not yet finished: a game, project, season or campaign. It is confidence in the capability the venture will run on, not luck, not your own prospects (Payoff), not whether each will do their part (Dependability) and not a general sense that the group is strong. The culture's face sets where that capability is looked for.",
+       "anchors": {
+        "10": "You feel sure the group, as it stands, can pull off what it has set itself; the venture looks well within its reach.",
+        "1": "You feel sure the group, as it stands, cannot pull off what it has set itself; the venture looks beyond it."
+       },
+       "face_E": {
+        "description": "How far you feel the group, as it now stands, can pull off the venture it has agreed to take on and not yet finished. It is confidence in the group's capability for that venture, spread across its members, their skill included, and including the skill of whoever the band looks to for this venture for the day; whether that member leads by being followed or by pushing others about is Parity's ground, not this. It is not luck, not your own prospects (Payoff), not whether each will do their part (Dependability), and not a general sense that the group is strong.",
+        "anchors": {
+         "10": "You feel sure the group, as it stands, can pull off what it has set itself; the venture looks well within its reach.",
+         "1": "You feel sure the group, as it stands, cannot pull off what it has set itself; the venture looks beyond it."
+        }
+       }
+      },
+      "why": "Egalitarian face: 'whether that member leads by being followed or by pushing others about is Parity's ground' misplaces ground. Being followed freely is the leader's Esteem, and from the reader's side Parity reads only whether the leader pushes others about (Parity's egalitarian face leaves a respected leader high and does not claim being followed). The clause sends half its ground to the wrong perception and leaves the Esteem boundary unnamed on this face, though the hierarchical face names it. Smallest fix: split the clause between Parity and Esteem. General definition, hierarchical face and all anchors pass; collective efficacy (Bandura 1997, 2000) backs the general reading and the hierarchical face's focus on leaders' competence to direct."
      }
     ],
     "subtitle": "Can this group pull it off?",
@@ -330,8 +368,8 @@
     "short": "Team Confidence",
     "shared_note": {
      "id": "GrpProsp",
-     "why_shared": "Both faces read one level: how far you feel the group, as it now stands, can pull off the venture it has taken on and not yet finished. It is confidence in the group's capability for that venture, not luck, not Payoff and not Dependability. Only where that capability is looked for differs.",
-     "differences": "The egalitarian face looks to capability spread across the members, skill included, and to whoever the band follows for the day, who leads by being followed and not by command. The hierarchical face looks to those at the top of the order: whether they can read the ground, choose the course, set members to their parts and right the course.",
+     "why_shared": "Both faces read one level: how far you feel the venture the group has taken on and not yet finished can be pulled off. Each deck reads that same confidence in the group's capability for the venture, and neither reads luck, your own Payoff or Dependability. The culture's face sets only where the capability is looked for.",
+     "differences": "The egalitarian face looks for capability spread across the members, their skill included, and that of whoever the band looks to for the day. The hierarchical face looks to those at the top of the order: whether they can read the ground, choose the course, set members to suitable parts and right it when it goes wrong.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "the group's goals"
@@ -624,7 +662,7 @@
     "name": "Normative Expression (norm guarding)",
     "continuum": "HCP",
     "axis": "Expression",
-    "description": "How strongly it strikes you as wrong when another member breaks from the group's settled ways in a way the group would condemn, in act or by openly pressing to change them. It is felt indignation at a breach, not dislike of the person. Intimates read it from whether you pull the member up: an objection, mockery, a cold shoulder or shutting them out. Your own conformity and your openness to ideas are not part of it.",
+    "description": "How strongly it strikes you as wrong when another member breaks from the group's settled ways in a way the group would condemn, in act or by openly pressing to change them. It is felt indignation at a breach, not dislike of the person. Intimates read it from whether you pull the member up: an objection, mockery, a cold shoulder or shutting them out. Your own conformity and your openness to ideas are not part of it. Among equals the group's ways include its levelling ways: not presuming on success or boasting, not keeping back what should be shared, and pulling your weight; a breach of these stirs the same bristle, and the band answers it with ribbing and complaint (Boehm 1999; Wiessner 2005).",
     "anchors": {
      "10": "The smallest departure the group would condemn jars you at once as plainly wrong, and intimates see you pull the member up on the spot: a sharp word, a mocking laugh or a turned back.",
      "1": "A member breaking the group's settled ways, or openly pressing to change them, leaves you unmoved even where the group would condemn it; nothing in you says it is wrong, and intimates see you let it pass."
@@ -706,6 +744,14 @@
        }
       },
       "why": "The definition is limited to breaches the group would condemn, but anchor 1 covers any member 'doing or urging something different'. Harmless difference leaves nearly everyone unmoved, so the low anchor fails to separate a low scorer from a high one and quietly widens the construct towards tolerance of novelty, which the definition excludes ('openness to ideas'). Low Rule-Keeping should mean condemnable breaches themselves leave you unmoved. This fits the norm-enforcement literature, where the measure is willingness to sanction an actual norm violation (third-party punishment, Fehr and Fischbacher 2004). Tier 3 wording fix to the anchor only; the description and anchor 10 stand."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ben, 5 Nov 2026, 7.15 pm (evolutionary anthropologist, second round: agreed)",
+      "was": {
+       "description": "How strongly it strikes you as wrong when another member breaks from the group's settled ways in a way the group would condemn, in act or by openly pressing to change them. It is felt indignation at a breach, not dislike of the person. Intimates read it from whether you pull the member up: an objection, mockery, a cold shoulder or shutting them out. Your own conformity and your openness to ideas are not part of it."
+      },
+      "why": "Under the continuum principle Rule-Keeping runs in egalitarian groups by weight; forager bands police boasting, hoarding and shirking by third-party criticism and mockery."
      }
     ],
     "exceptions": [
@@ -716,8 +762,8 @@
      "stage": "Homo sapiens",
      "why": "Indignation at a third party's breach of shared group conventions needs collective norms; chimpanzees punish harm to themselves but show no third-party punishment (Riedl et al. 2012), and openly pressing to change the ways is spoken."
     },
-    "subtitle": "Indignation when others break the rules",
-    "summary": "Rule-Keeping is how strongly it strikes you as wrong when another member breaks from the group's settled ways, in act or by openly pressing to change them. It is felt indignation at a breach, not dislike of the person. You show it by pulling the member up. Your own conformity and openness to ideas are not part of it.",
+    "subtitle": "Indignation when someone breaks group ways",
+    "summary": "Rule-Keeping is how strongly it strikes you as wrong when another member breaks from the group's settled ways in a way the group would condemn, in act or by openly pressing to change them. It is felt indignation at a breach, and others see it in whether you pull the member up. It is not dislike of the person, your own conformity or your openness to ideas.",
     "summary_status": "generated from the source texts, not canon; checked faithful",
     "logic_status": {
      "date": "2026-11-05",
@@ -1310,6 +1356,14 @@
        }
       },
       "why": "Tier 3 wording. In the hierarchical face, the Face boundary clause ends 'though being denied a hearing on such a charge lowers it'. The nearest antecedent of 'it' is Face, so the clause can be read as Levelling claiming a direct effect on Face. That effect belongs to the card H:Levelling->Face (No fair hearing), not to the definition. Face's own boundary clause gives 'denies you a hearing' to Parity, and the intended reading is that a denied hearing lowers Parity and reaches Face only through the card. The fix names the reading explicitly. Nothing else changes. The general definition, the egalitarian face and both sets of anchors agree with every other perception's boundary clauses, and they sit close to the literature: Boehm's reverse dominance hierarchy for the egalitarian face; procedural and interactional justice (Thibaut and Walker on voice, Leventhal's rules, Lind and Tyler's relational model, Bies and Moag on courtesy) for the hierarchical face; and Folger's frustration effect for a say that is heard and then brushed aside. No ground is left unclaimed or claimed twice."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "facilitator, Tier 2 (Ben's rule of 5 Nov 2026, 4.43 pm), from the evolutionary anthropologist's second round",
+      "was": {
+       "faces.E.description": "How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear; takes more than the group's ordinary share-out gives them, of food, credit or say, and makes it stick; or tilts how shares, turns and chances are handed out, or how a quarrel is settled, towards themselves or their favourites, passing you over. You go along of your own accord, unafraid, not shortchanged and not passed over. It is not rank (Rank), acceptance (Belonging), deference for what you bring (Esteem), the return on help or whether those with a surplus of their own share it on demand (Reciprocity), whether others do their part of the work (Dependability), the cost of showing yourself (Safety) or the others' verdict on your own conduct (Repute). A respected leader, a settled order you accept, an even-handed share-out that happens to leave you less this time, or the group together pulling up a breach of its ways leaves it high; a member you must appease, one who grabs and gets away with it, or one who hands out or settles in favour of their own lowers it. Where the group has spoken ways of deciding, having those ways applied to you as to anyone, and a fair hearing for your say, feed the same reading even when the outcome goes against you; a say that is heard and then brushed aside, never weighed, does not raise it."
+      },
+      "why": "In mobile bands the cheapest answer to a would-be dominant is to move camp (fluid co-residence); exit itself stays with the Engagement leave rule."
      }
     ],
     "plain_name": "Parity",
@@ -1318,7 +1372,7 @@
      "why": "As the present era note; the H face's hearing and rules are spoken."
     },
     "subtitle": "No one lords it over you",
-    "summary": "Parity is how far you feel no one in the group sets themselves over you unfairly. That can be by force or fear, by taking more than their due and keeping it, or by tilting shares, turns, hearings or quarrels towards themselves or their favourites. The culture's face sets where the threat is looked for: among equals, a would-be boss; in a ranked group, partial or overbearing dealing from above.",
+    "summary": "Parity is how far you feel no one in the group sets themselves over you unfairly, whether by force or fear, by taking more than their due, or by tilting shares, turns, hearings or quarrels towards themselves or their favourites. The culture's face sets where that threat is looked for. It is not your rank, acceptance, or the return on help.",
     "summary_status": "generated from the source texts, not canon; checked faithful",
     "logic_status": {
      "date": "2026-11-05",
@@ -1336,7 +1390,7 @@
     "faces": {
      "E": {
       "label": "No one lords it over you",
-      "description": "How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear; takes more than the group's ordinary share-out gives them, of food, credit or say, and makes it stick; or tilts how shares, turns and chances are handed out, or how a quarrel is settled, towards themselves or their favourites, passing you over. You go along of your own accord, unafraid, not shortchanged and not passed over. It is not rank (Rank), acceptance (Belonging), deference for what you bring (Esteem), the return on help or whether those with a surplus of their own share it on demand (Reciprocity), whether others do their part of the work (Dependability), the cost of showing yourself (Safety) or the others' verdict on your own conduct (Repute). A respected leader, a settled order you accept, an even-handed share-out that happens to leave you less this time, or the group together pulling up a breach of its ways leaves it high; a member you must appease, one who grabs and gets away with it, or one who hands out or settles in favour of their own lowers it. Where the group has spoken ways of deciding, having those ways applied to you as to anyone, and a fair hearing for your say, feed the same reading even when the outcome goes against you; a say that is heard and then brushed aside, never weighed, does not raise it.",
+      "description": "How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear; takes more than the group's ordinary share-out gives them, of food, credit or say, and makes it stick; or tilts how shares, turns and chances are handed out, or how a quarrel is settled, towards themselves or their favourites, passing you over. You go along of your own accord, unafraid, not shortchanged and not passed over. Where you could move to another group at little cost, a would-be boss has less hold over you, and the same push lowers this reading less; where leaving is costly, it lowers it more. It is not rank (Rank), acceptance (Belonging), deference for what you bring (Esteem), the return on help or whether those with a surplus of their own share it on demand (Reciprocity), whether others do their part of the work (Dependability), the cost of showing yourself (Safety) or the others' verdict on your own conduct (Repute). A respected leader, a settled order you accept, an even-handed share-out that happens to leave you less this time, or the group together pulling up a breach of its ways leaves it high; a member you must appease, one who grabs and gets away with it, or one who hands out or settles in favour of their own lowers it. Where the group has spoken ways of deciding, having those ways applied to you as to anyone, and a fair hearing for your say, feed the same reading even when the outcome goes against you; a say that is heard and then brushed aside, never weighed, does not raise it.",
       "anchors": {
        "10": "No member or clique can make you do or drop anything by force or threat, no one takes more than their due and keeps it, and whoever hands out or settles things does so with no thumb on the scale. You move, take your share and go about your business in the strongest member's presence as freely as in anyone's.",
        "1": "One or a few members make you comply through force or fear, take more than their due and keep it, or hand out and settle things in favour of their own while you are passed over. You watch them warily, fall quiet when they come near, and let them have their way to head off their anger, or because objecting gets you nowhere."
@@ -1346,7 +1400,7 @@
       },
       "engagement": null,
       "subtitle": "No one lords it over you",
-      "summary": "Parity, egalitarian face, is how far you feel no one in the group sets themselves over you by force or fear, by taking more than their share and keeping it, or by tilting shares and quarrels towards themselves or favourites. You go along freely, unafraid and not passed over. It is not Rank, Belonging or Esteem.",
+      "summary": "Parity in its egalitarian face is how far you feel no one in the group sets themselves over you by force, fear, grabbing more than the ordinary share, or tilting shares and settlements towards favourites. You go along freely, unafraid and not passed over. Easy exit weakens a would-be boss's hold.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      },
      "H": {
@@ -1359,8 +1413,8 @@
       "pre_language": {
        "core": "Whether the one who divides and settles hands her portion in its turn and hears her out, or feeds his favourites first and waves her off. Intimates read it from whether she waits at the share-out at ease or watches the divider warily, and whether she puts her case to those above or no longer bothers."
       },
-      "subtitle": "Fair dealing from those above",
-      "summary": "Parity, hierarchical face, is how far you feel those above you, and the order's own ways of deciding, deal evenly with you. They hear you, hold you to the same rules as others at your rung, share turns without favourites and give orders without threat. It is not your Rank, Reciprocity or Esteem.",
+      "subtitle": "Even hands from those above",
+      "summary": "Parity in its hierarchical face is how far you feel those above you, and the order's own ways of deciding, deal evenly with you. They hear you, hold you to the same rules as others at your rung, serve no favourites first, settle quarrels fairly, and give orders without threat. It is not your Rank.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      }
     },
@@ -1368,8 +1422,8 @@
     "short": "Parity",
     "shared_note": {
      "id": "Levelling",
-     "why_shared": "Both faces read how far you feel no one in the group sets themselves over you unfairly: by force or fear, by taking more than their due and keeping it, or by tilting shares, turns, chances, hearings or the settling of quarrels towards themselves or their favourites. The level is one; the culture only sets where the threat is looked for.",
-     "differences": "The egalitarian face watches among equals for a would-be boss: someone who forces, grabs or favours their own. The hierarchical face watches those above and the order's own ways of deciding: whether they hear you, hold you to the same rules, serve favourites first, rule by threat or treat you with the courtesy your place is owed.",
+     "why_shared": "Both faces read one level: how far you feel no one in the group sets themselves over you unfairly, by force or fear, by taking more than their due, or by tilting shares, turns, hearings and settlements towards themselves or their favourites. Each deck reads that same sense of even dealing. The culture's face sets where the threat is looked for.",
+     "differences": "The egalitarian face attends to a would-be boss among equals: someone who makes you comply, grabs and keeps, or favours their own. The hierarchical face attends to those above you and the order's own ways of deciding: whether they hear you, apply rules evenly, serve no favourites first and give orders only within your place.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "dominance held in check"
@@ -1565,7 +1619,7 @@
     "axis": "Reciprocity",
     "shared": true,
     "status": "Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); provisional",
-    "description": "Your felt reading of whether help in this group comes back: what you give is returned, what you ask for is met. It holds until evidence moves it. It concerns the return on help, not whether others carry their part of shared work (Dependability), whether anyone takes more of a common take than their due (Parity), where you stand (Rank), whether the others want you among them (Belonging) or how they judge your conduct (Repute), though your name as a sharer (Repute) feeds the return. The culture's face sets where the return is looked for.",
+    "description": "Your felt reading of whether help in this group comes back: what you give is returned, what you ask for is met. It holds until evidence moves it. It concerns the return on help, not whether others carry their part of shared work (Dependability), whether anyone takes more of a common take than their due (Parity), where you stand (Rank), whether the others want you among them (Belonging) or how they judge your conduct (Repute, Face), though your good name feeds the return. The culture's face sets where the return is looked for.",
     "anchors": {
      "10": "What you give comes back and what you ask for is met, as a matter of course; you count on the return without a second thought.",
      "1": "What you give is not returned and what you need goes unmet; you expect nothing back from anyone here."
@@ -1576,7 +1630,7 @@
     "faces": {
      "E": {
       "label": "Return from the group",
-      "description": "Help goes to whoever needs it, and the return comes from the group at large, not only from the one helped. It is conditional on being seen to share, not on a strict tally: one seen to share is given to, one seen to hoard is passed over, and whoever has a surplus is pressed to share on demand. Return among foragers also tracks a particular partner's past giving (Allen-Arave, Gurven and Hill 2008; Jaeggi and Gurven 2013), and that return counts in this reading too. Your reading is whether, as one seen to share, you are given to when you are in need, by the group at large and by those you have given to.",
+      "description": "Help goes to whoever needs it, and the return comes from the group at large. Big windfalls go out largely by demand and tolerated taking, to whoever is there, whatever their record; what tracks being seen to share is the smaller, everyday giving and the care a member gets when sick or hurt. Whoever has a surplus is pressed to share on demand, and asking is as normal as giving. Your reading is whether, when you are in need, the group at large gives to you.",
       "anchors": {
        "10": "Whoever has gives to whoever needs; what you have put in comes back to you from any member when you are in need.",
        "1": "Giving goes into a hole: nothing comes back from anyone, those with a surplus hide it, and need goes unmet."
@@ -1586,8 +1640,8 @@
       },
       "engagement": "Where you feel that the norm of IndRecip is strong because the group can adapt to challenges smoothly by moving effort to where it is most urgently needed, without needing to debate or cajole, and there is joy in feeling part of collective endeavour where no one prioritises self-interest or their own immediate tasking.",
       "status": "Tightened 3 Nov 2026; provisional",
-      "subtitle": "Help returns from the group",
-      "summary": "Reciprocity, egalitarian face, is whether help given comes back from the group at large, not only from the one helped. It depends on being seen to share rather than on a strict tally. Those seen to share are given to, and those with a surplus are pressed to share on demand.",
+      "subtitle": "Return comes from the group",
+      "summary": "Reciprocity in its egalitarian face is whether, when you are in need, the group at large gives to you. Help goes to whoever needs it, and those with a surplus are pressed to share on demand. Windfalls go out by demand whatever the record, while everyday giving and care track being seen to share.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      },
      "H": {
@@ -1602,8 +1656,8 @@
       },
       "engagement": "Where you feel that the norm of DirRecip is strong because the group can adapt to challenges smoothly by moving effort to where it is most urgently needed, by trusting each other's word (assuming there are favours that each can do for each other); there is joy in feeling part of an endeavour where promises to return favours are always kept, and your efforts end up being recognised and returned; this version of trust is more honouring a deal, rather than being trusted to carry out tasks reliably (as per IncResp and OutResp).",
       "status": "Tightened 3 Nov 2026; provisional",
-      "subtitle": "Partners repay what you give",
-      "summary": "Reciprocity, hierarchical face, is whether your particular partners pay you back. Help flows between named partners, in kind between equals, or across rank as favour and protection passed down for loyalty and service passed up. It is not your Rank, their Dependability, Parity from above or Face.",
+      "subtitle": "Return comes from your partner",
+      "summary": "Reciprocity in its hierarchical face is whether your particular partners pay you back. Help is conditional on a return from the same partner, in kind between equals, or across rank as favour and protection passed down for loyalty and service passed up. It is not your Rank, Dependability, Parity or Face.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      }
     },
@@ -1959,6 +2013,26 @@
        }
       },
       "why": "The general definition and the hierarchical face agree with every other perception's boundary clauses. Those clauses are Dependability (others' part of the work), Parity (taking more than one's due; even dealing from above; Levelling E hands demand sharing to Reciprocity, which face E claims), Rank, Belonging, Repute (name as a sharer feeds the return), Safety (a shown need being met), Esteem and Face (an unreturned favour lowers Face, and Face feeds the return). No ground is left unclaimed or claimed twice. One internal inconsistency sits in the egalitarian face. It says return that tracks a particular partner's past giving counts in this reading (Allen-Arave, Gurven and Hill 2008; Jaeggi and Gurven 2013), but its closing reading sentence then limits the reading to being given to by the group, which leaves that partner-tracked return out. Smallest fix: widen the reading sentence to cover both sources. The literature fit is otherwise sound: forager sharing is need-based and loosely contingent on being seen to share, with demand sharing and partner contingency both present. Anchors are unchanged."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "facilitator, Tier 2 (Ben's rule of 5 Nov 2026, 4.43 pm), from the evolutionary anthropologist's second round",
+      "was": {
+       "faces.E.description": "Help goes to whoever needs it, and the return comes from the group at large, not only from the one helped. It is conditional on being seen to share, not on a strict tally: one seen to share is given to, one seen to hoard is passed over, and whoever has a surplus is pressed to share on demand. Return among foragers also tracks a particular partner's past giving (Allen-Arave, Gurven and Hill 2008; Jaeggi and Gurven 2013), and that return counts in this reading too. Your reading is whether, as one seen to share, you are given to when you are in need, by the group at large and by those you have given to."
+      },
+      "why": "Demand sharing and tolerated scrounging carry big windfalls (Peterson 1993; Hadza large game); help in sickness tracks past generosity (Ache). The reviewer's partner clause is left out: return from particular partners is the hierarchical face (Ben, 3.54 pm)."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "Your felt reading of whether help in this group comes back: what you give is returned, what you ask for is met. It holds until evidence moves it. It concerns the return on help, not whether others carry their part of shared work (Dependability), whether anyone takes more of a common take than their due (Parity), where you stand (Rank), whether the others want you among them (Belonging) or how they judge your conduct (Repute), though your name as a sharer (Repute) feeds the return. The culture's face sets where the return is looked for.",
+       "anchors": {
+        "10": "What you give comes back and what you ask for is met, as a matter of course; you count on the return without a second thought.",
+        "1": "What you give is not returned and what you need goes unmet; you expect nothing back from anyone here."
+       }
+      },
+      "why": "Tier 3 wording only. The general definition names only Repute (an egalitarian-deck pack perception) as the verdict on conduct that is excluded but feeds the return. On the hierarchical face that ground belongs to Face, which already says it feeds the return (Face, Reciprocity H face). So the general text tilts towards one deck and leaves Face's feed unacknowledged at the general level. The smallest fix names both, without copying any face text. Anchors and both faces are unchanged; they agree with Parity (hoarding one's own surplus is Reciprocity, grabbing more than one's due of a common take is Parity), Dependability, Rank, Belonging, Safety, Warmth, Repute and Face. On the literature: demand sharing (Peterson 1993), tolerated theft (Blurton Jones 1984), wide sharing of large game alongside more contingent sharing of small items and of care for the sick (Kaplan and Hill 1985; Gurven et al. 2000; Gurven 2004); patron-client exchange on the hierarchical face (Scott 1972). No change of meaning, so the ripple has nothing to carry."
      }
     ],
     "plain_name": "Reciprocity",
@@ -1966,8 +2040,8 @@
      "stage": "early hominin",
      "why": "Grooming and food exchange that tracks past giving is primate (Schino and Aureli 2008; Jaeggi and Gurven 2013); with 'seen to share' the E face no longer needs gossip."
     },
-    "subtitle": "Does help come back?",
-    "summary": "Your felt reading of whether help in this group comes back: what you give is returned and what you ask for is met. It holds until evidence moves it. It concerns the return on help, not whether others carry their part of shared work (Dependability), whether anyone takes more than their due (Parity), or where you stand (Rank).",
+    "subtitle": "Whether help comes back",
+    "summary": "Reciprocity is your felt reading of whether help in this group comes back: what you give is returned and what you ask for is met. It holds until evidence moves it. It concerns the return on help. It is not whether others carry their part of shared work, whether anyone takes more than their due, your rank, or how others judge your conduct.",
     "summary_status": "generated from the source texts, not canon; checked faithful",
     "logic_status": {
      "date": "2026-11-05",
@@ -2000,8 +2074,8 @@
     "short": "Reciprocity",
     "shared_note": {
      "id": "Reciprocity",
-     "why_shared": "Both faces read your felt sense of whether help in this group comes back: what you give is returned and what you ask for is met. It holds until evidence moves it. A switch of culture changes the face without resetting the level, so the level is one and only the place the return is looked for differs.",
-     "differences": "The egalitarian face looks to the group at large: help goes to whoever needs it, one seen to share is given to and one seen to hoard is passed over. The hierarchical face looks to particular partners who return help to each other, in kind between equals or across rank, as favour and protection for loyalty and service.",
+     "why_shared": "Both faces read one level: your felt reading of whether help in this group comes back, what you give returned and what you ask for met. It holds until evidence moves it. A culture switch changes the face without resetting the level, and neither face reads Dependability, Parity, Rank, Belonging or Repute.",
+     "differences": "The egalitarian face looks to the group at large: those with a surplus are pressed to share on demand, and you read whether the group gives when you are in need. The hierarchical face looks to particular partners: whether each pays you back, in kind between equals or across rank as favour, protection, loyalty and service.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "help given and sought"
@@ -2036,8 +2110,8 @@
       },
       "engagement": "Where you feel comfortable and accepted by the group members, who 'have your back' and will support you in the event of any difficulties.",
       "status": "Tightened 3 Nov 2026; provisional",
-      "subtitle": "Wanted as one of the group",
-      "summary": "Belonging, egalitarian face, is the sense that the others want you among them as one of their own in good standing. It does not rise or fall with your output or any place in an order. It is not unconditional: a member judged to shirk, cheat or feed on others is edged out.",
+      "subtitle": "Wanted as one of their own",
+      "summary": "Belonging in its egalitarian face is feeling the others want you among them as one of their own in good standing, because you pull with the group and do not feed on it. It does not depend on output or rank. It is conditional: members judged to shirk, cheat or feed on others are edged out.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      },
      "H": {
@@ -2052,8 +2126,8 @@
       },
       "engagement": null,
       "status": "Tightened 3 Nov 2026; provisional",
-      "subtitle": "Kept while you keep your place",
-      "summary": "Belonging, hierarchical face, is the sense that the others keep you among them so long as you keep to what your place in the order calls for, high or low. The acceptance is real but depends on keeping the place, not on the place itself (Rank). The threat of being dropped stays.",
+      "subtitle": "Included while you keep your place",
+      "summary": "Belonging in its hierarchical face is being kept among the others so long as you keep to what your place in the order calls for, high or low. The acceptance is real but conditional on keeping the place, not on the place itself (Rank). Being dropped is a standing threat.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      }
     },
@@ -2347,8 +2421,8 @@
     "short": "Belonging",
     "shared_note": {
      "id": "Belonging",
-     "why_shared": "Both faces read how far you feel the others want you among them: whether they make room for you and draw you in, or leave you at the edge. It is their acceptance of you, read from how they treat you. The level is one; the culture's face sets what the acceptance rests on.",
-     "differences": "The egalitarian face reads being wanted as one of their own in good standing: acceptance does not rise or fall with output or place, though a member judged to shirk, cheat or feed on the others is edged out. The hierarchical face reads being kept among them while you keep your place and do not step out of line, under the standing threat of being dropped.",
+     "why_shared": "Both faces read one level: how far you feel the others want you among them, whether they make room and draw you in or leave you at the edge. It is their acceptance of you, read from how they treat you. It is not their deference (Esteem), your Rank, their verdict on your conduct (Repute) or your own fondness (Warmth).",
+     "differences": "The egalitarian face rests acceptance on being one of their own in good standing: you pull with the group, and a member judged to shirk, cheat or feed on others is edged out. The hierarchical face rests it on keeping your place and not stepping out of line, under the standing threat of being dropped.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "being wanted among them"
@@ -2746,8 +2820,8 @@
       "pre_language": {
        "core": "The good hunter whose way of tracking the young copy and whose call on where to go is followed for the day, while his meat is still mocked as poor."
       },
-      "subtitle": "Looked to for your skills",
-      "summary": "Esteem, egalitarian face, is how far the others freely turn to you for what you bring the band, such as skill, knowledge or a good eye. They watch, copy and follow your lead on the matter, while you stay one of them. It gives no right to command and lasts only while what you bring does.",
+      "subtitle": "Looked to for skill, staying modest",
+      "summary": "Esteem in its egalitarian face is how far the others freely turn to you for what you bring: skill, knowledge, a good eye for the venture. They watch, copy and follow your lead on it, yet you stay one of them. The deference gives no right to command and lasts only while your contribution does.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      },
      "H": {
@@ -2761,7 +2835,7 @@
        "core": "Being the one others watch, copy and seek out: eyes on her hands, bodies drawn near while she works, problems brought to her, her way of doing things taken up; as children attend to and learn from models whom others attend to. Intimates read it from who gets watched, copied and sought, and who is passed over when a task of her kind comes up."
       },
       "subtitle": "Deferred to for what you bring",
-      "summary": "Esteem, hierarchical face, is how far the others freely defer to you for the skill, knowledge or contribution you bring the group. They copy you, take your advice and hand you decisions and jobs that matter. The deference is given, not owed to a place in a rank order. It is not Repute, Face or Reciprocity.",
+      "summary": "Esteem in its hierarchical face is how far the others freely defer to you for the skill, knowledge or contribution the group values. They copy you, take your advice, and hand you decisions and jobs that matter. It is given, not owed to a place in a rank order, and fades once what you bring does.",
       "summary_status": "generated from the face's description, not canon; checked faithful"
      }
     },
@@ -2787,8 +2861,8 @@
     "short": "Esteem",
     "shared_note": {
      "id": "Prestige",
-     "why_shared": "Both faces read how far the others defer to you freely for what you bring: they turn to you, watch and copy how you do it, bring you their problems and take your advice. The level is one deference given for what you bring; the culture's face sets how far that deference reaches.",
-     "differences": "The egalitarian face keeps the deference modest: others follow your lead on the matter in hand, but you stay one of them with no right to command, and it lasts only while what you bring does. The hierarchical face reaches further, to being handed decisions and jobs that matter and having your word taken on them.",
+     "why_shared": "Both faces read one level: how far the others defer to you freely for what you bring, turning to you, watching and copying how you do it, bringing you their problems and taking your advice. It is not whether they want you among them (Belonging), your Rank or their verdict on your conduct (Repute).",
+     "differences": "The egalitarian face keeps the deference modest: you stay one of them, it gives no right to command, and it lasts only while what you bring does. The hierarchical face reaches further: the others hand you decisions and jobs that matter and take your word on them, and it is given, not owed to any rung in the order.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "deference for what I bring"
@@ -3337,7 +3411,7 @@
    "name": "One of us, so it comes back",
    "increment_logic": "When the others draw me in as one of their own, I feel surer that what I put in will come back from the group and that what I need will be met: my sense that help comes back to me rises.",
    "decrement_logic": "When gatherings form without me and I am left at the edge, I feel that what I give goes into a hole and that my needs would go unmet: my sense that help comes back to me falls.",
-   "explanation": "In the return-from-the-group face, help goes to whoever in the group needs it, and someone the others treat as an outsider stands outside that giving. Being wanted as one of their own in good standing is the felt sign that she is among those the group's giving reaches, so her need will be met; being left at the edge is the sign that she stands outside that reach and will be passed over. Her name as a sharer is a separate route (Bad Name, Empty Hands). People expect generalised returns from their own group and not from outsiders (bounded generalised reciprocity: Yamagishi and Kiyonari 2000); carrying that from group membership to graded acceptance within one group is an extension, so keep the step modest.",
+   "explanation": "In the return-from-the-group face, big windfalls reach whoever is there by demand and tolerated taking, but the smaller, everyday giving and the care a member gets when sick or hurt go more readily to those the others count as their own. Being wanted as one of their own in good standing is the felt sign that she is among those this giving reaches, so her need will be met; being left at the edge is the sign that she stands outside its reach and will be passed over. Her name as a sharer is a separate route (Bad Name, Empty Hands). People expect generalised returns from their own group and not from outsiders (bounded generalised reciprocity: Yamagishi and Kiyonari 2000); carrying that from group membership to graded acceptance within one group is an extension, so keep the step modest, and keep it smaller still where the help in question is a windfall shared out on demand.",
    "pre_language": {
     "increment": "When others seek her out and draw her in, she reaches for a share of what they have without hesitation, expecting it to be handed over, and her sense that giving comes back grows.",
     "decrement": "When others leave her at the edge, she hangs back from the food and holds what she has close, expecting nothing to come her way, and her sense that giving comes back sinks."
@@ -3405,7 +3479,8 @@
     "Ripple round 6, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The increment line says 'I feel sure', which is the 10 anchor reached in one step, although the explanation asks for a modest step because carrying bounded generalised reciprocity from group membership to graded acceptance is an extension. It also fails to end on the target rising, unlike the decrement line. Decrement, type, boundaries (the sharer-name route left to Repute) and literature (Yamagishi and Kiyonari 2000; Balliet, Wu and De Dreu 2014) pass.",
     "Ripple round 9, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation says the return-from-the-group face gives within its own circle and passes over those outside it. The revised face no longer rests the return on membership: help goes to whoever needs it, conditional on being known as a sharer, and a known hoarder is passed over. The lines pass. Only the explanation's account of the face needs bringing into line, using the Belonging egalitarian face's own low anchor (treated as a freeloader or an outsider).",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation's first sentence has the group pass over a member it treats as a freeloader, which is a verdict on her conduct as a sharer. The revised Reciprocity egalitarian face makes the return conditional on being known as a sharer, and that verdict is Repute's ground (Bad Name, Empty Hands), so this card would count the same evidence twice. Ground the card in acceptance alone: an outsider, or a member left at the edge, falls outside the group's giving. Separately, the perception texts in the brief carry two versions of each egalitarian face. Reciprocity says 'known as a sharer' in one and 'membership and standing' in the other. Belonging says 'freeloader' in one and 'burden' in the other. Stale generic anchors also follow both hierarchical faces. Those texts need reconciling before this card can be judged finally.",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation's first sentence has the group pass over a member it treats as a freeloader, which is a verdict on her conduct as a sharer. The revised Reciprocity egalitarian face makes the return conditional on being known as a sharer, and that verdict is Repute's ground (Bad Name, Empty Hands), so this card would count the same evidence twice. Ground the card in acceptance alone: an outsider, or a member left at the edge, falls outside the group's giving. Separately, the perception texts in the brief carry two versions of each egalitarian face. Reciprocity says 'known as a sharer' in one and 'membership and standing' in the other. Belonging says 'freeloader' in one and 'burden' in the other. Stale generic anchors also follow both hierarchical faces. Those texts need reconciling before this card can be judged finally."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation's first sentence has the group pass over a member it treats as a freeloader, which is a verdict on her conduct as a sharer. The revised Reciprocity egalitarian face makes the return conditional on being known as a sharer, and that verdict is Repute's ground (Bad Name, Empty Hands), so this card would count the same evidence twice. Ground the card in acceptance alone: an outsider, or a member left at the edge, falls outside the group's giving. Separately, the perception texts in the brief carry two versions of each egalitarian face. Reciprocity says 'known as a sharer' in one and 'membership and standing' in the other. Belonging says 'freeloader' in one and 'burden' in the other. Stale generic anchors also follow both hierarchical faces. Those texts need reconciling before this card can be judged finally.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation says an outsider 'stands outside that giving' without qualification. The revised egalitarian face of Reciprocity now has big windfalls going by demand and tolerated taking to whoever is there, whatever their record, so a member at the edge who is present still gets a share of those. The card's reach should be limited to the everyday giving and care in sickness or injury that the revised face says are selective. The lines can stand, since they speak of help coming back and needs being met."
    ],
    "ripple_was": [
     {
@@ -3449,6 +3524,12 @@
      "increment_logic": "When the others draw me in as one of their own, I feel surer that what I put in will come back from the group and that what I need will be met: my sense that help comes back to me rises.",
      "decrement_logic": "When gatherings form without me and I am left at the edge, I feel that what I give goes into a hole and that my needs would go unmet: my sense that help comes back to me falls.",
      "explanation": "In the return-from-the-group face, help goes to whoever in the group needs it, and a member the others treat as a freeloader or an outsider is passed over, as a known hoarder is. Being wanted as one of their own in good standing is the felt sign that she is among those the group's giving reaches, so her need will be met; being edged out is the sign that she stands outside that reach and will be passed over. Her name as a sharer is a separate route (Bad Name, Empty Hands). People expect generalised returns from their own group and not from outsiders (bounded generalised reciprocity: Yamagishi and Kiyonari 2000); carrying that from group membership to graded acceptance within one group is an extension, so keep the step modest."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the others draw me in as one of their own, I feel surer that what I put in will come back from the group and that what I need will be met: my sense that help comes back to me rises.",
+     "decrement_logic": "When gatherings form without me and I am left at the edge, I feel that what I give goes into a hole and that my needs would go unmet: my sense that help comes back to me falls.",
+     "explanation": "In the return-from-the-group face, help goes to whoever in the group needs it, and someone the others treat as an outsider stands outside that giving. Being wanted as one of their own in good standing is the felt sign that she is among those the group's giving reaches, so her need will be met; being left at the edge is the sign that she stands outside that reach and will be passed over. Her name as a sharer is a separate route (Bad Name, Empty Hands). People expect generalised returns from their own group and not from outsiders (bounded generalised reciprocity: Yamagishi and Kiyonari 2000); carrying that from group membership to graded acceptance within one group is an extension, so keep the step modest."
     },
     {
      "type": "Reinforce",
@@ -3727,9 +3808,9 @@
    "target": "Levelling",
    "type": "Reinforce",
    "name": "Free to scoff, free of bullies",
-   "increment_logic": "When I feel safe to let a disagreement show, I bristle or scoff at anyone who starts to push me about, help themselves to more than their due, or tilt a share-out or a turn towards themselves or their favourites, and when others take up my scoff the move is checked: I feel no one here could set themselves over me without an answer from us, and my sense of Parity rises.",
+   "increment_logic": "When I feel safe to let a disagreement show, I speak up or scoff at anyone who starts to push me about, help themselves to more than their due, or tilt a share-out or a turn towards themselves or their favourites, and when others take up my scoff the move is checked: I feel no one here could set themselves over me without an answer from us, and my sense of Parity rises.",
    "decrement_logic": "When I brace and mask myself, I let a pushy member's demands, grabs and favouritism pass without a murmur and take what is handed to me, and I feel myself made to go along: my sense of Parity falls.",
-   "explanation": "The everyday tools of levelling are ridicule, criticism and open objection, and they bite when they are collective: among the Ju/'hoansi, humorous put-downs of big-shot behaviour escalate to harsh criticism and withheld sharing (Wiessner 2005), and followers acting together check would-be dominants (Boehm 1993). A member who feels safe to let a disagreement show is free to use these tools against a pushy member; that she does so rests on common sense, since the safety in question is safety to object. Where others take them up, force, grabbing and favouritism lose their grip on her. A lone scoff that no one takes up does not check a dominant, so set the increment small where the others stay silent; expected backing is carried by E:Belonging->Levelling. Both lines need someone pushing, grabbing or tilting a share-out: where no member is doing so, there is no move to scoff at and masking leaves nothing to let pass, so set both lines small or nil. The favouritism limb rests on the finding that a rigged procedure draws more objection than an unequal outcome alone: preschoolers protest an unequal split more when a rigged procedure produced it than when a fair one did (Grocke, Rossano and Tomasello 2015).",
+   "explanation": "The everyday tools of levelling are ridicule, criticism and open objection, and they bite when they are collective: among the Ju/'hoansi, humorous put-downs of big-shot behaviour escalate to harsh criticism and withheld sharing (Wiessner 2005), and followers acting together check would-be dominants (Boehm 1993). A member who feels safe to let a disagreement show is free to use these tools against a pushy member; that she does so rests on common sense, since the safety in question is safety to object. Where others take them up, force, grabbing and favouritism lose their grip on her. A lone scoff that no one takes up does not check a dominant, so set the increment small where the others stay silent; expected backing is carried by E:Belonging->Levelling. The indignation that prompts the objection is Rule-Keeping's ground (Ribbing the big shot); this card carries only her felt freedom to voice it. Both lines need someone pushing, grabbing or tilting a share-out: where no member is doing so, there is no move to scoff at and masking leaves nothing to let pass, so set both lines small or nil. The favouritism limb rests on the finding that a rigged procedure draws more objection than an unequal outcome alone: preschoolers protest an unequal split more when a rigged procedure produced it than when a fair one did (Grocke, Rossano and Tomasello 2015).",
    "pre_language": {
     "increment": "When she is loose among the others, she bristles, mocks or protests when a swaggering member pushes at her, and goes about her business beside him without a glance at his mood.",
     "decrement": "When she is braced, she goes still and gives way when a swaggering member pushes at her, and watches his mood."
@@ -3808,7 +3889,8 @@
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation points to the expected-backing card as E:Belonging->Parity, but card ids use keys, so it should read E:Belonging->Levelling. Both lines assume a member who is pushing, grabbing or tilting share-outs. Where no one is doing that, a braced member who stays quiet has nothing to let pass, and her Parity should not fall. The explanation caps the increment for a lone scoff but sets no matching limit on the decrement.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Card id kept as E:Belonging->Levelling; 'on reflex' replaced by freedom to object resting on common sense; 'because' softened to 'when they are collective'; Wiessner alone cited for the Ju/'hoansi escalation (without 'across the camp'), Boehm for collective checking only.",
     "Ripple round 8, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation says both lines need someone pushing, grabbing or tilting a share-out, but then sizes only the decrement. With no such member there is nothing to scoff at either, so the increment line has no cue to run on. Both lines should be set small or nil in that case.",
-    "Ripple round 13, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against Safety (safe to let a disagreement show) and the revised Parity (force, grabbing, tilted share-outs and turns); type and literature hold (Wiessner 2005 on escalating Ju/'hoansi criticism; Boehm 1993; Grocke, Rossano and Tomasello 2015 found preschoolers accept unequal splits from a fair procedure more than from a rigged one). The explanation cites 'Q5', an internal reference the card's reader cannot resolve: a stale note (Tier 3). Smallest fix replaces it with the point it stands for."
+    "Ripple round 13, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against Safety (safe to let a disagreement show) and the revised Parity (force, grabbing, tilted share-outs and turns); type and literature hold (Wiessner 2005 on escalating Ju/'hoansi criticism; Boehm 1993; Grocke, Rossano and Tomasello 2015 found preschoolers accept unequal splits from a fair procedure more than from a rigged one). The explanation cites 'Q5', an internal reference the card's reader cannot resolve: a stale note (Tier 3). Smallest fix replaces it with the point it stands for.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The increment line has her 'bristle' at the pusher. Bristling, meaning indignation at a breach of the levelling ways, belongs to Rule-Keeping, whose definition uses that exact word, and X:NormExp->Levelling (Ribbing the big shot) already carries it. Safety only supplies freedom to voice an objection, so the line should name the voicing and leave out the indignation, and the explanation should mark the boundary with the Rule-Keeping card. The literature checks out (Boehm 1993; Wiessner 2005; Grocke, Rossano and Tomasello 2015)."
    ],
    "ripple_was": [
     {
@@ -3840,6 +3922,12 @@
      "increment_logic": "When I feel safe to let a disagreement show, I bristle or scoff at anyone who starts to push me about, help themselves to more than their due, or tilt a share-out or a turn towards themselves or their favourites, and when others take up my scoff the move is checked: I feel no one here could set themselves over me without an answer from us, and my sense of Parity rises.",
      "decrement_logic": "When I brace and mask myself, I let a pushy member's demands, grabs and favouritism pass without a murmur and take what is handed to me, and I feel myself made to go along: my sense of Parity falls.",
      "explanation": "The everyday tools of levelling are ridicule, criticism and open objection, and they bite when they are collective: among the Ju/'hoansi, humorous put-downs of big-shot behaviour escalate to harsh criticism and withheld sharing (Wiessner 2005), and followers acting together check would-be dominants (Boehm 1993). A member who feels safe to let a disagreement show is free to use these tools against a pushy member; that she does so rests on common sense, since the safety in question is safety to object. Where others take them up, force, grabbing and favouritism lose their grip on her. A lone scoff that no one takes up does not check a dominant, so set the increment small where the others stay silent; expected backing is carried by E:Belonging->Levelling. Both lines need someone pushing, grabbing or tilting a share-out: where no member is doing so, there is no move to scoff at and masking leaves nothing to let pass, so set both lines small or nil. The favouritism limb follows Q5: preschoolers protest an unequal split more when a rigged procedure produced it than when a fair one did (Grocke, Rossano and Tomasello 2015)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel safe to let a disagreement show, I bristle or scoff at anyone who starts to push me about, help themselves to more than their due, or tilt a share-out or a turn towards themselves or their favourites, and when others take up my scoff the move is checked: I feel no one here could set themselves over me without an answer from us, and my sense of Parity rises.",
+     "decrement_logic": "When I brace and mask myself, I let a pushy member's demands, grabs and favouritism pass without a murmur and take what is handed to me, and I feel myself made to go along: my sense of Parity falls.",
+     "explanation": "The everyday tools of levelling are ridicule, criticism and open objection, and they bite when they are collective: among the Ju/'hoansi, humorous put-downs of big-shot behaviour escalate to harsh criticism and withheld sharing (Wiessner 2005), and followers acting together check would-be dominants (Boehm 1993). A member who feels safe to let a disagreement show is free to use these tools against a pushy member; that she does so rests on common sense, since the safety in question is safety to object. Where others take them up, force, grabbing and favouritism lose their grip on her. A lone scoff that no one takes up does not check a dominant, so set the increment small where the others stay silent; expected backing is carried by E:Belonging->Levelling. Both lines need someone pushing, grabbing or tilting a share-out: where no member is doing so, there is no move to scoff at and masking leaves nothing to let pass, so set both lines small or nil. The favouritism limb rests on the finding that a rigged procedure draws more objection than an unequal outcome alone: preschoolers protest an unequal split more when a rigged procedure produced it than when a fair one did (Grocke, Rossano and Tomasello 2015)."
     }
    ],
    "timing": {
@@ -5225,7 +5313,7 @@
    "name": "Failing hunts breed bosses",
    "increment_logic": "When I feel sure the group can pull off the venture, I see no call for anyone to take charge by force or settle things over our heads, and if the strongest starts to drive the pace the rest of us shrug it off; I go about my business beside them without a glance at their mood: my sense that no one here can set themselves over me rises.",
    "decrement_logic": "When I feel the venture is beyond us, I feel the rest of us looking to the strongest to take charge, and when they drive us by threat and temper and settle things without hearing us, no one pushes back and I find myself doing what they want to head off their anger: my sense that no one here can set themselves over me falls.",
-   "explanation": "When people feel a loss of control under uncertainty they turn towards dominant leaders over prestigious ones (Kakkar and Sivanathan 2017, large cross-national samples from 69 countries; their uncertainty was economic and personal, so its extension to a failing group venture is a proposal). A failing venture may therefore lend a would-be dominant the support that would otherwise check him. Threat rigidity (Staw, Sandelands and Dutton 1981) proposes that threat centralises control; it awaits a check and is not relied on here. On the high side, on common sense, members confident of success see no need for anyone to take charge, so a would-be dominant who tries to drive the pace is shrugged off. Direction that rests on force, or that settles things without a hearing, lowers a member's Parity; a respected leader simply taking the lead would not. The increment should be modest.",
+   "explanation": "When people feel a loss of control under uncertainty they turn towards dominant leaders over prestigious ones (Kakkar and Sivanathan 2017, large cross-national samples from 69 countries; their uncertainty was economic and personal, so its extension to a failing group venture is a proposal). A failing venture may therefore lend a would-be dominant the support that would otherwise check him. Kakkar and Sivanathan's evidence comes from large market societies. In small groups with a cheap exit, a failing venture is more often met by splitting or leaving than by a boss (Woodburn 1982; Hill et al. 2011), so set the decrement small where members can readily move to another group. Leaders gain most authority in small-scale societies where failure of collective action threatens the group itself (Glowacki and von Rueden 2015), so keep the decrement for ventures whose failure would threaten the group, not for every setback. Threat rigidity (Staw, Sandelands and Dutton 1981) proposes that threat centralises control; it awaits a check and is not relied on here. On the high side, on common sense, members confident of success see no need for anyone to take charge, so a would-be dominant who tries to drive the pace is shrugged off. Direction that rests on force, or that settles things without a hearing, lowers a member's Parity; a respected leader simply taking the lead would not. The increment should be modest.",
    "pre_language": {
     "increment": "When the band's venture is going well, no one shoves or snaps, and if the strongest starts to, the others ignore him; she goes about her business beside him without a glance at his mood, and her sense that no one can push her about rises.",
     "decrement": "When the venture is faltering, the strongest start shoving and snapping, and she goes still near them and does what they want to head off their anger, and her sense that no one can push her about falls."
@@ -5235,7 +5323,7 @@
     "reason": "Wariness and appeasement in the face of a dominant turned forceful are reflexive reactions with a clear pre-language form."
    },
    "example": null,
-   "framework": "Uncertainty and preference for dominant leaders (Kakkar and Sivanathan 2017); threat rigidity (Staw, Sandelands and Dutton 1981), pending check.",
+   "framework": "Uncertainty and preference for dominant leaders (Kakkar and Sivanathan 2017), bounded by exit in small groups (Woodburn 1982; Hill et al. 2011) and leadership under collective-action threat (Glowacki and von Rueden 2015); threat rigidity (Staw, Sandelands and Dutton 1981), pending check.",
    "sources": [
     {
      "source": "Staw, Sandelands & Dutton, 1981, Threat rigidity effects in organizational behavior: A multilevel analysis",
@@ -5302,7 +5390,8 @@
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both definitions: the decrement rests on threat, temper and settling over heads, which is Levelling ground, and the explanation keeps a respected leader taking the lead off it. Staw, Sandelands and Dutton (1981) is cited correctly. The sample figure for Kakkar and Sivanathan (2017, PNAS) looks wrong. My recollection is about 138,000 participants across 69 countries, which is not 'over 140,000'; I could not check it here. Their uncertainty is also personal economic uncertainty rather than a group venture failing, so the step needs flagging. Fix: drop the unverified figure and mark the extension.",
     "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: decrement_logic",
     "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
-    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: framework"
+    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: framework",
+    "evo-r2-minor: Added the small-group boundary: decrement small where exit is cheap and kept for failures that threaten the group (Woodburn 1982; Hill et al. 2011; Glowacki and von Rueden 2015). (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
    ],
    "critique_was": [
     {
@@ -5330,9 +5419,9 @@
     "stage": "early hominin",
     "why": "A dominant pressing harder and meeting less resistance under stress is primate behaviour; the felt core of yielding to force predates language."
    },
-   "subtitle": "Failing ventures let forceful members take charge",
-   "summary": "When the venture looks beyond the group, members accept forceful direction and would-be dominants meet less resistance, so she gives way to avoid anger. When members feel sure of success, there is no call for anyone to take charge and a forceful pace is shrugged off. The effect on her sense of Parity should be modest.",
-   "summary_status": "generated from the source texts, not canon; checked faithful",
+   "subtitle": "Failing ventures invite domineering leaders",
+   "summary": "When members feel the group's venture is within reach, nobody sees a need for anyone to take charge by force, and Parity rises. When the venture looks beyond them, they look to the strongest to take charge, and Parity falls. The evidence suggests people under uncertainty turn to dominant leaders, and the card should be played modestly, with a small decrement where leaving is cheap.",
+   "summary_status": "generated from the source texts, not canon; checked NOT faithful: The summary says the card should be played modestly. The source says only the increment should be modest, and that the decrement is small where members can readily leave. The summary widens the modesty to the whole card.",
    "logic_status": {
     "date": "2026-11-05",
     "by": "logic checker (fresh Opus sessions), Ben reviews the flags (Ben, 5 Nov 2026, 4.12 pm)",
@@ -5539,7 +5628,7 @@
    "type": "Reinforce",
    "name": "Leaned on, left out",
    "increment_logic": "When no one in the group can push me about or take what is mine, and whoever hands out shares or settles a quarrel does it even-handedly, I move among the others freely and nothing keeps me at the edge when they gather: my sense that they want me among them rises a little.",
-   "decrement_logic": "When a forceful member makes me comply through fear, I go quiet and keep out of the way at gatherings, and the others, wary of the one who leans on me, keep their distance too; or when whoever hands out shares or settles a quarrel passes me over for his own and the rest let it stand, I take it that I count for less among them. Either way the circle tends to form without me: my sense that they want me among them falls.",
+   "decrement_logic": "When a forceful member makes me comply through fear, I go quiet and keep out of the way at gatherings, and the others, wary of the one who leans on me, keep their distance too; or when whoever hands out shares or settles a quarrel passes me over for his own and the rest let it stand, I take it that they do not much care to keep me among them. Either way the circle tends to form without me: my sense that they want me among them falls.",
    "explanation": "A member pushed about by force or fear draws back from the group's circle: she keeps out of the way of the one who leans on her, and so is less often among the others. This rests on common sense about avoiding a threat. Whether the others also pull away from her is unsettled: among children, victimisation by peers is reported to predict growing rejection (Hodges and Perry 1999, not yet checked), and carrying that to adult groups would be a further extension, so keep the step modest. Partial dealing is a second route, since Parity covers share-outs and settlements as well as force: when whoever hands out shares or settles a quarrel passes her over and the rest let it stand, she reads it as a sign that she counts for less among them. The relational model of procedural justice holds that people read even-handed treatment by those in charge as a sign that they are valued members of the group, and partial treatment as a sign that they are not (Tyler and Lind 1992, not yet checked). Where no one can lord it over her and dealing is even, nothing holds her at the edge, since the others check a would-be dominant together (Boehm 1993); that removes a barrier without itself making her welcome, so set the increment smaller than the decrement. Ribbing a member who gets above herself is not this card: it is Repute's ground (Tall Poppy Talk; Insulting the meat).",
    "pre_language": {
     "explanation": "After she brings in a large kill and carries herself high, where no one can push anyone about the others run down her meat, mock and turn their backs a little, and she feels less welcome until she lowers herself; where a strong one already pushes her about and turns on her for it, the others close round her and she feels more welcome. When she has done nothing to stand out and no one can drive her off, the others close round her when a strong one tries, and she feels more welcome; when a strong one already has her cowed, she keeps out of the way, the others stay clear of her, and she feels less welcome."
@@ -5602,7 +5691,8 @@
     "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Increment overreaches. Being free of force, grabbing and favouritism takes away a bar to acceptance but does not supply acceptance itself, yet the line has the others making room for her because of it. Common sense supports only a small rise. The explanation should say so; the lines can stay.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Increment claims only removal of a barrier; bystander avoidance dropped and Hodges and Perry marked not yet checked; Lee 1969 and Feather 1994 removed as support (standing out is Repute's ground), with Feather dropped from the framework.",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Check 1 and 2 on the target: Belonging is read from how the others treat her. The decrement rests only on her own withdrawal, so the circle forming without her is her doing and need not tell her she is unwanted. The explanation already cites the other route (others pull away from a victim, Hodges and Perry 1999); the decrement should carry it so the falling Belonging is read from the others' treatment.",
-    "socpsych-r2-minor: Added the partiality limb (passed over at share-outs or settlements) to both lines and the explanation, grounded on the relational model (Tyler and Lind 1992, unchecked); force limb, step sizes and boundary kept. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
+    "socpsych-r2-minor: Added the partiality limb (passed over at share-outs or settlements) to both lines and the explanation, grounded on the relational model (Tyler and Lind 1992, unchecked); force limb, step sizes and boundary kept. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): On the partial-dealing route the decrement line ends with 'I take it that I count for less among them'. 'Counting for less' could be read as Esteem (deference for what she brings) or Rank (her rung), and Belonging's boundary clause excludes both. The relational model (Tyler and Lind 1992) concerns being a valued member of the group, so the line should name the others' wanting her among them."
    ],
    "ripple_was": [
     {
@@ -5670,6 +5760,12 @@
      "increment_logic": "When no one in the group can push me about or take what is mine, I move among the others freely and nothing keeps me at the edge when they gather: my sense that they want me among them rises a little.",
      "decrement_logic": "When a forceful member makes me comply through fear, I go quiet and keep out of the way at gatherings, and the circle tends to form without me: my sense that they want me among them falls.",
      "explanation": "A member pushed about by force or fear draws back from the group's circle: she keeps out of the way of the one who leans on her, and so is less often among the others. This rests on common sense about avoiding a threat. Whether the others also pull away from her is unsettled: among children, victimisation by peers is reported to predict growing rejection (Hodges and Perry 1999, not yet checked), and carrying that to adult groups would be a further extension, so keep the step modest. Where no one can lord it over her, nothing holds her at the edge, since the others check a would-be dominant together (Boehm 1993); that removes a barrier without itself making her welcome, so set the increment smaller than the decrement. Ribbing a member who gets above herself is not this card: it is Repute's ground (Tall Poppy Talk; Insulting the meat)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one in the group can push me about or take what is mine, and whoever hands out shares or settles a quarrel does it even-handedly, I move among the others freely and nothing keeps me at the edge when they gather: my sense that they want me among them rises a little.",
+     "decrement_logic": "When a forceful member makes me comply through fear, I go quiet and keep out of the way at gatherings, and the others, wary of the one who leans on me, keep their distance too; or when whoever hands out shares or settles a quarrel passes me over for his own and the rest let it stand, I take it that I count for less among them. Either way the circle tends to form without me: my sense that they want me among them falls.",
+     "explanation": "A member pushed about by force or fear draws back from the group's circle: she keeps out of the way of the one who leans on her, and so is less often among the others. This rests on common sense about avoiding a threat. Whether the others also pull away from her is unsettled: among children, victimisation by peers is reported to predict growing rejection (Hodges and Perry 1999, not yet checked), and carrying that to adult groups would be a further extension, so keep the step modest. Partial dealing is a second route, since Parity covers share-outs and settlements as well as force: when whoever hands out shares or settles a quarrel passes her over and the rest let it stand, she reads it as a sign that she counts for less among them. The relational model of procedural justice holds that people read even-handed treatment by those in charge as a sign that they are valued members of the group, and partial treatment as a sign that they are not (Tyler and Lind 1992, not yet checked). Where no one can lord it over her and dealing is even, nothing holds her at the edge, since the others check a would-be dominant together (Boehm 1993); that removes a barrier without itself making her welcome, so set the increment smaller than the decrement. Ribbing a member who gets above herself is not this card: it is Repute's ground (Tall Poppy Talk; Insulting the meat)."
     }
    ],
    "timing": {
@@ -6286,8 +6382,8 @@
    "type": "Reinforce",
    "name": "No grabber, open hands",
    "increment_logic": "When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, nothing I share is seized on the way or turned into leverage over me, so it goes where it is needed and the others share back openly: my reading that help comes back rises.",
-   "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I put in goes to him as tribute and never back round the group, the others hide what they have, and I expect little back from anyone: my reading that help comes back falls.",
-   "explanation": "Return from the group fares best where no one can seize what is shared or turn a gift into leverage. Immediate-return foragers act to prevent accumulation and domination (Woodburn 1982), and the rank and file check would-be dominants together (Boehm 1993). Sharing there runs largely on demand (Peterson 1993). Claims pressed among equals on whoever has a surplus are part of the return (Reciprocity) and leave Parity high; only a dominant's taking, backed by force or threat, counts as seizure here. The reverse case has indirect support at most: in a trust game, an investor who used a threat of fines is reported to have got less back than one who held it in reserve (Fehr and Rockenbach 2003, not yet checked). That finding comes from pairs of strangers, so carrying it to a group is an extension. The rest rests on common sense: under a coercer, giving becomes tribute, the others keep what they have out of his reach, and the return from the group dries up.",
+   "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I put in goes to him as tribute and never back round the group, the others keep what they have out of his reach, and I expect little back from anyone: my reading that help comes back falls.",
+   "explanation": "Return from the group fares best where no one can seize what is shared or turn a gift into leverage. Immediate-return foragers act to prevent accumulation and domination (Woodburn 1982), and the rank and file check would-be dominants together (Boehm 1993). Sharing there runs largely on demand and tolerated taking (Peterson 1993; Blurton Jones 1984). Claims pressed among equals on whoever has a surplus are part of the return (Reciprocity) and leave Parity high; only a dominant's taking, backed by force or threat, counts as seizure here. Hiding food is also the ordinary forager answer to demand pressure among equals, with no coercer present (Peterson 1993), so only concealment from the coercer counts on this card; ordinary hiding from demand is no evidence of low Parity and does not fire it. The reverse case has indirect support at most: in a trust game, an investor who used a threat of fines is reported to have got less back than one who held it in reserve (Fehr and Rockenbach 2003, not yet checked). That finding comes from pairs of strangers, so carrying it to a group is an extension. The rest rests on common sense: under a coercer, giving becomes tribute, the others keep what they have out of his reach, and the return from the group dries up.",
    "pre_language": {
     "increment": "When no one in the band looms or snatches, she gives from her pile and finds others giving from theirs when she is short, and her sense that what she gives comes back rises.",
     "decrement": "When one member snatches and threatens, what she holds out is taken and nothing comes back, the others hunch over their food, and her sense that giving brings any return sinks."
@@ -6360,7 +6456,9 @@
     "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Decrement line reads the return from the partner helped ('help I give him is taken as his due and never returned'). In the egalitarian face the return comes from the group, not from the one helped, so a grabber failing to repay her is the hierarchical reading. What he extracts by fear is tribute that never goes back round the group, and that is the egalitarian loss. The rest of the line already matches the face's 1 anchor (those with a surplus hide it). Increment, type, boundaries and literature (Woodburn 1982; Boehm 1993; Peterson 1993) pass.",
     "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines and type pass. The explanation says the literature has little on the reverse case, but there is indirect experimental evidence that coercive pressure crowds out willing return (Fehr and Rockenbach 2003); cite it, flagged as a pair-level extension, before falling back on common sense.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Replaced 'only' with 'fares best', trimmed forager claims to what was checked, stated that demand sharing among equals is high Parity, and marked Fehr and Rockenbach as unchecked.",
-    "Ripple round 6, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation calls demand claims pressed among equals 'high Parity'. The revised Reciprocity egalitarian face now owns pressing whoever has a surplus to share on demand, and the Levelling boundary clause hands that ground to Reciprocity. The sentence should say that such claims belong to the return and leave Parity high, so that only a dominant's taking under force or threat counts as low Parity. The lines themselves pass."
+    "Ripple round 6, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation calls demand claims pressed among equals 'high Parity'. The revised Reciprocity egalitarian face now owns pressing whoever has a surplus to share on demand, and the Levelling boundary clause hands that ground to Reciprocity. The sentence should say that such claims belong to the return and leave Parity high, so that only a dominant's taking under force or threat counts as low Parity. The lines themselves pass.",
+    "evo-r2-minor: Decrement now has the others keeping things out of the coercer's reach; explanation adds that ordinary hiding from demand among equals does not fire the card (Peterson 1993; Blurton Jones 1984). (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against the revised Parity and Reciprocity texts (demand claims and tolerated taking among equals stay on Reciprocity's ground and leave Parity high, as the explanation says). One citation is placed on a claim it does not carry: Blurton Jones 1984 is a model of tolerated theft and is not a source for foragers hiding food from demand. The concealment point rests on Peterson 1993. Smallest fix: cite Blurton Jones only for tolerated taking."
    ],
    "ripple_was": [
     {
@@ -6398,6 +6496,12 @@
      "increment_logic": "When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, nothing I share is seized on the way or turned into leverage over me, so it goes where it is needed and the others share back openly: my reading that help comes back rises.",
      "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I put in goes to him as tribute and never back round the group, the others hide what they have, and I expect little back from anyone: my reading that help comes back falls.",
      "explanation": "Return from the group fares best where no one can seize what is shared or turn a gift into leverage. Immediate-return foragers act to prevent accumulation and domination (Woodburn 1982), and the rank and file check would-be dominants together (Boehm 1993). Sharing there runs largely on demand (Peterson 1993): claims pressed among equals are high Parity, and only a dominant's taking, backed by force or threat, counts as seizure here. The reverse case has indirect support at most: in a trust game, an investor who used a threat of fines is reported to have got less back than one who held it in reserve (Fehr and Rockenbach 2003, not yet checked). That finding comes from pairs of strangers, so carrying it to a group is an extension. The rest rests on common sense: under a coercer, giving becomes tribute, the others keep what they have out of his reach, and the return from the group dries up."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, nothing I share is seized on the way or turned into leverage over me, so it goes where it is needed and the others share back openly: my reading that help comes back rises.",
+     "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I put in goes to him as tribute and never back round the group, the others keep what they have out of his reach, and I expect little back from anyone: my reading that help comes back falls.",
+     "explanation": "Return from the group fares best where no one can seize what is shared or turn a gift into leverage. Immediate-return foragers act to prevent accumulation and domination (Woodburn 1982), and the rank and file check would-be dominants together (Boehm 1993). Sharing there runs largely on demand (Peterson 1993). Claims pressed among equals on whoever has a surplus are part of the return (Reciprocity) and leave Parity high; only a dominant's taking, backed by force or threat, counts as seizure here. Hiding food is also the ordinary forager answer to demand pressure among equals, with no coercer present (Peterson 1993; Blurton Jones 1984), so only concealment from the coercer counts on this card; ordinary hiding from demand is no evidence of low Parity and does not fire it. The reverse case has indirect support at most: in a trust game, an investor who used a threat of fines is reported to have got less back than one who held it in reserve (Fehr and Rockenbach 2003, not yet checked). That finding comes from pairs of strangers, so carrying it to a group is an extension. The rest rests on common sense: under a coercer, giving becomes tribute, the others keep what they have out of his reach, and the return from the group dries up."
     }
    ],
    "timing": {
@@ -6409,8 +6513,8 @@
     "stage": "early hominin",
     "why": "Seizing food, tribute to a dominant, hiding goods and demand sharing among foragers are all non-verbal; levelling by leaving or shunning is pre-linguistic too."
    },
-   "subtitle": "Fair sharing keeps help flowing back",
-   "summary": "Parity feeds Reciprocity. Where no one can seize what others share or take more than their due, what a member gives goes where it is needed and comes back openly. Where a member coerces or grabs, giving turns into tribute, the others hide what they have, and she expects little back from anyone, so her reading that help comes back falls.",
+   "subtitle": "Without a grabber, help flows",
+   "summary": "When no one can take what they like by force or threat, what a member shares goes where it is needed and others share back openly, so Reciprocity rises. When someone can seize or take more than their due and get away with it, giving becomes tribute and the others keep their goods out of reach, so Reciprocity falls. Ordinary hiding from demand does not count.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "logic_status": {
     "date": "2026-11-05",
@@ -6892,7 +6996,7 @@
    "type": "Reinforce",
    "name": "Help binds us",
    "increment_logic": "When what I give comes back from the others and what I need is met, I count them as people I cannot do without; after a clash I go back to them soon and make it up, they take me back, and the circle closes round me again: my Belonging rises.",
-   "decrement_logic": "When what I give goes unreturned and my needs go unmet, I have little to lose with them; after a clash I stay away and let it stand, the rift stays open and the others gather without me: my Belonging falls.",
+   "decrement_logic": "When what I give goes unreturned and my needs go unmet, I have little to lose with them; after a clash I stay away and let it stand, no one comes to draw me back, and the others gather without me: my Belonging falls.",
    "explanation": "The lines rest on reconciliation, the better evidenced route. Primates reconcile most with partners whose relationship is valuable to them, and raising partner value experimentally raises reconciliation (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002); friendly reunions after a clash lower the risk of renewed attack (Aureli and van Schaik 1991). That evidence is dyadic. In the egalitarian face Reciprocity is her felt reading of what the group as a whole returns to her, so the step to the circle closing round her is an extension. Help that comes back also produces positive feeling attached to the group (Lawler 2001, affect theory of social exchange), and gratitude binds the one helped closer to the helper (Algoe 2012); those raise her fondness for them, which E:Reciprocity->Warmth carries, so they do not drive this card. Her Belonging moves with how they treat her when she comes back.",
    "pre_language": {
     "increment": "When what she shares comes back and she is fed and groomed in need, she is drawn closer to the others and they to her: her feeling of being welcome among them rises.",
@@ -6979,7 +7083,8 @@
     "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines, type and boundaries check out, and the reconciliation evidence is cited correctly (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002). The framework field names the affect theory of social exchange and find-remind-and-bind, which the explanation explicitly says do not drive this card because they belong to E:Engagement->Belonging. The framework should name the mechanism the card actually uses. Only the framework field needs changing.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Dropped the unsupported third-party spread from the decrement, replaced 'restores tolerance' with the checked reunion finding, cited Algoe 2012, and matched the framework to reconciliation.",
     "socpsych-r2-dependent: Dependent on Warmth being added: the exchange-affect clause now points to E:Reciprocity->Warmth instead of E:Engagement->Belonging. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Belonging is the others' acceptance read from how they treat her. The increment line ends on their treatment (they take me back, the circle closes round me), but the decrement line ends on her own withdrawal (I stay away), leaving out any sign from the others. Smallest fix: add how the group then treats her, so the fall is read from their side as well as hers."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Belonging is the others' acceptance read from how they treat her. The increment line ends on their treatment (they take me back, the circle closes round me), but the decrement line ends on her own withdrawal (I stay away), leaving out any sign from the others. Smallest fix: add how the group then treats her, so the fall is read from their side as well as hers.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement drives Belonging down through her own withdrawal (she stays away, so the others gather without her). Belonging is read from how the others treat her, and the explanation says it moves with how they treat her, so the line needs their side: no one comes to draw her back."
    ],
    "timing": {
     "scale": "minutes",
@@ -7061,6 +7166,12 @@
      "type": "Reinforce",
      "increment_logic": "When what I give comes back from the others and what I need is met, I count them as people I cannot do without; after a clash I go back to them soon and make it up, they take me back, and the circle closes round me again: my Belonging rises.",
      "decrement_logic": "When what I give goes unreturned and my needs go unmet, I have little to lose with them; after a clash I stay away and let it stand, and the rift stays open: my Belonging falls.",
+     "explanation": "The lines rest on reconciliation, the better evidenced route. Primates reconcile most with partners whose relationship is valuable to them, and raising partner value experimentally raises reconciliation (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002); friendly reunions after a clash lower the risk of renewed attack (Aureli and van Schaik 1991). That evidence is dyadic. In the egalitarian face Reciprocity is her felt reading of what the group as a whole returns to her, so the step to the circle closing round her is an extension. Help that comes back also produces positive feeling attached to the group (Lawler 2001, affect theory of social exchange), and gratitude binds the one helped closer to the helper (Algoe 2012); those raise her fondness for them, which E:Reciprocity->Warmth carries, so they do not drive this card. Her Belonging moves with how they treat her when she comes back."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When what I give comes back from the others and what I need is met, I count them as people I cannot do without; after a clash I go back to them soon and make it up, they take me back, and the circle closes round me again: my Belonging rises.",
+     "decrement_logic": "When what I give goes unreturned and my needs go unmet, I have little to lose with them; after a clash I stay away and let it stand, the rift stays open and the others gather without me: my Belonging falls.",
      "explanation": "The lines rest on reconciliation, the better evidenced route. Primates reconcile most with partners whose relationship is valuable to them, and raising partner value experimentally raises reconciliation (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002); friendly reunions after a clash lower the risk of renewed attack (Aureli and van Schaik 1991). That evidence is dyadic. In the egalitarian face Reciprocity is her felt reading of what the group as a whole returns to her, so the step to the circle closing round her is an extension. Help that comes back also produces positive feeling attached to the group (Lawler 2001, affect theory of social exchange), and gratitude binds the one helped closer to the helper (Algoe 2012); those raise her fondness for them, which E:Reciprocity->Warmth carries, so they do not drive this card. Her Belonging moves with how they treat her when she comes back."
     }
    ],
@@ -7349,7 +7460,7 @@
    "name": "Helpers stand together",
    "increment_logic": "When what I give comes back from the group as a matter of course, I count on help coming back too if anyone tries to set themselves over me, and I go about my business beside the strongest as freely as beside anyone: my sense that no one here can set themselves over me rises.",
    "decrement_logic": "When nothing I give comes back from the group, I cannot count on anyone's help if the strongest turns on me, and I start to watch him warily and give way: my sense that no one here can set themselves over me falls.",
-   "explanation": "Help repaid includes help in a quarrel. Among primates, grooming is exchanged for support in conflicts, though the pooled effect is small (Schino 2007, meta-analysis), and chimpanzee males gain alpha status through coalitional backing (de Waal 1982, Chimpanzee Politics). Those trades run between particular partners. Among egalitarian peoples, subordinates acting together keep a would-be dominant in check (Boehm 1993). The step from help coming back from the group to counting on the group's backing against a would-be dominant is the model's own and rests on common sense: people who repay favours as a matter of course can be expected to repay them in a quarrel too. Play it moderately. Where her help comes back from the group, she counts on its backing against anyone who would set himself over her, and the fear goes out of a strong member's presence; where it does not, she stands alone. Where no member is pressing to set himself over others, the decrement is small: standing alone makes her warier of the strongest, but no one is yet lording it over her. The card rests on the return she can count on, not on being wanted (E:Belonging->Levelling) or on her own commitment (E:Engagement->Levelling).",
+   "explanation": "Help repaid includes help in a quarrel. Among primates, grooming is exchanged for support in conflicts, though the pooled effect is small (Schino 2007, meta-analysis; reported as r about .15 across 36 studies and 14 species, figures to be checked), and chimpanzee males gain alpha status through coalitional backing (de Waal 1982, Chimpanzee Politics). Those trades run between particular partners. Among egalitarian peoples, subordinates acting together keep a would-be dominant in check (Boehm 1993). The step from help coming back from the group to counting on the group's backing against a would-be dominant is the model's own and rests on common sense: people who repay favours as a matter of course can be expected to repay them in a quarrel too. Play it moderately. Where her help comes back from the group, she counts on its backing against anyone who would set himself over her, and the fear goes out of a strong member's presence; where it does not, she stands alone. Where no member is pressing to set himself over others, the decrement is small: standing alone makes her warier of the strongest, but no one is yet lording it over her. The card rests on the return she can count on, not on being wanted (E:Belonging->Levelling) or on her own commitment (E:Engagement->Levelling). All three carry the same expectation of backing, so where E:Belonging->Levelling or E:Engagement->Levelling also fires on the same scene, play this card small.",
    "pre_language": {
     "increment": "When the others share back with her and console her freely, she feels them as allies and feeds and moves near the strongest without a glance at their mood: her sense that no one can make her yield rises.",
     "decrement": "When nothing passes back to her from the others, she feels unbacked, goes still when a strong one approaches and gives up her place to them: her sense that no one can make her yield falls."
@@ -7423,7 +7534,8 @@
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and literature pass (de Waal 1982; Seyfarth and Cheney 1984; Boehm 1999). The explanation cites cards by plain name instead of key: E:Belonging->Parity should be E:Belonging->Levelling, and E:Engagement->Parity should be E:Engagement->Levelling.",
     "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
     "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both definitions and the literature is cited correctly (Schino 2007; de Waal 1982; Boehm 1993). The explanation's closing sentence names the neighbouring cards by plain name in the id slot (E:Belonging->Parity, E:Engagement->Parity); card ids use keys, so these should be E:Belonging->Levelling and E:Engagement->Levelling.",
-    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Parity reads whether anyone actually sets themselves over her. The decrement line moves it on lack of backing alone ('if the strongest turns on me'), and the explanation gives no limit for a group where no one is pressing to dominate. Without one the card overstates the fall and pulls Parity towards a reading of her own vulnerability. Smallest fix: one limiting sentence in the explanation. Lines unchanged. Overlap with E:Belonging->Levelling and E:Engagement->Levelling is acceptable because the explanation separates the sources."
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Parity reads whether anyone actually sets themselves over her. The decrement line moves it on lack of backing alone ('if the strongest turns on me'), and the explanation gives no limit for a group where no one is pressing to dominate. Without one the card overstates the fall and pulls Parity towards a reading of her own vulnerability. Smallest fix: one limiting sentence in the explanation. Lines unchanged. Overlap with E:Belonging->Levelling and E:Engagement->Levelling is acceptable because the explanation separates the sources.",
+    "evo-r2-minor: Added Schino 2007 effect size (to be checked) and a play rule: small when E:Belonging->Levelling or E:Engagement->Levelling fires on the same scene, so the shared backing is not counted thrice. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
    ],
    "ripple_was": [
     {
@@ -7514,8 +7626,8 @@
     "stage": "early hominin",
     "why": "Support in conflicts traded for grooming and favours, and coalitions of ordinary members checking a would-be dominant, are documented in chimpanzees and vervets; neither end needs language."
    },
-   "subtitle": "Returned help guards against domination",
-   "summary": "When what a member gives comes back from the group, she can count on its backing if anyone tries to set themselves over her, so she feels no one can. When nothing comes back, she cannot count on help against the strongest and gives way. The card rests on the return she can count on.",
+   "subtitle": "Mutual help gives you backing",
+   "summary": "When what you give comes back from the group as a matter of course, you can count on help if anyone tries to set themselves over you, and Parity rises. When nothing comes back, you stand alone and grow warier of the strongest, and Parity falls. Play it moderately, and small where another card carrying the same expectation of backing also fires.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "logic_status": {
     "date": "2026-11-05",
@@ -8126,7 +8238,7 @@
    "name": "Kept in, deals open",
    "increment_logic": "When I am kept among them, the partners I help know I am there to call a favour in and that the others would see if they shorted me, and my sense that the partners I help will pay me back rises.",
    "decrement_logic": "When I am kept at the edge, I am not there to call a favour in and no one would mind if a partner shorted me, so I expect partners to take and not return: my sense that anyone I help will pay me back falls.",
-   "explanation": "Exchange with a particular partner holds while defaulting would cost the partner: reciprocal cooperation is stable when future dealings are expected (Axelrod 1984). Inclusion keeps her on hand to call the favour in, and among others who would see a partner short her. People give more to those seen to give (Wedekind and Milinski 2000, replicated in part by Russell, Stoilova and Dosoftei 2020), so a partner's standing with those others rides on how they treat her. That onlookers care less when a partner shorts a member kept at the edge is the model's own step, resting on common sense. Exclusion takes both away, so a partner can short the one at the edge, who is neither there to hold them to it nor watched over by anyone who would. The felt horizon of her own staying belongs to H:Engagement->Reciprocity; this card reads only the others' inclusion of her.",
+   "explanation": "Exchange with a particular partner holds while defaulting would cost the partner: reciprocal cooperation is stable when future dealings are expected (Axelrod 1984). Inclusion keeps her on hand to call the favour in, and among others who would see a partner short her. People give more to those seen to give (Wedekind and Milinski 2000; a partial replication, Russell, Stoilova and Dosoftei 2020, not checked here), so a partner's standing with those others rides on how they treat her. That onlookers care less when a partner shorts a member kept at the edge is the model's own step, resting on common sense. Exclusion takes both away, so a partner can short the one at the edge, who is neither there to hold them to it nor watched over by anyone who would. The felt horizon of her own staying belongs to H:Engagement->Reciprocity; this card reads only the others' inclusion of her.",
    "pre_language": {
     "increment": "When she is kept close in the troop, those she grooms groom her back and those she backs back her, and she settles into the give-and-take expecting return.",
     "decrement": "When she is pushed to the edge, those she grooms move off without returning it, and she stops expecting anything back from them."
@@ -8182,7 +8294,8 @@
    "edits_log": [
     "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines run on her felt horizon of being around when favours fall due. That is the shadow-of-the-future mechanism of H:Engagement->Reciprocity, which takes it from her own staying, so the two cards largely duplicate each other. The part that belongs to Belonging, that the others keep her present and in view, so a partner who shorts her can be called on it and seen, is in the explanation only. 'With my place secure' also leans towards Status, which Belonging's boundary clause excludes. Fix: lead the lines with presence and visibility and leave the horizon to the Engagement card.",
     "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement line does not end with the target falling: it adds 'and I expect them to take and not return' after the fall. Mechanism, type and boundaries pass. Fix: move the expectation before the fall.",
-    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation"
+    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation cites a partial replication (Russell, Stoilova and Dosoftei 2020) that I cannot confirm from the literature I know, and it carries no unchecked marker. Mark it pending a check."
    ],
    "ripple_was": [
     {
@@ -8196,6 +8309,12 @@
      "increment_logic": "When I am kept among them, the partners I help know I am there to call a favour in and that the others would see if they shorted me, and my sense that the partners I help will pay me back rises.",
      "decrement_logic": "When I am kept at the edge, I am not there to call a favour in and no one would mind if a partner shorted me; my sense that anyone I help will pay me back falls, and I expect them to take and not return.",
      "explanation": "Exchange with a particular partner holds while defaulting would cost the partner. Inclusion keeps her on hand to call the favour in and among others who would see a partner short her, and a partner's standing with those others rides on how they treat her (reputation and indirect reciprocity: Nowak and Sigmund 2005). Exclusion takes both away, so a partner can short the one at the edge, who is neither there to hold them to it nor watched over by anyone who would. The felt horizon of her own staying belongs to H:Engagement->Reciprocity; this card reads only the others' inclusion of her."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am kept among them, the partners I help know I am there to call a favour in and that the others would see if they shorted me, and my sense that the partners I help will pay me back rises.",
+     "decrement_logic": "When I am kept at the edge, I am not there to call a favour in and no one would mind if a partner shorted me, so I expect partners to take and not return: my sense that anyone I help will pay me back falls.",
+     "explanation": "Exchange with a particular partner holds while defaulting would cost the partner: reciprocal cooperation is stable when future dealings are expected (Axelrod 1984). Inclusion keeps her on hand to call the favour in, and among others who would see a partner short her. People give more to those seen to give (Wedekind and Milinski 2000, replicated in part by Russell, Stoilova and Dosoftei 2020), so a partner's standing with those others rides on how they treat her. That onlookers care less when a partner shorts a member kept at the edge is the model's own step, resting on common sense. Exclusion takes both away, so a partner can short the one at the edge, who is neither there to hold them to it nor watched over by anyone who would. The felt horizon of her own staying belongs to H:Engagement->Reciprocity; this card reads only the others' inclusion of her."
     }
    ],
    "timing": {
@@ -9054,7 +9173,7 @@
    "name": "Guarding the ways earns a place",
    "increment_logic": null,
    "decrement_logic": null,
-   "explanation": "Whether pulling up a breach draws the others round her depends on whether they share the bristle. Circumstance one, the others share the bristle: the breach falls short of what the group plainly stands for, or overshoots it in a way they resent, and they are already muttering (a member skipping the rota the rest keep). HIGH: she pulls the breacher up, the others close ranks with her, and her Belonging rises. LOW: she lets it pass while they bristle, they read her as soft on the ways and cool towards her, and her Belonging falls. Circumstance two, the others do not share the bristle (a small departure the settled ways frown on but the rest would shrug off). HIGH: she pulls up a member the others think harmless; they read her as a scold setting herself above them and edge away, so her Belonging falls. LOW: she lets it pass with the rest and stays one of them, so her Belonging holds or rises a little. In either circumstance, where HIGH has her pulling up a member well above her own place, the act reads as stepping out of line and her Belonging falls; what it does to her rung belongs to H:NormExp->Status. Members derogate fellow members who depart from the group's norm in a direction it condemns (Abrams et al. 2000); that a member who sides with the group against such a breach is drawn closer is the model's step, resting on common sense. Groups can also sanction those who contribute more than the norm (Herrmann, Thoni and Gachter 2008), so judge an overshoot by the others' reaction. People also put down the morally motivated who seem to reproach them (Minson and Monin 2012); that study measured disparagement of an out-group minority, so the step to fellow members edging away from a scold within the group rests on common sense. Third-party punishers are trusted (Jordan et al. 2016), but trust is not inclusion. Circumstance one is the default in ranked groups with settled ways.",
+   "explanation": "Whether pulling up a breach draws the others round her depends on whether they share the bristle. Circumstance one, the others share the bristle: the breach falls short of what the group plainly stands for, or overshoots it in a way they resent, and they are already muttering (a member skipping the rota the rest keep). HIGH: she pulls the breacher up, the others close ranks with her, and her Belonging rises. LOW: she lets it pass while they bristle, they read her as soft on the ways and cool towards her, and her Belonging falls. Circumstance two, the others do not share the bristle (a small departure the settled ways condemn in principle but the members present would shrug off here and now). HIGH: she pulls up a member the others think harmless; they read her as a scold setting herself above them and edge away, so her Belonging falls. LOW: she lets it pass with the rest and stays one of them, so her Belonging holds or rises a little. In either circumstance, where HIGH has her pulling up a member well above her own place, the act reads as stepping out of line and her Belonging falls; what it does to her rung belongs to H:NormExp->Status. Members derogate fellow members who depart from the group's norm in a direction it condemns (Abrams et al. 2000); that a member who sides with the group against such a breach is drawn closer is the model's step, resting on common sense. Groups can also sanction those who contribute more than the norm (Herrmann, Thoni and Gachter 2008), so judge an overshoot by the others' reaction. People also put down the morally motivated who seem to reproach them (Minson and Monin 2012); that study measured disparagement of an out-group minority, so the step to fellow members edging away from a scold within the group rests on common sense. Third-party punishers are trusted (Jordan et al. 2016), but trust is not inclusion. Circumstance one is the default in ranked groups with settled ways.",
    "pre_language": {
     "increment": "When she bristles and threatens a member trying a new way, others side with her and keep her close, and her sense of being kept in the troop rises.",
     "decrement": "When she lets a member's new way go unchallenged, others turn from her, and her sense of being kept in the troop sinks."
@@ -9132,7 +9251,8 @@
     "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Type and citations pass (Abrams et al. 2000, Minson and Monin 2012, Jordan et al. 2016 used correctly). The circumstances turn only on whether the others share the bristle, a mechanism that would fit either deck. On the hierarchical face, Belonging rests on keeping to one's place, and the explanation never says what happens when HIGH NormExp leads her to pull up a member well above her own rung: in a ranked group that reads as stepping out of line, and she risks being dropped even when the others share the bristle. Fix: add one sentence on this, leaving the rank consequence to H:NormExp->Status.",
     "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Circumstance two lists 'an overshoot of the group's ideal' as a departure the others do not bristle at. The literature is split: pro-norm deviants can be liked (Abrams et al. 2000), but groups also resent and want to expel members who do more than the norm (Parks and Stone 2010). So whether an overshoot falls under circumstance one or two depends on how the others react. The fix makes the circumstances turn on whether the others share the bristle, as the card's first sentence already says, and lets an overshoot fall either way.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Abrams claim cut to the checked anti-norm derogation with the sanctioner step marked as common sense; Parks and Stone replaced by checked Herrmann, Thoni and Gachter 2008 (add to sources); Minson and Monin step marked common sense; card id restored to keys.",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Circumstance two's example 'an overshoot they admire' falls outside Rule-Keeping, which covers only breaks the group would condemn; pulling up an admired act is not the source at HIGH. The example should be a departure the settled ways frown on that the others would let slide."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Circumstance two's example 'an overshoot they admire' falls outside Rule-Keeping, which covers only breaks the group would condemn; pulling up an admired act is not the source at HIGH. The example should be a departure the settled ways frown on that the others would let slide.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Circumstance two describes a departure the settled ways merely 'frown on' and the rest would shrug off. Rule-Keeping, as now defined, reads indignation only at breaches 'the group would condemn', so on a literal reading a breach the group shrugs off falls outside the source and HIGH could not apply. Smallest fix: say the settled ways condemn the departure in principle while the members present would let it pass, which keeps the circumstance inside the source's ground. Lines, type, boundaries and citations are otherwise sound (Abrams et al. 2000; Herrmann, Thoni and Gachter 2008; Minson and Monin 2012, correctly limited; Jordan et al. 2016)."
    ],
    "ripple_was": [
     {
@@ -9164,6 +9284,12 @@
      "increment_logic": null,
      "decrement_logic": null,
      "explanation": "Whether pulling up a breach draws the others round her depends on whether they share the bristle. Circumstance one, the others share the bristle: the breach falls short of what the group plainly stands for, or overshoots it in a way they resent, and they are already muttering (a member skipping the rota the rest keep). HIGH: she pulls the breacher up, the others close ranks with her, and her Belonging rises. LOW: she lets it pass while they bristle, they read her as soft on the ways and cool towards her, and her Belonging falls. Circumstance two, the others do not share the bristle (a small departure, or an overshoot they admire). HIGH: she pulls up a member the others think harmless or even admirable; they read her as a scold setting herself above them and edge away, so her Belonging falls. LOW: she lets it pass with the rest and stays one of them, so her Belonging holds or rises a little. In either circumstance, where HIGH has her pulling up a member well above her own place, the act reads as stepping out of line and her Belonging falls; what it does to her rung belongs to H:NormExp->Status. Members derogate fellow members who depart from the group's norm in a direction it condemns (Abrams et al. 2000); that a member who sides with the group against such a breach is drawn closer is the model's step, resting on common sense. Groups can also sanction those who contribute more than the norm (Herrmann, Thoni and Gachter 2008), so judge an overshoot by the others' reaction. People also put down the morally motivated who seem to reproach them (Minson and Monin 2012); that study measured disparagement of an out-group minority, so the step to fellow members edging away from a scold within the group rests on common sense. Third-party punishers are trusted (Jordan et al. 2016), but trust is not inclusion. Circumstance one is the default in ranked groups with settled ways."
+    },
+    {
+     "type": "Discretionary",
+     "increment_logic": null,
+     "decrement_logic": null,
+     "explanation": "Whether pulling up a breach draws the others round her depends on whether they share the bristle. Circumstance one, the others share the bristle: the breach falls short of what the group plainly stands for, or overshoots it in a way they resent, and they are already muttering (a member skipping the rota the rest keep). HIGH: she pulls the breacher up, the others close ranks with her, and her Belonging rises. LOW: she lets it pass while they bristle, they read her as soft on the ways and cool towards her, and her Belonging falls. Circumstance two, the others do not share the bristle (a small departure the settled ways frown on but the rest would shrug off). HIGH: she pulls up a member the others think harmless; they read her as a scold setting herself above them and edge away, so her Belonging falls. LOW: she lets it pass with the rest and stays one of them, so her Belonging holds or rises a little. In either circumstance, where HIGH has her pulling up a member well above her own place, the act reads as stepping out of line and her Belonging falls; what it does to her rung belongs to H:NormExp->Status. Members derogate fellow members who depart from the group's norm in a direction it condemns (Abrams et al. 2000); that a member who sides with the group against such a breach is drawn closer is the model's step, resting on common sense. Groups can also sanction those who contribute more than the norm (Herrmann, Thoni and Gachter 2008), so judge an overshoot by the others' reaction. People also put down the morally motivated who seem to reproach them (Minson and Monin 2012); that study measured disparagement of an out-group minority, so the step to fellow members edging away from a scold within the group rests on common sense. Third-party punishers are trusted (Jordan et al. 2016), but trust is not inclusion. Circumstance one is the default in ranked groups with settled ways."
     }
    ],
    "critique_was": [
@@ -9227,7 +9353,7 @@
    "target": "Reciprocity",
    "type": "Reinforce",
    "name": "Loyalty repaid",
-   "increment_logic": "When another member's breach jars me and I pull them up, the partners I deal with see that I hold to our ways and can be relied on, and those above me see loyalty they owe favour for: my sense that the partners I help will pay me back rises.",
+   "increment_logic": "When another member's breach jars me and I pull them up, the partners I deal with see me stand up for our ways and take me as one who can be relied on, and those above me see loyalty they owe favour for: my sense that the partners I help will pay me back rises.",
    "decrement_logic": "When a breach leaves me unmoved and I let it pass while my partners look on, they see no sign that I can be relied on, and those above me see no loyalty to repay: my sense that the partners I help will pay me back falls.",
    "explanation": "Third-party punishers are trusted more, and in fact behave more trustworthily, than non-punishers (Jordan, Hoffman, Bloom and Rand 2016); punishment works as a signal that the punisher can be relied on. That evidence concerns punishing unfair splits in economic games; the step to pulling up a breach of the group's settled ways rests on common sense. That the trust brings back what she gives is an inference: partners choose and keep up exchanges with those they judge reliable, so her help to them is more readily returned. Across rank, holding the line on the group's ways reads as loyalty passed up, which a patron repays with favour and protection; this step rests on common sense. Where she pulls up a member above her own place, those above read it as stepping out of line rather than loyalty; that route belongs to H:NormExp->Status, so set the rise near nil there. Both lines also need a breach the others bristle at too: where they think it harmless, pulling up reads as scolding and letting it pass as ordinary (H:NormExp->Belonging, circumstance two), so set both moves near nil. With the Reputation expansion pack in play, the open standing she wins as one who holds the line runs through H:NormExp->Face and H:Face->Reciprocity; this card then carries only the reliance her partners take from what they saw themselves, and should be smaller still. The signal weakens where she can show her worth by helping directly, and the decrement needs her partners to have seen her let the breach pass, so the card should be modest.",
    "pre_language": {
@@ -9280,7 +9406,8 @@
     "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Inconsistent with H:NormExp->Belonging. That card has pulling up a departure the others think harmless read as scolding, and letting it pass read as ordinary. This card raises and lowers the expected return regardless. Jordan et al. (2016) find trust for punishers of clear defection, which does not cover such cases. The fix adds that condition to the explanation; the lines and type stand.",
     "Ripple round 8, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and boundaries pass. The explanation leans on Jordan et al. 2016 without saying that their punishers were sanctioning unfair splits in economic games. NormExp covers indignation at any breach of the group's settled ways, conventions included, so the move from punishing unfairness to pulling up a breach of custom is an extrapolation, and the card should flag it as common sense the way its sibling cards do. Smallest fix: one added sentence in the explanation.",
     "Ripple round 10, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against NormExp (read through pulling up) and the revised partner face, type matches, and the moderators keep the move in one direction or near nil. The mechanism, though, runs through others' verdict that she can be relied on, which the Reciprocity definition places with Face ('good for a return') and Repute. With the Reputation pack in play, the same route already runs NormExp->Face (Flying the Flag) then Face->Reciprocity (Keeping Score), so the card partly duplicates it. Smallest fix: one sentence in the explanation limiting the card to first-hand reliance when the pack is in play. (Framework field is null; outside this schema.)",
-    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation"
+    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Increment line has partners read that she 'holds to our ways', which is a reading of her own conformity; Rule-Keeping's definition excludes her own conformity, and the cited signal (Jordan, Hoffman, Bloom and Rand 2016) is that a punisher can be relied on, not that she conforms. Smallest fix: partners see her stand up for the ways, which signals reliability."
    ],
    "ripple_was": [
     {
@@ -9330,6 +9457,12 @@
      "increment_logic": "When another member's breach jars me and I pull them up, the partners I deal with see that I hold to our ways and can be relied on, and those above me see loyalty they owe favour for: my sense that the partners I help will pay me back rises.",
      "decrement_logic": "When a breach leaves me unmoved and I let it pass while my partners look on, they see no sign that I can be relied on, and those above me see no loyalty to repay: my sense that the partners I help will pay me back falls.",
      "explanation": "Third-party punishers are trusted more, and in fact behave more trustworthily, than non-punishers (Jordan, Hoffman, Bloom and Rand 2016); punishment works as a signal that the punisher can be relied on. That evidence concerns punishing unfair splits in economic games; the step to pulling up a breach of the group's settled ways rests on common sense. That the trust brings back what she gives is an inference: partners choose and keep up exchanges with those they judge reliable, so her help to them is more readily returned. Across rank, holding the line on the group's ways reads as loyalty passed up, which a patron repays with favour and protection; this step rests on common sense. Where she pulls up a member above her own place, those above read it as stepping out of line rather than loyalty; that route belongs to H:NormExp->Status, so set the rise near nil there. Both lines also need a breach the others bristle at too: where they think it harmless, pulling up reads as scolding and letting it pass as ordinary (H:NormExp->Belonging, circumstance two), so set both moves near nil. The signal weakens where she can show her worth by helping directly, punishers are sometimes disliked as well as trusted (Raihani and Bshary 2015), and the decrement needs her partners to have seen her let the breach pass, so the card should be modest."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When another member's breach jars me and I pull them up, the partners I deal with see that I hold to our ways and can be relied on, and those above me see loyalty they owe favour for: my sense that the partners I help will pay me back rises.",
+     "decrement_logic": "When a breach leaves me unmoved and I let it pass while my partners look on, they see no sign that I can be relied on, and those above me see no loyalty to repay: my sense that the partners I help will pay me back falls.",
+     "explanation": "Third-party punishers are trusted more, and in fact behave more trustworthily, than non-punishers (Jordan, Hoffman, Bloom and Rand 2016); punishment works as a signal that the punisher can be relied on. That evidence concerns punishing unfair splits in economic games; the step to pulling up a breach of the group's settled ways rests on common sense. That the trust brings back what she gives is an inference: partners choose and keep up exchanges with those they judge reliable, so her help to them is more readily returned. Across rank, holding the line on the group's ways reads as loyalty passed up, which a patron repays with favour and protection; this step rests on common sense. Where she pulls up a member above her own place, those above read it as stepping out of line rather than loyalty; that route belongs to H:NormExp->Status, so set the rise near nil there. Both lines also need a breach the others bristle at too: where they think it harmless, pulling up reads as scolding and letting it pass as ordinary (H:NormExp->Belonging, circumstance two), so set both moves near nil. With the Reputation expansion pack in play, the open standing she wins as one who holds the line runs through H:NormExp->Face and H:Face->Reciprocity; this card then carries only the reliance her partners take from what they saw themselves, and should be smaller still. The signal weakens where she can show her worth by helping directly, and the decrement needs her partners to have seen her let the breach pass, so the card should be modest."
     }
    ],
    "timing": {
@@ -10852,8 +10985,8 @@
    "target": "NormExp",
    "type": "Inverse",
    "name": "Faltering venture tightens ranks",
-   "increment_logic": "When I feel those at the top cannot steer us through what we have taken on, our settled ways look like all that still holds us on course, so a member doing things differently or pressing to change our ways jars me as wrong and I am quick to pull them up: my indignation at breaches rises.",
-   "decrement_logic": "When I feel those at the top know the way through what we have taken on, a member trying something different or urging a change looks like no danger, since the course is in hands that will right it, and I let it pass: my indignation at breaches eases.",
+   "increment_logic": "When I feel those at the top cannot steer us through what we have taken on, our settled ways look like all that still holds us on course, so a member breaking from them or pressing to change them, in a way the group would condemn, jars me as wrong and I am quick to pull them up: my indignation at breaches rises.",
+   "decrement_logic": "When I feel those at the top know the way through what we have taken on, a member trying something different or urging a change, even in a way the group would condemn, looks like no danger, since the course is in hands that will right it, and I let it pass: my indignation at breaches eases.",
    "explanation": "Deck H; the source is Team Confidence's hierarchical face. The nearest small-group evidence: in freely interacting groups an opinion deviate was rejected more when the dissent came close to the group's decision deadline, which the authors put down to a heightened need for collective closure (Kruglanski and Webster 1991). That study manipulated time pressure, not doubt about the venture; reading a faltering venture as raising the same need for closure is an inference. Across whole societies, histories of threat go with stronger norms and less tolerance of deviance (Gelfand et al. 2011), which points the same way but does not test a member's reaction to her group's venture. The face adds its own step, a proposal resting on common sense: in a ranked group the settled ways are partly the top's standing direction, so when live steering from the top looks weak, members lean harder on those ways and a departure reads as one more push off course; when steering looks sure, the top is trusted to catch a stray move, and it passes. Boundaries. The decrement covers departures that do not cross a call from the top; a member who defies the top's own direction is challenging the order, which this card does not carry, so keep the decrement small. Where the settled way is itself the top's failing course and the failure is openly acknowledged, departures can read as a needed correction; there the pull to guard the ways and the pull to welcome change offset each other, so the card does not fire and the step is nil. Both boundaries rest on common sense. The card covers the acute, felt jar of a venture slipping out of the leaders' grip, and the effect should be modest.",
    "pre_language": {
     "increment": "When the band's venture is going badly and the prize looks out of reach, she clings to the usual way of doing it and bristles at a fellow who does it differently, with a protest or a shove. Her norm guarding rises.",
@@ -10899,7 +11032,8 @@
     "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Check (4): the card is typed Inverse, yet its explanation says that where the failing course is the top's own and the failure is openly acknowledged, 'the card can run the other way'. A fixed-type card cannot reverse; a stated circumstance that flips direction belongs to a Discretionary card. The lines themselves pass checks (1) to (3), (5) and (6); Kruglanski and Webster 1991, Staw, Sandelands and Dutton 1981, Meindl, Ehrlich and Dukerich 1985 and Cyert and March are cited for what they show. The smallest fix keeps the type and turns the reversal into a nil step: under acknowledged failure of the top's own course, problemistic search and romance of leadership cut against threat rigidity, so the effects cancel and the card should not fire.",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation cites a card id built from plain names, 'H:Rank->Rule-Keeping'; card ids use keys, and the card in the model is H:Status->NormExp. The lines, type and literature otherwise pass.",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines pass. The explanation's boundary sends defiance of the top's direction to 'H:Rank->Rule-Keeping', but that card follows the observer's own rung and does not respond to the act of defiance, so the pointer misstates where the effect is carried. Smallest fix: say this card does not carry it.",
-    "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Unchecked Staw mechanism, Cyert and March and Meindl dropped, boundaries labelled common sense; unsupported leader-doubting-herself clause removed; Gelfand 2011 added as indirect support and framework matched."
+    "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Unchecked Staw mechanism, Cyert and March and Meindl dropped, boundaries labelled common sense; unsupported leader-doubting-herself clause removed; Gelfand 2011 added as indirect support and framework matched.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines speak of any member 'doing things differently' or 'trying something different', but Rule-Keeping reads only breaks from the settled ways, or open pressing to change them, that the group would condemn. A departure the group would not condemn falls outside the target on either side. Fix: add the qualifier to both lines."
    ],
    "ripple_was": [
     {
@@ -10931,6 +11065,12 @@
      "increment_logic": "When I feel those at the top cannot steer us through what we have taken on, our settled ways look like all that still holds us on course, so a member doing things differently or pressing to change our ways jars me as wrong and I am quick to pull them up: my indignation at breaches rises.",
      "decrement_logic": "When I feel those at the top know the way through what we have taken on, a member trying something different or urging a change looks like no danger, since the course is in hands that will right it, and I let it pass: my indignation at breaches eases.",
      "explanation": "Deck H; the source is Team Confidence's hierarchical face. A felt threat to the venture narrows attention onto the established way of doing things and makes departures feel dangerous, while a venture in safe hands leaves slack for them. The nearest small-group evidence: in freely interacting groups an opinion deviate was rejected more when the dissent came close to the group's decision deadline, which the authors put down to a heightened need for collective closure (Kruglanski and Webster 1991). That study manipulated time pressure, not doubt about the venture; reading a faltering venture as raising the same need for closure is an inference. Under threat, control constricts (Staw, Sandelands and Dutton 1981; carried over, not rechecked here). The face adds its own step, a proposal: in a ranked group the settled ways are partly the top's standing direction, so when live steering from the top looks weak, members lean harder on those ways and a departure reads as one more push off course; when steering looks sure, the top is trusted to catch a stray move, and it passes. The same holds where she is at the top herself and doubts her own steering. Boundaries. The decrement covers departures that do not cross a call from the top; a member who defies the top's own direction is challenging the order, which moves Rule-Keeping through other cards (H:Rank->Rule-Keeping), so keep the decrement small. Where the settled way is itself the top's failing course and the failure is openly acknowledged, departures read as a needed correction (problemistic search: Cyert and March), and since failure is readily laid at the leaders' door (Meindl, Ehrlich and Dukerich 1985), that reading is close to hand in a ranked group; there the pull to guard the ways and the pull to welcome change offset each other, so the card does not fire and the step is nil. The card covers the acute, felt jar of a venture slipping out of the leaders' grip, and the effect should be modest."
+    },
+    {
+     "type": "Inverse",
+     "increment_logic": "When I feel those at the top cannot steer us through what we have taken on, our settled ways look like all that still holds us on course, so a member doing things differently or pressing to change our ways jars me as wrong and I am quick to pull them up: my indignation at breaches rises.",
+     "decrement_logic": "When I feel those at the top know the way through what we have taken on, a member trying something different or urging a change looks like no danger, since the course is in hands that will right it, and I let it pass: my indignation at breaches eases.",
+     "explanation": "Deck H; the source is Team Confidence's hierarchical face. The nearest small-group evidence: in freely interacting groups an opinion deviate was rejected more when the dissent came close to the group's decision deadline, which the authors put down to a heightened need for collective closure (Kruglanski and Webster 1991). That study manipulated time pressure, not doubt about the venture; reading a faltering venture as raising the same need for closure is an inference. Across whole societies, histories of threat go with stronger norms and less tolerance of deviance (Gelfand et al. 2011), which points the same way but does not test a member's reaction to her group's venture. The face adds its own step, a proposal resting on common sense: in a ranked group the settled ways are partly the top's standing direction, so when live steering from the top looks weak, members lean harder on those ways and a departure reads as one more push off course; when steering looks sure, the top is trusted to catch a stray move, and it passes. Boundaries. The decrement covers departures that do not cross a call from the top; a member who defies the top's own direction is challenging the order, which this card does not carry, so keep the decrement small. Where the settled way is itself the top's failing course and the failure is openly acknowledged, departures can read as a needed correction; there the pull to guard the ways and the pull to welcome change offset each other, so the card does not fire and the step is nil. Both boundaries rest on common sense. The card covers the acute, felt jar of a venture slipping out of the leaders' grip, and the effect should be modest."
     }
    ],
    "critique_was": [
@@ -12554,11 +12694,11 @@
    "continuum": "ECP",
    "source": "GrpProsp",
    "target": "Reciprocity",
-   "type": "Reinforce",
+   "type": "Discretionary",
    "name": "Good season, open hands",
-   "increment_logic": "When the venture looks well within our reach, I am buoyed, I help whoever asks without counting, and the others do the same around me: my reading that help here comes back rises.",
-   "decrement_logic": "When the venture looks beyond us, everyone hunches over their own part, help asked for is slow to come and mine goes unreturned: my reading that help here comes back falls a little.",
-   "explanation": "Good mood raises helping (Carlson, Charlin and Miller 1988). Mood spreads through a group by contagion, and in one lab study groups exposed to pleasant contagion showed more cooperation and less conflict than those exposed to unpleasant contagion (Barsade 2002). That confidence in the venture carries such a mood is common sense, untested by these studies; if it does, help flows more freely in a group that expects to win. The mood evidence backs the increment only: a bad mood does not reliably lower helping and sometimes raises it (Carlson and Miller 1987, to be checked). The decrement, each member guarding her own part when the venture looks beyond the group, is a proposal resting on common sense: people who doubt the shared outcome turn to securing their own. Keep it weaker than the increment. The step from the group's mood to her felt return is a proposal too: common sense, since a side that expects to win is a generous one. Where doubt about the venture rallies the group around a common threat (E:GrpProsp->Belonging), help may keep flowing; play the decrement weak or not at all then. Modest; forms a loop with E:Reciprocity->GrpProsp.",
+   "increment_logic": null,
+   "decrement_logic": null,
+   "explanation": "Whether the venture's prospects open hands around me depends on where the trouble is seen to come from. Circumstance one (the default), the trouble is inside the group or has no named source. HIGH: with the venture well within our reach I am buoyed, I help whoever asks without counting and the others do the same around me, so my reading that help here comes back rises. LOW: with the venture looking beyond us, everyone hunches over their own part, help asked for is slow to come and mine goes unreturned, so my reading that help here comes back falls a little. Circumstance two, the trouble comes from outside (a rival group, lost funding, a forced change of ground) and a fight still looks worth making. LOW here means the venture is threatened and not yet hopeless: the others pool what they have and help flows to whoever needs it, so my reading that help here comes back rises. HIGH: the threat looks easily met and giving slips back to its ordinary level, so my reading eases back by no more than the threat raised it. Good mood raises helping (Carlson, Charlin and Miller 1988). Mood spreads through a group by contagion, and in one lab study groups exposed to pleasant contagion showed more cooperation and less conflict than those exposed to unpleasant contagion (Barsade 2002). That Team Confidence carries such a mood is common sense, untested by these studies. The mood evidence backs the circumstance-one increment only: a bad mood does not reliably lower helping and sometimes raises it (Carlson and Miller 1987, to be checked). The circumstance-one decrement, each member guarding her own part when the venture looks beyond the group, is a proposal resting on common sense: people who doubt the shared outcome turn to securing their own. Keep it weaker than the increment. Exposure to war violence is reported to raise cooperation, much of it within the local group (Bauer et al. 2016, review, to be checked), which grounds circumstance two; carrying it from war to an everyday outside threat is the model's step, so play it modest. Where the venture looks hopeless, run circumstance one. The step from the group's mood to her felt return is a proposal too. Matches the rally case in E:GrpProsp->Belonging. Modest; forms a loop with E:Reciprocity->GrpProsp.",
    "sources": [
     {
      "source": "Carlson, Charlin and Miller 1988, JPSP 55",
@@ -12586,7 +12726,8 @@
     "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation cites card ids by plain names (E:Team Confidence->Belonging, E:Reciprocity->Team Confidence). Card ids use keys, so they should read E:GrpProsp->Belonging and E:Reciprocity->GrpProsp. The lines themselves pass.",
     "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Explanation states as fact that confidence in the venture carries the good mood that the cited studies tie to helping and cooperation. Neither Carlson, Charlin and Miller (1988) nor Barsade (2002) measures confidence in a venture, so this step is unmarked and needs the same proposal label the card gives its later steps. The lines themselves pass.",
-    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The mood evidence is used as if it backed both lines, but it backs the increment only. Bad mood does not reliably lower helping and sometimes raises it (Carlson and Miller 1987, negative-state relief; to be checked and logged in docs/literature.md). So the decrement, which rests on common sense alone, should be the weaker line. As written, the decrement falls fully while the increment only rises."
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The mood evidence is used as if it backed both lines, but it backs the increment only. Bad mood does not reliably lower helping and sometimes raises it (Carlson and Miller 1987, negative-state relief; to be checked and logged in docs/literature.md). So the decrement, which rests on common sense alone, should be the weaker line. As written, the decrement falls fully while the increment only rises.",
+    "evo-r2-minor: Retyped Reinforce to Discretionary: inside or unnamed trouble keeps the old lines; an outside threat still worth fighting raises the return; added Bauer et al. 2016 (to be checked). (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
    ],
    "ripple_was": [
     {
@@ -12629,8 +12770,8 @@
     "stage": "early hominin",
     "why": "Shared mood in a coalition and the readiness to share or withhold food and aid have non-verbal analogues in social primates and early human hunting groups."
    },
-   "subtitle": "A hopeful group helps freely",
-   "summary": "When the venture looks within reach, members feel buoyed, help without counting, and expect help to come back. When it looks beyond the group, everyone hunches over their own part and help is slow and unreturned. Confidence carries the mood that makes help flow. Where doubt rallies the group against a common threat, the fall may be weak or absent.",
+   "subtitle": "Group confidence shapes how freely help flows",
+   "summary": "Team Confidence affects whether help comes back, depending on where trouble comes from. When trouble is internal or unnamed, a confident group helps freely and Reciprocity rises, while a doubtful group guards its own part and Reciprocity falls a little. When a worthwhile fight against an outside threat looms, the group pools its resources and Reciprocity rises. This card is discretionary and modest.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "logic_status": {
     "date": "2026-11-05",
@@ -12649,7 +12790,8 @@
      }
     ],
     "common_sense": "That confidence in the venture carries a good mood, and that a side expecting to win helps freely so help is felt to come back. Safe as a proposal: confidence about a shared venture is a pleasant state, and the mood-to-helping link is well supported."
-   }
+   },
+   "framework": "Mood and helping (Carlson, Charlin and Miller 1988; Barsade 2002) for circumstance one; war and local cooperation (Bauer et al. 2016) for circumstance two."
   },
   {
    "id": "E:Belonging->GrpProsp",
@@ -13044,7 +13186,7 @@
    "name": "Following a lead I believe in",
    "increment_logic": "When I am putting much of myself into this group, I follow those at the top willingly, and what they steer us to reads as a sign of what they can do: my confidence that they can bring the venture off rises.",
    "decrement_logic": "When I am pulling out of this group, I follow half-heartedly, and each misstep from the top reads as the limit of what they can do: my confidence that they can bring the venture off falls.",
-   "explanation": "Hierarchical-face twin of E:Engagement->Team Confidence, on the same grounds: investment carries enthusiasm or flatness that colours judgements built from ambiguous cues (Forgas 1995), and engagement feeds efficacy beliefs over time (Salanova, Llorens and Schaufeli 2011). Trust in leadership is reported to run both ways with team performance (Dirks 2000), but that source is pending a check, as on H:GrpProsp->OwnProsp, and its trust takes in the leader's integrity and care, which lie nearer Parity, so it is not relied on here. The step from her own investment to confidence in those at the top is a proposal; keep it modest, and let Team Confidence evidence cards (a leader's visible failure) act as the brake.",
+   "explanation": "Hierarchical-face twin of E:Engagement->GrpProsp, on the same grounds: investment carries enthusiasm or flatness that colours judgements built from ambiguous cues (Forgas 1995), and engagement and efficacy beliefs feed each other over time (Salanova, Llorens and Schaufeli 2011), though those were members' beliefs in their own efficacy, so carrying the finding to confidence in the group's leaders is an extension. Trust in leadership is reported to run both ways with team performance (Dirks 2000), but that source is pending a check, as on H:GrpProsp->OwnProsp, and its trust takes in the leader's integrity and care, which lie nearer Parity, so it is not relied on here. Where she is among those at the top herself, her investment colours her reading of her own and her fellows' steering in the same way. The step from her own investment to confidence in those at the top is a proposal; keep it modest, and let Team Confidence evidence cards (a leader's visible failure) act as the brake.",
    "sources": [
     {
      "source": "Own proposal",
@@ -13070,7 +13212,9 @@
    "edits_log": [
     "Ben, 5 Nov 2026, 3.56 pm (evolutionary anthropologist's critique: approve all): Timing and era were null.",
     "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation relies on Dirks 2000 unflagged, while H:GrpProsp->OwnProsp lists the same source as pending a check and not relied on; the two cards must agree. Dirks's trust in leadership also spans the leader's integrity and care, which lie nearer Parity than Team Confidence's hierarchical face (competence to steer), so even once checked it bears only partly on this target.",
-    "orgpsych-r2-minor: Identity wording replaced by investment in the increment line. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
+    "orgpsych-r2-minor: Identity wording replaced by investment in the increment line. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Explanation only. It names the twin card with a plain name inside an id ('E:Engagement->Team Confidence'); the id is E:Engagement->GrpProsp. It also cites Salanova, Llorens and Schaufeli 2011 as showing engagement feeding efficacy beliefs without saying those were members' own task self-efficacy beliefs, not confidence in the group or its leaders, so the step to Team Confidence is an extension. Lines, type and boundaries pass.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The revised hierarchical face of Team Confidence includes the member herself when she is among those at the top. Both lines are written from a follower's seat ('I follow those at the top'), so the card does not say how it plays for a member at the top. The lines can stay as they are; the smallest fix is one sentence in the explanation covering that case."
    ],
    "critique_was": [
     {
@@ -13116,6 +13260,18 @@
      "increment_logic": "When this group is part of who I am, I follow those at the top willingly, and what they steer us to reads as a sign of what they can do: my confidence that they can bring the venture off rises.",
      "decrement_logic": "When I am pulling out of this group, I follow half-heartedly, and each misstep from the top reads as the limit of what they can do: my confidence that they can bring the venture off falls.",
      "explanation": "Hierarchical-face twin of E:Engagement->Team Confidence, on the same grounds: investment carries enthusiasm or flatness that colours judgements built from ambiguous cues (Forgas 1995), and engagement feeds efficacy beliefs over time (Salanova, Llorens and Schaufeli 2011). Trust in leadership runs both ways with performance (Dirks 2000). The step from her own investment to confidence in those at the top is a proposal; keep it modest, and let Team Confidence evidence cards (a leader's visible failure) act as the brake."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am putting much of myself into this group, I follow those at the top willingly, and what they steer us to reads as a sign of what they can do: my confidence that they can bring the venture off rises.",
+     "decrement_logic": "When I am pulling out of this group, I follow half-heartedly, and each misstep from the top reads as the limit of what they can do: my confidence that they can bring the venture off falls.",
+     "explanation": "Hierarchical-face twin of E:Engagement->Team Confidence, on the same grounds: investment carries enthusiasm or flatness that colours judgements built from ambiguous cues (Forgas 1995), and engagement feeds efficacy beliefs over time (Salanova, Llorens and Schaufeli 2011). Trust in leadership is reported to run both ways with team performance (Dirks 2000), but that source is pending a check, as on H:GrpProsp->OwnProsp, and its trust takes in the leader's integrity and care, which lie nearer Parity, so it is not relied on here. The step from her own investment to confidence in those at the top is a proposal; keep it modest, and let Team Confidence evidence cards (a leader's visible failure) act as the brake."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am putting much of myself into this group, I follow those at the top willingly, and what they steer us to reads as a sign of what they can do: my confidence that they can bring the venture off rises.",
+     "decrement_logic": "When I am pulling out of this group, I follow half-heartedly, and each misstep from the top reads as the limit of what they can do: my confidence that they can bring the venture off falls.",
+     "explanation": "Hierarchical-face twin of E:Engagement->GrpProsp, on the same grounds: investment carries enthusiasm or flatness that colours judgements built from ambiguous cues (Forgas 1995), and engagement and efficacy beliefs feed each other over time (Salanova, Llorens and Schaufeli 2011), though those were members' beliefs in their own efficacy, so carrying the finding to confidence in the group's leaders is an extension. Trust in leadership is reported to run both ways with team performance (Dirks 2000), but that source is pending a check, as on H:GrpProsp->OwnProsp, and its trust takes in the leader's integrity and care, which lie nearer Parity, so it is not relied on here. The step from her own investment to confidence in those at the top is a proposal; keep it modest, and let Team Confidence evidence cards (a leader's visible failure) act as the brake."
     }
    ]
   },
@@ -13217,11 +13373,11 @@
    "continuum": "ECP",
    "source": "Prestige",
    "target": "Belonging",
-   "type": "Reinforce",
+   "type": "Discretionary",
    "name": "Skill shared, drawn in",
-   "increment_logic": "When the others watch how I do things and bring me their problems, and I share what I know freely, they seek my company and keep a place for me wherever they gather: my sense that they want me among them rises.",
-   "decrement_logic": "When no one watches or seeks me for anything I bring, I am the one who has to seek them out, and I read the quiet as being wanted less: my sense that they want me among them falls a little.",
-   "explanation": "Prestige-based influence comes with being liked, dominance-based influence does not (Cheng et al. 2013, from a secondary summary; liking falls short of belonging). Learners defer to the models they learn from to gain access to what they know (Henrich and Gil-White 2001); that they then seek her company is a common-sense step from access. Under the E face, acceptance does not rest on output, so the rise runs through the liking and contact that come with being sought out, and through what she shares freely, which counts as pulling with the group; skill as output adds nothing by itself. Whether she carries it modestly is Repute's ground (E:Repute->Belonging; pack X:Prestige->Repute carries the boasting case). The decrement is small and lies in her reading, not in the group's acceptance, which still counts her one of their own: being sought less is easily felt as being wanted less, a common-sense step until a source on relational value (Leary and Baumeister 2000, unchecked) is read. A member who brings little but pulls as far as she is able stays one of their own in good standing, and the card must never edge her out on that ground alone.",
+   "increment_logic": null,
+   "decrement_logic": null,
+   "explanation": "Whether being looked to for what I bring draws the others round me turns on how I carry it. Circumstance one (the default), I carry it modestly: I share what I know freely and laugh along when my work is ribbed. HIGH: the others watch how I do things, bring me their problems and seek my company, keeping a place for me wherever they gather, so my sense that they want me among them rises. LOW: no one watches or seeks me for anything I bring, I am the one who has to seek them out, and I read the quiet as being wanted a little less, so my sense that they want me among them falls a little. Circumstance two, I let my success show as a claim: I wait for thanks, direct others unasked or boast. HIGH: the ribbing hardens into criticism, the others leave a gap beside me and gather without me, so my sense that they want me among them falls. LOW: I have nothing to claim, and the card adds nothing. Prestige-based influence comes with being liked, dominance-based influence does not (Cheng et al. 2013, from a secondary summary; liking falls short of belonging). Learners defer to the models they learn from to gain access to what they know (Henrich and Gil-White 2001), and skilled Agta storytellers are preferred campmates (Smith et al. 2017); that the others then seek her company is a common-sense step from access. These ground circumstance one. Foragers level a provider who presses his success: his meat is mocked as worthless (Lee 1969) and the status a good hunter may take is constrained (Wiessner 1996), which grounds circumstance two. Under the E face, acceptance does not rest on output, so the circumstance-one rise runs through the liking and contact that come with being sought out, and through what she shares freely, which counts as pulling with the group; skill as output adds nothing by itself. The circumstance-one decrement is small and lies in her reading, not in the group's acceptance, which still counts her one of their own: being sought less is easily felt as being wanted less, a common-sense step until a source on relational value (Leary and Baumeister 2000, unchecked) is read. A member who brings little but pulls as far as she is able stays one of their own in good standing, and the card must never edge her out on that ground alone. With the Reputation pack on, circumstance two runs through Insulting the meat (X:Prestige->Repute) and Repute's own card into Belonging (E:Repute->Belonging); set circumstance two nil here then, so one boast is not counted twice.",
    "sources": [
     {
      "source": "Cheng et al. 2013, JPSP 104",
@@ -13258,7 +13414,8 @@
     "Ripple round 6, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement clashes with Belonging's egalitarian face, where acceptance does not rise or fall with output. As written, the group's acceptance of her thins because she brings little, even though she may still pull as far as she is able. The fix makes the fall her own felt reading: being sought less reads to her as being wanted less, while the group still counts her one of its own. Sociometer theory backs this, since people read acceptance from signs of their relational value.",
     "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): (1) The decrement line contradicts itself: in her own voice she says they still count her one of their own, which is the egalitarian Belonging reading itself, yet her sense of being wanted falls. A felt misreading can be carried, but she cannot both know she is still counted in and feel less wanted on the same ground; the clause belongs in the explanation. (2) The explanation says the rise comes 'not from the skill itself' but from modest sharing, which takes the cause off the source: a Prestige card has to move Belonging through Prestige. Modest carriage is Repute's ground (Prestige E face boundary, carried by E:Repute->Belonging). The mechanism should run through the liking and contact that freely given deference brings (Cheng et al. 2013), with sharing counting as pulling with the group.",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The increment makes 'without lording it' part of the cue. Prestige's E face hands modesty to Repute, and the card's own explanation sends it there (E:Repute->Belonging, X:Prestige->Repute), so the line strays into Repute's ground. The mechanism the explanation keeps is sharing freely (pulling with the group) plus the liking and contact that come with being sought out. That needs no modesty clause."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The increment makes 'without lording it' part of the cue. Prestige's E face hands modesty to Repute, and the card's own explanation sends it there (E:Repute->Belonging, X:Prestige->Repute), so the line strays into Repute's ground. The mechanism the explanation keeps is sharing freely (pulling with the group) plus the liking and contact that come with being sought out. That needs no modesty clause.",
+    "evo-r2-minor: Retyped Reinforce to Discretionary: modest carriage (default) keeps the old lines; a success pressed as a claim lowers Belonging, nil when the Reputation pack is on; added Smith et al. 2017, Lee 1969, Wiessner 1996. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
    ],
    "ripple_was": [
     {
@@ -13291,8 +13448,8 @@
     "typical": "within the gathering, as others seek her company or leave her to seek theirs",
     "why": "Seeking her out and keeping a place for her, or the quiet she reads as being wanted less, show over the course of a gathering, not in one glance."
    },
-   "subtitle": "Sharing skill modestly earns a place",
-   "summary": "When others watch how I do things and bring me their problems, and I share what I know without lording it, I feel more wanted among them. When no one seeks me for anything I bring, I read the quiet as being wanted a little less, though I stay one of them. The rise comes from sharing modestly, and boasting spoils it.",
+   "subtitle": "Sharing skill draws people in",
+   "summary": "Being looked to for what I bring can make the others want me among them, but only if I carry it modestly. If I share freely and take ribbing well, being sought out raises my sense of being wanted. If I show my success as a claim, by boasting or directing others unasked, the others pull away and that sense falls.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "logic_status": {
     "date": "2026-11-05",
@@ -13326,7 +13483,8 @@
      }
     ],
     "common_sense": "That access to what she knows leads others to seek her company; that modest sharing draws people while boasting repels them; that being sought less is felt as being wanted less. Each is safe as a small step, and the decrement is already set small and confined to her reading."
-   }
+   },
+   "framework": "Prestige and liking (Cheng et al. 2013); prestige as access (Henrich and Gil-White 2001); forager levelling of the successful (Lee 1969; Wiessner 1996)."
   },
   {
    "id": "E:Levelling->Prestige",
@@ -13790,7 +13948,7 @@
    "name": "Help that binds",
    "increment_logic": "When what I give comes back from the group and my needs are met without a tally, I feel grateful to them and drawn to their company: my fondness for them rises.",
    "decrement_logic": "When what I give goes into a hole and my needs go unmet, I feel used by them and keep my distance: my fondness for them falls.",
-   "explanation": "Generalised, indirect exchange builds more solidarity than direct reciprocal or negotiated exchange (Molm, Collett and Schaefer 2007), which fits the E face's return from the group. Gratitude predicts later relationship quality with the benefactor (Algoe, Haidt and Gable 2008). This takes over the exchange-affect clause that E:Reciprocity->Belonging handed to Engagement. Moderate.",
+   "explanation": "Generalised, indirect exchange builds more solidarity than direct reciprocal or negotiated exchange (Molm, Collett and Schaefer 2007), which fits the E face's return from the group. Gratitude predicts later relationship quality with the benefactor (Algoe, Haidt and Gable 2008); that study tracked one benefactor, so carrying the gratitude to the members at large is the model's step. The decrement, fondness cooling in one who feels used, rests on common sense. This takes over the exchange-affect clause that E:Reciprocity->Belonging handed to Engagement. Moderate.",
    "sources": [
     {
      "source": "Molm, Collett and Schaefer 2007, AJS 113",
@@ -13823,7 +13981,18 @@
    },
    "subtitle": "Help returned builds fondness",
    "summary": "When what you give comes back from the group and your needs are met without a tally, you feel grateful and drawn to their company, so your fondness rises. When your giving vanishes and your needs go unmet, you feel used and keep your distance, so it falls. The effect is moderate.",
-   "summary_status": "generated from the source texts, not canon; checked faithful"
+   "summary_status": "generated from the source texts, not canon; checked faithful",
+   "edits_log": [
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Mechanism (5): Algoe, Haidt and Gable 2008 measured gratitude towards a single benefactor and later relationship quality with that benefactor. Under the E face the return comes from the group at large, so the card's increment (fondness for the members) carries the finding from one benefactor to the group, and the explanation does not say this is the model's step. The decrement (feeling used, fondness falls) has no cited support and should be labelled common sense. Lines pass."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When what I give comes back from the group and my needs are met without a tally, I feel grateful to them and drawn to their company: my fondness for them rises.",
+     "decrement_logic": "When what I give goes into a hole and my needs go unmet, I feel used by them and keep my distance: my fondness for them falls.",
+     "explanation": "Generalised, indirect exchange builds more solidarity than direct reciprocal or negotiated exchange (Molm, Collett and Schaefer 2007), which fits the E face's return from the group. Gratitude predicts later relationship quality with the benefactor (Algoe, Haidt and Gable 2008). This takes over the exchange-affect clause that E:Reciprocity->Belonging handed to Engagement. Moderate."
+    }
+   ]
   },
   {
    "id": "H:Engagement->Levelling",
@@ -14312,6 +14481,84 @@
    ],
    "subtitle": "Being heard makes speaking up safe",
    "summary": "When people above hear me out before a call that touches me, and weigh my objection fairly, I expect that showing a doubt or slip in front of them will not be punished. Parity in its hierarchical face, the hearing and even dealing of those above, therefore raises my sense of Safety to show myself. Being shut out or threatened lowers it.",
+   "summary_status": "generated from the source texts, not canon; checked faithful"
+  },
+  {
+   "id": "X:NormExp->Levelling",
+   "deck": "X",
+   "decks": [
+    "E",
+    "H"
+   ],
+   "continuum": "cross",
+   "source": "NormExp",
+   "target": "Levelling",
+   "type": "Reinforce",
+   "name": "Ribbing the big shot",
+   "increment_logic": "When a member's grab, boast or bossing jars me as plainly wrong, I rib him for it and say so, and when the others take up the ribbing he backs off and shares out: I feel no one here can set himself over us without an answer, and my sense that no one here can lord it over me rises.",
+   "decrement_logic": "When big-shot moves leave me unmoved, I let them pass with a shrug, no one else starts the ribbing either, and the member keeps taking a little more and directing a little more, until I find myself going along: my sense that no one here can lord it over me falls.",
+   "explanation": "The everyday levelling tools of foragers are third-party ribbing, criticism and complaint, which escalate only rarely (Wiessner 2005), and the rank and file check would-be dominants together (Boehm 1993); the !Kung mock a boastful provider's meat to keep him modest (Lee 1969). Punishment of unfair play appears in every society tested (Henrich et al. 2006), but costly third-party punishment is weaker in small societies (Marlowe et al. 2008), so the card runs on talk and coolness, not fines or blows. Both lines need a member pushing, grabbing or bossing; where no one is, set both nil. A lone bristle that no one takes up does not check him, so set the increment small where the others stay silent; likewise set the decrement small where the others rib him though she lets it pass. Whether they would back her is E:Belonging->Levelling. Where this card and E:DivsExp->Levelling fire on one scene, play E:DivsExp->Levelling small. Forms a brake loop through E:Levelling->Reciprocity and X:Reciprocity->NormExp: watch for drift.",
+   "sources": [
+    {
+     "source": "Wiessner 2005, Human Nature 16",
+     "claim": "Norm enforcement among the Ju/'hoansi is mostly verbal criticism and mockery",
+     "url": "https://link.springer.com/doi/10.1007/s12110-005-1000-9",
+     "verified": "searched"
+    },
+    {
+     "source": "Boehm 1993, Current Anthropology 34",
+     "claim": "Followers act together to check would-be dominants",
+     "url": "https://www.Gwern.net/doc/sociology/intrasexual-aggression/1993-boehm.pdf",
+     "verified": "verified"
+    },
+    {
+     "source": "Lee 1969, Eating Christmas in the Kalahari",
+     "claim": "A boaster's meat is called worthless to keep him modest",
+     "url": "https://en.wikipedia.org/wiki/Leveling_mechanism",
+     "verified": "searched"
+    },
+    {
+     "source": "Henrich et al. 2006, Science 312",
+     "claim": "All 15 populations punished unfair play to some degree",
+     "url": "https://authors.library.caltech.edu/records/gdf88-tgc44",
+     "verified": "verified"
+    },
+    {
+     "source": "Marlowe et al. 2008, Proc R Soc B 275",
+     "claim": "Third-party punishment is weaker in small-scale societies",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2596817",
+     "verified": "verified"
+    }
+   ],
+   "era": {
+    "stage": "Homo sapiens",
+    "why": "The card works through ribbing, mockery, complaint and saying so, all of them talk, and the explanation says it runs on talk. Primates do form coalitions against a bully, but the levelling check this card describes is verbal, so the card is Homo sapiens."
+   },
+   "evidence_rank": 1,
+   "status": "provisional",
+   "approved": "Ben, 5 Nov 2026, 7.15 pm (evolutionary anthropologist, second round: agreed)",
+   "origin": {
+    "kind": "critique",
+    "label": "Proposed by the evolutionary anthropologist's second-round review (5 Nov 2026); a cross card under the continuum principle"
+   },
+   "timing": {
+    "scale": "minutes",
+    "typical": "within the scene, a few minutes",
+    "why": "Parity moves once the others take up the ribbing and the big shot backs off and shares out, or once nobody objects and he keeps on; either way the group's answer has to play out over an exchange, which takes longer than a single bristle of indignation."
+   },
+   "edits_log": [
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation names the loop's return card as E:Reciprocity->NormExp, which is not in the model; the card is X:Reciprocity->NormExp (Inverse, Hoarders stir the levellers), and with it the loop is a brake as stated. The decrement line also leans on the others staying silent, which is a condition outside her own bristle; the explanation scales the increment for that case but not the decrement, so a scene where the others rib him without her would count a fall that did not happen. Lines and type otherwise fit the revised Rule-Keeping (levelling ways among equals, answered by ribbing) and Parity (the group pulling up a breach leaves it high)."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When a member's grab, boast or bossing jars me as plainly wrong, I rib him for it and say so, and when the others take up the ribbing he backs off and shares out: I feel no one here can set himself over us without an answer, and my sense that no one here can lord it over me rises.",
+     "decrement_logic": "When big-shot moves leave me unmoved, I let them pass with a shrug, no one else starts the ribbing either, and the member keeps taking a little more and directing a little more, until I find myself going along: my sense that no one here can lord it over me falls.",
+     "explanation": "The everyday levelling tools of foragers are third-party ribbing, criticism and complaint, which escalate only rarely (Wiessner 2005), and the rank and file check would-be dominants together (Boehm 1993); the !Kung mock a boastful provider's meat to keep him modest (Lee 1969). Punishment of unfair play appears in every society tested (Henrich et al. 2006), but costly third-party punishment is weaker in small societies (Marlowe et al. 2008), so the card runs on talk and coolness, not fines or blows. Both lines need a member pushing, grabbing or bossing; where no one is, set both nil. A lone bristle that no one takes up does not check him, so set the increment small where the others stay silent; whether they would back her is E:Belonging->Levelling. Where this card and E:DivsExp->Levelling fire on one scene, play E:DivsExp->Levelling small. Forms a brake loop through E:Levelling->Reciprocity and E:Reciprocity->NormExp: watch for drift."
+    }
+   ],
+   "subtitle": "Ribbing keeps big shots in check",
+   "summary": "When a member grabs, boasts or bosses in a way that jars me as plainly wrong, I rib him and say so. If the others join in and he backs off, I feel no one here can lord it over me. If I let it pass and no one else objects, he keeps taking more and that feeling falls.",
    "summary_status": "generated from the source texts, not canon; checked faithful"
   }
  ]
