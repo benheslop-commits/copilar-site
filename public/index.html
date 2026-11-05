@@ -110,7 +110,8 @@ ul.lit { list-style: none; padding: 0; display: grid; gap: 10px; }
 ul.lit li { line-height: 1.45; }
 .fit { font: 600 11px/1 ui-monospace, monospace; text-transform: uppercase; padding: 2px 6px; border-radius: 6px; }
 .fit.agree { background: #1f7a4d33; color: #5fd39a; } .fit.partial { background: #8a6d1f33; color: #e8c15a; } .fit.contra { background: #8a1f3a33; color: #ff7a9a; }
-.edge.eng { stroke-dasharray: 1 4; stroke-linecap: round; }
+.edge.eng { } /* Engagement cards solid; the Reputation pack dotted, as it is only sometimes in play (Ben, 5 Nov 2026, 3.51 pm) */
+.edge.pack { stroke-dasharray: 1 4; stroke-linecap: round; }
 @keyframes flow { to { stroke-dashoffset: -24; } }
 @media (prefers-reduced-motion: reduce) { .edge.on { animation: none; } .netbox svg { transition: none; } }
 .node { cursor: pointer; outline: none; }
