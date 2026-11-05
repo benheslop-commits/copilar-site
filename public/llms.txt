@@ -1,13 +1,13 @@
-# ComPILAR
+# CoPILAR
 
-> ComPILAR is Ben Heslop's model of how a member of a small, lasting group reads the group (Pillars, felt readings rated 1 to 10) and how those readings move one another (force cards), moderating her Engagement. The site holds two models: ComPILAR V1, the published model, and a draft model in development, which is provisional.
+> CoPILAR is Ben Heslop's model of how a member of a small, lasting group reads the group (Pillars, felt readings rated 1 to 10) and how those readings move one another (force cards), moderating her Engagement. The site holds two models: CoPILAR, the model in development, which is provisional, and ComPILAR V1, the published model from which it grew.
 
 ## ComPILAR V1, published model
 - [v1/model.md](v1/model.md): every Pillar and force card in plain text
 - [v1/model.json](v1/model.json): the same as data (pillars, axes, forces)
 - [v1/](v1/): the Explorer; its Full text section (v1/#reference) holds the same text in HTML
 
-## Draft model, in development (provisional)
+## CoPILAR, in development (provisional)
 - [draft/model.md](draft/model.md): every Pillar and force card in plain text
 - [draft/model.json](draft/model.json): the same as data (pillars, decks, shared Pillars with two faces, forces)
 - [draft/](draft/): the Explorer, with Full text (draft/#reference) and From V1 to here (draft/#path)
@@ -16,4 +16,4 @@
 - [how-it-works/](how-it-works/)
 - [blog/](blog/)
 
-Claim ceiling: Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test ComPILAR. Draft Pillar texts are provisional until Ben approves them.
+Claim ceiling: Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model. Draft Pillar texts are provisional until Ben approves them.

@@ -1,9 +1,9 @@
 {
  "meta": {
-  "label": "Draft model, in development (provisional)",
+  "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T12:06+10:30",
-  "footer": "Draft model, in development (provisional). Model text is generated from canon_draft/ by site/build.py. Pillar texts await Ben Heslop's approval; cards are provisional. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test ComPILAR.",
+  "built": "2026-11-05T12:18+10:30",
+  "footer": "CoPILAR, in development (provisional). Model text is generated from canon_draft/ by site/build.py. Pillar texts await Ben Heslop's approval; cards are provisional. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
  "pillars": {
@@ -118,7 +118,7 @@
     "name": "Own Prospects",
     "continuum": "HCP",
     "axis": "Prospects",
-    "description": "How likely you feel it is that staying in this group will get you what you yourself are after from it: the place, play, pay, skill, advancement or mate you joined for. It is a forecast of what the group will deliver to you, not your own ability, not the group's own venture, and not a tally of what it has given so far, which only feeds it.",
+    "description": "How likely you feel it is that staying in this group will get you what you yourself are after from it: the place, play, pay, skill, advancement or mate you joined for. It is a forecast of what the group will deliver to you, not your own ability, not the group's own venture (GrpProsp), not whether help you give comes back (Reciprocity), and not a tally of what it has given so far, which only feeds it.",
     "anchors": {
      "10": "You are sure that staying will bring you what you came for; the group's dealings with you keep opening the way to it.",
      "1": "You are sure that staying will bring you nothing you came for; whatever you do here, the way to it stays shut."
@@ -149,6 +149,20 @@
      ]
     },
     "plain_name": "Payoff",
+    "edits": [
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How likely you feel it is that staying in this group will get you what you yourself are after from it: the place, play, pay, skill, advancement or mate you joined for. It is a forecast of what the group will deliver to you, not your own ability, not the group's own venture, and not a tally of what it has given so far, which only feeds it.",
+       "anchors": {
+        "10": "You are sure that staying will bring you what you came for; the group's dealings with you keep opening the way to it.",
+        "1": "You are sure that staying will bring you nothing you came for; whatever you do here, the way to it stays shut."
+       }
+      },
+      "why": "Its boundary clauses name no perceptions, and none bars Reciprocity. 'Pay' and the group's 'dealings with you' overlap the hierarchical face of Reciprocity (what you ask of a partner is met), so the return on help is claimed twice. The model keeps the two apart through a separate card (H:Reciprocity->OwnProsp, Power to your Elbow), so the definition should mark the line. Smallest fix: point the venture clause to GrpProsp and add a Reciprocity exclusion. Anchors unchanged."
+     }
+    ],
     "short": "Payoff",
     "tag": "my own goals"
    },
@@ -340,9 +354,9 @@
     "name": "Outgoing Respect",
     "continuum": "ECP",
     "axis": "Respect",
-    "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word, so you leave work in their hands without checking. It is reliability, not skill (GrpProsp): a willing but clumsy member rates high. It reads their part, not the return on your help (Reciprocity), nor their trust in you.",
+    "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word about it, so you leave work in their hands without checking. It is reliability, not skill (GrpProsp): a willing but clumsy member rates high. It reads their part, not the return on your help (Reciprocity), whether anyone takes more of the take than their due and makes it stick (Levelling), or their trust in you.",
     "anchors": {
-     "10": "You leave any part of the work with any member and never check up on it; what they take on gets done and what they say they will do holds.",
+     "10": "You leave any part of the work with any member and never check up on it; what they take on gets done and what they promise about it holds.",
      "1": "You check up on, chase and redo others' work, expecting them to shirk, cut corners or go back on their word."
     },
     "effect_timing": "immediate",
@@ -377,6 +391,30 @@
        }
       },
       "why": "The clause 'not skill (GrpProsp, Prestige)' points to the wrong perception. Prestige is the deference others give you, not your reading of their skill. Your reading of their skill sits in GrpProsp, which explicitly includes 'its members' skill'. So drop Prestige from the pointer. Note, with no change made: 'nor their trust in you' is excluded here, and Prestige also excludes 'whether the others think you will carry your share of the work'. That leaves felt trustedness unclaimed by any perception. The gap looks deliberate, and filling it would mean changing another perception and running a ripple check, so it is flagged for Ben rather than fixed. Apart from that, the definition matches the team-trust and social-loafing literature on expected reliability (Mayer, Davis and Schoorman 1995; Karau and Williams 1993), and the revised E:Levelling->OutResp card is consistent with it."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word, so you leave work in their hands without checking. It is reliability, not skill (GrpProsp): a willing but clumsy member rates high. It reads their part, not the return on your help (Reciprocity), nor their trust in you.",
+       "anchors": {
+        "10": "You leave any part of the work with any member and never check up on it; what they take on gets done and what they say they will do holds.",
+        "1": "You check up on, chase and redo others' work, expecting them to shirk, cut corners or go back on their word."
+       }
+      },
+      "why": "Levelling and OutResp meet at free-riding, and only one side marks the line. Levelling excludes OutResp, and Reciprocity hands 'takes more of a common take than their due' to Levelling, but OutResp names no boundary with Levelling. A passenger who draws a full share while shirking could then be read as OutResp (shirks) and as Levelling (takes more than due) at once, and the new and existing cards between them (E:OutResp->Levelling 'No passengers', E:Belonging->OutResp alongside E:Belonging->Levelling) make the double reading likely in play. The smallest fix adds the missing boundary clause: OutResp reads the work side (do they carry their part), and Levelling reads the take side (does anyone grab more than the reckoning gives and make it stick). Everything else holds. Reliability apart from ability matches the integrity and dependability strand of interpersonal trust (Mayer, Davis and Schoorman 1995) and is separate from capability; the anchors are unchanged."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word, so you leave work in their hands without checking. It is reliability, not skill (GrpProsp): a willing but clumsy member rates high. It reads their part, not the return on your help (Reciprocity), whether anyone takes more of the take than their due and makes it stick (Levelling), nor their trust in you.",
+       "anchors": {
+        "10": "You leave any part of the work with any member and never check up on it; what they take on gets done and what they say they will do holds.",
+        "1": "You check up on, chase and redo others' work, expecting them to shirk, cut corners or go back on their word."
+       }
+      },
+      "why": "As written, 'keeps their word' and anchor 10's 'what they say they will do holds' cover every promise, including a promise to repay help. Repayment belongs to Reciprocity, which names OutResp as 'whether others carry their part of shared work'. A broken promise to return a favour is therefore claimed by both perceptions. The smallest fix ties the word-keeping to the shared work, matching the scope that GrpProsp, Levelling and Reciprocity already give OutResp in their boundary clauses. The exclusion list also mixes 'not' with 'nor', which reads badly; it now uses 'or'. Anchor 1 is already about others' work and stays. Fit with the literature holds: dependability and integrity in trust (Mayer, Davis and Schoorman 1995) and the expectation of shirking in social loafing (Karau and Williams 1993)."
      }
     ],
     "plain_name": "Dependability",
@@ -391,10 +429,10 @@
     ],
     "axis": "Standing",
     "status": "Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); provisional",
-    "description": "How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear, or takes more than the group's own reckoning gives them (of shares, credit or say) and makes it stick. Your part rests on going along, not on being made afraid or being shortchanged. It is not rank (Status), acceptance (Belonging), deference for what you bring (Prestige), the return on help (Reciprocity) or the cost of showing yourself (DivsExp). A respected leader, or a settled order you accept, leaves it high; a member you must appease, or one who grabs and gets away with it, lowers it.",
+    "description": "How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear, or takes more than the group's own reckoning gives them (of shares, credit or say) and makes it stick. You go along of your own accord, unafraid and not shortchanged. It is not rank (Status), acceptance (Belonging), deference for what you bring (Prestige), the return on help (Reciprocity), whether others do their part of the work (OutResp) or the cost of showing yourself (DivsExp). A respected leader, a settled order you accept, or the group together pulling up a breach of its ways leaves it high; a member you must appease, or one who grabs and gets away with it, lowers it.",
     "anchors": {
-     "10": "No one in the group can make you do or drop anything by force or threat, and no one takes more than their due and keeps it. You move, take your share and go about your business in the strongest member's presence as freely as in anyone's.",
-     "1": "One or a few members make you comply through force or fear, or take more than their due and keep it. You watch them warily, fall quiet when they come near, and let them have what they want to head off their anger."
+     "10": "No member or clique can make you do or drop anything by force or threat, and no one takes more than their due and keeps it. You move, take your share and go about your business in the strongest member's presence as freely as in anyone's.",
+     "1": "One or a few members make you comply through force or fear, or take more than their due and keep it. You watch them warily, fall quiet when they come near, and let them have what they want to head off their anger, or because objecting gets you nowhere."
     },
     "effect_timing": null,
     "effect_on_other_pillars": null,
@@ -463,6 +501,42 @@
        }
       },
       "why": "Two exclusion labels misstate their targets. 'skill (Prestige)' names an attribute that GrpProsp also counts (members' skill); Prestige is the free deference drawn for what one brings, not skill itself. 'liking (Belonging)' departs from Belonging's own text, which is acceptance (being wanted, drawn in). Rest agrees with Status, Reciprocity and DivsExp and with the levelling literature (Boehm's reverse dominance hierarchy)."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear, or takes more than the group's own reckoning gives them (of shares, credit or say) and makes it stick. Your part rests on going along, not on being made afraid or being shortchanged. It is not rank (Status), acceptance (Belonging), deference for what you bring (Prestige), the return on help (Reciprocity) or the cost of showing yourself (DivsExp). A respected leader, or a settled order you accept, leaves it high; a member you must appease, or one who grabs and gets away with it, lowers it.",
+       "anchors": {
+        "10": "No one in the group can make you do or drop anything by force or threat, and no one takes more than their due and keeps it. You move, take your share and go about your business in the strongest member's presence as freely as in anyone's.",
+        "1": "One or a few members make you comply through force or fear, or take more than their due and keep it. You watch them warily, fall quiet when they come near, and let them have what they want to head off their anger."
+       }
+      },
+      "why": "The shares clause ('takes more than the group's own reckoning gives them') can be read to cover free-riding, where a member draws a full share and does not do their part. OutResp claims that ground, and with the new card E:OutResp->Levelling (No passengers) linking the two, the overlap counts twice. The exclusion list names every neighbour except OutResp. Smallest fix: add OutResp to the list. The rest fits the literature on reverse dominance and dominance against prestige (Boehm; Henrich and Gil-White) and agrees with the Status, Reciprocity and DivsExp boundaries."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear, or takes more than the group's own reckoning gives them (of shares, credit or say) and makes it stick. Your part rests on going along, not on being made afraid or being shortchanged. It is not rank (Status), acceptance (Belonging), deference for what you bring (Prestige), the return on help (Reciprocity), whether others do their part of the work (OutResp) or the cost of showing yourself (DivsExp). A respected leader, or a settled order you accept, leaves it high; a member you must appease, or one who grabs and gets away with it, lowers it.",
+       "anchors": {
+        "10": "No one in the group can make you do or drop anything by force or threat, and no one takes more than their due and keeps it. You move, take your share and go about your business in the strongest member's presence as freely as in anyone's.",
+        "1": "One or a few members make you comply through force or fear, or take more than their due and keep it. You watch them warily, fall quiet when they come near, and let them have what they want to head off their anger."
+       }
+      },
+      "why": "The description has two branches: being made to comply by force or fear, and someone grabbing more than their due and making it stick. Anchor 1 states both, but every behavioural cue it gives (watching warily, falling quiet, appeasing to head off anger) reads only the fear branch. A member facing a grabber they do not fear, who simply cannot get the grab undone, has no cue to read, so raters will tend to score grabbing as milder than coercion. Boehm's account of reverse dominance treats both bullying and hoarding as the upstart behaviour that levelling suppresses, so the anchor should cover both. The smallest fix adds one cue for the grab branch. The description, anchor 10 and all boundary clauses agree with Status, OutResp, Reciprocity, Belonging, Prestige and DivsExp and stay as they are."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear, or takes more than the group's own reckoning gives them (of shares, credit or say) and makes it stick. Your part rests on going along, not on being made afraid or being shortchanged. It is not rank (Status), acceptance (Belonging), deference for what you bring (Prestige), the return on help (Reciprocity), whether others do their part of the work (OutResp) or the cost of showing yourself (DivsExp). A respected leader, or a settled order you accept, leaves it high; a member you must appease, or one who grabs and gets away with it, lowers it.",
+       "anchors": {
+        "10": "No one in the group can make you do or drop anything by force or threat, and no one takes more than their due and keeps it. You move, take your share and go about your business in the strongest member's presence as freely as in anyone's.",
+        "1": "One or a few members make you comply through force or fear, or take more than their due and keep it. You watch them warily, fall quiet when they come near, and let them have what they want to head off their anger, or because objecting gets you nowhere."
+       }
+      },
+      "why": "Anchor 10 says no one in the group can make you do or drop anything by force or threat. Read literally, it cannot be met in any group that enforces its ways, because collective sanctions such as mockery, a cold shoulder or shutting a member out (the pulling up named under NormExp) are threats. In Boehm's account of reverse dominance hierarchy, the group's collective sanction of upstarts is what keeps levelling high, so group-wide enforcement should leave it high. Only domination by one member or a clique should lower it. The body also leaves this ground unclaimed and says nothing about it, and anchor 1 already limits the threat to 'one or a few members'. Separately, 'Your part rests on going along' borrows OutResp's 'their part' wording and can be misread as conformity. Smallest fix: say that the group pulling up a breach together leaves the perception high, limit anchor 10 to a member or clique, and replace the 'your part' sentence."
      }
     ],
     "plain_name": "Fair Footing",
@@ -694,6 +768,9 @@
      ]
     },
     "plain_name": "Belonging",
+    "elaboration_notes": [
+     "Elaboration: when low Belonging comes from being shut out, the reaction may carry hostility towards those who did it, even with no one watching (rejected people turn aggressive towards the rejecters and towards neutral others: Twenge, Baumeister, Tice and Stucke 2001). The hostility belongs in the elaboration, not on a card. When the exclusion is public and reads as a slight to her good name, the Reputation expansion carries the flare and the urge to hit back."
+    ],
     "short": "Belonging",
     "tag": "being wanted among them"
    },
@@ -925,7 +1002,7 @@
    "name": "Friends at my back",
    "increment_logic": "When I feel the others want me among them, I sense they would close round me if anyone tried to push me about, and my sense that no one can lord it over me rises.",
    "decrement_logic": "When gatherings form without me and no one seeks me out, I feel I would stand alone if someone pushed me about, and my sense that no one can lord it over me falls.",
-   "explanation": "Felt protection from domination rests on expected coalitional support, and being bonded into the group is the felt basis of that expectation; an isolated member is exposed.",
+   "explanation": "Felt protection from domination rests on expected coalitional support, and being bonded into the group is the felt basis of that expectation; an isolated member is exposed. Elaboration: when the low reading comes from being shut out, her reaction may show hostility, aimed readily at whoever crosses her next, even someone who had no part in it, and withheld only from those who treat her warmly (Twenge, Baumeister, Tice and Stucke 2001); if the exclusion is public and reads as a slight to her good name, the Reputation expansion carries that flare.",
    "pre_language": {
     "increment": "When others seek her out and groom her, she faces a swaggering member without shrinking, expecting her companions to come to her side, and her sense of no bully rises.",
     "decrement": "When others leave her on her own, she shrinks when a forceful member nears, with no one to run to, and her sense of no bully sinks."
@@ -954,6 +1031,12 @@
      "claim": "Builds on Schino's earlier meta-analysis showing grooming is exchanged for agonistic support.",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2412934",
      "verified": "searched"
+    },
+    {
+     "source": "Twenge, Baumeister, Tice and Stucke, 2001, If you can't join them, beat them: effects of social exclusion on aggressive behavior, JPSP 81",
+     "claim": "Social exclusion raises aggression towards those who rejected the person and towards neutral others.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11761304/",
+     "verified": "model knowledge; not yet checked by search"
     }
    ],
    "confidence": "medium",
@@ -983,7 +1066,19 @@
     "votes": 4,
     "none_votes": 0,
     "logic": "pass"
-   }
+   },
+   "edits_log": [
+    "Ben, 5 Nov 2026, 12.08 pm (\"Add the elaboration re hostility\"): elaboration note on hostility after exclusion added to the explanation",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and mechanism pass: both lines match the Belonging anchors and Levelling as it rises and falls, stay off Status, Prestige and OutResp ground, and the coalitional-support reading agrees with reverse dominance hierarchy (Boehm) and with friendship protecting against victimisation (Hodges, Boivin, Vitaro and Bukowski 1999). No duplicate: E:Engagement->Levelling uses a different source. The elaboration misstates Twenge, Baumeister, Tice and Stucke (2001): their excluded participants never aggressed against the people who excluded them; they were more aggressive towards someone who insulted them and towards a neutral stranger, and less so only towards someone who praised them. The hostility is displaced, so 'towards those who did it' goes beyond the finding. The fix narrows the clause to what the study shows."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel the others want me among them, I sense they would close round me if anyone tried to push me about, and my sense that no one can lord it over me rises.",
+     "decrement_logic": "When gatherings form without me and no one seeks me out, I feel I would stand alone if someone pushed me about, and my sense that no one can lord it over me falls.",
+     "explanation": "Felt protection from domination rests on expected coalitional support, and being bonded into the group is the felt basis of that expectation; an isolated member is exposed. Elaboration: when the low reading comes from being shut out, her reaction may show hostility towards those who did it (Twenge, Baumeister, Tice and Stucke 2001); if the exclusion is public and reads as a slight to her good name, the Reputation expansion carries that flare."
+    }
+   ]
   },
   {
    "id": "E:Belonging->Reciprocity",
@@ -1293,7 +1388,7 @@
    "name": "No cover-ups",
    "increment_logic": "When I feel safe to let my own slips show, I take it that no one here needs to dress up a report, so when a member says a part is done I take it as done and leave it in their hands: my confidence that they will do their part rises.",
    "decrement_logic": "When I brace and mask my own slips, I take it that the others dress up their reports as I would, so 'done' no longer means done and I check what they say they have finished: my confidence that they will do their part falls.",
-   "explanation": "Where showing a slip draws a put-down, members cover their shortfalls, and whether problems are raised depends on felt safety (Edmondson 1999), so a report that work is done cannot be taken at face value. Caution: units with more openness report more errors (Edmondson 1996), so in a safe group she also hears of more slips. The card holds because what moves OutResp here is whether reports can be trusted, not how many slips she hears of; a run of owned and fixed slips reads as reliability, a run of unfixed ones belongs on an OutResp evidence card. The step from her own safety to her reading of others' reports is a proposal; keep it modest.",
+   "explanation": "Where showing a slip draws a put-down, members cover their shortfalls, and whether problems are raised depends on felt safety (Edmondson 1999), so a report that work is done cannot be taken at face value. Caution: units with more openness report more errors (Edmondson 1996), so in a safe group she also hears of more slips. The card still holds, because OutResp moves here with whether reports can be trusted; the count of slips she hears of is a separate matter. A run of owned and fixed slips reads as reliability, and a run of unfixed ones belongs on an OutResp evidence card. The step from her own safety to her reading of others' reports is a proposal; keep it modest.",
    "pre_language": {
     "increment": "When she is loose among them and shows her own fumbles, she leaves a shared task in another's hands and turns away without looking back.",
     "decrement": "When she is braced and hides her own fumbles, she keeps glancing back at a shared task left with another, and goes over it herself."
@@ -1332,7 +1427,8 @@
    },
    "edits_log": [
     "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines stop at the behaviour (leaving work unchecked, checking up) and never close on what she then feels about the others' reliability, as the card style requires. Source and target readings, type and mechanism are sound: where slips draw a put-down, errors are concealed and reports cannot be taken on trust (Edmondson 1996, 1999). Smallest fix adds the felt ending only.",
-    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): The old route ('I sense the others would own up too') is a projection with no support, and the error-reporting evidence could push the other way; the revised route runs through trustworthy reports."
+    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): The old route ('I sense the others would own up too') is a projection with no support, and the error-reporting evidence could push the other way; the revised route runs through trustworthy reports.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both definitions and stay inside OutResp (whether 'done' holds is keeping one's word). Edmondson 1996 and 1999 are cited correctly. The only fault is in the explanation: 'whether reports can be trusted, not how many slips she hears of' is a not-X-but-Y contrast, which the project prose style forbids. Smallest fix below. The framework field is null and could take 'Psychological safety (Edmondson 1999); error reporting and openness (Edmondson 1996)'."
    ],
    "ripple_was": [
     {
@@ -1340,6 +1436,12 @@
      "increment_logic": "When I feel safe to let my own slips show, I sense the others would own up to theirs too, and I leave work in their hands without checking.",
      "decrement_logic": "When I brace and mask my own slips, I sense the others are hiding theirs, and I check up on what they say they have done.",
      "explanation": "Where showing a slip draws a put-down, members cover their shortfalls, so a report that work is done cannot be taken on trust. A member's own felt safety is her read of whether that pressure to cover up bears on the others too."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel safe to let my own slips show, I take it that no one here needs to dress up a report, so when a member says a part is done I take it as done and leave it in their hands: my confidence that they will do their part rises.",
+     "decrement_logic": "When I brace and mask my own slips, I take it that the others dress up their reports as I would, so 'done' no longer means done and I check what they say they have finished: my confidence that they will do their part falls.",
+     "explanation": "Where showing a slip draws a put-down, members cover their shortfalls, and whether problems are raised depends on felt safety (Edmondson 1999), so a report that work is done cannot be taken at face value. Caution: units with more openness report more errors (Edmondson 1996), so in a safe group she also hears of more slips. The card holds because what moves OutResp here is whether reports can be trusted, not how many slips she hears of; a run of owned and fixed slips reads as reliability, a run of unfixed ones belongs on an OutResp evidence card. The step from her own safety to her reading of others' reports is a proposal; keep it modest."
     }
    ],
    "sources": [
@@ -1378,8 +1480,8 @@
    "type": "Reinforce",
    "name": "Need shown, need met",
    "increment_logic": "When I feel safe to let a need show, I let it show, and seeing it met I feel surer that what I put into this group comes back.",
-   "decrement_logic": "When I brace and keep even a plain need masked, it goes unmet, and I feel that what I give here does not come back.",
-   "explanation": "Felt safety lets a member show her needs, and the help that answers them confirms the return; a braced member hides them, gets nothing, and reads the group as one that does not pay back what she puts in. People underestimate how readily others help when asked directly (Flynn and Lake), so a member who shows a need is met more often than she expects, and one who masks it never finds out.",
+   "decrement_logic": "When I brace and keep my needs masked, I only hint at them; the hints go unnoticed and nothing comes, and I read the silence as a refusal: my sense that help in this group comes back falls.",
+   "explanation": "Felt safety lets a member show her needs, and the help that answers them confirms the return. A braced member only hints at hers. People overrate how plainly others can read their inner states (illusion of transparency: Gilovich, Savitsky and Medvec 1998), so she takes her hint as a request, sees nothing come, and reads the silence as a refusal. People also underestimate how readily others help when asked directly (Flynn and Lake 2008), so a member who shows a need is met more often than she expects, while one who masks it never learns her estimate was too low. Both findings come from studies of strangers and pairs; carrying them into a standing group is an extension, so keep both steps modest, and keep the decrement small where she has not hinted at a need at all.",
    "pre_language": {
     "increment": "When she is loose among them, she whimpers or reaches when hungry or hurt, is given to, and her sense that giving comes back grows.",
     "decrement": "When she is braced, she hides her hunger or hurt, is given nothing, and her sense that giving comes back sinks."
@@ -1432,7 +1534,9 @@
    ],
    "edits_log": [
     "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): Adds a checked source for the card's step.",
-    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): Framework is null though the explanation rests on Flynn and Lake."
+    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): Framework is null though the explanation rests on Flynn and Lake.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Decrement line: a need she never shows has not been refused, so 'it goes unmet' does not by itself show that what she gives fails to come back. As written the line reads a non-event as evidence of non-return. Flynn and Lake (2008) back a different mechanism: people underestimate how readily others help, so a member who masks her needs never sees the help that would correct her pessimism, and her reading drifts down with nothing to hold it up. The fix rests the line on that. Flynn and Lake studied requests to strangers, so the explanation should flag the step to a group as an extension. The increment line passes. It leans on an observed outcome (the need met), which edges towards an evidence card, but it is acceptable as the immediate result of showing the need.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement lowers Reciprocity on an absence of evidence (no need shown, so no help seen), but the Reciprocity definition says the reading holds until evidence moves it; a need never voiced and never met is no evidence that help fails to come back. The masked member needs a felt event that reads as non-return. The illusion of transparency (Gilovich, Savitsky and Medvec 1998) supplies one: she half-shows the need, overrates how plainly it shows, and reads the others' failure to answer as a refusal."
    ],
    "framework": "Underestimating compliance with direct requests for help (Flynn and Lake 2008).",
    "critique_was": [
@@ -1442,6 +1546,20 @@
      "decrement_logic": "When I brace and keep even a plain need masked, it goes unmet, and I feel that what I give here does not come back.",
      "explanation": "Felt safety lets a member show her needs, and the help that answers them confirms the return; a braced member hides them, gets nothing, and reads the group as one that does not pay back what she puts in. People underestimate how readily others help when asked directly (Flynn and Lake), so a member who shows a need is met more often than she expects, and one who masks it never finds out.",
      "framework": null
+    }
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel safe to let a need show, I let it show, and seeing it met I feel surer that what I put into this group comes back.",
+     "decrement_logic": "When I brace and keep even a plain need masked, it goes unmet, and I feel that what I give here does not come back.",
+     "explanation": "Felt safety lets a member show her needs, and the help that answers them confirms the return; a braced member hides them, gets nothing, and reads the group as one that does not pay back what she puts in. People underestimate how readily others help when asked directly (Flynn and Lake), so a member who shows a need is met more often than she expects, and one who masks it never finds out."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel safe to let a need show, I let it show, and seeing it met I feel surer that what I put into this group comes back.",
+     "decrement_logic": "When I brace and keep even a plain need masked, no one hears of it to meet it, and I never see the help that would have come; I am left with nothing to show that what I put in here comes back: my sense that help in this group returns falls.",
+     "explanation": "Felt safety lets a member show her needs, and the help that answers them confirms the return. A braced member hides them, never sees them met, and is left with no sign that the group pays back what she puts in. People underestimate how readily others help when asked directly (Flynn and Lake 2008), so a member who shows a need is met more often than she expects, while one who masks it never learns her estimate was too low. Flynn and Lake studied requests to strangers; carrying the finding into a standing group is an extension, so keep both steps modest."
     }
    ]
   },
@@ -1666,7 +1784,7 @@
    "name": "Inside the coalition",
    "increment_logic": "When this group is part of who I am, it feels like ours to defend, and I feel ready to stand with the rest against anyone who throws their weight about; a forceful member no longer looks able to make me do or drop anything, or to take more than their due and keep it: my sense that no one here can set themselves over me rises.",
    "decrement_logic": "When I have drawn back and am on my way out of this group, it no longer feels worth a stand, and I would sooner keep my head down than face anyone down; a forceful member looms larger and I give way to their mood: my sense that no one here can set themselves over me falls.",
-   "explanation": "In forager bands, the absence of a bully rests on a levelling coalition of the rest, ready to check a would-be dominant (Boehm 1993). Feeling free of coercion therefore depends partly on her own readiness to join that check. Commitment to a group raises the will to speak up and resist when things go wrong, while low commitment turns members towards exit or silent neglect (Hirschman 1970; Rusbult and colleagues 1988). When Engagement is high the group feels like hers to defend, so a forceful member feels unable to make her comply. When it is low nothing here seems worth a stand, and the same forcefulness feels like a threat she must appease. Whether the others would back her is a separate matter, carried by Friends at my back (Belonging). Levelling here is her own felt exposure to force or fear, and leaves aside whether she likes or rates the forceful member.",
+   "explanation": "In forager bands, the absence of a bully rests on a levelling coalition of the rest, ready to check a would-be dominant (Boehm 1993). Feeling free of coercion therefore depends partly on her own readiness to join that check. Commitment to a group raises the will to speak up and resist when things go wrong, while low commitment turns members towards exit or silent neglect (Hirschman 1970; Rusbult and colleagues 1988). When Engagement is high the group feels like hers to defend, so a forceful member feels unable to make her comply. When it is low nothing here seems worth a stand, and the same forcefulness feels like a threat she must appease. Caution: a member with somewhere else to go depends less on the group, and dependence is what gives others power over her (Emerson 1962), so set the decrement small or nil where her exit is ready and cheap. Whether the others would back her is a separate matter, carried by Friends at my back (Belonging). Levelling here is her own felt exposure to force or fear, and leaves aside whether she likes or rates the forceful member.",
    "pre_language": {
     "increment": "Drawn into the band, she stands among the others when a forceful member swaggers, feels them at her side and goes on with her business. Her sense that no one can push her about rises.",
     "decrement": "Pulled to the band's edge, she watches the forceful member warily, goes still when it comes near and gives way, feeling no one at her back. Her sense that no one can push her about falls."
@@ -1711,7 +1829,8 @@
     "logic": "pass"
    },
    "edits_log": [
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Duplicates E:Belonging->Levelling (Friends at my back). Both lines rest on whether others would rally to her ('no one would rally to me', 'at its edge'), and the primate evidence (support goes to close, central affiliates) is about being backed by others. That is Belonging's ground: whether others want her and draw her in. Engagement is her own investment, so the card should rest on her own readiness to stand up against a would-be dominant. The lines also leave out the half of Levelling about taking more than one's due."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Duplicates E:Belonging->Levelling (Friends at my back). Both lines rest on whether others would rally to her ('no one would rally to me', 'at its edge'), and the primate evidence (support goes to close, central affiliates) is about being backed by others. That is Belonging's ground: whether others want her and draw her in. Engagement is her own investment, so the card should rest on her own readiness to stand up against a would-be dominant. The lines also leave out the half of Levelling about taking more than one's due.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement omits a known counter-mechanism. Under power-dependence theory (Emerson 1962), a member with a ready exit depends less on the group and so is harder to coerce; a member on her way out may shrug off a forceful member's temper instead of appeasing it. The direction can stand, since low commitment does run to silence and neglect (Rusbult and colleagues 1988), but the explanation should bound the decrement."
    ],
    "ripple_was": [
     {
@@ -1719,6 +1838,12 @@
      "increment_logic": "When this group is part of who I am, I feel myself one of the many who would stand together, and a forceful member no longer looks able to make me do or drop anything: my sense that no one here can coerce me rises.",
      "decrement_logic": "When I have drawn back and am on my way out of this group, I feel myself at its edge where no one would rally to me, and a forceful member looms larger: I grow wary of their mood, and my sense that no one here can coerce me falls.",
      "explanation": "In forager bands, the absence of a bully rests on a levelling coalition of the rest, ready to check a would-be dominant (Boehm 1993). Feeling free of coercion therefore depends partly on feeling yourself inside that coalition. Among primates, coalitionary support goes mostly to close and central affiliates, while peripheral individuals are left exposed (de Waal; Silk). When Engagement is high she feels herself among those who would stand together, so a forceful member feels unable to make her comply. When it is low she feels like an edge member nobody would back, and the same forcefulness feels like a threat she must appease. Levelling here is her own felt exposure to force or fear, read through the coalition, not whether she likes or rates the forceful member."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When this group is part of who I am, it feels like ours to defend, and I feel ready to stand with the rest against anyone who throws their weight about; a forceful member no longer looks able to make me do or drop anything, or to take more than their due and keep it: my sense that no one here can set themselves over me rises.",
+     "decrement_logic": "When I have drawn back and am on my way out of this group, it no longer feels worth a stand, and I would sooner keep my head down than face anyone down; a forceful member looms larger and I give way to their mood: my sense that no one here can set themselves over me falls.",
+     "explanation": "In forager bands, the absence of a bully rests on a levelling coalition of the rest, ready to check a would-be dominant (Boehm 1993). Feeling free of coercion therefore depends partly on her own readiness to join that check. Commitment to a group raises the will to speak up and resist when things go wrong, while low commitment turns members towards exit or silent neglect (Hirschman 1970; Rusbult and colleagues 1988). When Engagement is high the group feels like hers to defend, so a forceful member feels unable to make her comply. When it is low nothing here seems worth a stand, and the same forcefulness feels like a threat she must appease. Whether the others would back her is a separate matter, carried by Friends at my back (Belonging). Levelling here is her own felt exposure to force or fear, and leaves aside whether she likes or rates the forceful member."
     }
    ]
   },
@@ -1880,7 +2005,7 @@
    "name": "Circle the Wagons",
    "increment_logic": null,
    "decrement_logic": null,
-   "explanation": "Whether the venture's prospects draw the others round her depends on where the trouble is seen to come from. Circumstance one (the default), the trouble is seen as inside the group or no source is named. HIGH: the venture going well, the others are easy with each other and with her, make room and draw her in, so her Belonging rises (runs as Reinforce). LOW: the venture failing, heads turn to who is dragging, small cliques form, and she is left at the edge of the talk, so her Belonging falls. Circumstance two, the trouble is seen as coming from outside (a rival group, an outside body, bad luck that hit them all). LOW: the others close ranks against it and draw her in as one of us, so her Belonging rises (runs as Inverse). HIGH: with no outside pressure the huddle loosens and her place returns to its ordinary level, so her Belonging eases. Newcomers gain least from the outside-threat branch and lose most in the inside branch.",
+   "explanation": "Whether the venture's prospects draw the others round her depends on where the trouble is seen to come from. Circumstance one (the default), the trouble is seen as inside the group or no source is named. HIGH: the venture going well, the others are easy with each other and with her, make room and draw her in, so her Belonging rises (runs as Reinforce). LOW: the venture failing, heads turn to who is dragging, small cliques form, and she is left at the edge of the talk, so her Belonging falls. Circumstance two, the trouble is seen as coming from outside (a rival group, an outside body, a setback from outside such as lost funding or a forced change of ground), and the group still sees a fight worth making. LOW: the others close ranks against it and draw her in as one of us, so her Belonging rises (runs as Inverse). HIGH: the outside threat looks easily met, the huddle loosens and her place returns to its ordinary level, so her Belonging eases. External threat binds a group only when it falls on all of them and a joint effort seems able to meet it (Stein 1976); where the venture looks hopeless, run circumstance one. Newcomers gain least from the outside-threat branch and lose most in the inside branch.",
    "pre_language": {
     "explanation": "Where the band huddles when things go badly and she is still half an outsider, a faltering venture has them gathering close and pulling her in among them, while a venture going well lets them drift back to leaving her on the edge. Where the band turns on whoever seems to drag, a faltering venture may leave her at the edge, while a venture going well sees them make room for her again."
    },
@@ -1951,7 +2076,9 @@
    ],
    "edits_log": [
     "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): The present circumstance (her settledness) is not what the literature turns on, and the cited 'stage B review' cannot be checked. Performance feeds cohesion more than the reverse, and threat binds a group only when it is seen as coming from outside; threat from inside undermines it.",
-    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): Framework is null; both branches have checked support, and Stein's conditionality justifies the Discretionary type."
+    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): Framework is null; both branches have checked support, and Stein's conditionality justifies the Discretionary type.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Two faults in circumstance two. (a) 'Bad luck that hit them all' is given as an outside source of trouble, but GrpProsp excludes luck by definition, so luck alone should not move the source; the example needs to be a setback that cuts the group's capability. (b) Stein (1976) finds that external conflict raises cohesion only when the threat hits the whole group and the group believes a joint effort can meet it; where the threat looks hopeless, groups tend to fragment. At the bottom of GrpProsp (sure the venture cannot be pulled off), the close-ranks branch is the case Stein says fails. The circumstance needs that limit. Circumstance one and Mullen and Copper (1994) pass.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Circumstance two is defined as trouble seen as coming from outside, yet its HIGH branch says 'with no outside pressure', which contradicts the circumstance. The HIGH branch should describe the outside threat looking easily met while it remains."
    ],
    "framework": "Performance to cohesion (Mullen and Copper 1994); external conflict and internal cohesion, conditional (Stein 1976).",
    "critique_was": [
@@ -1961,6 +2088,20 @@
      "decrement_logic": null,
      "explanation": "Whether the venture's prospects draw the others round her depends on where the trouble is seen to come from. Circumstance one (the default), the trouble is seen as inside the group or no source is named. HIGH: the venture going well, the others are easy with each other and with her, make room and draw her in, so her Belonging rises (runs as Reinforce). LOW: the venture failing, heads turn to who is dragging, small cliques form, and she is left at the edge of the talk, so her Belonging falls. Circumstance two, the trouble is seen as coming from outside (a rival group, an outside body, bad luck that hit them all). LOW: the others close ranks against it and draw her in as one of us, so her Belonging rises (runs as Inverse). HIGH: with no outside pressure the huddle loosens and her place returns to its ordinary level, so her Belonging eases. Newcomers gain least from the outside-threat branch and lose most in the inside branch.",
      "framework": null
+    }
+   ],
+   "ripple_was": [
+    {
+     "type": "Discretionary",
+     "increment_logic": null,
+     "decrement_logic": null,
+     "explanation": "Whether the venture's prospects draw the others round her depends on where the trouble is seen to come from. Circumstance one (the default), the trouble is seen as inside the group or no source is named. HIGH: the venture going well, the others are easy with each other and with her, make room and draw her in, so her Belonging rises (runs as Reinforce). LOW: the venture failing, heads turn to who is dragging, small cliques form, and she is left at the edge of the talk, so her Belonging falls. Circumstance two, the trouble is seen as coming from outside (a rival group, an outside body, bad luck that hit them all). LOW: the others close ranks against it and draw her in as one of us, so her Belonging rises (runs as Inverse). HIGH: with no outside pressure the huddle loosens and her place returns to its ordinary level, so her Belonging eases. Newcomers gain least from the outside-threat branch and lose most in the inside branch."
+    },
+    {
+     "type": "Discretionary",
+     "increment_logic": null,
+     "decrement_logic": null,
+     "explanation": "Whether the venture's prospects draw the others round her depends on where the trouble is seen to come from. Circumstance one (the default), the trouble is seen as inside the group or no source is named. HIGH: the venture going well, the others are easy with each other and with her, make room and draw her in, so her Belonging rises (runs as Reinforce). LOW: the venture failing, heads turn to who is dragging, small cliques form, and she is left at the edge of the talk, so her Belonging falls. Circumstance two, the trouble is seen as coming from outside (a rival group, an outside body, a setback from outside such as lost funding or a forced change of ground), and the group still sees a fight worth making. LOW: the others close ranks against it and draw her in as one of us, so her Belonging rises (runs as Inverse). HIGH: with no outside pressure the huddle loosens and her place returns to its ordinary level, so her Belonging eases. External threat binds a group only when it falls on all of them and a joint effort seems able to meet it (Stein 1976); where the venture looks hopeless, run circumstance one. Newcomers gain least from the outside-threat branch and lose most in the inside branch."
     }
    ]
   },
@@ -1973,11 +2114,11 @@
    "continuum": "ECP",
    "source": "GrpProsp",
    "target": "DivsExp",
-   "type": "Discretionary",
+   "type": "Reinforce",
    "name": "Stakes tighten or loosen",
-   "increment_logic": null,
-   "decrement_logic": null,
-   "explanation": "A change in the venture's prospects changes how much seems to hang on each member's showing; the circumstance that sets the direction on the low side is whether this group meets trouble by looking at what to change or at who is at fault. Circumstance one, the group looks at what to change. HIGH: the rowing crew's season looks won, there is slack, and a doubt about the stroke is heard as a refinement rather than a threat; she lets it show, so her DivsExp holds or rises a little. LOW: the season looks lost, they gather round to find a new way, and she lets her tiredness and her doubts about the stroke show, expecting no jeer, so her DivsExp rises. Circumstance two, the group looks for who is at fault. HIGH: with the season going well no one is hunting for a culprit, a slip passes without remark, and she lets her moods and doubts show, so her DivsExp rises. LOW: the same failing season, heads turn to find who is slacking, and she masks her tiredness and keeps her disagreement hidden, braced for blame, so her DivsExp falls. Under threat, groups narrow and centralise (Staw, Sandelands and Dutton 1981), which is the circumstance-two low branch; where the group treats trouble as something to learn from, safety supports raising it (Edmondson 1999). I found no evidence that rising confidence makes members less safe to show doubt, so the earlier high branch of circumstance one (a doubt reads as rocking the boat) is dropped.",
+   "increment_logic": "When I feel sure the group can pull off the venture, no one is hunting for whose slip will cost us, so a slip passes without remark and I let my tiredness, moods and doubts show, expecting no one to pounce: my sense that I can show myself here without cost rises.",
+   "decrement_logic": "When I feel the venture is beyond us, I feel heads turning to find who is dragging us down, so I mask my tiredness and keep my doubts and disagreements hidden, braced for blame: my sense that I can show myself here without cost falls.",
+   "explanation": "A change in the venture's prospects changes how much seems to hang on each member's showing. With the rowing crew's season looking won there is slack, no one hunts for a culprit, and a doubt about the stroke passes as a refinement. With the season looking lost, heads turn to find who is slacking and she masks her tiredness, braced for blame. Under threat, groups narrow, centralise and tighten control (Staw, Sandelands and Dutton 1981). Where a group meets trouble by looking at what to change rather than at who is at fault, felt safety holds up (Edmondson 1999), so set the decrement small or nil there. Caution on the high side: in a tight-knit group whose confidence has hardened into a sense that it cannot fail, a doubt about the plan itself can draw pressure to keep quiet (groupthink: Janis 1972; support mixed, Esser 1998), so set the increment small for disagreement in such a group. The card runs as Reinforce; no reverse effect is strong enough to make it Discretionary.",
    "pre_language": {
     "explanation": "Where the band's way is to try other ways when things go badly, a faltering venture draws them together and she shows her moods and fumbles freely, while a venture going well has them guarding what works and she keeps her fumbles hidden, bracing a little. Where the band's way is to turn on one another, a faltering venture makes her go still, watch faces and mask her reactions, while a venture going well leaves no one turning on anyone and she moves unguarded again."
    },
@@ -2043,7 +2184,9 @@
    },
    "edits_log": [
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): In circumstance one HIGH, 'she keeps it to herself' describes whether she speaks up, which the DivsExp definition excludes. The fall needs to rest on what she expects showing herself to cost her.",
-    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): The HIGH-lowers-safety branch had no support; threat, not success, narrows groups."
+    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): The HIGH-lowers-safety branch had no support; threat, not success, narrows groups.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Circumstance one has no direction. Once its old high branch was dropped, DivsExp holds or rises when GrpProsp is high and rises when it is low, so the source no longer sets the movement; the group's learning climate does. That fits neither Reinforce nor Inverse, and a Discretionary card needs each circumstance to run one way or the other. Circumstance two (high raises, low lowers) is the only directional branch, and it is the one the literature supports (threat rigidity: Staw, Sandelands and Dutton 1981). Smallest coherent fix: retype as Reinforce on circumstance two's lines, and keep the learning-oriented group as a damper on the fall (Edmondson 1999). The claim that a failing venture raises safety in such groups lacks support and shows the climate at work rather than GrpProsp, so it is dropped. The lines below stay on felt cost and avoid whether she speaks up.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation's closing sentence claims no evidence that rising confidence makes members less safe to show doubt. Groupthink theory (Janis 1972) holds that a cohesive group's illusion of invulnerability brings direct pressure on dissenters and self-censorship, though empirical support is mixed (Esser 1998). The sentence also refers to an earlier version of the card, which does not belong in the card text. The lines and type stand; the explanation needs a bounded caution instead."
    ],
    "ripple_was": [
     {
@@ -2051,6 +2194,18 @@
      "increment_logic": null,
      "decrement_logic": null,
      "explanation": "A change in the venture's prospects changes how much seems to hang on each member's showing; the circumstance that sets the direction is whether this group meets its prospects by looking at what to change or at who is at fault. Circumstance one, the group looks at what to change. HIGH: the rowing crew's season looks won, talk turns from fixing the stroke to keeping the winning run intact, and a doubt now reads as rocking the boat; she keeps it to herself, so her DivsExp falls. LOW: the season looks lost, they gather round to find a new way, and she lets her tiredness and her doubts about the stroke show, expecting no jeer, so her DivsExp rises. Circumstance two, the group looks for who is at fault. HIGH: with the season going well no one is hunting for a culprit, a slip passes without remark, and she lets her moods and doubts show, so her DivsExp rises. LOW: the same failing season, heads turn to find who is slacking, and she masks her tiredness and keeps her disagreement to herself, so her DivsExp falls."
+    },
+    {
+     "type": "Discretionary",
+     "increment_logic": null,
+     "decrement_logic": null,
+     "explanation": "A change in the venture's prospects changes how much seems to hang on each member's showing; the circumstance that sets the direction on the low side is whether this group meets trouble by looking at what to change or at who is at fault. Circumstance one, the group looks at what to change. HIGH: the rowing crew's season looks won, there is slack, and a doubt about the stroke is heard as a refinement rather than a threat; she lets it show, so her DivsExp holds or rises a little. LOW: the season looks lost, they gather round to find a new way, and she lets her tiredness and her doubts about the stroke show, expecting no jeer, so her DivsExp rises. Circumstance two, the group looks for who is at fault. HIGH: with the season going well no one is hunting for a culprit, a slip passes without remark, and she lets her moods and doubts show, so her DivsExp rises. LOW: the same failing season, heads turn to find who is slacking, and she masks her tiredness and keeps her disagreement hidden, braced for blame, so her DivsExp falls. Under threat, groups narrow and centralise (Staw, Sandelands and Dutton 1981), which is the circumstance-two low branch; where the group treats trouble as something to learn from, safety supports raising it (Edmondson 1999). I found no evidence that rising confidence makes members less safe to show doubt, so the earlier high branch of circumstance one (a doubt reads as rocking the boat) is dropped."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel sure the group can pull off the venture, no one is hunting for whose slip will cost us, so a slip passes without remark and I let my tiredness, moods and doubts show, expecting no one to pounce: my sense that I can show myself here without cost rises.",
+     "decrement_logic": "When I feel the venture is beyond us, I feel heads turning to find who is dragging us down, so I mask my tiredness and keep my doubts and disagreements hidden, braced for blame: my sense that I can show myself here without cost falls.",
+     "explanation": "A change in the venture's prospects changes how much seems to hang on each member's showing. With the rowing crew's season looking won there is slack, no one hunts for a culprit, and a doubt about the stroke passes as a refinement. With the season looking lost, heads turn to find who is slacking and she masks her tiredness, braced for blame. Under threat, groups narrow, centralise and tighten control (Staw, Sandelands and Dutton 1981). Where a group meets trouble by looking at what to change rather than at who is at fault, felt safety holds up (Edmondson 1999), so set the decrement small or nil there. I found no evidence that rising confidence makes members less safe to show doubt, or that a failing venture itself makes them safer, so neither branch is kept; the earlier first circumstance belongs to the group's learning climate, not to GrpProsp."
     }
    ],
    "critique_was": [
@@ -2076,7 +2231,7 @@
    "name": "Failing hunts breed bosses",
    "increment_logic": "When I feel sure the group can pull off the venture, I see no call for anyone to take charge by force or settle things over our heads, and if the strongest starts to drive the pace the rest of us shrug it off; I go about my business beside them without a glance at their mood: my sense that no one here can set themselves over me rises.",
    "decrement_logic": "When I feel the venture is beyond us, I feel the strongest start to drive the rest of us by threat and temper and to settle things without hearing us, and I find myself doing what they want to head off their anger: my sense that no one here can set themselves over me falls.",
-   "explanation": "Under threat of failure, groups centralise control and accept forceful direction (threat rigidity: Staw, Sandelands and Dutton 1981), and would-be dominants meet less resistance. When people feel a loss of control under uncertainty they turn towards dominant rather than prestigious leaders (Kakkar and Sivanathan 2017, over 140,000 participants in 69 countries), so a failing venture lends a would-be dominant the support that would otherwise check him. On the high side, members confident of success see no need for anyone to take charge, so a would-be dominant who tries to drive the pace is shrugged off. Direction that rests on force, or that settles things without a hearing, lowers a member's Levelling; a respected leader simply taking the lead would not. The increment should be modest.",
+   "explanation": "Under threat of failure, groups centralise control and accept forceful direction (threat rigidity: Staw, Sandelands and Dutton 1981), and would-be dominants meet less resistance. When people feel a loss of control under uncertainty they turn towards dominant rather than prestigious leaders (Kakkar and Sivanathan 2017, large cross-national samples from 69 countries; their uncertainty was economic and personal, so its extension to a failing group venture is a proposal). A failing venture may therefore lend a would-be dominant the support that would otherwise check him. On the high side, members confident of success see no need for anyone to take charge, so a would-be dominant who tries to drive the pace is shrugged off. Direction that rests on force, or that settles things without a hearing, lowers a member's Levelling; a respected leader simply taking the lead would not. The increment should be modest.",
    "pre_language": {
     "increment": "When the band's venture is going well, no one shoves or snaps, and if the strongest starts to, the others ignore him; she goes about her business beside him without a glance at his mood, and her sense that no one can push her about rises.",
     "decrement": "When the venture is faltering, the strongest start shoving and snapping, and she goes still near them and does what they want to head off their anger, and her sense that no one can push her about falls."
@@ -2149,7 +2304,8 @@
    },
    "edits_log": [
     "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): Gives the card a checked source beyond threat rigidity.",
-    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): Missing its strongest source; lines updated for the reworded Levelling (being heard)."
+    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): Missing its strongest source; lines updated for the reworded Levelling (being heard).",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both definitions: the decrement rests on threat, temper and settling over heads, which is Levelling ground, and the explanation keeps a respected leader taking the lead off it. Staw, Sandelands and Dutton (1981) is cited correctly. The sample figure for Kakkar and Sivanathan (2017, PNAS) looks wrong. My recollection is about 138,000 participants across 69 countries, which is not 'over 140,000'; I could not check it here. Their uncertainty is also personal economic uncertainty rather than a group venture failing, so the step needs flagging. Fix: drop the unverified figure and mark the extension."
    ],
    "critique_was": [
     {
@@ -2158,6 +2314,14 @@
      "decrement_logic": "When I feel the venture is beyond us, I feel the strongest start to drive the rest of us by threat and temper, and I find myself doing what they want to head off their anger: my sense that no one here can make me do or drop anything by threat falls.",
      "explanation": "Under threat of failure, groups centralise control and accept forceful direction (threat rigidity: Staw, Sandelands and Dutton 1981), and would-be dominants meet less resistance. On the high side, members confident of success see no need for anyone to take charge, so a would-be dominant who tries to drive the pace is shrugged off rather than obeyed. Direction that rests on force rather than going along lowers a member's Levelling; a respected leader simply taking the lead would not. The increment should be modest.",
      "framework": "Threat-rigidity (centralisation of control under threat); crisis leadership"
+    }
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel sure the group can pull off the venture, I see no call for anyone to take charge by force or settle things over our heads, and if the strongest starts to drive the pace the rest of us shrug it off; I go about my business beside them without a glance at their mood: my sense that no one here can set themselves over me rises.",
+     "decrement_logic": "When I feel the venture is beyond us, I feel the strongest start to drive the rest of us by threat and temper and to settle things without hearing us, and I find myself doing what they want to head off their anger: my sense that no one here can set themselves over me falls.",
+     "explanation": "Under threat of failure, groups centralise control and accept forceful direction (threat rigidity: Staw, Sandelands and Dutton 1981), and would-be dominants meet less resistance. When people feel a loss of control under uncertainty they turn towards dominant rather than prestigious leaders (Kakkar and Sivanathan 2017, over 140,000 participants in 69 countries), so a failing venture lends a would-be dominant the support that would otherwise check him. On the high side, members confident of success see no need for anyone to take charge, so a would-be dominant who tries to drive the pace is shrugged off. Direction that rests on force, or that settles things without a hearing, lowers a member's Levelling; a respected leader simply taking the lead would not. The increment should be modest."
     }
    ]
   },
@@ -2173,8 +2337,8 @@
    "type": "Reinforce",
    "name": "Scapegoating",
    "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
-   "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose lapse is to blame, and I come to expect that member to let the work slip: my confidence that the others will do their part falls.",
-   "explanation": "A venture going well casts a warm light on the others' carrying-through, while one going badly sets her looking for a culprit, and the blame lands on some member's lapse, whatever the true cause. After group failure, members tend to assign other members more responsibility than they take themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977). Where the group lays the failure on an outside cause instead (group-serving attribution), no member is blamed, and the decrement should be small.",
+   "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose lapse is dragging it down, and I come to expect that member to let the work slip: my confidence that the others will do their part falls.",
+   "explanation": "A venture that looks within reach casts a warm light on the others' carrying-through. One that looks beyond the group sets her looking for a culprit, and the blame lands on some member's lapse, whatever the true cause. After group failure, members tend to assign other members more responsibility than they take themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977), and observers credit a team for success but lay its failure on individual members (Naquin and Tynan 2003). Those studies concern failure already suffered; the step to a felt forecast of failure is a proposal, so keep the decrement modest. Where the group lays the failure on an outside cause instead (group-serving attribution: Taylor and Doria 1981), no member is blamed, and the decrement should be small.",
    "pre_language": {
     "increment": "When the venture is going well, she watches those carrying it with approval and leaves them to their tasks without hovering.",
     "decrement": "When it is going badly, her frustration turns on whoever faltered: she glares at them, hovers over what they do and snatches tasks back from them."
@@ -2219,7 +2383,11 @@
    "edits_log": [
     "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): Framework was null.",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The mechanism is mislabelled. Group-serving attribution credits the group for success and blames outside causes for failure, which shields the members and works against this card. The literature behind blaming a fellow member's lapse is egocentric (self-serving) attribution within groups: after failure, members assign others more responsibility than themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977). The opening sentence of the explanation is also too broad. The framework field should read 'Self-serving attribution within groups (Schlenker and Miller 1977; Forsyth and Schlenker 1977)'.",
-    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and explanation pass. The framework label is wrong for the mechanism. The card runs on self-serving (egocentric) attribution within a failing group: members blame other members more than themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977). Group-serving attribution, where the blame goes to an outside cause, is the case the explanation names as the limit that keeps the decrement small. Proposed framework: 'Self-serving attribution within groups after failure (Schlenker and Miller 1977; Forsyth and Schlenker 1977); group-serving attribution as the limiting case.'"
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and explanation pass. The framework label is wrong for the mechanism. The card runs on self-serving (egocentric) attribution within a failing group: members blame other members more than themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977). Group-serving attribution, where the blame goes to an outside cause, is the case the explanation names as the limit that keeps the decrement small. Proposed framework: 'Self-serving attribution within groups after failure (Schlenker and Miller 1977; Forsyth and Schlenker 1977); group-serving attribution as the limiting case.'",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation leaves the group-serving clause uncited, and the framework field credits group-serving attribution to Forsyth and Schlenker 1977, whose study concerns members' egocentric claims of responsibility. The term and its finding belong to Taylor and Doria 1981, and the framework field should name them. The explanation also leans on studies of failure already suffered, while GrpProsp is a forecast. The team halo effect (Naquin and Tynan 2003) supports the card more directly: success is credited to the team and failure laid on individual members. Explanation reworded to cite both and to keep the step from outcome to forecast modest.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines, type and explanation pass against the revised OutResp. The framework label is wrong, though: the card runs on members blaming one another after failure (egocentric or self-serving attribution within the group; the team halo effect), and group-serving attribution (Taylor and Doria 1981) is the exception the explanation sets aside, so it should not be the card's framework. The schema has no framework field, so the fix goes in the extra 'framework' key below; the lines and explanation stay as they are.",
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines and explanation pass. The framework field is mislabelled: it names group-serving attribution and credits it to Forsyth and Schlenker 1977, but group-serving attribution is Taylor and Doria 1981, and the explanation cites it only as the exception that shrinks the decrement. The card itself runs on the opposite bias, blaming fellow members after failure. Smallest fix, framework only (no field for it in this schema): \"Egocentric blame within failing groups (Schlenker and Miller 1977; Forsyth and Schlenker 1977); team halo effect (Naquin and Tynan 2003).\"",
+    "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Decrement line: GrpProsp is a forecast of a venture not yet finished, but 'whose lapse is to blame' reads as blame for a failure already suffered, which the explanation itself flags as a step beyond the cited studies. The smallest fix puts the blame on a lapse she sees dragging the venture down now. The increment line, the type, the boundaries (lapse and slipping work stay on reliability, off skill) and the citations (Schlenker and Miller 1977; Forsyth and Schlenker 1977; Naquin and Tynan 2003; Taylor and Doria 1981) pass. There is no duplication: E:OutResp->GrpProsp runs the other way. Outside the fields given here, the framework label names group-serving attribution as the mechanism, yet the explanation uses group-serving attribution (Taylor and Doria 1981) as the case that weakens the card. The label should read along the lines of 'Self-serving blame within groups after failure (Schlenker and Miller 1977; Forsyth and Schlenker 1977); team halo (Naquin and Tynan 2003)'."
    ],
    "ripple_was": [
     {
@@ -2233,6 +2401,30 @@
      "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
      "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose lapse is to blame, and I come to expect that member to let the work slip: my confidence that the others will do their part falls.",
      "explanation": "A venture going well casts a warm light on the others' carrying-through, while one going badly sets her looking for a culprit, and the blame lands on some member's lapse, whatever the true cause. After group failure, members tend to assign other members more responsibility than they take themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977). Where the group lays the failure on an outside cause instead (group-serving attribution), no member is blamed, and the decrement should be small."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
+     "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose lapse is to blame, and I come to expect that member to let the work slip: my confidence that the others will do their part falls.",
+     "explanation": "A venture going well casts a warm light on the others' carrying-through, while one going badly sets her looking for a culprit, and the blame lands on some member's lapse, whatever the true cause. After group failure, members tend to assign other members more responsibility than they take themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977). Where the group lays the failure on an outside cause instead (group-serving attribution), no member is blamed, and the decrement should be small."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
+     "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose lapse is to blame, and I come to expect that member to let the work slip: my confidence that the others will do their part falls.",
+     "explanation": "A venture that looks within reach casts a warm light on the others' carrying-through. One that looks beyond the group sets her looking for a culprit, and the blame lands on some member's lapse, whatever the true cause. After group failure, members tend to assign other members more responsibility than they take themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977), and observers credit a team for success but lay its failure on individual members (Naquin and Tynan 2003). Those studies concern failure already suffered; the step to a felt forecast of failure is a proposal, so keep the decrement modest. Where the group lays the failure on an outside cause instead (group-serving attribution: Taylor and Doria 1981), no member is blamed, and the decrement should be small."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
+     "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose lapse is to blame, and I come to expect that member to let the work slip: my confidence that the others will do their part falls.",
+     "explanation": "A venture that looks within reach casts a warm light on the others' carrying-through. One that looks beyond the group sets her looking for a culprit, and the blame lands on some member's lapse, whatever the true cause. After group failure, members tend to assign other members more responsibility than they take themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977), and observers credit a team for success but lay its failure on individual members (Naquin and Tynan 2003). Those studies concern failure already suffered; the step to a felt forecast of failure is a proposal, so keep the decrement modest. Where the group lays the failure on an outside cause instead (group-serving attribution: Taylor and Doria 1981), no member is blamed, and the decrement should be small."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
+     "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose lapse is to blame, and I come to expect that member to let the work slip: my confidence that the others will do their part falls.",
+     "explanation": "A venture that looks within reach casts a warm light on the others' carrying-through. One that looks beyond the group sets her looking for a culprit, and the blame lands on some member's lapse, whatever the true cause. After group failure, members tend to assign other members more responsibility than they take themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977), and observers credit a team for success but lay its failure on individual members (Naquin and Tynan 2003). Those studies concern failure already suffered; the step to a felt forecast of failure is a proposal, so keep the decrement modest. Where the group lays the failure on an outside cause instead (group-serving attribution: Taylor and Doria 1981), no member is blamed, and the decrement should be small."
     }
    ]
   },
@@ -2317,7 +2509,7 @@
    "name": "No blow to brace for",
    "increment_logic": "When no one here can make me do anything by force or threat, I stop watching for a blow and let my slips, moods and disagreements show as they come: my felt safety to show myself rises.",
    "decrement_logic": "When a member can make me comply through fear, I check his face before I move and keep my reactions masked, expecting any slip or disagreement to draw his anger: my felt safety to show myself falls.",
-   "explanation": "In social primates, being under someone who can coerce you is the classic trigger for vigilance and anxious self-masking. The threat attaches to anything that shows, so when it is absent the body loosens and the member shows herself.",
+   "explanation": "In social primates, being under someone who can coerce you is the classic trigger for vigilance and anxious self-masking. The threat attaches to anything that shows, so when it is absent the body loosens and the member shows herself. Caution: the card runs through force or fear. Where her Levelling is low only because someone takes more than their due and gets away with it, with no threat behind it, she has no blow to brace for, so set the decrement small.",
    "pre_language": {
     "increment": "When no one looms over her, she plays and moves loosely, unguarded when eyes turn to her, and her ease at being seen rises.",
     "decrement": "When one member looms over her, she scans him, scratches herself and goes still as he nears, hiding any fumble, and her ease at being seen sinks."
@@ -2375,7 +2567,18 @@
     "votes": 4,
     "none_votes": 0,
     "logic": "pass"
-   }
+   },
+   "edits_log": [
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The revised Levelling now also falls when a member takes more than their due and makes it stick, with no threat involved. Both lines read only the force-or-fear face, and the mechanism (vigilance against a coercer) does not carry over to the grabbing face: a member who is shortchanged without being threatened has no blow to brace for. Because the card is a Reinforce card, a low Levelling that comes from grabbing alone would still lower DivsExp. The lines can stay as they are; the explanation needs a scope caution."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can make me do anything by force or threat, I stop watching for a blow and let my slips, moods and disagreements show as they come: my felt safety to show myself rises.",
+     "decrement_logic": "When a member can make me comply through fear, I check his face before I move and keep my reactions masked, expecting any slip or disagreement to draw his anger: my felt safety to show myself falls.",
+     "explanation": "In social primates, being under someone who can coerce you is the classic trigger for vigilance and anxious self-masking. The threat attaches to anything that shows, so when it is absent the body loosens and the member shows herself."
+    }
+   ]
   },
   {
    "id": "E:Levelling->GrpProsp",
@@ -2389,8 +2592,8 @@
    "type": "Reinforce",
    "name": "Cowed hands",
    "increment_logic": "When no one here can make me do anything by force or fear, or take more than their due, I see my effort and the others' go into the venture itself rather than into watching one member's mood: my sense that the group can pull it off rises.",
-   "decrement_logic": "When a member makes me comply through fear, or takes more than their due and keeps it, I see my effort and the others' bend to heading him off or slacken because the gain goes to him, with problems left unraised: my sense that the group can pull off the venture sinks.",
-   "explanation": "Coercion pulls attention and effort away from the task and towards appeasing the coercer. Members, herself included, do what heads off his anger rather than what the venture needs, and they keep problems and know-how to themselves. Studies of abusive and coercive leadership find lower collective efficacy and team performance under it. The card holds for coercion that serves the coercer's own power or comfort. Pressure from members to make everyone pull their weight is not coercion in this sense and can raise effort on the venture in the short run.",
+   "decrement_logic": "When a member makes me comply through fear, or takes more than their due and keeps it, I see my effort and the others' and our know-how go into heading him off and guarding our shares rather than into the venture: my sense that the group, as it stands, can pull off the venture sinks.",
+   "explanation": "Coercion pulls attention and effort away from the task and towards appeasing the coercer. Members, herself included, do what heads off his anger rather than what the venture needs, and they keep know-how to themselves. Where one member grabs more than the group's reckoning gives, the others turn effort to watching him and guarding their shares. Inequity draws attention and protest away from the joint task: capuchins shown a partner paid better often stop exchanging (Brosnan and de Waal 2003; a pair study with mixed replications, so a weak extension to standing groups). Abusive supervision climate lowers collective efficacy and group performance (Priesemuth, Schminke, Ambrose and Folger 2014); the card extends this from a supervisor to any member who coerces. The card holds for coercion that serves the coercer's own power or comfort. Pressure from members to make everyone pull their weight is not coercion in this sense and can raise effort on the venture in the short run. The card reads only the capability left to the venture. Whether each member still does their part is OutResp's ground (E:Levelling->OutResp), and problems kept quiet for fear of a put-down travel through DivsExp (E:Levelling->DivsExp, then E:DivsExp->GrpProsp).",
    "pre_language": {
     "increment": "When no one looms over the band, she sees them all intent on the chase or the forage, each putting in freely, and her feeling that it will come off rises.",
     "decrement": "When one member looms and snaps, she sees the band glancing at him rather than at the quarry, hanging back and breaking off, and her feeling that it will come off sinks."
@@ -2459,7 +2662,37 @@
    },
    "edited": "Ben approved, 4 Nov 2026, 4.09 pm (proposals-for-approval.md)",
    "edits_log": [
-    "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): The framework field ('hierarchy aids coordination when interdependence is high') argues against the card's direction. Reword also follows the Levelling widening."
+    "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): The framework field ('hierarchy aids coordination when interdependence is high') argues against the card's direction. Reword also follows the Levelling widening.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Decrement: 'slacken because the gain goes to him' reads the others' effort on their own parts, which GrpProsp's boundary gives to OutResp and which E:Levelling->OutResp already carries. The grabbing branch needs a capability route instead: effort and know-how spent guarding shares rather than on the venture. The explanation gives no mechanism for the grabbing branch, though the framework cites Brosnan and de Waal for it.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Explanation overstates Brosnan and de Waal 2003: the capuchin study shows refusal to take part under unequal pay from an experimenter, not members guarding their own shares within a group. The finding supports withdrawn effort, which is what the card needs. The Priesemuth citation lacks its year (2014). Lines and type pass.",
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass (1)-(4): both read Levelling at the stated level and GrpProsp as capability left to the venture, with effort diverted, not withheld. The explanation strays into OutResp's ground: 'the others hold back effort from the joint work' is whether each does their part, which GrpProsp's boundary excludes and the card itself assigns to E:Levelling->OutResp. The capuchin evidence (refusal to keep exchanging) bears on that withholding, not on capability, and its replications are mixed (Roma et al. 2006; Braeuer, Call and Tomasello 2006, 2009), so it should be stated more weakly and tied to diverted attention. Priesemuth et al. 2014 concerns a supervisor; the extension to any member who coerces should be stated. No duplication: E:DivsExp->GrpProsp reads safety to show mistakes, while this card reads effort and know-how drawn off by a coercer or grabber.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Check (3) and (6). The decrement's 'with problems left unraised', and the explanation's 'keep problems ... to themselves', move into DivsExp's ground (safety to let a slip or disagreement show). They also count a path the model already carries twice: E:Levelling->DivsExp (No blow to brace for) feeds E:DivsExp->GrpProsp (Mistakes in the open). Know-how kept back from a coercer is a separate loss of capability and can stay. Everything else passes: the lines fit Levelling at both levels and GrpProsp as it rises and falls, Reinforce fits, and Priesemuth et al. 2014 (abusive supervision climate lowers collective efficacy and group performance) and Brosnan and de Waal 2003 are reported accurately, with fair hedges."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can make me do anything by force or fear, or take more than their due, I see my effort and the others' go into the venture itself rather than into watching one member's mood: my sense that the group can pull it off rises.",
+     "decrement_logic": "When a member makes me comply through fear, or takes more than their due and keeps it, I see my effort and the others' bend to heading him off or slacken because the gain goes to him, with problems left unraised: my sense that the group can pull off the venture sinks.",
+     "explanation": "Coercion pulls attention and effort away from the task and towards appeasing the coercer. Members, herself included, do what heads off his anger rather than what the venture needs, and they keep problems and know-how to themselves. Studies of abusive and coercive leadership find lower collective efficacy and team performance under it. The card holds for coercion that serves the coercer's own power or comfort. Pressure from members to make everyone pull their weight is not coercion in this sense and can raise effort on the venture in the short run."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can make me do anything by force or fear, or take more than their due, I see my effort and the others' go into the venture itself rather than into watching one member's mood: my sense that the group can pull it off rises.",
+     "decrement_logic": "When a member makes me comply through fear, or takes more than their due and keeps it, I see my effort and the others' and our know-how go into heading him off and guarding our shares rather than into the venture, with problems left unraised: my sense that the group, as it stands, can pull off the venture sinks.",
+     "explanation": "Coercion pulls attention and effort away from the task and towards appeasing the coercer. Members, herself included, do what heads off his anger rather than what the venture needs, and they keep problems and know-how to themselves. Where one member grabs more than the group's reckoning gives, the others' effort turns to guarding their own shares (inequity responses: Brosnan and de Waal 2003). Studies of abusive and coercive leadership find lower collective efficacy and team performance under it. The card holds for coercion that serves the coercer's own power or comfort. Pressure from members to make everyone pull their weight is not coercion in this sense and can raise effort on the venture in the short run. Whether each member then does their part is OutResp's ground (E:Levelling->OutResp)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can make me do anything by force or fear, or take more than their due, I see my effort and the others' go into the venture itself rather than into watching one member's mood: my sense that the group can pull it off rises.",
+     "decrement_logic": "When a member makes me comply through fear, or takes more than their due and keeps it, I see my effort and the others' and our know-how go into heading him off and guarding our shares rather than into the venture, with problems left unraised: my sense that the group, as it stands, can pull off the venture sinks.",
+     "explanation": "Coercion pulls attention and effort away from the task and towards appeasing the coercer. Members, herself included, do what heads off his anger rather than what the venture needs, and they keep problems and know-how to themselves. Where one member grabs more than the group's reckoning gives, the others hold back effort from the joint work: capuchins shown a partner paid better refuse to go on taking part (inequity responses: Brosnan and de Waal 2003; a pair study, so an extension to standing groups). Abusive supervision climate lowers collective efficacy and group performance (Priesemuth, Schminke, Ambrose and Folger 2014). The card holds for coercion that serves the coercer's own power or comfort. Pressure from members to make everyone pull their weight is not coercion in this sense and can raise effort on the venture in the short run. Whether each member then does their part is OutResp's ground (E:Levelling->OutResp)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can make me do anything by force or fear, or take more than their due, I see my effort and the others' go into the venture itself rather than into watching one member's mood: my sense that the group can pull it off rises.",
+     "decrement_logic": "When a member makes me comply through fear, or takes more than their due and keeps it, I see my effort and the others' and our know-how go into heading him off and guarding our shares rather than into the venture, with problems left unraised: my sense that the group, as it stands, can pull off the venture sinks.",
+     "explanation": "Coercion pulls attention and effort away from the task and towards appeasing the coercer. Members, herself included, do what heads off his anger rather than what the venture needs, and they keep problems and know-how to themselves. Where one member grabs more than the group's reckoning gives, the others turn effort to watching him and guarding their shares. Inequity draws attention and protest away from the joint task: capuchins shown a partner paid better often stop exchanging (Brosnan and de Waal 2003; a pair study with mixed replications, so a weak extension to standing groups). Abusive supervision climate lowers collective efficacy and group performance (Priesemuth, Schminke, Ambrose and Folger 2014); the card extends this from a supervisor to any member who coerces. The card holds for coercion that serves the coercer's own power or comfort. Pressure from members to make everyone pull their weight is not coercion in this sense and can raise effort on the venture in the short run. The card reads only the capability left to the venture; whether each member still does their part is OutResp's ground (E:Levelling->OutResp)."
+    }
    ]
   },
   {
@@ -2531,7 +2764,8 @@
    "edits_log": [
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines and explanation pass. The framework cites the integrative model of trust as '(ability, integrity)', but OutResp is reliability and explicitly not skill, so the ability factor of Mayer, Davis and Schoorman (1995) falls outside the target. Smallest fix: change the framework to 'Integrative model of trust (integrity); hierarchy and conflict'. The output schema has no framework field, so the fix is given here.",
     "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and explanation pass. The framework cites the integrative model of trust as '(ability, integrity)'. OutResp is defined as reliability and expressly excludes skill, so 'ability' points at GrpProsp/Prestige ground. Proposed framework: 'Integrative model of trust, integrity component (Mayer, Davis and Schoorman 1995); eye-service and withheld effort under abusive supervision.'",
-    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines pass, but the explanation cites nothing for check (5). The decrement's key step (tasks dropped once the coercer's eye moves on) is a standard finding and should be grounded. Explanation only."
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines pass, but the explanation cites nothing for check (5). The decrement's key step (tasks dropped once the coercer's eye moves on) is a standard finding and should be grounded. Explanation only.",
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines and explanation pass. The framework field does not match the mechanism: the integrative model of trust (Mayer, Davis and Schoorman 1995) puts ability first, and ability belongs to GrpProsp, not OutResp. The explanation actually runs on compliance that lasts only under surveillance and on effort withheld under abuse. Smallest fix, framework only (no field for it in this schema): \"Coercive compliance needs surveillance (Kelman 1958; French and Raven 1959); abusive supervision and withheld effort (Zellars, Tepper and Duffy 2002; Mitchell and Ambrose 2007).\""
    ],
    "ripple_was": [
     {
@@ -2551,6 +2785,12 @@
      "increment_logic": "When no one here can make me do anything by force or fear, I see the others do their parts in the open rather than for show, and I stop expecting them to shirk or go back on their word, so I leave work in their hands without checking: my confidence that they will do their part rises.",
      "decrement_logic": "When a member here makes me comply through fear, I see the others work to please him rather than to finish their parts, cover themselves and let tasks drop once his eye moves on, and I start checking up on their work: my confidence that they will do their part falls.",
      "explanation": "Coercion distorts how others behave: they appease, hide, protect themselves and work to the coercer's eye, and all of this reads as unreliable. Without coercion, the others' carrying-through shows plainly and confidence that they will do their part grows."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can make me do anything by force or fear, I see the others do their parts in the open rather than for show, and I stop expecting them to shirk or go back on their word, so I leave work in their hands without checking: my confidence that they will do their part rises.",
+     "decrement_logic": "When a member here makes me comply through fear, I see the others work to please him rather than to finish their parts, cover themselves and let tasks drop once his eye moves on, and I start checking up on their work: my confidence that they will do their part falls.",
+     "explanation": "Coercion distorts how others behave: they appease, hide, protect themselves and work to the coercer's eye, and all of this reads as unreliable. Compliance won by threat holds only while the one who wields the threat can watch (Kelman 1958; French and Raven 1959), so she sees parts done for his eye and dropped when it moves on. Under abusive leaders, subordinates also hold back discretionary effort and turn to quiet deviance (Zellars, Tepper and Duffy 2002; Mitchell and Ambrose 2007). Without coercion, the others' carrying-through shows plainly and confidence that they will do their part grows."
     }
    ]
   },
@@ -2565,9 +2805,9 @@
    "target": "Reciprocity",
    "type": "Reinforce",
    "name": "No grabber, open hands",
-   "increment_logic": "When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, what I share goes where it is needed and comes back from the others, and I count on the return without a second thought: my reading that help comes back rises.",
-   "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I give goes to him as tribute and does not come back, the others hide what they have, and I expect nothing back from anyone: my reading that help comes back falls.",
-   "explanation": "Return from the group survives only where no one can seize what is shared or turn a gift into leverage. Foragers' assertive egalitarianism keeps it that way. Under a coercer, giving becomes tribute, surpluses are hidden and the return dries up.",
+   "increment_logic": "When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, nothing I share is seized on the way or turned into leverage over me, so it goes where it is needed and the others share back openly: my reading that help comes back rises.",
+   "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, help I give him is taken as his due and never returned, the others hide what they have, and I expect little back from anyone: my reading that help comes back falls.",
+   "explanation": "Return from the group survives only where no one can seize what is shared or turn a gift into leverage. Immediate-return foragers keep it that way through assertive egalitarianism, mocking, shunning or leaving anyone who hoards or bosses (Woodburn 1982; Boehm 1993), and sharing there runs on demand (Peterson 1993). The literature has little on the reverse case, so it rests on common sense: under a coercer, giving becomes tribute, the others keep what they have out of his reach, and the return from the group dries up.",
    "pre_language": {
     "increment": "When no one in the band looms or snatches, she gives from her pile and finds others giving from theirs when she is short, and her sense that what she gives comes back rises.",
     "decrement": "When one member snatches and threatens, what she holds out is taken and nothing comes back, the others hunch over their food, and her sense that giving brings any return sinks."
@@ -2633,7 +2873,30 @@
     "logic": "pass"
    },
    "edits_log": [
-    "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): Ripple from the Levelling widening; demand sharing and inequity aversion both support it."
+    "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): Ripple from the Levelling widening; demand sharing and inequity aversion both support it.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Check (5), explanation only; the lines and type pass. The explanation leans on forager literature without citing it. Its sign of a coercer is also weak: foragers hide surpluses from ordinary demand sharing too (Peterson 1993), so hidden goods do not by themselves show coercion. Add the sources and mark the claim about life under a coercer as common sense.",
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The increment line restates Reciprocity's top anchor ('I count on the return without a second thought') as if the mere absence of a coercer were enough for full confidence in the return. The explanation treats Levelling as a necessary condition ('survives only where no one can seize'), so a high source should only take away a block on the return. The line also gives no mechanism, while the decrement line does. Decrement line, type, boundaries and citations (Woodburn 1982; Boehm 1993; Peterson 1993) pass. Demand sharing meets what is asked for, which fits Reciprocity's 'what you ask for is met' limb.",
+    "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Decrement line: 'what I give goes to him as tribute' describes extraction under fear, which is Levelling's ground; Reciprocity reads the return on help, and the Reciprocity definition excludes taking more than one's due. The target effect should be help given and not returned, along with the others hiding what they have, so that asks go unmet. Separately, 'I expect nothing back from anyone' is the 1 anchor. One play should lower the reading, not floor it. The increment line, type and citations (Woodburn 1982; Boehm 1993; Peterson 1993) pass, and the line does not duplicate E:Reciprocity->Levelling, which runs the other way."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, what I share goes where it is needed and comes back from the others, and I count on the return without a second thought: my reading that help comes back rises.",
+     "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I give goes to him as tribute and does not come back, the others hide what they have, and I expect nothing back from anyone: my reading that help comes back falls.",
+     "explanation": "Return from the group survives only where no one can seize what is shared or turn a gift into leverage. Foragers' assertive egalitarianism keeps it that way. Under a coercer, giving becomes tribute, surpluses are hidden and the return dries up."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, what I share goes where it is needed and comes back from the others, and I count on the return without a second thought: my reading that help comes back rises.",
+     "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I give goes to him as tribute and does not come back, the others hide what they have, and I expect nothing back from anyone: my reading that help comes back falls.",
+     "explanation": "Return from the group survives only where no one can seize what is shared or turn a gift into leverage. Immediate-return foragers keep it that way through assertive egalitarianism, mocking, shunning or leaving anyone who hoards or bosses (Woodburn 1982; Boehm 1993), and sharing there runs on demand (Peterson 1993). The literature has little on the reverse case, so it rests on common sense: under a coercer, giving becomes tribute, the others keep what they have out of his reach, and the return from the group dries up."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, nothing I share is seized on the way or turned into leverage over me, so it goes where it is needed and the others share back openly: my reading that help comes back rises.",
+     "decrement_logic": "When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I give goes to him as tribute and does not come back, the others hide what they have, and I expect nothing back from anyone: my reading that help comes back falls.",
+     "explanation": "Return from the group survives only where no one can seize what is shared or turn a gift into leverage. Immediate-return foragers keep it that way through assertive egalitarianism, mocking, shunning or leaving anyone who hoards or bosses (Woodburn 1982; Boehm 1993), and sharing there runs on demand (Peterson 1993). The literature has little on the reverse case, so it rests on common sense: under a coercer, giving becomes tribute, the others keep what they have out of his reach, and the return from the group dries up."
+    }
    ]
   },
   {
@@ -3128,9 +3391,9 @@
    "target": "Levelling",
    "type": "Reinforce",
    "name": "Helpers stand together",
-   "increment_logic": "When what I give comes back from the group as a matter of course, I feel they would stand with me if anyone tried to set themselves over me, and I go about my business beside the strongest as freely as beside anyone: my sense of Levelling rises.",
-   "decrement_logic": "When nothing I give comes back from the group, I feel no one would stand with me against the strongest, and I start to watch them warily and give way: my sense of Levelling falls.",
-   "explanation": "Where help given comes back from the group, she feels part of a band that would back her. Coalitions of ordinary members are what keep a would-be dominant in check (Boehm, Hierarchy in the Forest), so that backing takes the fear out of a strong member's presence, and losing it puts the fear back.",
+   "increment_logic": "When what I give comes back from the group as a matter of course, I count on help coming back too if anyone tries to set themselves over me, and I go about my business beside the strongest as freely as beside anyone: my sense that no one here can set themselves over me rises.",
+   "decrement_logic": "When nothing I give comes back from the group, I cannot count on anyone's help if the strongest turns on me, and I start to watch him warily and give way: my sense that no one here can set themselves over me falls.",
+   "explanation": "Help repaid includes help in a quarrel. Among primates, support in conflicts is traded like other favours (de Waal 1982, Chimpanzee Politics; Seyfarth and Cheney 1984 on grooming exchanged for support in vervets), and coalitions of ordinary members are what keep a would-be dominant in check (Boehm 1999, Hierarchy in the Forest). Where her help comes back, she counts on backing against anyone who would set himself over her, and the fear goes out of a strong member's presence; where it does not, she stands alone. The card rests on the return she can count on, not on being wanted (E:Belonging->Levelling) or on her own commitment (E:Engagement->Levelling).",
    "pre_language": {
     "increment": "When the others share back with her and console her freely, she feels them as allies and feeds and moves near the strongest without a glance at their mood: her sense that no one can make her yield rises.",
     "decrement": "When nothing passes back to her from the others, she feels unbacked, goes still when a strong one approaches and gives up her place to them: her sense that no one can make her yield falls."
@@ -3191,7 +3454,8 @@
    },
    "edited": "Ben approved, 4 Nov 2026, 4.09 pm (proposals-for-approval.md)",
    "edits_log": [
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines read the return from 'those I help', which is the hierarchical (partner) face; deck E reads the return as coming from the group. The explanation's 'presses the one with a surplus to share' is the evenness of shares, which the Reciprocity definition assigns to Levelling, so the source strays into the target's ground."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines read the return from 'those I help', which is the hierarchical (partner) face; deck E reads the return as coming from the group. The explanation's 'presses the one with a surplus to share' is the evenness of shares, which the Reciprocity definition assigns to Levelling, so the source strays into the target's ground.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): As written the mechanism is feeling part of a band that would back her, which is Belonging's ground and duplicates E:Belonging->Levelling (Friends at my back) and E:Engagement->Levelling (Inside the coalition). The distinct route is reciprocal support: help in a quarrel is among the help that comes back. Both lines also end on 'my sense of Levelling' instead of what she feels."
    ],
    "ripple_was": [
     {
@@ -3199,6 +3463,12 @@
      "increment_logic": "When those I help return it as a matter of course, I can count on them to stand with me, and I go about my business beside the strongest as freely as beside anyone: my sense of Levelling rises.",
      "decrement_logic": "When nothing I give comes back from those I help, I feel no one would stand with me against the strongest, and I start to watch them warily and give way: my sense of Levelling falls.",
      "explanation": "Where the group returns what each puts in and presses the one with a surplus to share, she feels part of a band that would back her. That backing takes the fear out of a strong member's presence, and losing it puts the fear back."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When what I give comes back from the group as a matter of course, I feel they would stand with me if anyone tried to set themselves over me, and I go about my business beside the strongest as freely as beside anyone: my sense of Levelling rises.",
+     "decrement_logic": "When nothing I give comes back from the group, I feel no one would stand with me against the strongest, and I start to watch them warily and give way: my sense of Levelling falls.",
+     "explanation": "Where help given comes back from the group, she feels part of a band that would back her. Coalitions of ordinary members are what keep a would-be dominant in check (Boehm, Hierarchy in the Forest), so that backing takes the fear out of a strong member's presence, and losing it puts the fear back."
     }
    ]
   },
@@ -3705,7 +3975,7 @@
    "name": "Putting in, in line for my due",
    "increment_logic": "When I am putting much of myself into the group, I feel I have earned my due, and the group's dealings with me read as the way to what I came for opening up: my sense that staying will bring me what I am after rises.",
    "decrement_logic": "When I am holding back from the group, I feel I have given them no reason to bring me on, and their dealings with me read as the way to what I came for closing: my sense that staying will bring me what I am after falls.",
-   "explanation": "Groups repay visible contribution with status and support (Willer 2009), and in ranked groups advancement, favour and reward go to those seen to commit themselves. Members who feel they have given more expect more back from the group (social exchange: Blau 1964; equity theory: Adams 1965). Her own investment colours an ambiguous forecast: having put in, she feels in line for her due and reads the group's treatment of her as opening the way; having held back, she feels she has forfeited her claim. What moves is her forecast of what the group will deliver, not her confidence in her own ability.",
+   "explanation": "Members who feel they have given more expect more back from the group (social exchange: Blau 1964; equity theory: Adams 1965). Her own investment colours an ambiguous forecast: having put in, she feels in line for her due and reads the group's treatment of her as opening the way; having held back, she feels she has forfeited her claim. The route by which groups actually repay contribution with standing (Willer 2009) runs through H:Engagement->Status and H:Engagement->Prestige and on to OwnProsp, so this card carries only her felt claim; keep it modest. Where heavy input meets plain evidence of being passed over, equity theory predicts a sense of inequity, and the evidence should prevail. The card moves her forecast of what the group will deliver, and leaves her confidence in her own ability alone.",
    "pre_language": {
     "increment": "Her investment has just deepened; she feels herself in line for the troop's favour and looks to it to bring her what she wants. Her hope of getting what she is after rises.",
     "decrement": "Her investment has just slackened; she feels herself out of favour and expects the troop to give her nothing. Her hope of getting what she is after falls."
@@ -3762,7 +4032,8 @@
     "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): (1, 2) Both lines state a change ('have just put more', 'have just drawn back'), but the brief defines lines by source level (Engagement high or low), so they are reworded to levels. (5) Willer 2009 shows groups give status and cooperation to members who contribute; it is not a study of ranked groups, so the opening sentence overstated it. Fixed in the explanation. Also outside the editable fields: the framework cites efficacy gain spirals and Bandura's self-efficacy, which the explanation explicitly excludes ('not her confidence in her own ability'). It should read 'Social exchange (Blau 1964); equity theory (Adams 1965); status for contribution (Willer 2009)'.",
     "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines and type pass against Engagement and the OwnProsp definition. The framework field is stale from the earlier version: gain spirals of efficacy and self-efficacy (Bandura) concern confidence in one's own ability, which the OwnProsp definition and the card's own explanation exclude. Fix the framework only (proposed below). The Willer 2009 route (contribution repaid with status) also runs through H:Engagement->Prestige and H:Prestige->OwnProsp; the card stays distinct because it moves her forecast directly through her felt claim to her due, so no merge is needed.",
     "Ripple round 6, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines and explanation pass. The framework field contradicts the explanation: gain spirals of efficacy and engagement (Salanova et al.; Llorens et al.) and self-efficacy (Bandura) concern belief in one's own ability, which OwnProsp excludes and which the explanation's last sentence rules out. Smallest fix, framework only (outside the fields this schema allows): 'Social exchange and equity (Blau 1964; Adams 1965); status for visible contribution (Willer 2009).'",
-    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): The framework names gain spirals and self-efficacy, which the explanation itself rules out ('not her confidence in her own ability'); the explanation rests on exchange and contribution."
+    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): The framework names gain spirals and self-efficacy, which the explanation itself rules out ('not her confidence in her own ability'); the explanation rests on exchange and contribution.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both definitions and keep to the forecast, not ability or a tally. The explanation has two faults. (a) Its first route (groups repay contribution with status and support, Willer 2009) is already carried by H:Engagement->Status and H:Engagement->Prestige and then by H:Status->OwnProsp and H:Prestige->OwnProsp. Leaning on it here double-counts that route. The card's own ground is her felt claim from having put in (social exchange and equity). (b) The last sentence opens with 'What', which the project prose style forbids. Caution to add: under equity theory, heavy input met with poor return breeds a sense of inequity, so the felt claim should not survive plain evidence of being passed over."
    ],
    "ripple_was": [
     {
@@ -3788,6 +4059,12 @@
      "increment_logic": "When I have just put more of myself into the group, I feel I have earned my due, and the group's dealings with me in that scene read as the way to what I came for opening up; my sense that staying will bring me what I am after rises.",
      "decrement_logic": "When I have just drawn back from the group, I feel I have given them no reason to bring me on, and their dealings with me read as the way to what I came for closing; my sense that staying will bring me what I am after falls.",
      "explanation": "In ranked groups, advancement, favour and reward go to those seen to commit themselves: contribution is repaid with standing and support (Willer 2009), and members who feel they have given more expect more back from the group (social exchange: Blau 1964; equity theory: Adams 1965). Her own recent investment colours an ambiguous forecast: having put in, she feels in line for her due and reads the group's treatment of her as opening the way; having held back, she feels she has forfeited her claim. What moves is her forecast of what the group will deliver, not her confidence in her own ability."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am putting much of myself into the group, I feel I have earned my due, and the group's dealings with me read as the way to what I came for opening up: my sense that staying will bring me what I am after rises.",
+     "decrement_logic": "When I am holding back from the group, I feel I have given them no reason to bring me on, and their dealings with me read as the way to what I came for closing: my sense that staying will bring me what I am after falls.",
+     "explanation": "Groups repay visible contribution with status and support (Willer 2009), and in ranked groups advancement, favour and reward go to those seen to commit themselves. Members who feel they have given more expect more back from the group (social exchange: Blau 1964; equity theory: Adams 1965). Her own investment colours an ambiguous forecast: having put in, she feels in line for her due and reads the group's treatment of her as opening the way; having held back, she feels she has forfeited her claim. What moves is her forecast of what the group will deliver, not her confidence in her own ability."
     },
     {
      "type": "Reinforce",
@@ -4164,8 +4441,8 @@
    "type": "Reinforce",
    "name": "Rewards of Conformity",
    "increment_logic": "When another member's breach jars me and I pull them up, I feel in favour with those in charge, and staying here feels surer to bring me what I came for.",
-   "decrement_logic": "When a member's breach leaves me unmoved and I let it pass, I feel those in charge take note of my slackness, and what I came for feels further out of reach here.",
-   "explanation": "Proposal, low weight. In a ranked group, those who uphold the settled ways are favoured by those the order serves; this is common sense in any organisation with a hierarchy, but no checked source shows the step from guarding others' breaches to a member's own prospects. Hollander shows conformity earns credit, which is close but concerns her own conformity, not her policing of others.",
+   "decrement_logic": "When a member's breach leaves me unmoved and I let it pass while others pull them up, I find myself out of step with those in charge, and staying here feels less sure to bring me what I came for.",
+   "explanation": "Proposal, low weight. In a ranked group, those who uphold the settled ways are favoured by those the order serves; this is common sense in any organisation with a hierarchy, but no checked source shows the step from guarding others' breaches to a member's own prospects. Hollander shows conformity earns credit, which is close but concerns her own conformity, not her policing of others. Candidate sources, unchecked: third-party punishers are trusted and chosen as partners (Barclay 2006; Jordan, Hoffman, Bloom and Rand 2016), though the reputation of punishers is mixed across studies (Raihani and Bshary 2015), and people enforce norms partly to be seen as sincere (Willer, Kuwabara and Macy 2009). Pulling up a member above her place can cost her; that route runs through H:NormExp->Status and on to OwnProsp, so this card covers only policing within her place.",
    "pre_language": {
     "increment": "When she threatens a member trying a new way, she feels those above tolerate her near the food and resting places, and her own aims feel safer.",
     "decrement": "When she lets a member's new way pass, she draws cold looks from those above and is kept from the food and resting places, and her own aims feel shakier."
@@ -4207,7 +4484,16 @@
     }
    ],
    "edits_log": [
-    "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): No explanation or source; keep as a flagged proposal at low weight rather than drop, since it is a plausible everyday route."
+    "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): No explanation or source; keep as a flagged proposal at low weight rather than drop, since it is a plausible everyday route.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Decrement fails at the source level: at low NormExp a breach leaves her unmoved, so she would not feel her own 'slackness'. A felt fall needs a cue she can register, such as finding herself out of step while others pull the breacher up. The explanation also omits candidate sources and the cost of pulling up beyond one's place, which runs through H:NormExp->Status (Discretionary)."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When another member's breach jars me and I pull them up, I feel in favour with those in charge, and staying here feels surer to bring me what I came for.",
+     "decrement_logic": "When a member's breach leaves me unmoved and I let it pass, I feel those in charge take note of my slackness, and what I came for feels further out of reach here.",
+     "explanation": "Proposal, low weight. In a ranked group, those who uphold the settled ways are favoured by those the order serves; this is common sense in any organisation with a hierarchy, but no checked source shows the step from guarding others' breaches to a member's own prospects. Hollander shows conformity earns credit, which is close but concerns her own conformity, not her policing of others."
+    }
    ]
   },
   {
@@ -5023,7 +5309,7 @@
    "name": "Built-in Advantage",
    "increment_logic": "Going first as a matter of course, with the first turn and the first share mine without a word said, I feel the group opening the way to what I came for, and my sense that staying will bring it to me rises.",
    "decrement_logic": "Going last as a matter of course, waiting my turn and taking what is left, I feel what I came for slipping past me to those ahead, and my sense that staying will bring it to me falls.",
-   "explanation": "Precedence is a standing claim on what the group hands out: the first turn, the first share and the best seat fall to the high-ranked before anyone else. In primate groups rank sets priority of access to food, resting places and mates, so a high-ranked animal's returns from staying are steadier than a low-ranked one's. She reads her own prospects from where the flow of shares reaches her, not from a reckoning of the group's rules.",
+   "explanation": "Precedence is a standing claim on what the group hands out: the first turn, the first share and the best seat fall to the high-ranked before anyone else. In primate groups rank sets priority of access to food, resting places and mates (the priority-of-access model, Altmann 1962), though the link to mating success weakens as rivals grow in number (Cowlishaw and Dunbar 1991). A high-ranked animal's returns from staying are therefore steadier than a low-ranked one's. She reads her own prospects from where the flow of shares reaches her, not from a reckoning of the group's rules. Where the order is a queue by seniority, a low place is the start of the line and staying is how one moves up (social queuing: Kokko and Johnstone 1999); play the decrement weak for a junior who expects to rise.",
    "pre_language": {
     "increment": "High in the order, she takes first pick and others give way, and she goes after what she wants confident of getting it.",
     "decrement": "Low in the order, she waits on others' leavings, and expects to miss out on what she wants."
@@ -5055,7 +5341,18 @@
     "votes": 4,
     "none_votes": 0,
     "logic": "pass"
-   }
+   },
+   "edits_log": [
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation gives no source for the primate claim and does not deal with orders that run as queues. The Status definition counts seniority as a basis of place, and in a seniority queue a low place is the start of the line, so a junior can rightly forecast good prospects from staying (social queuing, Kokko and Johnstone 1999). Left unqualified, the decrement overstates in that case. Fix: cite the priority-of-access model and its limits, and weaken the decrement for queues."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "Going first as a matter of course, with the first turn and the first share mine without a word said, I feel the group opening the way to what I came for, and my sense that staying will bring it to me rises.",
+     "decrement_logic": "Going last as a matter of course, waiting my turn and taking what is left, I feel what I came for slipping past me to those ahead, and my sense that staying will bring it to me falls.",
+     "explanation": "Precedence is a standing claim on what the group hands out: the first turn, the first share and the best seat fall to the high-ranked before anyone else. In primate groups rank sets priority of access to food, resting places and mates, so a high-ranked animal's returns from staying are steadier than a low-ranked one's. She reads her own prospects from where the flow of shares reaches her, not from a reckoning of the group's rules."
+    }
+   ]
   },
   {
    "id": "H:Status->Reciprocity",
@@ -5333,7 +5630,7 @@
    "target": "DivsExp",
    "type": "Reinforce",
    "name": "Low in the order, guarded",
-   "increment_logic": "When I hold a high place in this group's order, I let an objection or a slip show without softening it first, and I expect it to be taken in: I feel safe to show myself here.",
+   "increment_logic": "When I hold a high place in this group's order, I let an objection or a slip show without softening it first, and I expect no one to pounce on it or turn away: I feel safe to show myself here.",
    "decrement_logic": "When I sit low in the order, I soften every objection before it leaves me, swallow my first reaction and burn when I am caught out: I feel that showing myself here would cost me.",
    "explanation": "Low rank keeps the threat system primed: appeasing, submissive and shame displays come unbidden, and each retreat is felt as a sign that showing oneself is dangerous; high rank releases them. Reduced power goes with attention to threat and inhibited behaviour (Keltner, Gruenfeld and Anderson 2003), and profession-based status goes with greater psychological safety (Nembhard and Edmondson 2006). Rank and safety stay distinct readings, since a member can be well placed in a group that punishes slips, or lowly in one that does not. This card carries the route through settled place; X:Prestige->DivsExp carries the weaker route through live deference for what she brings. From the comparative psychologist's synthesis build (Standing->Safety), its most-used card.",
    "pre_language": {
@@ -5370,7 +5667,8 @@
    },
    "edits_log": [
     "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): Adds a checked human source to a card that rested on social rank theory.",
-    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): Ripple of the new X:Prestige->DivsExp: the two routes need a stated division."
+    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): Ripple of the new X:Prestige->DivsExp: the two routes need a stated division.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Increment: 'I expect it to be taken in' edges into Prestige ground (DivsExp excludes whether her word carries weight). DivsExp reads the expected cost of showing herself, so the line should end on expecting no rebuff."
    ],
    "critique_was": [
     {
@@ -5379,6 +5677,14 @@
      "decrement_logic": "When I sit low in the order, I soften every objection before it leaves me, swallow my first reaction and burn when I am caught out: I feel that showing myself here would cost me.",
      "explanation": "Low rank keeps the threat system primed: appeasing, submissive and shame displays come unbidden, and each retreat is felt as a sign that showing oneself is dangerous; high rank releases them. Rank and safety stay distinct readings, since a member can be well placed in a group that punishes slips, or lowly in one that does not. From the comparative psychologist's synthesis build (Standing->Safety), its most-used card.",
      "framework": "Social rank theory (Gilbert); appeasement displays (Keltner); psychological safety and status (Kahn; Nembhard and Edmondson)"
+    }
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I hold a high place in this group's order, I let an objection or a slip show without softening it first, and I expect it to be taken in: I feel safe to show myself here.",
+     "decrement_logic": "When I sit low in the order, I soften every objection before it leaves me, swallow my first reaction and burn when I am caught out: I feel that showing myself here would cost me.",
+     "explanation": "Low rank keeps the threat system primed: appeasing, submissive and shame displays come unbidden, and each retreat is felt as a sign that showing oneself is dangerous; high rank releases them. Reduced power goes with attention to threat and inhibited behaviour (Keltner, Gruenfeld and Anderson 2003), and profession-based status goes with greater psychological safety (Nembhard and Edmondson 2006). Rank and safety stay distinct readings, since a member can be well placed in a group that punishes slips, or lowly in one that does not. This card carries the route through settled place; X:Prestige->DivsExp carries the weaker route through live deference for what she brings. From the comparative psychologist's synthesis build (Standing->Safety), its most-used card."
     }
    ]
   },
@@ -5548,9 +5854,9 @@
    "target": "OutResp",
    "type": "Reinforce",
    "name": "Friends get the rope",
-   "increment_logic": "When the others draw me in as one of their own, I hand parts of the shared work to my friends among them without a second thought, I see them carry it through, and I feel I can leave work in their hands: my confidence that they will do their part rises.",
-   "decrement_logic": "When I am left at the edge, I keep the work in my own hands and check what little I hand over; they read the checking as distrust and slacken, and the last let-down stays with me: my confidence that they will do their part falls.",
-   "explanation": "Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann). The gain for OutResp therefore comes from sampling: a member who trusts more sees more work carried through, while one who withholds trust sees little and keeps her last let-down as the verdict, since withheld trust gets no feedback that could correct it (Fetchenhauer and Dunning 2010; Denrell 2005). Control read as distrust lowers the other's effort (Falk and Kosfeld), so withheld trust is partly self-fulfilling.",
+   "increment_logic": "When the others draw me in as one of their own, I hand them parts of the shared work without a second thought, and the times they carried work through come to mind before the lapses: my confidence that they will do their part rises.",
+   "decrement_logic": "When I am left at the edge, I keep the work in my own hands, check what little I hand over, and the last let-down comes back to me as the verdict on them: my confidence that they will do their part falls.",
+   "explanation": "Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann). The felt shift at the cue is in how readily she trusts; the gain for OutResp builds across plays from sampling: a member who trusts more sees more work carried through, while one who withholds trust sees little and keeps her last let-down as the verdict, since withheld trust gets no feedback that could correct it (Fetchenhauer and Dunning 2010; Denrell 2005). Control read as distrust lowers the other's effort (Falk and Kosfeld), so over many plays withheld trust is partly self-fulfilling. Elaboration: when the low reading comes from being shut out, her reaction may show hostility, aimed readily at whoever crosses her next, even someone who had no part in it, and withheld only from those who treat her warmly (Twenge, Baumeister, Tice and Stucke 2001); if the exclusion is public and reads as a slight to her good name, the Reputation expansion carries that flare.",
    "sources": [
     {
      "source": "Engelmann, J., Herrmann, E., 2016, Chimpanzees trust their friends, Current Biology 26: 252-256",
@@ -5563,6 +5869,12 @@
      "claim": "Most agents reduce performance when controlled and say they read control as distrust.",
      "url": "https://conference.iza.org/en/webcontent/publications/papers/viewAbstract?dp_id=1203",
      "verified": "verified"
+    },
+    {
+     "source": "Twenge, Baumeister, Tice and Stucke, 2001, If you can't join them, beat them: effects of social exclusion on aggressive behavior, JPSP 81",
+     "claim": "Social exclusion raises aggression towards those who rejected the person and towards neutral others.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11761304/",
+     "verified": "model knowledge; not yet checked by search"
     }
    ],
    "evidence_rank": 6,
@@ -5573,7 +5885,10 @@
     "label": "Proposed by the comparative psychologist's critique of VX (5 Nov 2026)"
    },
    "edits_log": [
-    "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass checks 1 to 4 and 6 (the sampling mechanism resembles E:Engagement->OutResp but comes from a different source, so it is not a duplicate). Check 5: the explanation labels the sampling argument a proposal and leans on an internal reference to Model B, yet human evidence exists: those who withhold trust never see it honoured and so stay cynical (Fetchenhauer and Dunning 2010; Denrell 2005). Smallest fix is to the explanation only. (Record the added sources in docs/literature.md if applied.)"
+    "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass checks 1 to 4 and 6 (the sampling mechanism resembles E:Engagement->OutResp but comes from a different source, so it is not a duplicate). Check 5: the explanation labels the sampling argument a proposal and leans on an internal reference to Model B, yet human evidence exists: those who withhold trust never see it honoured and so stay cynical (Fetchenhauer and Dunning 2010; Denrell 2005). Smallest fix is to the explanation only. (Record the added sources in docs/literature.md if applied.)",
+    "Ben, 5 Nov 2026, 12.08 pm (\"Add the elaboration re hostility\"): elaboration note on hostility after exclusion added to the explanation",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and mechanism pass. The increment matches high Belonging (drawn in) and OutResp rising (leaving work in their hands); the decrement matches low Belonging (left at the edge) and OutResp falling (checking up), and neither line uses the others' trust in her, skill or the return on help. The sampling account matches Fetchenhauer and Dunning (2010) and Denrell (2005), and control lowering effort matches Falk and Kosfeld (2006). No other card links Belonging to OutResp. The elaboration repeats the Twenge et al. (2001) misstatement found on E:Belonging->Levelling: the aggression they measured fell on an insulter or a neutral stranger, never on the excluders. The fix uses the same correction as that card.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Timescale. Cards act within seconds or minutes of a cue, but both lines narrate a process that takes many plays: handing work over and then seeing it carried through (increment), and checking, the others reading it as distrust and slackening, then a let-down (decrement). The explanation itself grounds the gain in sampling, which is an across-plays effect. The lines should give the felt reaction at the cue and leave the sampling and the Falk and Kosfeld feedback to the explanation as what builds over many plays. Smaller point: 'my friends among them' narrows OutResp, which reads the other members generally. Literature checks out: Engelmann and Herrmann (chimpanzee friends trusted more, not more trustworthy), Fetchenhauer and Dunning 2010 and Denrell 2005 (withheld trust gets no corrective feedback), Falk and Kosfeld (hidden costs of control), Twenge, Baumeister, Tice and Stucke 2001 (excluded people aggress against a neutral target, not against one who praised them). Boundaries and type are sound."
    ],
    "ripple_was": [
     {
@@ -5581,6 +5896,18 @@
      "increment_logic": "When the others draw me in as one of their own, I hand parts of the shared work to my friends among them without a second thought, I see them carry it through, and I feel I can leave work in their hands: my confidence that they will do their part rises.",
      "decrement_logic": "When I am left at the edge, I keep the work in my own hands and check what little I hand over; they read the checking as distrust and slacken, and the last let-down stays with me: my confidence that they will do their part falls.",
      "explanation": "Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann). The gain for OutResp therefore comes from sampling: a member who trusts more sees more work carried through, while one who withholds trust sees little and keeps her last let-down as the verdict (proposal, the same sampling argument Model B uses on E:Engagement->OutResp). Control read as distrust lowers the other's effort (Falk and Kosfeld), so withheld trust is partly self-fulfilling."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the others draw me in as one of their own, I hand parts of the shared work to my friends among them without a second thought, I see them carry it through, and I feel I can leave work in their hands: my confidence that they will do their part rises.",
+     "decrement_logic": "When I am left at the edge, I keep the work in my own hands and check what little I hand over; they read the checking as distrust and slacken, and the last let-down stays with me: my confidence that they will do their part falls.",
+     "explanation": "Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann). The gain for OutResp therefore comes from sampling: a member who trusts more sees more work carried through, while one who withholds trust sees little and keeps her last let-down as the verdict, since withheld trust gets no feedback that could correct it (Fetchenhauer and Dunning 2010; Denrell 2005). Control read as distrust lowers the other's effort (Falk and Kosfeld), so withheld trust is partly self-fulfilling. Elaboration: when the low reading comes from being shut out, her reaction may show hostility towards those who did it (Twenge, Baumeister, Tice and Stucke 2001); if the exclusion is public and reads as a slight to her good name, the Reputation expansion carries that flare."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the others draw me in as one of their own, I hand parts of the shared work to my friends among them without a second thought, I see them carry it through, and I feel I can leave work in their hands: my confidence that they will do their part rises.",
+     "decrement_logic": "When I am left at the edge, I keep the work in my own hands and check what little I hand over; they read the checking as distrust and slacken, and the last let-down stays with me: my confidence that they will do their part falls.",
+     "explanation": "Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann). The gain for OutResp therefore comes from sampling: a member who trusts more sees more work carried through, while one who withholds trust sees little and keeps her last let-down as the verdict, since withheld trust gets no feedback that could correct it (Fetchenhauer and Dunning 2010; Denrell 2005). Control read as distrust lowers the other's effort (Falk and Kosfeld), so withheld trust is partly self-fulfilling. Elaboration: when the low reading comes from being shut out, her reaction may show hostility, aimed readily at whoever crosses her next, even someone who had no part in it, and withheld only from those who treat her warmly (Twenge, Baumeister, Tice and Stucke 2001); if the exclusion is public and reads as a slight to her good name, the Reputation expansion carries that flare."
     }
    ]
   },
@@ -5705,9 +6032,9 @@
    "target": "Prestige",
    "type": "Reinforce",
    "name": "Ideas aired, ideas taken up",
-   "increment_logic": "When I feel safe to let a disagreement or a half-formed idea show, I put forward how we might do the work better in front of the others; they take it up, bring me the next problem of that kind and look to me when it comes round again: my sense that they turn to me for what I bring rises.",
-   "decrement_logic": "When I brace and keep my ideas masked, what I could bring stays in my head; the others never see it, take the next problem to whoever spoke up, and I watch my kind of skill go to them: my sense that they turn to me for what I bring falls.",
-   "explanation": "Speaking up raises the status colleagues confer, partly because those who speak are seen as more agentic and competent (Weiss and Morrison 2019). Promotive voice, ideas for doing things better, raised peer-rated status and later leader emergence, while prohibitive voice, raising concerns, did not; men gained more than women (McClean et al. 2018). Members who act confidently are judged competent and gain influence even when their answers are no better (Anderson and Kilduff 2009). The card covers ideas offered to improve the shared work; voicing alarm or criticism is not covered and may cost her. Set it smaller for women members. Deck X: DivsExp is egalitarian, Prestige hierarchical. It forms a Reinforce loop with X:Prestige->DivsExp; the brake is a visible failure of what she puts forward (Prestige evidence).",
+   "increment_logic": "When I feel safe to let a half-formed idea show, I put forward how we might do the work better in front of the others; they take it up and turn to me on it: my sense that they turn to me for what I bring rises.",
+   "decrement_logic": "When I brace and keep my ideas masked, what I could bring stays in my head; the others never see it and turn to whoever spoke up instead: my sense that they turn to me for what I bring falls.",
+   "explanation": "Felt psychological safety is the main spur to speaking up in work teams (Edmondson 1999; Detert and Burris 2007). Speaking up raises the status colleagues confer, partly because those who speak are seen as more agentic and competent (Weiss and Morrison 2019). Promotive voice, ideas for doing things better, raised peer-rated status and later leader emergence, while prohibitive voice, raising concerns, did not; men gained more than women (McClean et al. 2018). Members who act confidently are judged competent and gain influence even when their answers are no better (Anderson and Kilduff 2009). The card covers ideas offered to improve the shared work; voicing alarm or criticism is not covered and may cost her. Set it smaller for women members. Deck X: DivsExp is egalitarian, Prestige hierarchical. It forms a Reinforce loop with X:Prestige->DivsExp; the brake is a visible failure of what she puts forward (Prestige evidence).",
    "sources": [
     {
      "source": "McClean, Martin, Emich and Woodruff 2018, AMJ 61",
@@ -5734,7 +6061,25 @@
    "origin": {
     "kind": "critique",
     "label": "Proposed by the social psychologist's critique of VX (5 Nov 2026)"
-   }
+   },
+   "edits_log": [
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Timescale: the increment's 'bring me the next problem of that kind and look to me when it comes round again' describes deference built over many episodes, but a card is a felt reaction within minutes of a cue; the slow build belongs to repeated plays. The first step of the mechanism (felt safety prompting voice) is asserted but uncited, and the cited evidence covers only voice to conferred status.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation limits the card to promotive voice (ideas for doing the work better) and warns that prohibitive voice may cost her (McClean et al. 2018). The increment line, though, opens with letting 'a disagreement' show, which reads as the prohibitive voice the card leaves out. Fix: drop the disagreement from the increment line so that the line matches the covered mechanism."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel safe to let a disagreement or a half-formed idea show, I put forward how we might do the work better in front of the others; they take it up, bring me the next problem of that kind and look to me when it comes round again: my sense that they turn to me for what I bring rises.",
+     "decrement_logic": "When I brace and keep my ideas masked, what I could bring stays in my head; the others never see it, take the next problem to whoever spoke up, and I watch my kind of skill go to them: my sense that they turn to me for what I bring falls.",
+     "explanation": "Speaking up raises the status colleagues confer, partly because those who speak are seen as more agentic and competent (Weiss and Morrison 2019). Promotive voice, ideas for doing things better, raised peer-rated status and later leader emergence, while prohibitive voice, raising concerns, did not; men gained more than women (McClean et al. 2018). Members who act confidently are judged competent and gain influence even when their answers are no better (Anderson and Kilduff 2009). The card covers ideas offered to improve the shared work; voicing alarm or criticism is not covered and may cost her. Set it smaller for women members. Deck X: DivsExp is egalitarian, Prestige hierarchical. It forms a Reinforce loop with X:Prestige->DivsExp; the brake is a visible failure of what she puts forward (Prestige evidence)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I feel safe to let a disagreement or a half-formed idea show, I put forward how we might do the work better in front of the others; they take it up and turn to me on it: my sense that they turn to me for what I bring rises.",
+     "decrement_logic": "When I brace and keep my ideas masked, what I could bring stays in my head; the others never see it and turn to whoever spoke up instead: my sense that they turn to me for what I bring falls.",
+     "explanation": "Felt psychological safety is the main spur to speaking up in work teams (Edmondson 1999; Detert and Burris 2007). Speaking up raises the status colleagues confer, partly because those who speak are seen as more agentic and competent (Weiss and Morrison 2019). Promotive voice, ideas for doing things better, raised peer-rated status and later leader emergence, while prohibitive voice, raising concerns, did not; men gained more than women (McClean et al. 2018). Members who act confidently are judged competent and gain influence even when their answers are no better (Anderson and Kilduff 2009). The card covers ideas offered to improve the shared work; voicing alarm or criticism is not covered and may cost her. Set it smaller for women members. Deck X: DivsExp is egalitarian, Prestige hierarchical. It forms a Reinforce loop with X:Prestige->DivsExp; the brake is a visible failure of what she puts forward (Prestige evidence)."
+    }
+   ]
   },
   {
    "id": "E:OutResp->Levelling",
@@ -5747,9 +6092,9 @@
    "target": "Levelling",
    "type": "Reinforce",
    "name": "No passengers",
-   "increment_logic": "When every member carries through what they take on, no one is eating from a pot they did not fill, and each share matches what each has put in: my sense that no one here takes more than their due and keeps it rises.",
-   "decrement_logic": "When some members coast and still take the same share of credit and reward as those who carry them, I see them taking what they have not earned and getting away with it, and I feel a sucker for carrying them: my sense that no one here takes more than their due and keeps it falls.",
-   "explanation": "Members cut their own effort rather than be the sucker who carries a capable partner who free rides, a reaction to broken equity and reciprocity norms (Kerr 1983). Negative emotion towards free riders drives costly punishment of them (Fehr and Gächter 2002). A free rider who shares the group's take gets more than the group's reckoning gives, which is what Levelling's second limb reads. The card holds where the take is shared; where reward tracks each member's own input, shirking costs the shirker and Levelling is untouched. Modest; forms a Reinforce loop with E:Levelling->OutResp.",
+   "increment_logic": "When every member carries through what they take on, the credit and reward each draws is earned by a part they have done, so no one gets more than our reckoning gives by coasting: my sense that no one here takes more than their due and keeps it rises.",
+   "decrement_logic": "When some members coast yet still draw the full share of credit and reward that our reckoning gives only to those who do their part, and no one makes them give it up, I see them taking more than their due and keeping it: my sense that no one here takes more than their due and keeps it falls.",
+   "explanation": "In public goods games free riders draw an equal share of the pool while keeping their own stake, so they end ahead of those who contributed, and contributors' anger at them drives costly punishment (Fehr and Gächter 2002). The anger is NormExp's ground (X:OutResp->NormExp); the card takes from the study only that members read a coaster as ending ahead of what his part earns. Members also cut their own effort rather than carry a capable partner who free rides (the sucker effect: Kerr 1983), which does not move here. A coaster who draws the full share where the group's reckoning ties shares to doing one's part takes more than that reckoning gives, which is what Levelling's second limb reads; the reading falls only when no one stops him and the grab sticks. The card holds only under such a reckoning. The game's own rule splits the pool equally, so players' tie of shares to contribution is inferred from the contributors' anger, not given by the game. Where the group's reckoning gives equal shares whatever each puts in, as Ache bands share game whoever made the kill (Kaplan and Hill 1985), the coaster gets what the reckoning gives and Levelling is untouched; where reward tracks each member's own output, shirking costs only the shirker. High reliability removes coasting as one route to an unearned share; it says nothing of grabbing or coercion by other means. Modest; forms a Reinforce loop with E:Levelling->OutResp.",
    "sources": [
     {
      "source": "Kerr 1983, JPSP 45",
@@ -5770,7 +6115,46 @@
    "origin": {
     "kind": "critique",
     "label": "Proposed by the social psychologist's critique of VX (5 Nov 2026)"
-   }
+   },
+   "edits_log": [
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Levelling's second limb reads taking more than the group's own reckoning gives and making it stick. A coaster who draws an equal share takes more than his due only where the reckoning ties shares to doing one's part; where the group shares its take equally regardless of input, as many forager bands do (tolerated scrounging), he takes exactly what the reckoning gives. The increment assumes an equity reckoning ('each share matches what each has put in') and the decrement omits 'makes it stick'. 'I feel a sucker for carrying them' strays into Reciprocity (her help unreturned) and into her own effort cut (Kerr's sucker effect proper), and indignation at the shirk is already carried by X:OutResp->NormExp. The explanation's scope clause names the wrong boundary.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and scope pass. Two citations are glossed loosely. Kerr 1983 found that members cut their own effort rather than be the sucker carrying a capable free rider, and it does not report resentment as such. Blurton Jones 1984 calls the mechanism 'tolerated theft' (later writers say 'tolerated scrounging'). Fix: gloss both as the sources state them.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines pass: the source is read at the stated level, the target moves through Levelling's second limb (taking more than the reckoning gives and making it stick), the lines keep off OutResp's work ground and NormExp's indignation, the type fits, and the card does not duplicate its loop partner E:Levelling->OutResp or X:OutResp->NormExp. Two faults in the explanation. (a) It says the reading 'falls further when no one stops him', which implies it falls even when the coaster is stopped; by Levelling's definition a grab only lowers it once it sticks, as the decrement line rightly says. (b) Tolerated theft (Blurton Jones 1984) explains sharing as a holder yielding what costs too much to defend. It does not show a band reckoning that gives equal shares regardless of input, so it is a poor cite for the boundary case; widespread Ache meat sharing irrespective of who made the kill (Kaplan and Hill 1985) fits the point directly. Fehr and Gächter 2002 and Kerr 1983 are cited correctly.",
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Increment line overreaches: high OutResp (members carry through and keep their word) does not show that 'no one keeps what our reckoning would not give them'; a reliable member can still grab or coerce. High OutResp only removes coasting as a route to an unearned share, so the line should say that. Decrement passes (1)-(4) and keeps to Levelling's second limb, leaving shirking itself to OutResp and indignation to NormExp. Explanation conflict: Fehr and Gaechter 2002 is a public goods game, where the pool is shared equally whatever each puts in, the very setting the card says leaves Levelling untouched. The free rider there ends ahead by keeping his own stake, and the anger itself is NormExp's ground; the explanation should say so and say what separates it from the Ache case. Kerr 1983 (sucker effect) is sound but concerns her own effort, which the card already sets aside. No duplication with other cards.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and boundaries pass against the revised Levelling (second limb: taking more than the group's reckoning gives and making it stick) and the revised OutResp. The explanation overstates its evidence: in a public goods game the formal rule splits the pool equally whatever each puts in, the same structure the card later uses (Ache sharing) to say Levelling is untouched. Players' sense that shares should track contribution is inferred from contributors' anger and punishment, so 'plainly bring with them' overclaims and sits awkwardly beside the Ache case. Smallest fix: state it as an inference from the anger and note the formal equal split. Also spell Gächter as in X:OutResp->NormExp."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When every member carries through what they take on, no one is eating from a pot they did not fill, and each share matches what each has put in: my sense that no one here takes more than their due and keeps it rises.",
+     "decrement_logic": "When some members coast and still take the same share of credit and reward as those who carry them, I see them taking what they have not earned and getting away with it, and I feel a sucker for carrying them: my sense that no one here takes more than their due and keeps it falls.",
+     "explanation": "Members cut their own effort rather than be the sucker who carries a capable partner who free rides, a reaction to broken equity and reciprocity norms (Kerr 1983). Negative emotion towards free riders drives costly punishment of them (Fehr and Gächter 2002). A free rider who shares the group's take gets more than the group's reckoning gives, which is what Levelling's second limb reads. The card holds where the take is shared; where reward tracks each member's own input, shirking costs the shirker and Levelling is untouched. Modest; forms a Reinforce loop with E:Levelling->OutResp."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When every member carries through what they take on, everyone who draws a full share of credit and reward has done the part that earns it, and no one keeps what our reckoning would not give them: my sense that no one here takes more than their due and keeps it rises.",
+     "decrement_logic": "When some members coast yet still draw the full share of credit and reward that our reckoning gives only to those who do their part, and no one makes them give it up, I see them taking more than their due and keeping it: my sense that no one here takes more than their due and keeps it falls.",
+     "explanation": "Anger at free riders who share the group's earnings drives costly punishment of them (Fehr and Gächter 2002), and members resent carrying a capable partner who free rides (Kerr 1983). A coaster who draws the full share where the group's reckoning ties shares to doing one's part takes more than that reckoning gives, which is what Levelling's second limb reads; the reading falls further when no one stops him. The card holds only under such a reckoning. Where the group shares its take equally regardless of input, as many forager bands share meat (tolerated scrounging: Blurton Jones 1984), the coaster gets what the reckoning gives and Levelling is untouched; where reward tracks each member's own output, shirking costs only the shirker. Her own cut in effort and her indignation at the shirk (X:OutResp->NormExp) do not move here. Modest; forms a Reinforce loop with E:Levelling->OutResp."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When every member carries through what they take on, everyone who draws a full share of credit and reward has done the part that earns it, and no one keeps what our reckoning would not give them: my sense that no one here takes more than their due and keeps it rises.",
+     "decrement_logic": "When some members coast yet still draw the full share of credit and reward that our reckoning gives only to those who do their part, and no one makes them give it up, I see them taking more than their due and keeping it: my sense that no one here takes more than their due and keeps it falls.",
+     "explanation": "Anger at free riders who share the group's earnings drives costly punishment of them (Fehr and Gächter 2002), and members cut their own effort rather than carry a capable partner who free rides (the sucker effect: Kerr 1983). A coaster who draws the full share where the group's reckoning ties shares to doing one's part takes more than that reckoning gives, which is what Levelling's second limb reads; the reading falls further when no one stops him. The card holds only under such a reckoning. Where the group shares its take equally regardless of input, as many forager bands share meat (tolerated theft: Blurton Jones 1984), the coaster gets what the reckoning gives and Levelling is untouched; where reward tracks each member's own output, shirking costs only the shirker. Her own cut in effort and her indignation at the shirk (X:OutResp->NormExp) do not move here. Modest; forms a Reinforce loop with E:Levelling->OutResp."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When every member carries through what they take on, everyone who draws a full share of credit and reward has done the part that earns it, and no one keeps what our reckoning would not give them: my sense that no one here takes more than their due and keeps it rises.",
+     "decrement_logic": "When some members coast yet still draw the full share of credit and reward that our reckoning gives only to those who do their part, and no one makes them give it up, I see them taking more than their due and keeping it: my sense that no one here takes more than their due and keeps it falls.",
+     "explanation": "Anger at free riders who share the group's earnings drives costly punishment of them (Fehr and Gächter 2002), and members cut their own effort rather than carry a capable partner who free rides (the sucker effect: Kerr 1983). A coaster who draws the full share where the group's reckoning ties shares to doing one's part takes more than that reckoning gives, which is what Levelling's second limb reads; the reading falls only when no one stops him and the grab sticks. The card holds only under such a reckoning. Where the group shares its take equally regardless of input, as Ache bands share game whoever made the kill (Kaplan and Hill 1985), the coaster gets what the reckoning gives and Levelling is untouched; where reward tracks each member's own output, shirking costs only the shirker. Her own cut in effort and her indignation at the shirk (X:OutResp->NormExp) do not move here. Modest; forms a Reinforce loop with E:Levelling->OutResp."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When every member carries through what they take on, the credit and reward each draws is earned by a part they have done, so no one gets more than our reckoning gives by coasting: my sense that no one here takes more than their due and keeps it rises.",
+     "decrement_logic": "When some members coast yet still draw the full share of credit and reward that our reckoning gives only to those who do their part, and no one makes them give it up, I see them taking more than their due and keeping it: my sense that no one here takes more than their due and keeps it falls.",
+     "explanation": "In public goods games free riders draw an equal share of the pool while keeping their own stake, so they end ahead of those who contributed, and contributors' anger at them drives costly punishment (Fehr and Gaechter 2002). The anger is NormExp's ground (X:OutResp->NormExp); the card takes from the study only that members read a coaster as ending ahead of what his part earns. Members also cut their own effort rather than carry a capable partner who free rides (the sucker effect: Kerr 1983), which does not move here. A coaster who draws the full share where the group's reckoning ties shares to doing one's part takes more than that reckoning gives, which is what Levelling's second limb reads; the reading falls only when no one stops him and the grab sticks. The card holds only under such a reckoning, which players in public goods games plainly bring with them. Where the group's reckoning gives equal shares whatever each puts in, as Ache bands share game whoever made the kill (Kaplan and Hill 1985), the coaster gets what the reckoning gives and Levelling is untouched; where reward tracks each member's own output, shirking costs only the shirker. High reliability removes coasting as one route to an unearned share; it says nothing of grabbing or coercion by other means. Modest; forms a Reinforce loop with E:Levelling->OutResp."
+    }
+   ]
   },
   {
    "id": "X:Prestige->DivsExp",
@@ -5828,7 +6212,7 @@
    "name": "Good season, open hands",
    "increment_logic": "When the venture looks well within our reach, I am buoyed, I help whoever asks without counting, and the others do the same around me: my reading that help here comes back rises.",
    "decrement_logic": "When the venture looks beyond us, everyone hunches over their own part, help asked for is slow to come and mine goes unreturned: my reading that help here comes back falls.",
-   "explanation": "Good mood raises helping (Carlson, Charlin and Miller 1988). Mood spreads through a group by contagion, and positive contagion brings more cooperation and less conflict, negative contagion the reverse (Barsade 2002). Confidence in the venture carries that mood, so help flows more freely in a group that expects to win. Under threat, attention narrows (Staw et al. 1981), and each member guards her own part. The step from the group's mood to her felt return is a proposal: common sense, since a winning side is a generous one. Modest; forms a loop with E:Reciprocity->GrpProsp.",
+   "explanation": "Good mood raises helping (Carlson, Charlin and Miller 1988). Mood spreads through a group by contagion, and positive contagion brings more cooperation and less conflict, negative contagion the reverse (Barsade 2002). Confidence in the venture carries that mood, so help flows more freely in a group that expects to win. Under threat, attention narrows (Staw et al. 1981), and each member guards her own part. The step from the group's mood to her felt return is a proposal: common sense, since a winning side is a generous one. Where doubt about the venture rallies the group around a common threat (E:GrpProsp->Belonging), help may keep flowing; play the decrement weak or not at all then. Modest; forms a loop with E:Reciprocity->GrpProsp.",
    "sources": [
     {
      "source": "Carlson, Charlin and Miller 1988, JPSP 55",
@@ -5849,7 +6233,18 @@
    "origin": {
     "kind": "critique",
     "label": "Proposed by the social psychologist's critique of VX (5 Nov 2026)"
-   }
+   },
+   "edits_log": [
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Consistency: E:GrpProsp->Belonging is Discretionary (Circle the Wagons) because a threatened group can draw together, yet this card treats a doubtful venture as always closing hands. The lines and Reinforce type are sound for the usual case (failure tends to erode cohesion and breed blame), but the explanation should note the rallying exception so the two cards do not pull against each other unmarked."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the venture looks well within our reach, I am buoyed, I help whoever asks without counting, and the others do the same around me: my reading that help here comes back rises.",
+     "decrement_logic": "When the venture looks beyond us, everyone hunches over their own part, help asked for is slow to come and mine goes unreturned: my reading that help here comes back falls.",
+     "explanation": "Good mood raises helping (Carlson, Charlin and Miller 1988). Mood spreads through a group by contagion, and positive contagion brings more cooperation and less conflict, negative contagion the reverse (Barsade 2002). Confidence in the venture carries that mood, so help flows more freely in a group that expects to win. Under threat, attention narrows (Staw et al. 1981), and each member guards her own part. The step from the group's mood to her felt return is a proposal: common sense, since a winning side is a generous one. Modest; forms a loop with E:Reciprocity->GrpProsp."
+    }
+   ]
   }
  ]
 }
