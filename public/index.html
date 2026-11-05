@@ -108,6 +108,10 @@ g.bg:not(:has(.edge.on)) .edge-hit, g.bg:not(:has(.edge.on)) .edge, g:has(.edge.
 .edge.on { opacity: .95; stroke-width: 2.6; }
 .edge.hover { opacity: 1; stroke-width: 3.4; }
 
+.face-seg { display: flex; gap: 6px; margin: 4px 0 10px; }
+.face-seg button { font: 500 12px var(--mono); color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.face-seg button[aria-selected=true] { color: var(--fg); background: color-mix(in srgb, var(--accent, #b46cff) 22%, transparent); border-color: transparent; }
+.face-body { display: grid; gap: 10px; }
 .subtitle { margin: 2px 0 0; color: var(--muted, #b9b3c9); font-style: italic; }
 .summary p { font-size: 1.02em; }
 ul.lit { list-style: none; padding: 0; display: grid; gap: 10px; }
