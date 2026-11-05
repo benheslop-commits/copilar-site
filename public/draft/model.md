@@ -5,7 +5,7 @@ Draft model built by scripts/draft/build_pillars.py from canon/pillars.json (V1,
 Claim ceiling: synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test ComPILAR.
 
 - Egalitarian deck: GrpProsp, Reciprocity, Belonging, Levelling, DivsExp, OutResp, Prestige, Warmth
-- Hierarchical deck: OwnProsp, Reciprocity, Belonging, Status, NormExp, Prestige, GrpProsp, Levelling, Warmth
+- Hierarchical deck: OwnProsp, Reciprocity, Belonging, Status, NormExp, Prestige, GrpProsp, Levelling
 
 ## Pillars
 
@@ -196,23 +196,13 @@ Effect on Engagement: Where you feel that others have a high opinion of your com
 
 Status: provisional
 
-Continuum: shared. Axis: None
+Continuum: ECP. Axis: None
 
 How fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement), which can be high in a group whose members you merely tolerate.
 
 - 10: You brighten at the sight of them, enjoy their company for its own sake and feel their troubles as partly yours.
 - 1: Their company is a duty, their troubles leave you unmoved and you are glad when the gathering breaks up.
 - Pre-language: Affection for her fellows: the face that lights and the body that leans in and lingers, against the flat face and the body turned away. Intimates read it from how she greets them and how long she stays.
-
-Face in the egalitarian deck: Fond of the band. How fond you feel of the members at large, taken as fellows: whether you like being among them, are drawn to the band's company and feel any member's troubles as partly yours. The reading spans the whole membership and takes no account of anyone's place in an order. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).
-- 10: Whoever of the band you run into, you are glad to see them, happy to stay in their company and touched when any of them is in trouble.
-- 1: Being among the members at large feels like a chore, the trouble of any one of them leaves you cold and you slip away as soon as you can.
-- Pre-language: Affection spread across the band: she greets most of her fellows with a softened face, settles and lingers near whoever is at hand, and stays close to one in distress, against the flat face and the drift to the edge of the group. Intimates read it from how widely she seeks company and how readily she stays.
-
-Face in the hierarchical deck: Fond of those around you in the order. How fond you feel of the people you deal with up and down the order: peers, patrons and those below. The reading asks whether you like being with each of them, are drawn to their company and feel their troubles as partly yours, whatever their rank relative to yours. It is your liking for them, not regard for their place or admiration of their worth, not their acceptance of you (Belonging), not whether favours come back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).
-- 10: You are glad to see your peers, your patrons and those below you alike, enjoy time with each for its own sake and feel their troubles as partly yours.
-- 1: Dealings with those above, beside and below you are a duty you get through, their troubles leave you unmoved and you are relieved when each encounter ends.
-- Pre-language: Affection that crosses rank: she approaches those above with a relaxed face as well as the due signals of their place, lingers with equals and stays near those below without pressing her advantage, against contact kept to the ritual of rank and the body turned away once it is done. Intimates read it from how she greets each and how long she stays once the business of rank is over.
 
 ## Force cards
 
@@ -973,14 +963,6 @@ Status: provisional. Origin: Proposed by the social psychologist's second-round 
 - Decrement: When I am pulling out of this group, their habits grate and their company feels like a duty: my fondness for them falls.
 - Explanation: Reflective beat. Attachment to the group and attachment to its members are distinct, and travel together to different degrees by group type (Prentice et al. 1994). Self-categorisation work holds that identifying with a group breeds liking for its members as members (social attraction: Hogg and Hardie 1991; Hogg 1992; not checked here); the card carries that from identification to investment by analogy, so the increment is a proposal with indirect support. The decrement, a stake draining away until company becomes a chore, rests on common sense. Modest, since Engagement can run high in a group whose members are merely tolerated.
 
-### H:Engagement->Warmth: Easy company up and down (Reinforce, Hierarchical)
-
-Status: provisional. Origin: Proposed by the social psychologist's second-round review (5 Nov 2026)
-
-- Increment: When I am putting much of myself into this group, those above, beside and below me read as people I am glad to deal with: my fondness for them rises.
-- Decrement: When I am pulling out of this group, dealing with those above, beside and below me feels like a chore: my fondness for them falls.
-- Explanation: Hierarchical-face twin of Easy company, on the same grounds; proposal; modest.
-
 ### H:Levelling->OwnProsp: Favourites first (Reinforce, Hierarchical)
 
 Status: provisional. Origin: Proposed by the social psychologist's second-round review (5 Nov 2026)
@@ -1003,7 +985,7 @@ Status: provisional. Origin: Proposed by the organisational psychologist's secon
 
 - Increment: When I can leave the work, and my slips, in their hands and they come through, I stop watching them, spend easier time in their company and come to care how they fare: my fondness for them rises.
 - Decrement: When I keep having to chase and redo what they took on, their company turns into watching them, and I care less how they fare: my fondness for them falls.
-- Explanation: Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other Model B reading, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance).
+- Explanation: Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other perception, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance).
 
 ### H:Levelling->Prestige: Heard, so counted (Reinforce, Hierarchical)
 

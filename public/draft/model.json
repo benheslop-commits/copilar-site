@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T18:46+10:30",
+  "built": "2026-11-05T18:56+10:30",
   "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -49,8 +49,7 @@
      "NormExp",
      "Prestige",
      "GrpProsp",
-     "Levelling",
-     "Warmth"
+     "Levelling"
     ]
    }
   },
@@ -59,8 +58,7 @@
    "Belonging",
    "GrpProsp",
    "Prestige",
-   "Levelling",
-   "Warmth"
+   "Levelling"
   ],
   "axes": {
    "Prospects": {
@@ -2798,12 +2796,11 @@
    "Warmth": {
     "name": "Warmth",
     "plain_name": "Warmth",
-    "continuum": "shared",
+    "continuum": "ECP",
     "decks": [
-     "E",
-     "H"
+     "E"
     ],
-    "shared": true,
+    "shared": false,
     "description": "How fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement), which can be high in a group whose members you merely tolerate.",
     "anchors": {
      "10": "You brighten at the sight of them, enjoy their company for its own sake and feel their troubles as partly yours.",
@@ -2924,48 +2921,53 @@
        }
       },
       "why": "The hierarchical face drops the Dependability clause that the general definition and the egalitarian face both carry, so the boundary with Dependability is left unstated on that face. Fondness for a patron or a peer is easily confused with counting on them to carry their part and not turn a weak spot against you, and Dependability names Warmth as outside it, so the exclusion should run both ways on this face too. Other H faces (Team Confidence, Reciprocity) already name Dependability, so naming it here is consistent. Smallest fix: restore the clause."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ben, 5 Nov 2026, 6.53 pm (Warmth unshared under the continuum principle)",
+      "was": {
+       "faces": {
+        "E": {
+         "label": "Fond of the band",
+         "description": "How fond you feel of the members at large, taken as fellows: whether you like being among them, are drawn to the band's company and feel any member's troubles as partly yours. The reading spans the whole membership and takes no account of anyone's place in an order. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).",
+         "anchors": {
+          "10": "Whoever of the band you run into, you are glad to see them, happy to stay in their company and touched when any of them is in trouble.",
+          "1": "Being among the members at large feels like a chore, the trouble of any one of them leaves you cold and you slip away as soon as you can."
+         },
+         "pre_language": {
+          "core": "Affection spread across the band: she greets most of her fellows with a softened face, settles and lingers near whoever is at hand, and stays close to one in distress, against the flat face and the drift to the edge of the group. Intimates read it from how widely she seeks company and how readily she stays."
+         },
+         "subtitle": "Fondness for the whole band",
+         "summary": "Warmth, egalitarian face, is how fond you feel of the members at large, taken as fellows. It asks whether you like being among them, are drawn to their company and feel any member's troubles as partly yours. It takes no account of place in an order, and it is not Belonging, Reciprocity or Engagement.",
+         "summary_status": "generated from the face's description, not canon; checked faithful"
+        },
+        "H": {
+         "label": "Fond of those around you in the order",
+         "description": "How fond you feel of the people you deal with up and down the order: peers, patrons and those below. The reading asks whether you like being with each of them, are drawn to their company and feel their troubles as partly yours, whatever their rank relative to yours. It is your liking for them, not regard for their place or admiration of their worth, not their acceptance of you (Belonging), not whether favours come back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).",
+         "anchors": {
+          "10": "You are glad to see your peers, your patrons and those below you alike, enjoy time with each for its own sake and feel their troubles as partly yours.",
+          "1": "Dealings with those above, beside and below you are a duty you get through, their troubles leave you unmoved and you are relieved when each encounter ends."
+         },
+         "pre_language": {
+          "core": "Affection that crosses rank: she approaches those above with a relaxed face as well as the due signals of their place, lingers with equals and stays near those below without pressing her advantage, against contact kept to the ritual of rank and the body turned away once it is done. Intimates read it from how she greets each and how long she stays once the business of rank is over."
+         },
+         "subtitle": "Fondness for those around you",
+         "summary": "Warmth, hierarchical face, is how fond you feel of the people you deal with up and down the order: peers, patrons and those below. It asks whether you like being with each of them and feel their troubles as partly yours, whatever their rank. It is not regard for their place, Belonging or Reciprocity.",
+         "summary_status": "generated from the face's description, not canon; checked faithful"
+        }
+       },
+       "decks": [
+        "E",
+        "H"
+       ]
+      },
+      "why": "Both faces read the same fondness, aimed at different people; by the continuum principle it is one egalitarian Pillar that keeps running in a ranked group."
      }
     ],
-    "faces": {
-     "E": {
-      "label": "Fond of the band",
-      "description": "How fond you feel of the members at large, taken as fellows: whether you like being among them, are drawn to the band's company and feel any member's troubles as partly yours. The reading spans the whole membership and takes no account of anyone's place in an order. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).",
-      "anchors": {
-       "10": "Whoever of the band you run into, you are glad to see them, happy to stay in their company and touched when any of them is in trouble.",
-       "1": "Being among the members at large feels like a chore, the trouble of any one of them leaves you cold and you slip away as soon as you can."
-      },
-      "pre_language": {
-       "core": "Affection spread across the band: she greets most of her fellows with a softened face, settles and lingers near whoever is at hand, and stays close to one in distress, against the flat face and the drift to the edge of the group. Intimates read it from how widely she seeks company and how readily she stays."
-      },
-      "subtitle": "Fondness for the whole band",
-      "summary": "Warmth, egalitarian face, is how fond you feel of the members at large, taken as fellows. It asks whether you like being among them, are drawn to their company and feel any member's troubles as partly yours. It takes no account of place in an order, and it is not Belonging, Reciprocity or Engagement.",
-      "summary_status": "generated from the face's description, not canon; checked faithful"
-     },
-     "H": {
-      "label": "Fond of those around you in the order",
-      "description": "How fond you feel of the people you deal with up and down the order: peers, patrons and those below. The reading asks whether you like being with each of them, are drawn to their company and feel their troubles as partly yours, whatever their rank relative to yours. It is your liking for them, not regard for their place or admiration of their worth, not their acceptance of you (Belonging), not whether favours come back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).",
-      "anchors": {
-       "10": "You are glad to see your peers, your patrons and those below you alike, enjoy time with each for its own sake and feel their troubles as partly yours.",
-       "1": "Dealings with those above, beside and below you are a duty you get through, their troubles leave you unmoved and you are relieved when each encounter ends."
-      },
-      "pre_language": {
-       "core": "Affection that crosses rank: she approaches those above with a relaxed face as well as the due signals of their place, lingers with equals and stays near those below without pressing her advantage, against contact kept to the ritual of rank and the body turned away once it is done. Intimates read it from how she greets each and how long she stays once the business of rank is over."
-      },
-      "subtitle": "Fondness for those around you",
-      "summary": "Warmth, hierarchical face, is how fond you feel of the people you deal with up and down the order: peers, patrons and those below. It asks whether you like being with each of them and feel their troubles as partly yours, whatever their rank. It is not regard for their place, Belonging or Reciprocity.",
-      "summary_status": "generated from the face's description, not canon; checked faithful"
-     }
-    },
-    "subtitle": "Liking the people in the group",
-    "summary": "Warmth is how fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them. It is not their acceptance of you, not whether help comes back, and not how much of yourself you put into the group, which can be high even when you merely tolerate the members.",
+    "subtitle": "Fondness for your fellow members",
+    "summary": "Warmth is how fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them. It is not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).",
     "summary_status": "generated from the source texts, not canon; checked faithful",
     "short": "Warmth",
-    "shared_note": {
-     "id": "Warmth",
-     "why_shared": "Both faces read how fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you, not whether help comes back and not your Engagement. The level is one; the faces differ in whom it spans.",
-     "differences": "The egalitarian face spans the whole membership as fellows and takes no account of anyone's place in an order. The hierarchical face asks the same of the people you deal with up and down the order, peers, patrons and those below, whatever their rank relative to yours, and not regard for their place or admiration of their worth.",
-     "status": "generated from the Pillar's texts; checked faithful"
-    },
     "tag": ""
    }
   },
@@ -13939,7 +13941,8 @@
    },
    "edits_log": [
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both definitions and the type fits. The explanation calls the whole step a proposal, yet self-categorisation research gives direct support for the increment: identifying with a group breeds liking for its members as members (social attraction). Citing it brings the card closer to the literature. Explanation only; lines unchanged.",
-    "orgpsych-r2-minor: Identity wording replaced by investment in the increment line; social attraction marked as support by analogy from identification. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
+    "orgpsych-r2-minor: Identity wording replaced by investment in the increment line; social attraction marked as support by analogy from identification. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
+    "Ben, 5 Nov 2026, 6.53 pm (Warmth unshared under the continuum principle): now covers fondness in ranked groups too; H:Engagement->Warmth folded in"
    ],
    "ripple_was": [
     {
@@ -13954,62 +13957,8 @@
     "typical": "within the gathering",
     "why": "Her stake colours how the members' quirks and company come across as she spends time with them; the shift builds over a stretch of company."
    },
-   "subtitle": "Group identity makes members likeable",
-   "summary": "When the group is part of who you are, the members' quirks read as endearing and their company as a pleasure, so your fondness rises. When you are pulling out, their habits grate and their company feels like a duty, so it falls. The effect is modest, because engagement can be high even where members are merely tolerated.",
-   "summary_status": "generated from the source texts, not canon; checked faithful"
-  },
-  {
-   "id": "H:Engagement->Warmth",
-   "deck": "H",
-   "decks": [
-    "H"
-   ],
-   "continuum": "HCP",
-   "source": "Engagement",
-   "target": "Warmth",
-   "type": "Reinforce",
-   "name": "Easy company up and down",
-   "increment_logic": "When I am putting much of myself into this group, those above, beside and below me read as people I am glad to deal with: my fondness for them rises.",
-   "decrement_logic": "When I am pulling out of this group, dealing with those above, beside and below me feels like a chore: my fondness for them falls.",
-   "explanation": "Hierarchical-face twin of Easy company, on the same grounds; proposal; modest.",
-   "sources": [
-    {
-     "source": "Prentice, Miller and Lightdale 1994, PSPB 20",
-     "claim": "Group and member attachments distinct",
-     "url": "https://collaborate.princeton.edu/en/publications/asymmetries-in-attachments-to-groups-and-to-their-members-disting/",
-     "verified": "verified"
-    }
-   ],
-   "era": {
-    "stage": "early hominin",
-    "why": "Affiliative bonds across a dominance order, with those above and below, are seen in primates; the warmth reading needs no spoken rules."
-   },
-   "evidence_rank": 9,
-   "status": "provisional",
-   "approved": "Ben, 5 Nov 2026, 5.24 pm (social psychologist, second round: yes to all, Group Pride declined)",
-   "origin": {
-    "kind": "critique",
-    "label": "Proposed by the social psychologist's second-round review (5 Nov 2026)"
-   },
-   "edits_log": [
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The hierarchical face of Warmth spans peers, patrons and those below (its 1 anchor: those above, beside and below you). Both lines name only those above and below, so peers drop out of the reading. Smallest fix: add 'beside'.",
-    "orgpsych-r2-minor: Identity wording replaced by investment in the increment line. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
-   ],
-   "ripple_was": [
-    {
-     "type": "Reinforce",
-     "increment_logic": "When this group is part of who I am, those above and below me read as people I am glad to deal with: my fondness for them rises.",
-     "decrement_logic": "When I am pulling out of this group, dealing with those above and below me feels like a chore: my fondness for them falls.",
-     "explanation": "Hierarchical-face twin of Easy company, on the same grounds; proposal; modest."
-    }
-   ],
-   "timing": {
-    "scale": "minutes",
-    "typical": "within the gathering",
-    "why": "Same route as Easy company: her stake colours dealings with those above, beside and below as they occur over the gathering."
-   },
-   "subtitle": "Belonging makes people above and below likeable",
-   "summary": "When this group is part of who I am, the people above, beside and below me seem easy to deal with, and my fondness for them grows. When I am pulling out of the group, dealing with them feels like a chore and my fondness shrinks. It is the hierarchical-face twin of Easy company, with a modest effect.",
+   "subtitle": "Investing in the group breeds fondness",
+   "summary": "When you put much of yourself into the group, the members' quirks read as endearing and your fondness for them rises. When you pull out, their habits grate and your fondness falls. The link is modest, since Engagement can run high in a group whose members are merely tolerated. The increment is a proposal with indirect support, and the decrement rests on common sense.",
    "summary_status": "generated from the source texts, not canon; checked faithful"
   },
   {
@@ -14171,7 +14120,7 @@
    "name": "Counted on, cared for",
    "increment_logic": "When I can leave the work, and my slips, in their hands and they come through, I stop watching them, spend easier time in their company and come to care how they fare: my fondness for them rises.",
    "decrement_logic": "When I keep having to chase and redo what they took on, their company turns into watching them, and I care less how they fare: my fondness for them falls.",
-   "explanation": "Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other Model B reading, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance).",
+   "explanation": "Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other perception, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance).",
    "sources": [
     {
      "source": "McAllister 1995, AMJ 38",
@@ -14210,7 +14159,8 @@
    },
    "edits_log": [
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation undersells its main source: McAllister (1995) himself found cognition-based trust predicted affect-based trust, in managers' ratings of peers in their organisations, so the step to peers is supported directly and need not be called an extension of a leader study.",
-    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Increment line says she leaves 'my part' in their hands. Dependability reads whether she can leave the work, their part of it, in the others' hands, and her slips as well; 'my part' misstates the source at its high level. Smallest fix: name the work."
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Increment line says she leaves 'my part' in their hands. Dependability reads whether she can leave the work, their part of it, in the others' hands, and her slips as well; 'my part' misstates the source at its high level. Smallest fix: name the work.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation uses 'Model B reading', a term defined nowhere in the model texts (a stale framework label); replace it with 'perception'."
    ],
    "ripple_was": [
     {
@@ -14222,6 +14172,12 @@
     {
      "type": "Reinforce",
      "increment_logic": "When I can leave my part and my slips in their hands and they come through, I stop watching them, spend easier time in their company and come to care how they fare: my fondness for them rises.",
+     "decrement_logic": "When I keep having to chase and redo what they took on, their company turns into watching them, and I care less how they fare: my fondness for them falls.",
+     "explanation": "Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other Model B reading, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I can leave the work, and my slips, in their hands and they come through, I stop watching them, spend easier time in their company and come to care how they fare: my fondness for them rises.",
      "decrement_logic": "When I keep having to chase and redo what they took on, their company turns into watching them, and I care less how they fare: my fondness for them falls.",
      "explanation": "Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other Model B reading, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance)."
     }
