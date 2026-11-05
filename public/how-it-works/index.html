@@ -86,7 +86,7 @@ section.view { display: grid; gap: 22px; }
 
 /* network */
 .netbox { position: relative; background: radial-gradient(circle at 50% 50%, #1b1428, var(--panel) 70%); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
-.netbox svg { display: block; width: 100%; height: auto; max-height: 74vh; touch-action: manipulation; }
+.netbox svg { display: block; width: 100%; height: auto; touch-action: manipulation; }
 .netbar { position: absolute; top: 10px; left: 12px; right: 12px; display: flex; justify-content: space-between; gap: 8px; pointer-events: none; }
 .netbar > * { pointer-events: auto; }
 .chip { font: 500 12px var(--mono); color: var(--muted); background: color-mix(in srgb, var(--panel-2) 85%, transparent); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
@@ -96,7 +96,8 @@ section.view { display: grid; gap: 22px; }
 .legend i { width: 18px; height: 3px; border-radius: 2px; display: inline-block; }
 .rotate { display: none; text-align: center; color: var(--warn-fg); font-size: 13px; }
 @media (max-width: 640px) and (orientation: portrait) { .rotate.show { display: block; } }
-.node-label { font: 600 13px var(--display); fill: var(--fg); paint-order: stroke; stroke: var(--bg); stroke-width: 4px; pointer-events: none; }
+.node-label { font: 600 12px var(--display); fill: var(--fg); paint-order: stroke; stroke: var(--bg); stroke-width: 4px; pointer-events: none; }
+.net-note { font: 500 12px var(--mono); fill: var(--muted); paint-order: stroke; stroke: var(--bg); stroke-width: 3px; pointer-events: none; }
 .node-sub { font: 500 9.5px var(--mono); fill: var(--muted); letter-spacing: .06em; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; pointer-events: none; }
 .edge { fill: none; stroke-width: 2; opacity: .42; transition: opacity .25s, stroke-width .2s; cursor: pointer; }
 /* on selection each force glows by deck: purple egalitarian, yellow hierarchical, blue across (Ben, 5 Nov 2026, 4.58 pm) */
