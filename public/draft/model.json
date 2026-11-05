@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T17:00+10:30",
+  "built": "2026-11-05T17:04+10:30",
   "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -2207,6 +2207,25 @@
        }
       },
       "why": "Egalitarian face only. (1) Anchor 10 adds 'and still rib you as one of them'. Ribbing that keeps a skilled member modest is levelling talk, and Repute claims that ground ('the talk that levels a member who gets above herself lands here'). The face's own text also gives modesty to Repute. As written, a member who is deferred to but never ribbed has no clear high anchor, so the anchor reaches past the construct. A smaller fix is to drop the clause and use the deference markers the description already lists. (2) The description names Repute twice: once as the verdict on modesty that feeds Esteem, and again at the end of the 'not' list. Dropping the second mention is a Tier 3 tidy. The boundaries with Rank, Repute, Face, Parity, Belonging, Reciprocity and Team Confidence otherwise agree, including the split between skill and will on a share that falls short. The face fits the literature on freely conferred prestige (Henrich and Gil-White 2001) and on egalitarian levelling of the skilled (Boehm 1999; Lee 1979). The hierarchical face and the general definition pass unchanged."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far the others defer to you freely for what you bring: they turn to you, watch and copy how you do it, bring you their problems and take your advice. It is not whether they want you among them (Belonging), your rung in the settled order (Rank) or their verdict on your conduct (Repute). The culture's face sets how far the deference reaches.",
+       "anchors": {
+        "10": "Whenever your kind of skill or contribution counts, the others turn to you, watch and copy how you do it, bring you their problems and take your advice.",
+        "1": "No one asks you, watches you or copies you; when your kind of skill or contribution is needed they turn to someone else."
+       },
+       "face_H": {
+        "description": "How far you feel the others defer to you freely for what you bring the group: skill, knowledge or contribution it values. They watch how you do it, copy you, bring you problems, take your advice, hand you decisions and jobs that matter and take your word on them. The deference is given, not owed to any place in a rank order (Rank). Being handed a decision or a job because of what you bring is part of it; being shown up before others as clumsy or mistaken on a matter of skill, or as falling short on your share for want of skill rather than will, lowers it. Whether the others count you a fair sharer who will carry your share of the work is not (Repute); nor is whether anyone of standing has openly charged you with wronging people or dodging your share (Face); and neither is whether help you give comes back to you (Reciprocity). It fades once what you bring does; any precedence that has by then settled into your place is Rank, not Esteem.",
+        "anchors": {
+         "10": "Whenever your kind of skill or contribution counts, the others turn to you, watch and copy how you do it, bring you their problems and take your advice.",
+         "1": "No one asks you, watches you or copies you; when your kind of skill or contribution is needed they turn to someone else."
+        }
+       }
+      },
+      "why": "Hierarchical face only. (1) Its Face clause covers only being 'openly charged', while Face is also lost when someone of standing catches you at a wrong or a dodged share (Face: 'or caught you at either'; card H:Face->Prestige 'Caught Out'). That leaves witnessed misconduct with no clear owner between Esteem and Face, so a reader could put it on Esteem's ground. (2) Its Repute clause narrows Repute to 'a fair sharer who will carry your share of the work'. Repute is the members' verdict on your conduct towards people in general: fair dealing, sharing, pulling your weight, standing by members, owning wrongs, modesty. Under the narrow wording, a verdict on loyalty or modesty looks unclaimed. Smallest fix: widen both clauses to match the Face and Repute definitions. The general definition, the egalitarian face and all anchors pass. They agree with Belonging, Rank, Repute, Parity, Reciprocity and Safety, and with the prestige literature (Henrich and Gil-White 2001; Cheng et al. 2013; Boehm 1999 on levelling in egalitarian bands)."
      }
     ],
     "status": "Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); provisional",
@@ -2251,7 +2270,7 @@
      },
      "H": {
       "label": "Deferred to for what you bring",
-      "description": "How far you feel the others defer to you freely for what you bring the group: skill, knowledge or contribution it values. They watch how you do it, copy you, bring you problems, take your advice, hand you decisions and jobs that matter and take your word on them. The deference is given, not owed to any place in a rank order (Rank). Being handed a decision or a job because of what you bring is part of it; being shown up before others as clumsy or mistaken on a matter of skill, or as falling short on your share for want of skill rather than will, lowers it. Whether the others count you a fair sharer who will carry your share of the work is not (Repute); nor is whether anyone of standing has openly charged you with wronging people or dodging your share (Face); and neither is whether help you give comes back to you (Reciprocity). It fades once what you bring does; any precedence that has by then settled into your place is Rank, not Esteem.",
+      "description": "How far you feel the others defer to you freely for what you bring the group: skill, knowledge or contribution it values. They watch how you do it, copy you, bring you problems, take your advice, hand you decisions and jobs that matter and take your word on them. The deference is given, not owed to any place in a rank order (Rank). Being handed a decision or a job because of what you bring is part of it; being shown up before others as clumsy or mistaken on a matter of skill, or as falling short on your share for want of skill rather than will, lowers it. Whether the others count you a decent member, fair in your dealings and carrying your share of the work, is not (Repute); nor is whether anyone of standing has openly charged you with, or caught you at, wronging people or dodging your share (Face); and neither is whether help you give comes back to you (Reciprocity). It fades once what you bring does; any precedence that has by then settled into your place is Rank, not Esteem.",
       "anchors": {
        "10": "Whenever your kind of skill or contribution counts, the others turn to you, watch and copy how you do it, bring you their problems and take your advice.",
        "1": "No one asks you, watches you or copies you; when your kind of skill or contribution is needed they turn to someone else."
