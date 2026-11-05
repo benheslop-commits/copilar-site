@@ -100,6 +100,7 @@ section.view { display: grid; gap: 22px; }
 .edge { fill: none; stroke-width: 2; opacity: .42; transition: opacity .25s, stroke-width .2s; cursor: pointer; }
 .edge-hit { fill: none; stroke: transparent; stroke-width: 14; cursor: pointer; }
 .edge.dim { opacity: .05; }
+.edge.chev { stroke-width: 2.2; stroke-dasharray: none !important; animation: none !important; stroke-linecap: round; stroke-linejoin: round; }
 g.bg .edge:not(.on):not(.hover) { opacity: .07; }
 /* faded forces can't be selected (Ben, 5 Nov 2026, 4.09 pm) */
 g.bg:not(:has(.edge.on)) .edge-hit, g.bg:not(:has(.edge.on)) .edge, g:has(.edge.dim) .edge-hit, .edge.dim { pointer-events: none; }
