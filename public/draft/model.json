@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T18:39+10:30",
+  "built": "2026-11-05T18:41+10:30",
   "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -926,8 +926,8 @@
      "stage": "early hominin",
      "why": "Leaving one's share of joint work to a partner and relying on them to carry it through arose with obligate collaborative foraging in early humans (Tomasello 2014), before full language; promises are a later, spoken form of the same reliance."
     },
-    "subtitle": "Others carry through what they take on",
-    "summary": "Dependability is how far you feel the other members can be counted on to do their part in the shared work. Each carries through what they take on and keeps their word, so you leave work in their hands without checking. It is reliability, not skill. It reads their part, not the return on your help, whether anyone takes more than their due, or their verdict on your conduct.",
+    "subtitle": "Trusting others to do their part",
+    "summary": "Dependability is how far you feel the other members can be counted on to carry through what they take on and keep their word, so you can leave work in their hands without checking. It also covers trusting that they would not turn your slips or needs against you. It is about reliability, not skill, and it is your reading of them.",
     "summary_status": "generated from the source texts, not canon; checked faithful",
     "logic_status": {
      "date": "2026-11-05",
@@ -14061,7 +14061,7 @@
    "name": "Among friends",
    "increment_logic": "When I am fond of them and feel their troubles as partly mine, I take it that they feel much the same towards me, so a slip, a mood or a need of mine shown among them will draw no put-down or laugh: my felt safety to show myself rises.",
    "decrement_logic": "When their company is a duty and I keep my distance, I cannot count on them to let a slip or a need of mine pass without a put-down, so I keep my guard up among them: my felt safety to show myself falls a little.",
-   "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->DivsExp (their acceptance of her) and E:Reciprocity->DivsExp (support received). Closes loops back to Warmth through Reciprocity (E:DivsExp->Reciprocity with E:Reciprocity->Warmth, or with E:Reciprocity->OutResp and E:OutResp->Warmth); watch them for drift.",
+   "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->Safety (their acceptance of her) and E:Reciprocity->Safety (support received). Closes loops back to Warmth through Reciprocity (E:Safety->Reciprocity with E:Reciprocity->Warmth, or with E:Reciprocity->Dependability and E:Dependability->Warmth); watch them for drift.",
    "sources": [
     {
      "source": "Carmeli, Brueller and Dutton 2009, SRBS 26",
@@ -14115,7 +14115,10 @@
      "decrement_logic": "When their company is a duty and I keep my distance, I cannot count on them to let a slip or a need of mine pass without a put-down, so I keep my guard up among them: my felt safety to show myself falls a little.",
      "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->DivsExp (their acceptance of her) and E:Reciprocity->DivsExp (support received). Forms a loop with Dependability through E:OutResp->Warmth; watch it for drift."
     }
-   ]
+   ],
+   "subtitle": "Fondness makes showing yourself safe",
+   "summary": "Warmth drives Safety. When you are fond of the others and feel their troubles as partly yours, you take it that they feel much the same towards you, so you expect no put-down for showing a slip or a need. When their company is only a duty, you keep your guard up. The effect is kept moderate, with the fall smaller.",
+   "summary_status": "generated from the source texts, not canon; checked faithful"
   },
   {
    "id": "E:OutResp->Warmth",
@@ -14184,7 +14187,10 @@
      "decrement_logic": "When I keep having to chase and redo what they took on, their company turns into watching them, and I care less how they fare: my fondness for them falls.",
      "explanation": "Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other Model B reading, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance)."
     }
-   ]
+   ],
+   "subtitle": "Being counted on builds fondness",
+   "summary": "Dependability drives Warmth. When you can leave the work, and your slips, in the others' hands and they come through, you stop watching them, spend easier time with them and come to care how they fare. When you keep chasing and redoing what they took on, their company turns into watching, and fondness falls. The step is kept modest.",
+   "summary_status": "generated from the source texts, not canon; checked faithful"
   },
   {
    "id": "H:Levelling->Prestige",
@@ -14199,7 +14205,7 @@
    "name": "Heard, so counted",
    "increment_logic": "When those above hear me out and weigh what I put forward by the same rules as anyone's, what I bring gets a fair showing; the others see it taken up and bring me the next problem: my sense that they turn to me for what I bring rises.",
    "decrement_logic": "When my say is waved aside and credit goes first to their favourites, what I bring never gets a fair showing, and the next problem goes past me to someone they favour: my sense that they turn to me for what I bring falls.",
-   "explanation": "In the group engagement model, fair procedure from authorities shapes members' sense of respect, their standing within the group, which with pride carries identification and cooperation (Tyler and Blader 2003). The dual-pathway model splits respect into status and liking and finds perceived status the stronger predictor of social engagement (Huo, Binning and Molina 2010). Model B carries the inclusion pathway (H:Levelling->Belonging, Heard, so kept) but not the status pathway; that pathway maps on Esteem, deference for what she brings. Respect in those works is a felt evaluation conveyed by treatment, close to Esteem but not identical (it does not need her to be copied or sought out), so keep it moderate. Distinct from H:Status->Prestige (her rung colouring how others judge what she brings).",
+   "explanation": "In the group engagement model, fair procedure from authorities shapes members' sense of respect, their standing within the group, which with pride carries identification and cooperation (Tyler and Blader 2003). The dual-pathway model splits respect into status and liking and finds perceived status the stronger predictor of social engagement (Huo, Binning and Molina 2010). Model B carries the inclusion pathway (H:Parity->Belonging, Heard, so kept) but not the status pathway; that pathway maps on Esteem, deference for what she brings. Respect in those works is a felt evaluation conveyed by treatment, close to Esteem but not identical (it does not need her to be copied or sought out), so keep it moderate. Distinct from H:Rank->Esteem (her rung colouring how others judge what she brings).",
    "sources": [
     {
      "source": "Tyler and Blader 2003, PSPR 7",
@@ -14229,7 +14235,10 @@
     "scale": "minutes",
     "typical": "within the meeting",
     "why": "Her say must be heard or waved aside, and the next problem be brought to her or passed to a favourite, which plays out over the course of a meeting."
-   }
+   },
+   "subtitle": "A fair hearing gets you turned to",
+   "summary": "Parity drives Esteem. When those above hear you out and weigh what you put forward by the same rules as anyone's, what you bring gets a fair showing, and others bring you the next problem. When your say is waved aside and credit goes to their favourites, the next problem goes past you. The link is kept moderate.",
+   "summary_status": "generated from the source texts, not canon; checked faithful"
   }
  ]
 }
