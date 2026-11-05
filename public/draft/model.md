@@ -43,7 +43,7 @@ Status: Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); prov
 
 Continuum: HCP. Axis: Standing
 
-Your felt rung in the group's settled order of precedence: how far you go first, take the first turn and the first share as a matter of course, and how far you go after others and take what is left. All recognise the order, so it is not fought out each time. The precedence is owed to your place, not won by skill and not forced by fear.
+Your felt rung in the group's settled order of precedence: how far you go first, take the first turn and the first share as a matter of course, and how far you go after others and take what is left. All recognise the order, so it is not fought out each time. The precedence attaches to your place, however you came by it: an office, seniority, the backing of kin or allies, an old contest no one reopens, or credit for what you bring that has settled, over time, into a place others take for granted. It is distinct from the live deference you draw for what you bring now (Prestige), and it is not held in place by present fear (Levelling).
 
 - 10: You go first as a matter of course: the first turn, the first share and the best seat are yours without a word said, and no one in the group stands above you.
 - 1: You go last as a matter of course: you wait your turn and take your share and seat after everyone else, without a word said, and no one in the group stands below you.
@@ -57,11 +57,11 @@ Status: Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); prov
 
 Continuum: HCP. Axis: Expression
 
-How strongly it strikes you as wrong when another member breaks from the group's settled ways, in act or by openly pressing to change them. It is felt indignation at a breach, not dislike of the person. Intimates read it from whether you pull them up: an objection, mockery, a cold shoulder or shutting them out. Your own conformity and your openness to ideas are not part of it.
+How strongly it strikes you as wrong when another member breaks from the group's settled ways, in act or by openly pressing to change them. It is felt indignation at a breach, not dislike of the person. Intimates read it from whether you pull the member up: an objection, mockery, a cold shoulder or shutting them out. Your own conformity and your openness to ideas are not part of it.
 
 - 10: The smallest departure jars you at once as plainly wrong, and intimates see you pull the member up on the spot: a sharp word, a mocking laugh or a turned back.
 - 1: A member doing or urging something different leaves you unmoved; nothing in you says it is wrong, and intimates see you let it pass.
-- Pre-language: The bristle at one of the band doing a thing the wrong way. Its sign is the move to pull them up: a protest cry, a shove, a cold shoulder or exclusion. Two and three year olds already protest a puppet's wrong move (Rakoczy et al. 2008); Ju/'hoansi pull up breaches by criticism and mockery (Wiessner 2005); chimpanzees retaliate for their own losses but do not police third-party breaches (Riedl et al. 2012). Intimates read it from how she meets another's departure: with indignation and a rebuke, or with a shrug.
+- Pre-language: The bristle at one of the band doing a thing the wrong way. Its sign is the move to pull them up: a protest cry, a shove, a cold shoulder or exclusion. Two and three year olds already protest a puppet's wrong move (Rakoczy et al. 2008); Ju/'hoansi pull up breaches by criticism and mockery (Wiessner 2005); chimpanzees retaliate for their own losses but do not police third-party breaches (Riedl et al. 2012). Intimates read it from how she meets another's departure: with indignation and a rebuke, or with a shrug. Forager bands show the same bristle turned on upstarts and stingy members; in this model that egalitarian form is carried by DivsExp->Levelling. The face here is the guarding of a ranked group's settled ways.
 
 Effect on Engagement: Where you feel that you can manage (minimise unwelcome or surprising) change, by using your power to reduce any propensity for others to suggest change. While high NormExp undermines Psychological Safety for others, it makes you personally feel safer.
 
@@ -71,7 +71,7 @@ Status: Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); prov
 
 Continuum: ECP. Axis: Respect
 
-How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word, so you leave work in their hands without checking. It is reliability, not skill (GrpProsp, Prestige): a willing but clumsy member rates high. It reads their part, not the return on your help (Reciprocity), nor their trust in you.
+How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word, so you leave work in their hands without checking. It is reliability, not skill (GrpProsp): a willing but clumsy member rates high. It reads their part, not the return on your help (Reciprocity), nor their trust in you.
 
 - 10: You leave any part of the work with any member and never check up on it; what they take on gets done and what they say they will do holds.
 - 1: You check up on, chase and redo others' work, expecting them to shirk, cut corners or go back on their word.
@@ -85,10 +85,10 @@ Status: Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); prov
 
 Continuum: ECP. Axis: Standing
 
-How far you feel no one in the group makes you do, drop or endure things by force or fear: your part rests on going along, not on being made afraid. It is coercion felt by you, not rank (Status), liking (Belonging), skill (Prestige) or the cost of showing yourself (DivsExp). A respected leader, or a settled order you accept, leaves it high; a member you must appease lowers it.
+How far you feel no one in the group sets themselves over you: makes you do, drop or endure things by force or fear, or takes more than the group's own reckoning gives them (of shares, credit or say) and makes it stick. Your part rests on going along, not on being made afraid or being shortchanged. It is not rank (Status), acceptance (Belonging), deference for what you bring (Prestige), the return on help (Reciprocity) or the cost of showing yourself (DivsExp). A respected leader, or a settled order you accept, leaves it high; a member you must appease, or one who grabs and gets away with it, lowers it.
 
-- 10: No one in the group can make you do or drop anything by force or threat. You move, take your share and go about your business in the strongest member's presence as freely as in anyone's, without a glance at their mood.
-- 1: One or a few members make you comply through force or fear. You watch them warily, fall quiet and go still when they come near, and do what they want to head off their anger.
+- 10: No one in the group can make you do or drop anything by force or threat, and no one takes more than their due and keeps it. You move, take your share and go about your business in the strongest member's presence as freely as in anyone's.
+- 1: One or a few members make you comply through force or fear, or take more than their due and keep it. You watch them warily, fall quiet when they come near, and let them have what they want to head off their anger.
 - Pre-language: Freedom from a bully she must appease. The free animal moves, feeds and takes her share in the strongest member's presence without flinching or a glance at that member's mood; the coerced one tracks that member's moods, freezes on approach and does whatever heads off an attack. Intimates read it from whether she watches one particular member warily and shrinks or placates when that member comes near, while staying easy with everyone else.
 
 ### DivsExp: Diverse Expression (felt safety)
@@ -111,7 +111,7 @@ Status: Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); prov
 
 Continuum: shared. Axis: Reciprocity
 
-Your felt reading of whether help in this group comes back: what you give is returned, what you ask for is met. It holds until evidence moves it. It concerns the return on help, not whether others carry their part of shared work (OutResp) or where you stand (Status). The egalitarian face reads the return as coming from the group; the hierarchical face, from the partner helped.
+Your felt reading of whether help in this group comes back: what you give is returned, what you ask for is met. It holds until evidence moves it. It concerns the return on help, not whether others carry their part of shared work (OutResp), whether anyone takes more of a common take than their due (Levelling) or where you stand (Status). The egalitarian face reads the return as coming from the group; the hierarchical face, from the partner helped.
 
 - 10: Help goes where it is needed and comes back as a matter of course; you count on the return without a second thought, because it has never failed.
 - 1: What you give is not returned and what you need goes unmet; you expect nothing back from anyone here.
@@ -155,7 +155,7 @@ Status: Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); prov
 
 Continuum: HCP. Axis: Respect
 
-How far you feel the others defer to you freely for what you bring the group: skill, knowledge or contribution it values. They watch how you do it, copy you, bring you problems and take your advice. The deference is given, not owed to any place in a rank order (Status), and fades once what you bring does. Being counted on to deliver is not part of it.
+How far you feel the others defer to you freely for what you bring the group: skill, knowledge or contribution it values. They watch how you do it, copy you, bring you problems, take your advice, hand you decisions and jobs that matter and take your word on them. The deference is given, not owed to any place in a rank order (Status). Being handed a decision or a job because of what you bring is part of it; whether the others think you will carry your share of the work is not. It fades once what you bring does, unless it has settled into your place (Status).
 
 - 10: Whenever your kind of skill or contribution counts, the others turn to you, watch and copy how you do it, bring you their problems and take your advice.
 - 1: No one asks you, watches you or copies you; when your kind of skill or contribution is needed they turn to someone else.
@@ -171,9 +171,9 @@ Increment lines describe the target rising, decrement lines the target falling. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: V1 card Popularity->DivsExp (Making Fetch Happen), renamed to the draft Pillars; reread verdict: keep.
 
-- Increment: When the others draw me in as one of their own, I expect a slip, a mood or a disagreement of mine to be taken in stride, and I let it show without bracing.
-- Decrement: When gatherings form without me and they treat me as an outsider, I expect anything I let show to be pounced on, and I mask myself and brace.
-- Explanation: A member who is held as one of their own reads the others as on her side, so showing herself looks cheap; one left at the edge reads them as ready to rebuff her, so showing herself looks costly.
+- Increment: When the others draw me in as one of their own, and after a knock one of them comes and sits with me, my bracing eases; I expect a slip, a mood or a disagreement of mine to be taken as coming from one of their own, and my felt safety to show myself rises.
+- Decrement: When gatherings form without me and no one comes to me after a knock, I expect a slip or a disagreement of mine to be met as an outsider's would be, with a rebuff, and I mask myself and brace: my felt safety to show myself falls.
+- Explanation: Consolation by a valued partner lowers stress behaviour in chimpanzees after aggression (Fraser, Stahl and Aureli 2008), and it comes mostly from partners with valuable relationships, which is the felt core of being drawn in. A member who is wanted expects her exposure to be borne as one of their own; one left at the edge expects it to be held against her. Felt safety in teams is a shared reading that interpersonal risk is acceptable (Edmondson 1999).
 - Pre-language (increment): When others seek her out and play with her, she lets her moods and fumbles show without watching faces.
 - Pre-language (decrement): When others leave her at the edge, she watches faces, masks her reactions and braces for a snap.
 
@@ -193,7 +193,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 - Increment: When the others draw me in as one of their own, I feel sure that what I put in will come back from the group and that what I need will be met.
 - Decrement: When they leave me at the edge and treat me as a burden, I feel that what I give goes into a hole and that my needs would be passed over.
-- Explanation: In the return-from-the-group face, the group gives to those it counts as its own and passes over those it does not. Being wanted as one of them is the felt sign that her own need will be met; being edged out is the sign that it will be passed over.
+- Explanation: In the return-from-the-group face, the group gives to those it counts as its own and passes over those it does not. People expect generalised returns from their own group and not from outsiders (bounded generalised reciprocity: Yamagishi and Kiyonari 2000), so being wanted as one of them is the felt sign that her own need will be met, and being edged out is the sign that it will be passed over.
 - Pre-language (increment): When others seek her out and draw her in, she reaches for a share of what they have without hesitation, expecting it to be handed over, and her sense that giving comes back grows.
 - Pre-language (decrement): When others leave her at the edge, she hangs back from the food and holds what she has close, expecting nothing to come her way, and her sense that giving comes back sinks.
 
@@ -201,7 +201,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 Status: Fixed 3 Nov 2026 after the final high and low check (second round); provisional. Origin: V1 card DivsExp->Popularity (None), reworded by a clean reread for the draft Pillar texts (reword): The circumstance (how my contribution lands, and whether I am already wanted) still sets the direction, but the explanation names popularity and its pre-language names being liked.
 
-- Explanation: Whether feeling safe to show myself draws the others closer depends on what I would be showing them. Circumstance one: I pull my share of the work, so what shows is moods, owned slips and disagreements aired for the group's sake. HIGH: I let them show, the others read me as one of their own and draw me in, so my Belonging rises. LOW: braced and masked, I come across as aloof even while I pull my share, and they leave me at the edge of the talk, so my Belonging falls. Circumstance two: what I have to show is mostly a run of needs and complaints the others would have to carry, and they have begun to tire of carrying them. HIGH: I go on letting them show, I read more and more as a burden and they edge away, so my Belonging falls. LOW: braced and masked, I keep those needs to myself; with nothing new to carry, the wariness that had been growing towards me fades, they warm to me again and make room for me as one of their own, so my Belonging rises. Someone already wanted among them is borne with longer.
+- Explanation: Whether feeling safe to show myself draws the others closer depends on what I would be showing them. Circumstance one: I pull my share of the work, so what shows is moods, owned slips and disagreements aired for the group's sake. HIGH: I let them show, the others read me as one of their own and draw me in, so my Belonging rises. LOW: braced and masked, I come across as aloof even while I pull my share, and they leave me at the edge of the talk, so my Belonging falls. Circumstance two: what I have to show is mostly a run of needs and complaints the others would have to carry, and they have begun to tire of carrying them. HIGH: I go on letting them show, I read more and more as a burden and they edge away, so my Belonging falls. LOW: braced and masked, I keep those needs to myself; with nothing new to carry, they stop edging away and let me back into the talk, so my Belonging rises. Someone already wanted among them is borne with longer. Masked expression lowers a partner's rapport and wish to affiliate (Butler et al. 2003), and disclosure draws liking (Collins and Miller 1994), for circumstance one.
 - Pre-language (explanation): When she does her share alongside the others, showing her moods and fumbles freely draws them to her, while going still and masked leaves her on the edge. When the others have begun to turn from her constant wants and complaints, showing more of them makes them turn further away, while keeping them hidden lets them come back to her and make room for her again.
 
 ### E:DivsExp->GrpProsp: Mistakes in the open (Reinforce, Egalitarian)
@@ -218,9 +218,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: Generated 31 Oct 2026 by a clean social psychologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
 
-- Increment: When I feel safe to let a disagreement show, I bristle or scoff at anyone who starts to push me about, and I feel no one here can make me do or drop anything by force.
-- Decrement: When I brace and mask myself, I let a pushy member's demands pass without a murmur and do what he wants, and I feel I am being made to comply.
-- Explanation: The everyday tools of levelling are ridicule, criticism and open objection (Boehm). A member who feels safe to show herself uses them on reflex against anyone who pushes her, so force gets no grip on her; one who is braced swallows her objection, gives way and feels the force.
+- Increment: When I feel safe to let a disagreement show, I bristle or scoff at anyone who starts to push me about or help themselves to more than their due, and I feel no one here could make me do, drop or give up anything, or keep more than their due, without an argument from me: my sense of Levelling rises.
+- Decrement: When I brace and mask myself, I let a pushy member's demands and grabs pass without a murmur and do what he wants, and I feel I am being made to comply: my sense of Levelling falls.
+- Explanation: The everyday tools of levelling are ridicule, criticism and open objection (Boehm). A member who feels safe to show herself uses them on reflex against anyone who pushes her or grabs, and since others tend to join such sanctions, force and grabbing get less grip on her; one who is braced swallows her objection, gives way and feels the force.
 - Pre-language (increment): When she is loose among the others, she bristles, mocks or protests when a swaggering member pushes at her, and goes about her business beside him without a glance at his mood.
 - Pre-language (decrement): When she is braced, she goes still and gives way when a swaggering member pushes at her, and watches his mood.
 
@@ -228,8 +228,8 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional. Origin: V1 card DivsExp->OutResp (Rise to the Occasion), reworded by a clean reread for the draft Pillar texts (reword): The mechanism holds, but both lines turn on my ideas being heard or going unheard (the old being-listened-to reading) rather than my felt safety to put them forward.
 
-- Increment: When I feel safe to let my own slips show, I sense the others would own up to theirs too, and I leave work in their hands without checking.
-- Decrement: When I brace and mask my own slips, I sense the others are hiding theirs, and I check up on what they say they have done.
+- Increment: When I feel safe to let my own slips show, I sense the others would own up to theirs too, and I leave work in their hands without checking: my confidence that they will do their part rises.
+- Decrement: When I brace and mask my own slips, I sense the others are hiding theirs, and I check up on what they say they have done: my confidence that they will do their part falls.
 - Explanation: Where showing a slip draws a put-down, members cover their shortfalls, so a report that work is done cannot be taken on trust. A member's own felt safety is her read of whether that pressure to cover up bears on the others too.
 - Pre-language (increment): When she is loose among them and shows her own fumbles, she leaves a shared task in another's hands and turns away without looking back.
 - Pre-language (decrement): When she is braced and hides her own fumbles, she keeps glancing back at a shared task left with another, and goes over it herself.
@@ -240,7 +240,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 - Increment: When I feel safe to let a need show, I let it show, and seeing it met I feel surer that what I put into this group comes back.
 - Decrement: When I brace and keep even a plain need masked, it goes unmet, and I feel that what I give here does not come back.
-- Explanation: Felt safety lets a member show her needs, and the help that answers them confirms the return; a braced member hides them, gets nothing, and reads the group as one that does not pay back what she puts in.
+- Explanation: Felt safety lets a member show her needs, and the help that answers them confirms the return; a braced member hides them, gets nothing, and reads the group as one that does not pay back what she puts in. People underestimate how readily others help when asked directly (Flynn and Lake), so a member who shows a need is met more often than she expects, and one who masks it never finds out.
 - Pre-language (increment): When she is loose among them, she whimpers or reaches when hungry or hurt, is given to, and her sense that giving comes back grows.
 - Pre-language (decrement): When she is braced, she hides her hunger or hurt, is given nothing, and her sense that giving comes back sinks.
 
@@ -250,7 +250,7 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 - Increment: When this group feels part of who I am, the small signs (a nod, a seat kept, a glance my way) read to me as welcome for one of their own who pulls with them, and my sense that they want me among them rises.
 - Decrement: When I am pulling out of this group, the same small signs read as mere politeness and the gaps read as edging me out, as if I were a burden or an outsider, and my sense that they want me among them falls.
-- Explanation: Most belonging cues in a small group are ambiguous, and people read them in line with how they themselves stand. Sociometer theory treats felt relational value as an emotional gauge (Leary and Baumeister 2000). A person for whom the group is part of who she is gives the others the benefit of the doubt. A person on her way out reads coolness into the same scene, and finds in it a felt reason for going. Primates that move to the edge of a troop are approached and groomed less, so drawing back is confirmed by what she then sees, but the card covers only the re-reading. The face in this deck applies: being wanted as one of their own in good standing, someone who pulls with the group. Her own investment colours how she reads that standing, but the card moves only her reading of the others' treatment, not the treatment itself.
+- Explanation: Most belonging cues in a small group are ambiguous, and people read them in line with how they themselves stand. The sociometer gauges felt relational value from such cues (Leary and Baumeister 2000), and ambiguous cues are read in the direction the reader expects or wants (Kunda 1990; Downey and Feldman 1996 for expected rejection). A person for whom the group is part of who she is gives the others the benefit of the doubt. A person on her way out reads coolness into the same scene, and finds in it a felt reason for going. Primates that move to the edge of a troop are approached and groomed less, so drawing back is confirmed by what she then sees, but the card covers only the re-reading. The face in this deck applies: being wanted as one of their own in good standing, someone who pulls with the group. Her own investment colours how she reads that standing, but the card moves only her reading of the others' treatment, not the treatment itself.
 - Pre-language (increment): Bound up in the band, she takes the others' approaches and the room made beside her as welcome. Her feeling of being wanted among them rises.
 - Pre-language (decrement): Drifting away from the band, she reads the others' glances as indifferent and sees groups forming without her. Her feeling of being wanted among them falls.
 
@@ -270,7 +270,7 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 - Increment: When I am thrown into this group heart and effort, I feel buoyed, and what we manage feels like a sign of what we can do: I feel more sure that we, as we stand, can pull off the venture we have taken on.
 - Decrement: When I have withdrawn from this group and am half out of the door, I feel flat, and the same showing looks like the limit of what we can do: I feel less sure that we, as we stand, can pull off the venture we have taken on.
-- Explanation: Her own investment carries a feeling (enthusiasm or flatness), and that feeling seeps unbidden into her reading of the group's capability for the venture still ahead. This is the affect-as-information route described by the Affect Infusion Model: mood colours quick, heuristic judgements most. Salanova, Llorens and Schaufeli (2011) report a gain spiral over time in which engagement and enthusiasm feed back into efficacy beliefs, including in a laboratory study of students working in groups, so the loop runs from engagement to felt prospects as well as the reverse. Effort justification (Aronson and Mills 1959) is sometimes offered as extra support, but field studies of real initiations have mostly failed to replicate it, so it is not relied on here. Because GrpProsp also feeds Engagement, this is a positive loop; the brake must come from GrpProsp evidence cards (setbacks, missed goals), and the increment here should be modest.
+- Explanation: Her own investment carries a feeling (enthusiasm or flatness), and that feeling seeps unbidden into her reading of the group's capability for the venture still ahead. The Affect Infusion Model describes the route: mood colours judgements she builds from scratch, whether by quick heuristics or by working them through, and colours least those she simply recalls or makes with a set aim in view (Forgas 1995). Salanova, Llorens and Schaufeli (2011) report a gain spiral over time in which engagement and enthusiasm feed back into efficacy beliefs, so the loop runs from engagement to felt prospects as well as the reverse. Most of that evidence concerns a member's belief in her own capability; its spread to the group's capability is less directly tested. Effort justification (Aronson and Mills 1959) is sometimes offered as extra support, but field studies of real initiations have given weak or contrary results, so it is not relied on here. Because GrpProsp also feeds Engagement, the two form a positive loop; the brake must come from GrpProsp evidence cards (setbacks, missed goals), and the increment here should be modest.
 - Pre-language (increment): Bound up in the band's shared push, she moves with spring, and the venture ahead looks within the band's reach: her sense of the band's prospects rises.
 - Pre-language (decrement): Withdrawn and hanging back, she sees the band fumble, and the venture ahead looks beyond it: her sense of the band's prospects falls.
 
@@ -278,9 +278,9 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional. Origin: Generated 3 Nov 2026 by a clean evo-anthro session, blind to other sessions; chosen by blind review. Sources not independently checked.
 
-- Increment: When this group is part of who I am, I feel myself one of the many who would stand together, and a forceful member no longer looks able to make me do or drop anything: my sense that no one here can coerce me rises.
-- Decrement: When I have drawn back and am on my way out of this group, I feel myself at its edge where no one would rally to me, and a forceful member looms larger: I grow wary of their mood, and my sense that no one here can coerce me falls.
-- Explanation: In forager bands, the absence of a bully rests on a levelling coalition of the rest, ready to check a would-be dominant (Boehm 1993). Feeling free of coercion therefore depends partly on feeling yourself inside that coalition. Among primates, coalitionary support goes mostly to close and central affiliates, while peripheral individuals are left exposed (de Waal; Silk). When Engagement is high she feels herself among those who would stand together, so a forceful member feels unable to make her comply. When it is low she feels like an edge member nobody would back, and the same forcefulness feels like a threat she must appease. Levelling here is her own felt exposure to force or fear, read through the coalition, not whether she likes or rates the forceful member.
+- Increment: When this group is part of who I am, it feels like ours to defend, and I feel ready to stand with the rest against anyone who throws their weight about; a forceful member no longer looks able to make me do or drop anything, or to take more than their due and keep it: my sense that no one here can set themselves over me rises.
+- Decrement: When I have drawn back and am on my way out of this group, it no longer feels worth a stand, and I would sooner keep my head down than face anyone down; a forceful member looms larger and I give way to their mood: my sense that no one here can set themselves over me falls.
+- Explanation: In forager bands, the absence of a bully rests on a levelling coalition of the rest, ready to check a would-be dominant (Boehm 1993). Feeling free of coercion therefore depends partly on her own readiness to join that check. Commitment to a group raises the will to speak up and resist when things go wrong, while low commitment turns members towards exit or silent neglect (Hirschman 1970; Rusbult and colleagues 1988). When Engagement is high the group feels like hers to defend, so a forceful member feels unable to make her comply. When it is low nothing here seems worth a stand, and the same forcefulness feels like a threat she must appease. Whether the others would back her is a separate matter, carried by Friends at my back (Belonging). Levelling here is her own felt exposure to force or fear, and leaves aside whether she likes or rates the forceful member.
 - Pre-language (increment): Drawn into the band, she stands among the others when a forceful member swaggers, feels them at her side and goes on with her business. Her sense that no one can push her about rises.
 - Pre-language (decrement): Pulled to the band's edge, she watches the forceful member warily, goes still when it comes near and gives way, feeling no one at her back. Her sense that no one can push her about falls.
 
@@ -298,9 +298,9 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional. Origin: Generated 3 Nov 2026 by a clean evo-anthro session, blind to other sessions; chosen by blind review. Sources not independently checked.
 
-- Increment: When this group is part of who I am, I feel myself one of us, a known sharer, and what comes my way reads as the group paying back what I put in; my sense that help here comes back to me rises.
-- Decrement: When I am pulling out of this group, I feel myself the one who holds back, the kind the group passes over, and when I am in need I expect nothing to come my way; my sense that help here comes back to me falls.
-- Explanation: In egalitarian sharing, the return comes from the group and is contingent on being a member in good standing: households that give more receive more (Gurven 2004), and demand sharing presses those with a surplus to give to whoever counts as one of us (Peterson 1993). Engagement is the felt size of her stake and presence in the group. When it is high she feels herself a sharer the group gives to, and reads ambiguous cues of others' giving as return for what she has put in. When it is low she feels herself on the hoarder's side of the line and expects to be passed over. What moves is her reading of the group's return, not any tally of particular debts.
+- Increment: When this group is part of who I am, I pour my time and effort into it, and what comes my way reads as the group paying back what I have put in: my sense that help here comes back to me rises.
+- Decrement: When I am pulling out of this group, I know I have been holding back my time and effort, and when I am in need I expect the group to pass me over as I have passed it by: my sense that help here comes back to me falls.
+- Explanation: In egalitarian sharing the return comes from the group, and it still tracks what each has put in: households that give more receive more (Gurven 2004), even where demand sharing gives every member some claim on a surplus (Peterson 1993). Engagement is the felt size of her stake and effort in the group. When it is high she feels herself a contributor the group owes, and reads ambiguous cues of others' giving as return for what she has put in. When it is low she knows she has held back and expects to be passed over. Whether the others want her among them is a separate route (One of us, so it comes back). The card moves her reading of the group's return; it keeps no tally of particular debts.
 - Pre-language (increment): Bound up in the band, she shares freely and feels the band's food and help come round to her in turn. Her sense that what she gives comes back rises.
 - Pre-language (decrement): Loosened from the band, she keeps to herself and, when hungry, hangs back expecting nothing to be passed her way. Her sense that what she gives comes back falls.
 
@@ -308,14 +308,14 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 Status: Fixed 3 Nov 2026 after the final high and low check (second round); provisional. Origin: V1 card (Circle the Wagons, GrpProsp->Popularity), intra-group redraft accepted by Ben (ruling 4, 30 Oct 2026, 12.40 pm).
 
-- Explanation: When the venture's prospects fall, members feel a pull to close ranks, and failure also sharpens the search for who is dragging. The circumstance that sets the direction is the member's own settledness and commitment. Circumstance one, her place is settled and she is committed to the group: LOW prospects draw the others round her and her Belonging rises (the card runs as Inverse); HIGH prospects ease the huddle without loosening her place. Circumstance two, she is new or not yet accepted: LOW prospects mark her as a liability and her Belonging falls; HIGH prospects give the others slack to take her in and her Belonging rises (the card runs as Reinforce). Evidence: failure draws committed, settled members closer, while newcomers and those not yet accepted are pushed to the edge (group-failure experiments; stage B review).
+- Explanation: Whether the venture's prospects draw the others round her depends on where the trouble is seen to come from. Circumstance one (the default), the trouble is seen as inside the group or no source is named. HIGH: the venture going well, the others are easy with each other and with her, make room and draw her in, so her Belonging rises (runs as Reinforce). LOW: the venture failing, heads turn to who is dragging, small cliques form, and she is left at the edge of the talk, so her Belonging falls. Circumstance two, the trouble is seen as coming from outside (a rival group, an outside body, bad luck that hit them all). LOW: the others close ranks against it and draw her in as one of us, so her Belonging rises (runs as Inverse). HIGH: with no outside pressure the huddle loosens and her place returns to its ordinary level, so her Belonging eases. Newcomers gain least from the outside-threat branch and lose most in the inside branch.
 - Pre-language (explanation): Where the band huddles when things go badly and she is still half an outsider, a faltering venture has them gathering close and pulling her in among them, while a venture going well lets them drift back to leaving her on the edge. Where the band turns on whoever seems to drag, a faltering venture may leave her at the edge, while a venture going well sees them make room for her again.
 
 ### E:GrpProsp->DivsExp: Stakes tighten or loosen (Discretionary, Egalitarian)
 
 Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional. Origin: Generated 31 Oct 2026 by a clean social psychologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
 
-- Explanation: A change in the venture's prospects changes how much seems to hang on each member's showing; the circumstance that sets the direction is whether this group meets its prospects by looking at what to change or at who is at fault. Circumstance one, the group looks at what to change. HIGH: the rowing crew's season looks won, talk turns from fixing the stroke to keeping the winning run intact, and a doubt now reads as rocking the boat; she keeps it to herself, so her DivsExp falls. LOW: the season looks lost, they gather round to find a new way, and she lets her tiredness and her doubts about the stroke show, expecting no jeer, so her DivsExp rises. Circumstance two, the group looks for who is at fault. HIGH: with the season going well no one is hunting for a culprit, a slip passes without remark, and she lets her moods and doubts show, so her DivsExp rises. LOW: the same failing season, heads turn to find who is slacking, and she masks her tiredness and keeps her disagreement to herself, so her DivsExp falls.
+- Explanation: A change in the venture's prospects changes how much seems to hang on each member's showing; the circumstance that sets the direction is whether this group meets its prospects by looking at what to change or at who is at fault. Circumstance one, the group looks at what to change. HIGH: the rowing crew's season looks won, talk turns from fixing the stroke to keeping the winning run intact, and a doubt now reads as rocking the boat; she expects a cold look if it shows, so her DivsExp falls. LOW: the season looks lost, they gather round to find a new way, and she lets her tiredness and her doubts about the stroke show, expecting no jeer, so her DivsExp rises. Circumstance two, the group looks for who is at fault. HIGH: with the season going well no one is hunting for a culprit, a slip passes without remark, and she lets her moods and doubts show, so her DivsExp rises. LOW: the same failing season, heads turn to find who is slacking, and she masks her tiredness and keeps her disagreement hidden, braced for blame, so her DivsExp falls.
 - Pre-language (explanation): Where the band's way is to try other ways when things go badly, a faltering venture draws them together and she shows her moods and fumbles freely, while a venture going well has them guarding what works and she keeps her fumbles hidden, bracing a little. Where the band's way is to turn on one another, a faltering venture makes her go still, watch faces and mask her reactions, while a venture going well leaves no one turning on anyone and she moves unguarded again.
 
 ### E:GrpProsp->Levelling: Failing hunts breed bosses (Reinforce, Egalitarian)
@@ -334,7 +334,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 - Increment: When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.
 - Decrement: When the venture looks beyond the group, my frustration looks for whose lapse is to blame, and I come to expect that member to let the work slip: my confidence that the others will do their part falls.
-- Explanation: People attribute success and failure to other people. A venture going well casts a warm light on the others' carrying-through, while one going badly finds a culprit whose lapse gets the blame, whatever the true cause.
+- Explanation: A venture going well casts a warm light on the others' carrying-through, while one going badly sets her looking for a culprit, and the blame lands on some member's lapse, whatever the true cause. After group failure, members tend to assign other members more responsibility than they take themselves (Schlenker and Miller 1977; Forsyth and Schlenker 1977). Where the group lays the failure on an outside cause instead (group-serving attribution), no member is blamed, and the decrement should be small.
 - Pre-language (increment): When the venture is going well, she watches those carrying it with approval and leaves them to their tasks without hovering.
 - Pre-language (decrement): When it is going badly, her frustration turns on whoever faltered: she glares at them, hovers over what they do and snatches tasks back from them.
 
@@ -359,8 +359,8 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional. Origin: Generated 31 Oct 2026 by a clean social psychologist session in the brake search, blind to the incumbent; chose by blind review over the Reinforce incumbent (Level band, lively hunt). Sources not independently checked.
 
-- Increment: When no one here can make me do anything by force or fear, I see my effort and the others' go into the venture itself rather than into watching one member's mood: my sense that the group can pull it off rises.
-- Decrement: When a member makes me comply through fear, I see my effort and the others' bend to heading off his anger rather than to the work, with problems left unraised: my sense that the group can pull off the venture sinks.
+- Increment: When no one here can make me do anything by force or fear, or take more than their due, I see my effort and the others' go into the venture itself rather than into watching one member's mood: my sense that the group can pull it off rises.
+- Decrement: When a member makes me comply through fear, or takes more than their due and keeps it, I see my effort and the others' bend to heading him off or slacken because the gain goes to him, with problems left unraised: my sense that the group can pull off the venture sinks.
 - Explanation: Coercion pulls attention and effort away from the task and towards appeasing the coercer. Members, herself included, do what heads off his anger rather than what the venture needs, and they keep problems and know-how to themselves. Studies of abusive and coercive leadership find lower collective efficacy and team performance under it. The card holds for coercion that serves the coercer's own power or comfort. Pressure from members to make everyone pull their weight is not coercion in this sense and can raise effort on the venture in the short run.
 - Pre-language (increment): When no one looms over the band, she sees them all intent on the chase or the forage, each putting in freely, and her feeling that it will come off rises.
 - Pre-language (decrement): When one member looms and snaps, she sees the band glancing at him rather than at the quarry, hanging back and breaking off, and her feeling that it will come off sinks.
@@ -371,7 +371,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 - Increment: When no one here can make me do anything by force or fear, I see the others do their parts in the open rather than for show, and I stop expecting them to shirk or go back on their word, so I leave work in their hands without checking: my confidence that they will do their part rises.
 - Decrement: When a member here makes me comply through fear, I see the others work to please him rather than to finish their parts, cover themselves and let tasks drop once his eye moves on, and I start checking up on their work: my confidence that they will do their part falls.
-- Explanation: Coercion distorts how others behave: they appease, hide, protect themselves and work to the coercer's eye, and all of this reads as unreliable. Without coercion, the others' carrying-through shows plainly and confidence that they will do their part grows.
+- Explanation: Coercion distorts how others behave: they appease, hide, protect themselves and work to the coercer's eye, and all of this reads as unreliable. Compliance won by threat holds only while the one who wields the threat can watch (Kelman 1958; French and Raven 1959), so she sees parts done for his eye and dropped when it moves on. Under abusive leaders, subordinates also hold back discretionary effort and turn to quiet deviance (Zellars, Tepper and Duffy 2002; Mitchell and Ambrose 2007). Without coercion, the others' carrying-through shows plainly and confidence that they will do their part grows.
 - Pre-language (increment): When no one bullies, she watches the others keep at their tasks and leaves them to it without hovering: her sense that they will do their part rises.
 - Pre-language (decrement): When a bully dominates, she sees the others cringe, scramble for favour and abandon tasks as he passes, and she hovers over what they do: her sense that they will do their part falls.
 
@@ -379,8 +379,8 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: Generated 31 Oct 2026 by a clean evolutionary anthropologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
 
-- Increment: When no one here can take what they like from me by force or threat, what I share goes where it is needed and comes back from the others, and I count on the return without a second thought: my reading that help comes back rises.
-- Decrement: When a member can make me hand over what I have through fear, what I give goes to him as tribute and does not come back, the others hide what they have, and I expect nothing back from anyone: my reading that help comes back falls.
+- Increment: When no one here can take what they like from me by force or threat, and no one takes more than their due and keeps it, what I share goes where it is needed and comes back from the others, and I count on the return without a second thought: my reading that help comes back rises.
+- Decrement: When a member can make me hand over what I have through fear, or helps himself to more than his due and gets away with it, what I give goes to him as tribute and does not come back, the others hide what they have, and I expect nothing back from anyone: my reading that help comes back falls.
 - Explanation: Return from the group survives only where no one can seize what is shared or turn a gift into leverage. Foragers' assertive egalitarianism keeps it that way. Under a coercer, giving becomes tribute, surpluses are hidden and the return dries up.
 - Pre-language (increment): When no one in the band looms or snatches, she gives from her pile and finds others giving from theirs when she is short, and her sense that what she gives comes back rises.
 - Pre-language (decrement): When one member snatches and threatens, what she holds out is taken and nothing comes back, the others hunch over their food, and her sense that giving brings any return sinks.
@@ -389,9 +389,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: V1 card OutResp->Popularity (Don’t Dis Me Bro), reworded by a clean reread for the draft Pillar texts (reword): The mechanism holds, but the lines name the old reading (others liking or disliking me) rather than feeling wanted among them; the pre-language already fits.
 
-- Increment: When I leave work in others' hands without checking, they take it as a mark of trust and draw me in, and I feel wanted among them.
-- Decrement: When I check up on, chase and redo others' work, they bristle at the slight and keep me at a distance, and I feel less wanted among them.
-- Explanation: Being trusted to carry one's part is a mark of standing, and being checked up on is an affront. The others answer her display of trust or distrust in kind, and she reads her acceptance from that answer.
+- Increment: When I leave work in others' hands without checking, they take it as a mark of trust and draw me in: my sense that they want me among them rises.
+- Decrement: When I check up on, chase and redo others' work, they bristle at the slight and keep me at a distance: my sense that they want me among them falls.
+- Explanation: Being trusted to carry one's part is a mark of respect, and being checked up on is an affront. Control is read as distrust (Falk and Kosfeld 2006). By common sense the others answer that slight in kind, warming to one who trusts them and cooling to one who checks them, and she reads her acceptance from that answer.
 - Pre-language (increment): When she leaves others to their tasks without hovering, they warm to her and seek her company.
 - Pre-language (decrement): When she hovers over their work and snatches it back to redo it, they bristle, cool towards her and keep away.
 
@@ -415,16 +415,6 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 - Pre-language (increment): When those around her keep at their tasks and finish what they start, she settles into the shared venture confident it will come off.
 - Pre-language (decrement): When those around her drift off and leave tasks half done, she grows uneasy about the shared venture, expecting it to fail.
 
-### E:OutResp->Levelling: Reliable allies hold the line (Reinforce, Egalitarian)
-
-Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional. Origin: Generated 31 Oct 2026 by a clean evolutionary anthropologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
-
-- Increment: When I feel the others carry through what they take on and keep their word, I trust them to stand by me if a forceful member pushes, and I go about my business beside the strongest as freely as beside anyone: my sense that no one here can make me comply by force or fear rises.
-- Decrement: When I expect the others to shirk and go back on their word, I expect no one to stand by me if a forceful member pushes, so I watch the strongest warily and give way to head off their temper: my sense that no one here can make me comply by force or fear falls.
-- Explanation: The levelling check is a coalition of the many, so her felt confidence that the others keep their word and carry through is felt confidence that they will stand by her if a forceful member pushes, and so that no one can make her comply. It turns on their reliability only, not their skill.
-- Pre-language (increment): When she relies on those around her, she holds her ground near a forceful member, expecting them to back her, and goes on with her business: her sense that no one can push her about rises.
-- Pre-language (decrement): When she cannot rely on those around her, she gives way before a forceful member, expecting no backing, and watches him warily: her sense that no one can push her about sinks.
-
 ### E:OutResp->Reciprocity: Their word, their return (Reinforce, Egalitarian)
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional. Origin: V1 card OutResp->IndRecip (I’ll Just Do It Myself), renamed to the draft Pillars; reread verdict: keep.
@@ -439,9 +429,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: Generated 31 Oct 2026 by a clean organisational psychologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
 
-- Increment: When what I give comes back from the others and what I need is met, I feel the warmth of it and read that they count me as one of their own: my Belonging rises.
-- Decrement: When what I give goes unreturned and my needs go unmet, I feel passed over like an outsider and doubt they want me among them: my Belonging falls.
-- Explanation: Help that comes back produces positive feeling that people attribute to the group, building attachment to it (Lawler's affect theory of exchange). Here the return goes to members in good standing, so receiving it is itself a sign that she counts as one of them.
+- Increment: When what I give comes back from the others and what I need is met, I count them as people I cannot do without; after a clash I go back to them soon and make it up, they take me back, and the circle closes round me again: my Belonging rises.
+- Decrement: When what I give goes unreturned and my needs go unmet, I have little to lose with them; after a clash I stay away and let it stand, the coolness spreads to those around us, and gatherings form without me: my Belonging falls.
+- Explanation: Two routes. Help that comes back produces positive feeling attached to the group (Lawler's affect theory of exchange). More strongly evidenced, primates reconcile most with partners whose relationship is valuable to them, and reconciliation restores tolerance and lowers renewed aggression; raising partner value experimentally raises reconciliation (Aureli, Cords and van Schaik; Cords and Thurnheer). Reciprocity is her felt reading of that value in the group face.
 - Pre-language (increment): When what she shares comes back and she is fed and groomed in need, she is drawn closer to the others and they to her: her feeling of being welcome among them rises.
 - Pre-language (decrement): When she gives and nothing comes back, and she is passed over in need, she drifts to the edge of their company: her feeling of being welcome among them falls.
 
@@ -449,8 +439,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: V1 card IndRecip->DivsExp (Here to Help), renamed to the draft Pillars; reread verdict: reword.
 
-- Increment: When what I put in comes back from the group and what I need is met, I feel cared for here, and safe to let a slip, a mood, a need or a disagreement show without bracing for a put-down.
-- Decrement: When what I give goes into a hole and what I need goes unmet, I feel no one here has my back, and I mask my moods and hold back even a plain need or disagreement, braced for a rebuff.
+- Increment: When what I put in comes back from the group, a clash with one of them does not leave me braced: we make it up soon, the fidgeting and watchfulness after it fade, and I go back to letting slips, moods and disagreements show: my felt safety to show myself rises.
+- Decrement: When what I give goes into a hole, I have no ties here worth mending, so a clash is left unmended; I stay watchful of the one I clashed with, fidget and mask my moods and disagreements, braced for a put-down: my felt safety to show myself falls.
+- Explanation: After aggression, primate victims show raised self-scratching and self-grooming and a higher risk of renewed attack; friendly reunions reduce both (Aureli and van Schaik). Reunions happen most where the relationship is valuable (Aureli, Cords and van Schaik). A member who feels help comes back has valuable relationships to repair, so conflict leaves her less braced.
 - Pre-language (increment): When the band meets her need and gives back what she shared, she feels safe among them, and lets her slips, moods and wants show without bracing for a slap-down.
 - Pre-language (decrement): When her need goes unmet and nothing she shared comes back, she feels unprotected, masks her moods and hides even a plain want, braced to be snapped at or turned from.
 
@@ -460,6 +451,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 - Increment: When what I put in comes back and whoever needs help gets it, I feel the group covers its own weak spots, and my confidence that it can pull off the venture we have set ourselves rises.
 - Decrement: When what I give goes into a hole and need goes unmet while others could see it, I feel those who struggle will be left to fall short, and my confidence that the group can pull off the venture falls.
+- Explanation: Where help flows to whoever needs it, members' gaps are covered by others, so the group's capability exceeds that of its weakest hands. Backup behaviour is a core teamwork process (Marks, Mathieu and Zaccaro 2001; Porter et al. 2003), and helping among members predicts work-group performance (Podsakoff, Ahearne and MacKenzie 1997). Where need goes unmet in plain view, she expects the weak spots to stay open.
 - Pre-language (increment): When the band shares food and help with whoever falls short, she feels them strong together, and goes to the shared hunt sure of the kill.
 - Pre-language (decrement): When those who have hide it and the weak are left to struggle, she feels the band falling short, and goes to the shared hunt expecting it to fail.
 
@@ -467,9 +459,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: Generated 31 Oct 2026 by a clean organisational psychologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
 
-- Increment: When those I help return it as a matter of course, I can count on them to stand with me, and I go about my business beside the strongest as freely as beside anyone: my sense of Levelling rises.
-- Decrement: When nothing I give comes back from those I help, I feel no one would stand with me against the strongest, and I start to watch them warily and give way: my sense of Levelling falls.
-- Explanation: Where the group returns what each puts in and presses the one with a surplus to share, she feels part of a band that would back her. That backing takes the fear out of a strong member's presence, and losing it puts the fear back.
+- Increment: When what I give comes back from the group as a matter of course, I feel they would stand with me if anyone tried to set themselves over me, and I go about my business beside the strongest as freely as beside anyone: my sense of Levelling rises.
+- Decrement: When nothing I give comes back from the group, I feel no one would stand with me against the strongest, and I start to watch them warily and give way: my sense of Levelling falls.
+- Explanation: Where help given comes back from the group, she feels part of a band that would back her. Coalitions of ordinary members are what keep a would-be dominant in check (Boehm, Hierarchy in the Forest), so that backing takes the fear out of a strong member's presence, and losing it puts the fear back.
 - Pre-language (increment): When the others share back with her and console her freely, she feels them as allies and feeds and moves near the strongest without a glance at their mood: her sense that no one can make her yield rises.
 - Pre-language (decrement): When nothing passes back to her from the others, she feels unbacked, goes still when a strong one approaches and gives up her place to them: her sense that no one can make her yield falls.
 
@@ -477,9 +469,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional. Origin: V1 card IndRecip->OutResp (Watch and Learn), renamed to the draft Pillars; reread verdict: keep.
 
-- Increment: When what I put in comes back from the group as a matter of course, I feel these are people who make good on what they owe, and I leave my share of the shared work in their hands without checking.
-- Decrement: When what I give goes into a hole and those with plenty hide it, I feel these people look after themselves first, and I start checking up on their part of the shared work, expecting them to shirk it.
-- Explanation: Trust built in one exchange carries over to others with the same people. Members who repay what is given are felt to be good for their word, and members who hoard are expected to cut corners on the common task as well.
+- Increment: When what I put in comes back from the group as a matter of course, I feel these are people who make good on what they owe, and I leave their part of the shared work in their hands without checking: my sense that they can be counted on rises.
+- Decrement: When what I give goes into a hole and my needs go unmet, I feel these people look after themselves first, and I start checking up on their part of the shared work, expecting them to shirk it: my sense that they can be counted on falls.
+- Explanation: Trust built in one exchange carries over to others with the same people. Members who repay what is given are felt to be good for their word, and members who let help go unreturned are expected to cut corners on the common task as well.
 - Pre-language (increment): When the band gives back what she has shared, she leaves the shared task in their hands and stops looking over at it.
 - Pre-language (decrement): When nothing comes back from those she shared with, she eyes them at the shared task, watching for them to slack, and does their bit over herself.
 
@@ -495,7 +487,7 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 Status: Generated for the draft model; provisional, awaiting Ben Rechecked 3 Nov 2026 against the tightened Pillars: kept.. Origin: Generated 31 Oct 2026 by a clean evolutionary anthropologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
 
 - Increment: When I am kept among them in my place, I feel within reach of the food, mates and chances the group holds, and my hope of getting what I am after rises.
-- Decrement: When I am kept at the edge, I feel far from what the group holds while others reach it first, and my hope of getting what I am after falls.
+- Decrement: When I am kept at the edge, I feel far from what the group holds while those kept close get it, and my hope of getting what I am after falls.
 - Explanation: In a ranked group, being tolerated close by is access: to feeding sites, partners and allies; peripheral members get less, so felt inclusion carries her hopes with it.
 - Pre-language (increment): When she is let near and kept in the troop's company, she feeds and seeks partners with energy, and her hope of getting what she is after rises.
 - Pre-language (decrement): When she is pushed to the edge, she hangs back from food and partners, and her hope of getting what she is after sinks.
@@ -506,7 +498,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 - Increment: When I am kept among them in my place, I feel what I bring is in their sight, and as they watch how I do it and bring me their problems, my sense that they turn to me for it rises.
 - Decrement: When I am kept at the edge, I feel what I bring is out of their sight, and I see them turn to someone nearer when my kind of skill is needed: my sense that they turn to me for it falls.
-- Explanation: Deference for skill needs the skill to be in view. Social learners watch and copy those they are close to (Coussi-Korbell and Fragaszy 1995), so in a ranked group a member kept in the company is looked to, while one kept at the edge is copied less, whatever her skill.
+- Explanation: Deference for skill needs the skill to be in view. Social learners watch and copy those they are close to (Coussi-Korbel and Fragaszy 1995), so in a ranked group a member kept in the company is looked to, while one kept at the edge is copied less, whatever her skill.
 - Pre-language (increment): When she is kept in the troop's company, the young sit near and watch her crack nuts, and her feeling of being looked to rises.
 - Pre-language (decrement): When she is kept at the edge, the young crowd round others at the nut stones, and her feeling of being looked to sinks.
 
@@ -514,9 +506,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: Generated 31 Oct 2026 by a clean social psychologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
 
-- Increment: When I am kept among them with my place secure, I feel I will be around when favours come due, and my sense that the partners I help will pay me back rises.
-- Decrement: When I am kept at the edge, I feel I will not be near when a favour comes due, and my sense that anyone I help will pay me back falls; I expect them to take and not return.
-- Explanation: Exchange with a particular partner needs a felt future together. Inclusion supplies that future and exclusion removes it, and a partner can short the one at the edge, who is not around to hold them to it.
+- Increment: When I am kept among them, the partners I help know I am there to call a favour in and that the others would see if they shorted me, and my sense that the partners I help will pay me back rises.
+- Decrement: When I am kept at the edge, I am not there to call a favour in and no one would mind if a partner shorted me; my sense that anyone I help will pay me back falls, and I expect them to take and not return.
+- Explanation: Exchange with a particular partner holds while defaulting would cost the partner. Inclusion keeps her on hand to call the favour in and among others who would see a partner short her, and a partner's standing with those others rides on how they treat her (reputation and indirect reciprocity: Nowak and Sigmund 2005). Exclusion takes both away, so a partner can short the one at the edge, who is neither there to hold them to it nor watched over by anyone who would. The felt horizon of her own staying belongs to H:Engagement->Reciprocity; this card reads only the others' inclusion of her.
 - Pre-language (increment): When she is kept close in the troop, those she grooms groom her back and those she backs back her, and she settles into the give-and-take expecting return.
 - Pre-language (decrement): When she is pushed to the edge, those she grooms move off without returning it, and she stops expecting anything back from them.
 
@@ -536,7 +528,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 - Increment: When I have just put more of myself into the group, another member's break from our settled ways strikes me as an affront to what is ours, and I pull them up on the spot; my sense that such a breach is plainly wrong rises.
 - Decrement: When I have just pulled back from the group, another member's departure from our settled ways barely touches me, and I let it pass; my sense that such a breach is wrong falls.
-- Explanation: Members who value their membership hold to group norms and police them (Jetten, Spears and Manstead 1997; Smith and Louis), and highly identified members judge deviant fellow members more harshly (the black sheep effect: Marques, Yzerbyt and Leyens 1988; Castano et al. 2002). As investment rises the settled ways feel more like her own, and a breach by another feels like damage to something of hers. Packer's normative conflict model adds a boundary: strongly identified members may dissent when they judge a norm harmful, but that is a reflective act outside this model. A disengaged member has no stake in the ways, so a breach leaves her unmoved and NormExp falls.
+- Explanation: Fellow members who break the group's norms are judged more harshly than outsiders who do the same (the black sheep effect: Marques, Yzerbyt and Leyens 1988; Marques, Abrams and Serôdio 2001), and more harshly by members who identify strongly with the group (Branscombe, Wann, Noel and Coleman 1993). Members who value their membership also hold more closely to group norms themselves (Jetten, Spears and Manstead 1997; Smith and Louis); her own conformity is not NormExp, so this is context only. As investment rises the settled ways feel more like her own, and a breach by another feels like damage to something of hers. Packer's normative conflict model adds a boundary: strongly identified members may dissent when they judge a norm harmful, but that is a reflective act outside this model. A disengaged member has no stake in the ways, so a breach leaves her unmoved and NormExp falls.
 - Pre-language (increment): Having just thrown herself in, she bristles when another starts doing things a new way, and threatens or turns her back on them. Her indignation at the breach rises.
 - Pre-language (decrement): Having just drawn back, she watches another try a new way and feels nothing stir; she lets it pass. Her indignation at the breach falls.
 
@@ -544,9 +536,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional. Origin: Generated 3 Nov 2026 by a clean org-psych session, blind to other sessions; chosen by blind review. Sources not independently checked.
 
-- Increment: When I have just put more of myself into the group, I feel I have earned my turn, and the group's dealings with me in that scene read as the way to what I came for opening up; my sense that staying will bring me what I am after rises.
-- Decrement: When I have just drawn back from the group, I feel I have given them no reason to bring me on, and their dealings with me read as the way to what I came for closing; my sense that staying will bring me what I am after falls.
-- Explanation: In ranked groups, advancement, favour and reward go to those seen to commit themselves: contribution is repaid with standing and support (Willer 2009), and members who feel they have given more expect more from the group (social exchange: Blau 1964; Eisenberger et al. 1986 on felt organisational support). Her own recent investment colours an ambiguous forecast: having put in, she feels in line for her due and reads the group's treatment of her as opening the way; having held back, she feels she has forfeited her claim. What moves is her forecast of what the group will deliver, not her confidence in her own ability.
+- Increment: When I am putting much of myself into the group, I feel I have earned my due, and the group's dealings with me read as the way to what I came for opening up: my sense that staying will bring me what I am after rises.
+- Decrement: When I am holding back from the group, I feel I have given them no reason to bring me on, and their dealings with me read as the way to what I came for closing: my sense that staying will bring me what I am after falls.
+- Explanation: Groups repay visible contribution with status and support (Willer 2009), and in ranked groups advancement, favour and reward go to those seen to commit themselves. Members who feel they have given more expect more back from the group (social exchange: Blau 1964; equity theory: Adams 1965). Her own investment colours an ambiguous forecast: having put in, she feels in line for her due and reads the group's treatment of her as opening the way; having held back, she feels she has forfeited her claim. What moves is her forecast of what the group will deliver, not her confidence in her own ability.
 - Pre-language (increment): Her investment has just deepened; she feels herself in line for the troop's favour and looks to it to bring her what she wants. Her hope of getting what she is after rises.
 - Pre-language (decrement): Her investment has just slackened; she feels herself out of favour and expects the troop to give her nothing. Her hope of getting what she is after falls.
 
@@ -564,9 +556,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional. Origin: Generated 3 Nov 2026 by a clean evo-anthro session, blind to other sessions; chosen by blind review. Sources not independently checked.
 
-- Increment: When I am putting much of myself into the group and mean to stay, I feel we will be around each other long enough for every favour to come back, and my partners' dealings with me read as sure to be repaid; my sense that help I give comes back from those I help rises.
+- Increment: When I am putting much of myself into the group and mean to stay, I feel we will be around each other long enough for every favour to come back, and I read what I give my partners as sure to be repaid; my sense that help I give comes back from those I help rises.
 - Decrement: When I am putting little of myself into the group and am half out of the door, I feel I may not be around when a favour falls due, and I read my partners as having no reason to repay one who is leaving; my sense that help I give comes back from those I help falls.
-- Explanation: Conditional exchange holds only while partners expect to meet again: the shadow of the future (Axelrod 1984). In the lab, defection falls as the chance of continued play rises and rises as the end nears, close to what theory predicts (Dal Bó 2005). Primate grooming and support exchanges run over long periods between stable partners (Schino and Aureli). Engagement is how far she feels herself staying with the group. High Engagement lengthens the felt horizon on both sides, so she reads partners, and a patron across rank, as bound to repay one who stays loyal. Low Engagement shortens it, and she reads herself as the one partners will stop repaying. The partner face applies: what moves is her reading of the return, not her readiness to deal.
+- Explanation: Conditional exchange holds only while partners expect to meet again: the shadow of the future (Axelrod 1984). In the lab, cooperation rises with the chance of continued play and falls as the end nears, close to what theory predicts (Dal Bó 2005). Primate grooming and support exchanges run over long periods between stable partners (Schino and Aureli). How long she means to stay is part of Engagement: a member who has put much of herself in sees herself staying, one who is gone or going does not. High Engagement lengthens the felt horizon on both sides, so she reads partners, and a patron across rank, as bound to repay one who stays loyal. Low Engagement shortens it, and she reads herself as the one partners will stop repaying. The partner face applies: what moves is her reading of the return, not her readiness to deal.
 - Pre-language (increment): Settled in the troop, she grooms her partners and feels them groom her back and come to her side in a fight. Her sense that her partners repay her rises.
 - Pre-language (decrement): Half gone from the troop, she feels her partners slow to groom her back or to come to her aid. Her sense that her partners repay her falls.
 
@@ -574,9 +566,9 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 Status: Fixed 3 Nov 2026 after the final high and low check (second round); provisional. Origin: Generated 3 Nov 2026 by a clean org-psych session, blind to other sessions; chosen by blind review. Sources not independently checked.
 
-- Increment: When this group is part of who I am, I am always there at the turns and shares; when someone above me hangs back or is away, I step into the turn they leave, the others let me, and I go ahead of them from then on: my felt rung in the order rises.
+- Increment: When this group is part of who I am, I am there at every turn and share and stand on my place; when someone above me hangs back or is away, I step into the turn they leave and the others let me: my felt rung in the order rises.
 - Decrement: When I am pulling out of this group, I no longer stand on my place; I hang back and let others take the first turn and the first share, and they go before me as if I were already gone: my felt rung in the order falls.
-- Explanation: Precedence here is owed to place, and a place is held by one who stays in it. Members above and below are always drifting, falling away or leaving, and the turns and shares they stop standing on pass to whoever is there to step into them. A member for whom the group is part of who she is is always there, steps into the precedence others leave, and is let keep it, so she climbs the order whatever rung she starts from. One who is withdrawing stops standing on her place, hangs back, and is passed over as if already gone, which she feels as her rung slipping. Among primates, individuals that drift to the periphery or prepare to leave tend to lose priority of access. Willer (2009) found that bigger contributors are given more standing and influence, but standing won by contribution belongs on Prestige, so this card rests on holding and taking up place by staying, not on earning it.
+- Explanation: Precedence here is owed to place, and a place is held by one who stays in it. Members above and below are always drifting, falling away or leaving, and the turns and shares they stop standing on pass to whoever is there to step into them. A member for whom the group is part of who she is is always there, steps into the precedence others leave, and is let keep it, so over many plays she moves up the order as far as kin, allies and office allow. One who is withdrawing stops standing on her place, hangs back, and is passed over as if already gone, which she feels as her rung slipping. Where rank passes by queue or tenure, staying is itself the route up (social queuing: Kokko and Johnstone 1999; male spotted hyenas: East and Hofer 2001), as seniority is in human organisations. Standing won by contribution routes through H:Prestige->Status; this card covers only holding and taking up place by staying.
 - Pre-language (increment): Always about the troop, she moves up to the food when one above her hangs back or is gone, and the others let her go before them from then on: her felt place in the order rises.
 - Pre-language (decrement): Drifting from the troop, she hangs back and others go to the food before her: her felt place in the order falls.
 
@@ -586,7 +578,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 - Increment: When another member's breach of the settled ways jars me as wrong and I pull them up, I feel the others close ranks with me, and my sense of being kept among them rises.
 - Decrement: When a member's breach leaves me unmoved and I let it pass, I feel the keepers of the order cool towards me, and my sense of being kept among them falls.
-- Explanation: In ranked groups, joining in pulling up those who break the settled ways is rewarded with inclusion, while letting breaches pass marks a member as unreliable to the order and gets her held at a distance.
+- Explanation: Proposal, modest weight. In ranked groups, joining in pulling up those who break the settled ways marks a member as loyal to the order and draws her in, while letting breaches pass marks her as unreliable to it and gets her held at a distance. The black sheep effect and ostracism of deviants show how breakers are treated, not how enforcers are. Evidence that enforcers are rewarded is mixed: third-party punishers are trusted and sometimes given more (Barclay 2006; Jordan et al. 2016) but not reliably liked, and sanctions on those who fail to punish are rare in the lab (Kiyonari and Barclay 2008; Raihani and Bshary 2019). The card rests on common sense about ranked groups, where loyalty to the order is itself a ground of acceptance.
 - Pre-language (increment): When she bristles and threatens a member trying a new way, others side with her and keep her close, and her sense of being kept in the troop rises.
 - Pre-language (decrement): When she lets a member's new way go unchallenged, others turn from her, and her sense of being kept in the troop sinks.
 
@@ -596,6 +588,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 - Increment: When another member's breach jars me and I pull them up, I feel in favour with those in charge, and staying here feels surer to bring me what I came for.
 - Decrement: When a member's breach leaves me unmoved and I let it pass, I feel those in charge take note of my slackness, and what I came for feels further out of reach here.
+- Explanation: Proposal, low weight. In a ranked group, those who uphold the settled ways are favoured by those the order serves; this is common sense in any organisation with a hierarchy, but no checked source shows the step from guarding others' breaches to a member's own prospects. Hollander shows conformity earns credit, which is close but concerns her own conformity, not her policing of others.
 - Pre-language (increment): When she threatens a member trying a new way, she feels those above tolerate her near the food and resting places, and her own aims feel safer.
 - Pre-language (decrement): When she lets a member's new way pass, she draws cold looks from those above and is kept from the food and resting places, and her own aims feel shakier.
 
@@ -603,9 +596,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional. Origin: V1 card NormExp->DirRecip (Predictability Preferred), renamed to the draft Pillars; reread verdict: keep.
 
-- Increment: When another member's breach jars me and I pull them up, I feel those above take it as loyalty, and their favour and cover come back to me when I need them.
-- Decrement: When a member's breach leaves me unmoved and I let it pass, I feel those above count it as no service to them, and their cover is slow to come when I ask.
-- Explanation: In ranked groups, protection and favour passed down are returned for loyalty and service passed up; holding the line against those who break the settled ways serves those whose order it is, and they repay it.
+- Increment: When another member's breach jars me and I pull them up, the others see me as one who will not let things slide; they trust me with more and pay back what I give them: my sense that help I give comes back from those I help rises.
+- Decrement: When a breach leaves me unmoved and I let it pass, the others have no sign that I can be counted on, they trust me with less and are slow to repay: my sense that help I give comes back falls.
+- Explanation: Third-party punishers are trusted more, and in fact behave more trustworthily, than non-punishers (Jordan, Hoffman, Bloom and Rand 2016); punishment works as a signal that the punisher can be relied on. That the trust brings back what she gives is an inference: partners choose and keep up exchanges with those they judge reliable, so her help to them is more readily returned. The signal weakens where she can show her worth by helping directly, so the card should be modest.
 - Pre-language (increment): When she threatens a member trying a new way, the higher-ranked one she sided with backs her in her next squabble and lets her share its food.
 - Pre-language (decrement): When she lets a member's new way go by, the higher-ranked ones do not come to her side when she is threatened.
 
@@ -613,7 +606,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 Status: Fixed 3 Nov 2026 after the final high and low check (second round); provisional. Origin: V1 card NormExp->Status (None), renamed to the draft Pillars; reread verdict: keep.
 
-- Explanation: Whether a member's indignation at a breach moves her precedence depends on whose breaches come before her. Circumstance one, members ranked below her are breaking the settled ways, pressing in at turns and shares. HIGH: pulling up a junior is what her place allows; the others back her, the juniors who had begun crowding in are put back behind her, and she takes again the first turns they had been taking from her, so her Status rises. LOW: letting juniors' breaches pass lets them edge ahead of her at turns and shares, so her Status falls. Circumstance two, a member ranked above her breaks the settled ways and others at her rung pull that senior up. HIGH: she joins in, oversteps her place with them, and is put back and made to wait her turn, so her Status falls. LOW: she lets the senior's breach pass as her place calls for; those of her rung who objected are put back, and she now goes before them at turns and shares, so her Status rises.
+- Explanation: Whether a member's indignation at a breach moves her precedence depends on whose breaches come before her. Circumstance one, members ranked below her are breaking the settled ways, pressing in at turns and shares. HIGH: pulling up a junior is what her place allows; the others back her, the juniors who had begun crowding in are put back behind her, and she takes again the first turns they had been taking from her, so her Status rises. LOW: letting juniors' breaches pass lets them edge ahead of her at turns and shares, so her Status falls. Circumstance two, a member ranked above her breaks the settled ways and others at her rung pull that senior up. HIGH: she joins in, oversteps her place with them, and is put back and made to wait her turn, so her Status falls. LOW: the senior's breach leaves her unmoved and she lets it pass, which is what her place calls for; those of her rung who objected are put back, and she now goes before them at turns and shares, so her Status rises.
 - Pre-language (explanation): Whether her bristling at a new way shifts her place depends on who it came from. When lower-ranked members start pushing in at the food, snapping at them sends them back and she eats before them again, while letting them be sees them push ahead of her. When a higher-ranked one does something new and others of her standing snap at it, snapping with them gets her threatened back and made to wait until the others have eaten, while keeping still sees those who snapped pushed back and her going to the food before them.
 
 ### H:OwnProsp->Belonging: Reaching within or beyond place (Discretionary, Hierarchical)
@@ -622,15 +615,6 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 - Explanation: Hope drives her to approach and pursue, and its absence lets her drift; whether the ranked group keeps her close depends on whether her aims lie within what her rank allows. Circumstance one, aims within her place. HIGH: a junior in a club, hopeful of mastering a skill the seniors are glad to pass on, stays close, eager and deferential, and is kept among them, so her Belonging rises. LOW: seeing nothing here for her, she stops turning up to fill her place at gatherings, and the others leave her at the edge, so her Belonging falls. Circumstance two, aims beyond her place. HIGH: hopeful of a role a senior holds, she starts reaching for it, is cold-shouldered and edged out, so her Belonging falls. LOW: having given up on the senior's role, she stops reaching, keeps to what her place calls for and is kept among them again, so her Belonging rises.
 - Pre-language (explanation): Hope draws her in close to pursue her aim. If what she reaches for is hers to take at her rank, she is let stay close and her place among them firms, and when hope fails she drifts off and is left at the edge. If she reaches for what a higher-ranked member holds, she is threatened and pushed to the edge, and when she gives it up and keeps to her place she is let back among them.
-
-### H:OwnProsp->NormExp: I've Got it Covered (Inverse, Hierarchical)
-
-Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: V1 card OwnProsp->NormExp (I’ve Got it Covered), renamed to the draft Pillars; reread verdict: keep.
-
-- Increment: When what I came for seems out of reach here, I am on edge, and any member's break from the settled ways jars me at once as wrong.
-- Decrement: When I feel sure the group will bring me what I came for, I am at ease, and a member doing something different no longer strikes me as wrong.
-- Pre-language (increment): Tense as her own pursuit falters, she bristles at any member trying a new way and snaps at them.
-- Pre-language (decrement): Easy as her own aim comes within reach, she lets a member trying a new way be, without a threat or a turned back.
 
 ### H:Prestige->Belonging: Valued service, kept place (Reinforce, Hierarchical)
 
@@ -646,9 +630,9 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: V1 card Comfortable in my Own Skin, reworded 3 Nov 2026 by a clean social psychologist session shown the blind reviewers' objections; chosen by blind review over the original (4.17 against 2.17). Sources not independently checked.
 
-- Increment: When I sense that no one turns to me, watches or copies me, and they take their problems to someone else, my footing in the group feels unsure, and another member's break from the settled ways jars me as wrong: I bristle and pull them up.
-- Decrement: When I sense that the others turn to me, copy how I do things and bring me their problems, my footing feels sure, and another member's break from the settled ways no longer strikes me as wrong: I let it pass.
-- Explanation: The mechanism is threat and rigidity. Feeling that no one defers to her for what she brings is a threat to her worth in the group. Under threat, people narrow their attention and tighten control (Staw, Sandelands and Dutton 1981). Self-uncertainty draws people to clear, rigid norms and sharpens their reaction to deviants (Hogg's uncertainty-identity theory). When a person's felt competence is threatened, she turns on others in hostile ways (Fast and Chen 2009, where affirming self-worth removed the effect). The settled ways are ground on which her place is still secure, so another member's breach jars as a further threat and strikes her as wrong: NormExp rises. When others defer to her for what she brings, the threat lifts and a breach no longer jars: NormExp falls. The card follows a single source level. Her own conformity and her openness to new ideas are not NormExp and are left to other Pillars' cards.
+- Increment: When no one turns to me, watches or copies me any more, my footing feels hollow, and another member's break from the settled ways jars me as wrong: I bristle and pull them up, and my sense that such a breach is plainly wrong rises.
+- Decrement: When the others turn to me, copy how I do things and bring me their problems, my footing feels earned, and another member's break from the settled ways jars me less: I am readier to let it pass, and my sense that such a breach is wrong falls.
+- Explanation: The mechanism is threat and rigidity. Feeling that no one defers to her for what she brings is a threat to her worth in the group. Under threat, people narrow their attention and tighten control (Staw, Sandelands and Dutton 1981). Self-uncertainty draws people to clear, rigid norms and sharpens their reaction to deviants (Hogg's uncertainty-identity theory). Threats to self-image raise derogation of others, and self-affirmation removes it (Fein and Spencer 1997); when a person's felt competence is threatened, she turns on others in hostile ways (Fast and Chen 2009, where affirming self-worth removed the effect). The settled ways are ground on which her place is still secure, so another member's breach jars as a further threat and strikes her as wrong: NormExp rises. When others defer to her for what she brings, the threat lifts and a breach jars less: NormExp falls. The evidence shows the threat adding indignation and affirmation taking that addition away, so the fall should be smaller than the rise. The card follows a single source level. Her own conformity and her openness to new ideas are not NormExp and are left to other Pillars' cards. Fast and Chen's finding concerns power-holders whose competence is in doubt, so the effect is strongest where Status is high and Prestige low, and modest otherwise.
 - Pre-language (increment): When others stop watching and copying her and take their troubles to another, she grows tense and keeps to the troop's familiar routines, threatening or turning from any member who starts a new way; her guarding of the settled ways rises.
 - Pre-language (decrement): When others watch and copy her and bring their troubles to her, she is loose and unthreatened, and lets a member who starts a new way go on unchallenged; her guarding of the settled ways eases.
 
@@ -676,9 +660,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: Generated 31 Oct 2026 by a clean social psychologist session, blind to V1 cards; chosen by blind review. Sources are the generator's own and have not been independently checked.
 
-- Increment: When my partners pay me back and those I ask deliver, I feel bound in with them, and my sense of being kept among them in my place rises.
-- Decrement: When partners take and do not return and no one above covers me, I feel cut loose, and my sense of being kept among them falls.
-- Explanation: In ranked groups, grooming and favours are traded for tolerance and proximity; partners who repay a member keep her within the troop's company, and when returns lapse she is left at the margin.
+- Increment: When my partners pay me back and those I ask deliver, they are worth too much to lose; after a clash with one of them I go to them soon, low and friendly, they let me close again, and I am kept among them in my place: my sense of being kept among them rises.
+- Decrement: When partners take and do not return and what I ask for goes unmet, a clash with one of them is left unmended; I keep out of their way, no one draws me back, and I am left at the margin: my sense of being kept among them falls.
+- Explanation: In ranked groups grooming and favours are traded for tolerance and proximity (Seyfarth; Schino and Aureli), and partner value predicts reconciliation after conflict (Aureli, Cords and van Schaik; Cords and Thurnheer). A partner who repays is a valuable partner; repair with her keeps a member in the troop's company, and an unrepaired rift with a partner who never repaid leaves her at the edge.
 - Pre-language (increment): When her grooming is returned and partners back her, they tolerate her close by, and her feeling of being kept close grows.
 - Pre-language (decrement): When partners take her grooming and give none back, they drift from her, and her feeling of being kept close fades.
 
@@ -688,6 +672,7 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. 
 
 - Increment: When what I ask for is met and my help comes back, I feel backed, and what I came for feels within reach here.
 - Decrement: When what I need goes unmet and my help is not returned, I feel on my own, and what I came for slips further away.
+- Explanation: In ranked groups, partners who repay favours also back a member in contests and give her access and tolerance (Seyfarth 1977; Schino 2007, a meta-analysis linking grooming to agonistic support). A member whose partners pay her back therefore forecasts that staying will open the way to what she came for. One whose help is not returned stands alone and expects little from the group.
 - Pre-language (increment): Helped when she reaches for it, she feels backed and goes for what she wants here as one sure of getting it.
 - Pre-language (decrement): Left unhelped when she needs it, she feels alone and hangs back, as if what she wants here is out of reach.
 
@@ -697,7 +682,7 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 - Increment: When I go first as a matter of course and take the first share and the best seat, the others cluster round me and I feel no threat of being dropped: my sense of being kept among them in my place rises.
 - Decrement: When I go last and take what is left, I feel how little slack my place gives me and that any step out of line would see me dropped: my sense of being kept among them falls.
-- Explanation: In ranked groups, attention and affiliation flow up the order: high-ranked members are groomed, approached and kept central. Under this deck's face a place is made for members high or low who keep to it, so rank does not decide inclusion outright; what moves is the felt threat of being dropped. A member who goes first feels her keeping is beyond question; one who goes last feels how little slack her place gives her, and that any step out of line would see her dropped. The felt threat of being dropped is sharpest in the middle of the order, where a place is held but insecure; a member settled at the bottom who keeps to her place may feel kept. Expect the largest falls among middle-ranked members who slip.
+- Explanation: In ranked groups, attention and affiliation flow up the order: high-ranked members are groomed, approached and kept central (Seyfarth 1977). Under this deck's face a place is made for members high or low who keep to it, so rank does not decide inclusion outright; what moves is the felt threat of being dropped. A member who goes first feels her keeping is beyond question; one who goes last feels how little slack her place gives her, and that any step out of line would see her dropped. A member settled at the bottom who keeps to her place may still feel fairly secure, so the fall there is modest. Anxiety about exclusion among middle-status members (Phillips and Zuckerman 2001) cannot be carried by a card that follows a single source level and is left to play.
 - Pre-language (increment): When others yield her the first turn, they groom her and cluster near her, and her feeling of being kept close grows.
 - Pre-language (decrement): When she goes last to everything, others groom her less and she feels how easily she could be left at the edge, and her feeling of being kept close fades.
 
@@ -705,9 +690,9 @@ Status: Fixed 3 Nov 2026 after the final high and low check (fixed); provisional
 
 Status: Revised 3 Nov 2026 against the tightened Pillars (reword); provisional. Origin: V1 card Status->NormExp (Self Interest Quo), renamed to the draft Pillars; reread verdict: keep.
 
-- Increment: Secure at the top of the order, I feel a member's break from the settled ways as a break in the order that puts me first, and it strikes me at once as wrong: I bristle and pull them up.
-- Decrement: Low in the order, the settled ways are what keep me last, so a member breaking from them stirs nothing in me that says it is wrong, and I let it pass.
-- Explanation: Those whom an order favours feel departures from it as wrongs, while those it holds at the bottom feel little stake in it (social dominance theory: Sidanius and Pratto 1999). The indignation is felt, not reasoned: the breach jars because the settled ways and her first place are felt as one. Only her reaction to others' breaches moves here; her own conformity and her openness to new ideas are not NormExp. The effect should be modest, since some low-ranked members also defend the order that holds them down.
+- Increment: Secure at the top of the order, I feel a member's break from the settled ways as a break in the order that puts me first; it jars at once and I pull them up: my sense that such a breach is plainly wrong rises.
+- Decrement: Low in the order, the settled ways are what keep me last, so a member breaking from them stirs nothing in me and I let it pass: my sense that such a breach is wrong falls.
+- Explanation: Those whom an order favours feel departures from it as wrongs, while those it holds at the bottom feel little stake in it (social dominance theory: Sidanius and Pratto 1999). That theory concerns rank between social groups, so carrying it over to rank within one group is an approximation. The indignation is felt, not reasoned: the breach jars because the settled ways and her first place are felt as one. Only her reaction to others' breaches moves here; her own conformity and her openness to new ideas are not NormExp. The effect should be modest, since some low-ranked members also defend the order that holds them down (system justification: Jost and Banaji).
 - Pre-language (increment): Secure at the top, she bristles when another member does something in a new way, and threatens them or turns her back on them.
 - Pre-language (decrement): Low in the order, she watches another member do something in a new way and lets it pass, unbothered.
 
@@ -735,15 +720,15 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 - Increment: When I feel sure the group as it stands cannot pull off what it has set itself, a member doing things differently or pressing to change our ways jars me as wrong and I am quick to pull them up: my indignation at breaches rises.
 - Decrement: When the venture looks well within our reach, a member trying something different or urging a change leaves me unmoved and I let it pass: my indignation at breaches eases.
-- Explanation: A felt threat to the group's venture narrows attention onto the established way of doing things and makes departures from it feel dangerous, so indignation at breaches rises; when success looks secure there is slack, and departures are tolerated.
+- Explanation: A felt threat to the group's venture narrows attention onto the established way of doing things and makes departures from it feel dangerous, so indignation at breaches rises; when success looks secure there is slack, and departures are tolerated. The card covers the acute, felt jar of a faltering venture. A slow failure the group has openly acknowledged can work the other way, opening members to calls for change (problemistic search: Cyert and March), and Gelfand's tightness evidence comes mainly from societies over long spans. The effect should therefore be modest.
 - Pre-language (increment): When the band's venture is going badly and the prize looks out of reach, she clings to the usual way of doing it and bristles at a fellow who does it differently, with a protest or a shove. Her norm guarding rises.
 - Pre-language (decrement): When the prize looks well within the band's reach, she lets a fellow try an odd way of doing it without a second look. Her bristle at breaches subsides.
 
 ### X:OutResp->NormExp: Shirkers sharpen the bristle (Inverse, X)
 
-- Increment: When I keep having to check up on, chase and redo what others took on, because they shirk, cut corners and go back on their word, the next member who breaks from our ways jars me at once as plainly wrong and I am quick to pull them up with a sharp word or a turned back: my indignation at breaches rises.
-- Decrement: When I can leave any part of the work with any member and never check on it, a member doing a thing differently strikes me as harmless, coming from people who deliver, and I let it pass: my indignation at breaches eases.
-- Explanation: Repeated experience of others not carrying their part provokes anger at defectors, the proximate driver of costly sanctioning, and that anger generalises into a quicker bristle at departures from the group's ways; a record of reliable delivery gives members latitude, so departures read as harmless and the bristle idles.
+- Increment: When I keep having to check up on, chase and redo what others took on, the next member who departs from the way we do the shared work jars me at once as plainly wrong, as if it were one more corner cut, and I pull them up with a sharp word or a turned back: my indignation at breaches rises.
+- Decrement: When I can leave any part of the work with any member, a member doing the shared work their own way strikes me as harmless, coming from people who deliver, and I let it pass: my indignation at breaches eases.
+- Explanation: Anger at free riders drives costly punishment of them (Fehr and Gächter). The evidence concerns breaches of the cooperative task rather than any departure from the group's ways, so the card is limited to the way the shared work is done: where shirking is rife, a different way of doing the work is read as another dodge. A record of delivery earns latitude (Hollander's idiosyncrasy credit). Hollander's credit belongs to each member's own record, so carrying it over to the group's reliability as a whole is an approximation.
 - Pre-language (increment): When the others keep leaving their end of the carry or the watch to her, she bristles sooner at any of them doing a thing the wrong way and moves to pull them up: a protest cry, a shove, a cold shoulder. Her norm guarding rises.
 - Pre-language (decrement): When the others reliably hold their end of the shared task, she meets a fellow's odd way of doing things with a shrug and goes about her business. Her bristle at breaches subsides.
 
@@ -751,9 +736,9 @@ Status: Revised 3 Nov 2026 against the tightened Pillars (replace); provisional.
 
 Status: provisional
 
-- Increment: When what I give the group seems to go into a hole and those with a surplus hide it, a member stepping outside our settled ways of sharing and doing strikes me as wrong at once, and I am quick to mock or cold-shoulder them: my indignation at breaches rises.
-- Decrement: When whoever has gives to whoever needs and what I put in comes back from any member, a member's departure from our usual ways leaves me unmoved and I let it pass: my indignation at breaches eases.
-- Explanation: In egalitarian bands the sharing norm is guarded by pressure on the stingy: demands, criticism and mockery of hoarders; when the group's return on giving fails, that guarding temper rises, and when sharing flows freely it rests. The felt jar may run ahead of the voiced rebuke where her Status is low or Levelling is low.
+- Increment: When what I give the group seems to go into a hole and what I need goes unmet, a member stepping outside our settled ways of sharing and helping strikes me as wrong at once, and I am quick to mock or cold-shoulder them: my indignation at breaches rises.
+- Decrement: When whoever has gives to whoever needs and what I put in comes back from any member, a member's departure from our usual ways of sharing and helping leaves me unmoved and I let it pass: my indignation at breaches eases.
+- Explanation: In egalitarian bands the sharing norm is guarded by pressure on the stingy: demands, criticism and mockery of hoarders. When the group's return on giving fails, that guarding temper rises, and when sharing flows freely it rests. The evidence concerns the sharing norm, so the card covers only the ways of sharing and helping; breaches in how the shared work is done belong to X:OutResp->NormExp. The felt jar may run ahead of the voiced rebuke where her Status is low or Levelling is low.
 - Pre-language (increment): When her food goes out and nothing comes back while others hide their surplus, she bristles at fellows doing things the wrong way and moves to demand, protest or turn her back; her norm guarding rises.
 - Pre-language (decrement): When food passes freely and comes back to her from whoever next has, a fellow's odd way of doing things draws no bristle; her norm guarding falls.
 
@@ -766,3 +751,51 @@ Status: provisional. Origin: Comparative psychologist's synthesis build, Standin
 - Explanation: Low rank keeps the threat system primed: appeasing, submissive and shame displays come unbidden, and each retreat is felt as a sign that showing oneself is dangerous; high rank releases them. Rank and safety stay distinct readings, since a member can be well placed in a group that punishes slips, or lowly in one that does not. From the comparative psychologist's synthesis build (Standing->Safety), its most-used card.
 - Pre-language (increment): When she stands high in the band, she bares a protest openly and goes on, and no one turns on her for it. Her ease in showing herself rises.
 - Pre-language (decrement): When she stands low, she wraps any protest in appeasing grins and crouches, checks her first flare, and flushes and averts when caught out. Her ease in showing herself falls.
+
+### H:Status->Prestige: Heard from where I sit (Reinforce, Hierarchical)
+
+Status: provisional. Origin: Proposed by the comparative psychologist's critique of VX (5 Nov 2026)
+
+- Increment: When I go first as a matter of course, what I put forward is listened to before it has shown its worth: the others take up my suggestion, bring me the next problem and credit me with the result, and I feel them turn to me for what I bring: my sense that they defer to me for it rises.
+- Decrement: When I go last as a matter of course, what I put forward is passed over or credited to someone higher, however good it is, and I watch the next problem go to someone else: my sense that they turn to me for what I bring falls.
+- Explanation: Status sets performance expectations, and expectations steer who is listened to and how contributions are judged, in a self-fulfilling way (expectation states theory). Eminent people get more credit for comparable work (Merton). Status hierarchies reinforce themselves through expectations that favour those already ahead (Magee and Galinsky). The card moves her felt deference through the others' response to what she puts forward. With H:Prestige->Status it forms a reinforcing pair. The brake is Prestige evidence, a visible failure of what she brings. Proposal: the halo should be strongest when the worth of a contribution is hard to judge, since a plain result can be seen whoever offers it.
+
+### H:Prestige->Status: Settling into a place (Reinforce, Hierarchical)
+
+Status: provisional. Origin: Proposed by the comparative psychologist's critique of VX (5 Nov 2026)
+
+- Increment: When the others keep turning to me for what I bring, hand me decisions and leave jobs that matter in my hands, they come to wait for me and give me the first word as a matter of course, and I feel it has become my place: my felt rung in the order rises.
+- Decrement: When what I bring stops counting and my word is doubted in front of the others, nothing that matters is handed to me, they stop waiting for me and someone else takes the first word, and I give way: my felt rung in the order falls.
+- Explanation: Freely conferred deference is a route to rank (Henrich and Gil-White; Cheng et al.). Contributors are repaid with standing and influence (Willer), and perceived competence buys influence (Anderson and Kilduff). Once established, status holds itself through expectations (Magee and Galinsky). The step from live deference to a place taken for granted is slow. Proposal: move Status by a fraction of Prestige's move, and only once Prestige has held for several scenes; make the decrement weaker than the increment, because a settled place outlasts the skill that earned it, as seniority and incumbency show every day. This card absorbs the older model's most-used card: being trusted with something that matters is Prestige evidence, and its settling is this card.
+
+### H:Belonging->Status: Backed into my place (Reinforce, Hierarchical)
+
+Status: provisional. Origin: Proposed by the comparative psychologist's critique of VX (5 Nov 2026)
+
+- Increment: When I am kept among them and my allies stay close, a challenge to my turn or my share brings them to my side, the challenger gives way, and I take the turns that were in doubt: my felt rung in the order rises.
+- Decrement: When I am kept at the edge and my turn or my share is questioned in front of the others, no one speaks for me, I give way, and others step ahead of me at turns and shares: my felt rung in the order falls.
+- Explanation: In macaques, kin and allied support is central to acquiring rank (Chapais), and grooming is traded for agonistic support (Schino), with grooming directed up the hierarchy for rank-related benefits (Seyfarth; Schino and Aureli). A place in the order is held partly by who would back it. The human step is a proposal, common sense in any committee: a member whose turn is questioned and whom no one backs gives way, and one who is backed keeps her turn. This carries the second half of the older model's most-used card. It is distinct from Prestige: backing is for who she is to them, not for what she brings.
+
+### E:Belonging->OutResp: Friends get the rope (Reinforce, Egalitarian)
+
+Status: provisional. Origin: Proposed by the comparative psychologist's critique of VX (5 Nov 2026)
+
+- Increment: When the others draw me in as one of their own, I hand parts of the shared work to my friends among them without a second thought, I see them carry it through, and I feel I can leave work in their hands: my confidence that they will do their part rises.
+- Decrement: When I am left at the edge, I keep the work in my own hands and check what little I hand over; they read the checking as distrust and slacken, and the last let-down stays with me: my confidence that they will do their part falls.
+- Explanation: Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann). The gain for OutResp therefore comes from sampling: a member who trusts more sees more work carried through, while one who withholds trust sees little and keeps her last let-down as the verdict, since withheld trust gets no feedback that could correct it (Fetchenhauer and Dunning 2010; Denrell 2005). Control read as distrust lowers the other's effort (Falk and Kosfeld), so withheld trust is partly self-fulfilling.
+
+### H:Reciprocity->Prestige: Generous, so sought (Reinforce, Hierarchical)
+
+Status: provisional. Origin: Proposed by the comparative psychologist's critique of VX (5 Nov 2026)
+
+- Increment: When the partners I help pay me back as a matter of course, I give help freely and where the others can see it; they come to know me as one who gives, seek me out and take my advice, and I feel them turn to me: my sense that they defer to me for what I bring rises.
+- Decrement: When the partners I help do not pay me back, I stop giving beyond what I must; the others see little given by me, they stop seeking me out, and I feel passed over: my sense that they turn to me for what I bring falls.
+- Explanation: In public settings, the most generous members gain the most status and are the most preferred partners (Hardy and Van Vugt), and contributors are given influence and deference (Willer). A felt return makes open-handed giving cheap, and open-handed giving is what draws freely conferred deference. Each play moves her felt reading a step; the reputation as a giver builds over many plays. The card carries the older build's Acceptance->Standing, with the giving now driven by felt return. It forms a positive loop with H:Prestige->Reciprocity; the brake is a partner who stops repaying.
+
+### X:Status->Levelling: Low rung, easy target (Reinforce, X)
+
+Status: provisional. Origin: Proposed by the comparative psychologist's critique of VX (5 Nov 2026)
+
+- Increment: When I hold a high place in the order, no one tries to push me about or take my due, and I go about my business beside the strongest without a glance at their mood: my sense that no one here can force me or take more than their due and keep it rises.
+- Decrement: When I sit low in the order, the one who likes to push finds me the easy target, taking more of my turns and my share than the order gives him and leaning on me; I start to watch him and do what heads off his temper: my sense that no one here can force me or take more than their due and keep it falls.
+- Explanation: Rank shapes how much aggression and stress an animal receives, but the direction and size depend on the society: dominance style, stability, social support and means of escape (Sapolsky 2005). Formalised, reconciled orders damp overt aggression (de Waal 1986). So in a settled order she accepts, a low place moves Levelling little, as the Levelling definition says; the card bites when someone uses her low place to push or take. Set it small in settled orders and larger in despotic ones.
