@@ -1,0 +1,10 @@
+{
+  // Static site: every file under public/ is served as is (Cloudflare Workers static assets)
+  "name": "copilar-site",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
