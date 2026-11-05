@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T18:23+10:30",
+  "built": "2026-11-05T18:39+10:30",
   "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -757,10 +757,10 @@
     "name": "Outgoing Respect",
     "continuum": "ECP",
     "axis": "Respect",
-    "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word about it, so you leave work in their hands without checking that they are doing it. It is reliability, not skill (Team Confidence): a member of modest skill who always carries through what they take on rates high. It reads their part, not the return on your help (Reciprocity), whether anyone takes more than their due of shares, credit or say and makes it stick (Parity), or their verdict on your own conduct (Repute).",
+    "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word about it, so you leave work in their hands without checking that they are doing it. It also reads whether they would hold back from turning a slip, a need or a weak spot of yours against you, to get ahead of you or to do you harm, so you can leave yourself in their hands as well as the work. It is reliability, not skill (Team Confidence): a member of modest skill who always carries through what they take on rates high. It reads their part, not the return on your help (Reciprocity), whether anyone takes more than their due of shares, credit or say and makes it stick (Parity), their verdict on your own conduct (Repute), the put-down, mockery or rebuff that letting a slip, a need or a disagreement show may draw on the spot (Safety), or your fondness for them (Warmth).",
     "anchors": {
-     "10": "You leave any part of the work with any member and never check whether they are doing it; what they take on gets done and what they promise about it holds.",
-     "1": "You check up on and chase others' work and redo what they skimp, expecting them to shirk, cut corners or go back on their word."
+     "10": "You leave any part of the work with any member and never check whether they are doing it; what they take on gets done and what they promise about it holds, and you know a slip of yours would never be used against you.",
+     "1": "You check up on and chase others' work and redo what they skimp, expecting them to shirk, cut corners or go back on their word, and you expect any slip of yours to be used against you."
     },
     "effect_timing": "immediate",
     "effect_on_other_pillars": "OutResp's impact on other Pillars is based upon your present assessment of the average group attribute.",
@@ -883,6 +883,42 @@
       "date": "2026-11-05",
       "by": "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm)",
       "why": "Example changed from a willing but clumsy member to one of modest skill who carries through; unchecked chimpanzee claim (Engelmann et al. 2015) replaced by partner assessment grounded in Tomasello et al. 2012."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ben, 5 Nov 2026, 6.29 pm (organisational psychologist, second round: items 2 to 4)",
+      "was": {
+       "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word about it, so you leave work in their hands without checking that they are doing it. It is reliability, not skill (Team Confidence): a member of modest skill who always carries through what they take on rates high. It reads their part, not the return on your help (Reciprocity), whether anyone takes more than their due of shares, credit or say and makes it stick (Parity), or their verdict on your own conduct (Repute).",
+       "anchors": {
+        "10": "You leave any part of the work with any member and never check whether they are doing it; what they take on gets done and what they promise about it holds.",
+        "1": "You check up on and chase others' work and redo what they skimp, expecting them to shirk, cut corners or go back on their word."
+       }
+      },
+      "why": "Benevolence is a separate ground of trust (Mayer, Davis and Schoorman 1995; McAllister 1995). Safety keeps the cost to her of showing herself; Dependability reads the others' trustworthiness."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word about it, so you leave work in their hands without checking that they are doing it. It also reads whether they would hold back from turning a slip, a need or a weak spot of yours against you, so you can leave yourself in their hands as well as the work. It is reliability, not skill (Team Confidence): a member of modest skill who always carries through what they take on rates high. It reads their part, not the return on your help (Reciprocity), whether anyone takes more than their due of shares, credit or say and makes it stick (Parity), or their verdict on your own conduct (Repute).",
+       "anchors": {
+        "10": "You leave any part of the work with any member and never check whether they are doing it; what they take on gets done and what they promise about it holds, and you know a slip of yours would be covered, not used.",
+        "1": "You check up on and chase others' work and redo what they skimp, expecting them to shirk, cut corners or go back on their word, and you expect any slip of yours to be used against you."
+       }
+      },
+      "why": "The new vulnerability clause (others holding back from turning a slip, a need or a weak spot of yours against you) matches benevolence-based trust (Mayer, Davis and Schoorman 1995), so it belongs here. Without a boundary, though, it overlaps Safety, which reads the put-down or mockery that showing a slip or need draws on the spot (Edmondson 1999, 2004). The clause needs to say it covers exploitation for gain or harm and to name Safety. The new card E:OutResp->Warmth also makes it worth stating that Dependability is not fondness (cognition-based versus affect-based trust, McAllister 1995). The anchors are unchanged."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the other members can be counted on to do their part in the shared work: each carries through what they take on and keeps their word about it, so you leave work in their hands without checking that they are doing it. It also reads whether they would hold back from turning a slip, a need or a weak spot of yours against you, to get ahead of you or to do you harm, so you can leave yourself in their hands as well as the work. It is reliability, not skill (Team Confidence): a member of modest skill who always carries through what they take on rates high. It reads their part, not the return on your help (Reciprocity), whether anyone takes more than their due of shares, credit or say and makes it stick (Parity), their verdict on your own conduct (Repute), the put-down, mockery or rebuff that letting a slip, a need or a disagreement show may draw on the spot (Safety), or your fondness for them (Warmth).",
+       "anchors": {
+        "10": "You leave any part of the work with any member and never check whether they are doing it; what they take on gets done and what they promise about it holds, and you know a slip of yours would be covered, not used.",
+        "1": "You check up on and chase others' work and redo what they skimp, expecting them to shirk, cut corners or go back on their word, and you expect any slip of yours to be used against you."
+       }
+      },
+      "why": "The description reads restraint: whether others would hold back from turning a slip, need or weak spot of yours against you (benevolence and willingness to be vulnerable, Mayer, Davis and Schoorman 1995). Anchor 10 says a slip would be 'covered', which is active help and drifts into Reciprocity's ground. Anchor 10 should match the description's restraint. Boundary clauses otherwise agree with Safety (on-the-spot put-down versus exploitation of a weak spot), Team Confidence (skill), Parity, Repute, Reciprocity and Warmth."
      }
     ],
     "plain_name": "Dependability",
@@ -1344,7 +1380,7 @@
     "name": "Diverse Expression (felt safety)",
     "continuum": "ECP",
     "axis": "Expression",
-    "description": "How safe you feel to show yourself in this group: to let a slip, a mood, a need or a disagreement show, or go about things your own way, expecting no put-down, mockery or rebuff for it. It is your reading of what showing yourself will cost you, not whether you speak up, whether a need you show gets met (Reciprocity), whether your word carries weight (Esteem), whether you are wanted (Belonging), whether anyone pushes you about by force or fear or whether those who decide hear you out before a call that touches you (Parity), the verdict already held on your conduct (Repute), being openly charged or caught out before those who count (Face) or your own indignation at others' departures (Rule-Keeping).",
+    "description": "How safe you feel to show yourself in this group: to let a slip, a mood, a need or a disagreement show, or go about things your own way, expecting no put-down, mockery or rebuff for it. It is your reading of what showing yourself will cost you, not whether you speak up, whether a need you show gets met (Reciprocity), whether your word carries weight (Esteem), whether you are wanted (Belonging), whether anyone pushes you about by force or fear or whether those who decide hear you out before a call that touches you (Parity), the verdict already held on your conduct (Repute), being openly charged or caught out before those who count (Face), your own indignation at others' departures (Rule-Keeping) or whether others would turn a weak spot of yours to their own advantage or to do you harm (Dependability).",
     "anchors": {
      "10": "You feel free to let slips, moods, needs and disagreements show as they come and to go about things your own way, expecting no one to pounce on them, laugh at them or turn away.",
      "1": "You feel that letting a slip, a mood, a plain need, a disagreement or a way of your own show would draw a put-down, so you scan faces before you move and keep your reactions masked."
@@ -1453,6 +1489,18 @@
        }
       },
       "why": "Stale boundary clause after the Levelling revision. Safety's Parity exclusion names only being pushed about by force or fear, but Parity now also claims whether those who decide hear you out before a call that touches you (H face: 'objecting gets you waved off'). A disagreement that is waved off by whoever decides could be read as Safety's 'rebuff' as well as Parity's denied hearing, so that ground is claimed twice. The fix extends the Parity clause so Safety keeps the cost of showing a disagreement (put-down, mockery, rebuff from anyone) and Parity keeps whether those who decide hear and weigh your say. This matches the literature, which separates psychological safety (Edmondson 1999) from procedural voice (Lind and Tyler 1988). Anchors unchanged. Tier 3."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How safe you feel to show yourself in this group: to let a slip, a mood, a need or a disagreement show, or go about things your own way, expecting no put-down, mockery or rebuff for it. It is your reading of what showing yourself will cost you, not whether you speak up, whether a need you show gets met (Reciprocity), whether your word carries weight (Esteem), whether you are wanted (Belonging), whether anyone pushes you about by force or fear or whether those who decide hear you out before a call that touches you (Parity), the verdict already held on your conduct (Repute), being openly charged or caught out before those who count (Face) or your own indignation at others' departures (Rule-Keeping).",
+       "anchors": {
+        "10": "You feel free to let slips, moods, needs and disagreements show as they come and to go about things your own way, expecting no one to pounce on them, laugh at them or turn away.",
+        "1": "You feel that letting a slip, a mood, a plain need, a disagreement or a way of your own show would draw a put-down, so you scan faces before you move and keep your reactions masked."
+       }
+      },
+      "why": "The revised Dependability now reads whether others would turn a slip, a need or a weak spot of yours against you. That sits next to Safety's ground (what showing a slip or a need will cost you), and Safety has no clause that names Dependability, so this ground is claimed twice. Edmondson (1999, 2004) separates psychological safety, the expected interpersonal cost of a risk taken in the open, from trust in particular others, which covers whether they would exploit a vulnerability (Mayer, Davis and Schoorman 1995, benevolence). Smallest fix: add the boundary. The anchors are unchanged."
      }
     ],
     "pre_language": {
@@ -1968,9 +2016,9 @@
     "faces": {
      "E": {
       "label": "Wanted as one of their own in good standing",
-      "description": "The others want you among them as one of their own in good standing: you pull with the group as far as you are able and do not feed on it. The acceptance does not rise or fall with your output or with any place in an order, but it is not unconditional: a member the group has judged to shirk, cheat or feed on the others (Repute) is edged out. You read it from how the group as a whole treats you, not from the judgement itself.",
+      "description": "The others want you among them as one of their own in good standing: you pull with the group as far as you are able and do not feed on it. The acceptance does not depend on how much you produce or on any place in an order, though being looked to for what you bring can draw you further in. Nor is it unconditional: a member the group has judged to shirk, cheat or feed on the others (Repute) is edged out. You read it from how the group as a whole treats you, not from the judgement itself.",
       "anchors": {
-       "10": "Others make room for you and draw you in as a matter of course, and have done so through good seasons and bad; only shirking, cheating or turning on the group would change it.",
+       "10": "Others make room for you and draw you in as a matter of course, and have done so through good seasons and bad; you feel it would take shirking, cheating or turning on the group to change it.",
        "1": "Gatherings form without you and you are left at the edge: they treat you as a freeloader or an outsider, not as one of their own."
       },
       "pre_language": {
@@ -1984,7 +2032,7 @@
      },
      "H": {
       "label": "Included while you keep your place",
-      "description": "The others keep you among them so long as you keep to what your place in the order calls for, high or low, and do not step out of line. The acceptance is real but conditional on keeping the place, not on the place itself (Rank). You read it from how they treat you while you keep it and from the standing threat of being dropped.",
+      "description": "The others keep you among them so long as you keep to what your place in the order calls for, high or low, and do not step out of line. The acceptance is real but conditional on keeping the place, not on the place itself (Rank). You read it from how they treat you while you keep it and from the standing threat of being dropped, not from whether anyone of standing has charged you with stepping out of line or whether that charge has been answered (Face).",
       "anchors": {
        "10": "You have kept your place and the others keep you among them: at every gathering a place is made for you, whether high or low, as a matter of course.",
        "1": "You have stepped out of line and been dropped, or were never given a place at all: gatherings form without you and you are kept at the edge."
@@ -2197,6 +2245,63 @@
       "date": "2026-11-05",
       "by": "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm)",
       "why": "Unchecked Twenge et al. 2001 claims dropped from the elaboration; informal-leadership clause dropped from the egalitarian engagement text (Esteem's ground, per approved advice); egalitarian face now reads the being edged out and leaves the verdict to Repute."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the others want you among them: whether they make room for you and draw you in, or leave you at the edge. It is their acceptance of you, read from how they treat you, not whether they defer to you for skill or contribution (Esteem), where you stand in the order (Rank) or how they judge your conduct (Repute). The culture's face sets what the acceptance rests on. It is not your own fondness for them (Warmth).",
+       "anchors": {
+        "10": "Others make room for you on sight and draw you into whatever is going on; you never doubt that you are wanted here.",
+        "1": "Gatherings form without you and you are left at the edge; you doubt that anyone wants you here."
+       },
+       "face_E": {
+        "description": "The others want you among them as one of their own in good standing: you pull with the group as far as you are able and do not feed on it. The acceptance does not rise or fall with your output or with any place in an order, but it is not unconditional: a member the group has judged to shirk, cheat or feed on the others (Repute) is edged out. You read it from how the group as a whole treats you, not from the judgement itself.",
+        "anchors": {
+         "10": "Others make room for you and draw you in as a matter of course, and have done so through good seasons and bad; only shirking, cheating or turning on the group would change it.",
+         "1": "Gatherings form without you and you are left at the edge: they treat you as a freeloader or an outsider, not as one of their own."
+        }
+       }
+      },
+      "why": "Egalitarian face anchor 10 states as fact that only shirking, cheating or turning on the group would change the acceptance. That denies routes the model itself runs into Belonging (E:Levelling->Belonging, E:DivsExp->Belonging, E:Warmth->Belonging, E:Engagement->Belonging, E:Repute->Belonging with its misreadings). Recast it as the member's felt sense, which matches the inclusion literature (Baumeister and Leary 1995; Williams on ostracism) on perceived inclusion as a felt reading. Boundary clauses otherwise agree with Esteem, Rank, Repute, Warmth, Parity and Face (being dropped for stepping out of line is read here, as Face says). General definition and hierarchical face pass."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the others want you among them: whether they make room for you and draw you in, or leave you at the edge. It is their acceptance of you, read from how they treat you, not whether they defer to you for skill or contribution (Esteem), where you stand in the order (Rank) or how they judge your conduct (Repute). The culture's face sets what the acceptance rests on. It is not your own fondness for them (Warmth).",
+       "anchors": {
+        "10": "Others make room for you on sight and draw you into whatever is going on; you never doubt that you are wanted here.",
+        "1": "Gatherings form without you and you are left at the edge; you doubt that anyone wants you here."
+       },
+       "face_H": {
+        "description": "The others keep you among them so long as you keep to what your place in the order calls for, high or low, and do not step out of line. The acceptance is real but conditional on keeping the place, not on the place itself (Rank). You read it from how they treat you while you keep it and from the standing threat of being dropped.",
+        "anchors": {
+         "10": "You have kept your place and the others keep you among them: at every gathering a place is made for you, whether high or low, as a matter of course.",
+         "1": "You have stepped out of line and been dropped, or were never given a place at all: gatherings form without you and you are kept at the edge."
+        }
+       }
+      },
+      "why": "Hierarchical face: Face says being dropped for stepping out of line is read in Belonging, and Face claims the open charge of stepping out of place, but the hierarchical face names no boundary with Face. The egalitarian face already separates the group's treatment from the judgement behind it (Repute); the hierarchical face needs the matching clause so the charge (Face) and the dropping (Belonging) are not doubly claimed. Smallest fix: one closing clause in face_H. General definition and anchors unchanged."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 6, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far you feel the others want you among them: whether they make room for you and draw you in, or leave you at the edge. It is their acceptance of you, read from how they treat you, not whether they defer to you for skill or contribution (Esteem), where you stand in the order (Rank) or how they judge your conduct (Repute). The culture's face sets what the acceptance rests on. It is not your own fondness for them (Warmth).",
+       "anchors": {
+        "10": "Others make room for you on sight and draw you into whatever is going on; you never doubt that you are wanted here.",
+        "1": "Gatherings form without you and you are left at the edge; you doubt that anyone wants you here."
+       },
+       "face_E": {
+        "description": "The others want you among them as one of their own in good standing: you pull with the group as far as you are able and do not feed on it. The acceptance does not rise or fall with your output or with any place in an order, but it is not unconditional: a member the group has judged to shirk, cheat or feed on the others (Repute) is edged out. You read it from how the group as a whole treats you, not from the judgement itself.",
+        "anchors": {
+         "10": "Others make room for you and draw you in as a matter of course, and have done so through good seasons and bad; you feel it would take shirking, cheating or turning on the group to change it.",
+         "1": "Gatherings form without you and you are left at the edge: they treat you as a freeloader or an outsider, not as one of their own."
+        }
+       }
+      },
+      "why": "Egalitarian face only. 'The acceptance does not rise or fall with your output' is too strong. It contradicts E:Prestige->Belonging (Skill shared, drawn in) and E:Engagement->Belonging, which both have what you bring or put in drawing you further in. It also goes past the forager literature: the band accepts you mainly for keeping its sharing norms (Woodburn 1982; Boehm 1999), but members looked to for their skill do draw more company and support (Gurven, Allen-Arave, Hill and Hurtado 2000; Smith 2004). Smallest fix: acceptance does not depend on output or on a place in an order, and being looked to can still draw you in. The general definition, the hierarchical face and all boundary clauses agree with Esteem, Rank, Repute, Face, Parity, Safety, Payoff and Warmth. They also fit the revised cards H:Reciprocity->Belonging, E:Belonging->GrpProsp and H:Face->Belonging. Anchors unchanged."
      }
     ],
     "era": {
@@ -2574,6 +2679,25 @@
        }
       },
       "why": "Hierarchical face points to Face as an open charge of 'wronging people or dodging your share', but the revised Face also covers being charged with, or caught, stepping out of your place. The pointer leaves that third ground unnamed, so an overstepping charge could be read as moving Esteem. Tier 3 wording edit adding the missing ground. Egalitarian face and general definition pass; freely conferred deference and copying follow Henrich and Gil-White (2001)."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How far the others defer to you freely for what you bring: they turn to you, watch and copy how you do it, bring you their problems and take your advice. It is not whether they want you among them (Belonging), your rung in the settled order (Rank) or their verdict on your conduct (Repute). The culture's face sets how far the deference reaches.",
+       "anchors": {
+        "10": "Whenever your kind of skill or contribution counts, the others turn to you, watch and copy how you do it, bring you their problems and take your advice.",
+        "1": "No one asks you, watches you or copies you; when your kind of skill or contribution is needed they turn to someone else."
+       },
+       "face_H": {
+        "description": "How far you feel the others defer to you freely for what you bring the group: skill, knowledge or contribution it values. They watch how you do it, copy you, bring you problems, take your advice, hand you decisions and jobs that matter and take your word on them. The deference is given, not owed to any place in a rank order (Rank). Being handed a decision or a job because of what you bring is part of it; being shown up before others as clumsy or mistaken on a matter of skill, or as falling short on your share for want of skill rather than will, lowers it. Whether the others count you a decent member, fair in your dealings and carrying your share of the work, is not (Repute); nor is whether anyone of standing has openly charged you with, or caught you at, wronging people, dodging your share or stepping out of your place (Face); and neither is whether help you give comes back to you (Reciprocity). It fades once what you bring does; any precedence that has by then settled into your place is Rank, not Esteem.",
+        "anchors": {
+         "10": "Whenever your kind of skill or contribution counts, the others turn to you, watch and copy how you do it, bring you their problems and take your advice.",
+         "1": "No one asks you, watches you or copies you; when your kind of skill or contribution is needed they turn to someone else."
+        }
+       }
+      },
+      "why": "The new card H:Levelling->Prestige (Heard, so counted) links being heard by those above to Esteem. The hierarchical face of Levelling already excludes Esteem, but the hierarchical face of Prestige does not name Parity, although the egalitarian face does. Being heard out before a decision (Parity) could therefore be read as having your word taken (Esteem). Smallest fix: add the reciprocal boundary to face_H. The general definition, face_E and all anchors are unchanged. The faces fit Henrich and Gil-White (2001) and Cheng et al. (2013), and the egalitarian face fits Boehm (1999) and Lee's insulting the meat."
      }
     ],
     "status": "Tightened by the literature 3 Nov 2026 (docs/model-edits/tighten/); provisional",
@@ -2618,7 +2742,7 @@
      },
      "H": {
       "label": "Deferred to for what you bring",
-      "description": "How far you feel the others defer to you freely for what you bring the group: skill, knowledge or contribution it values. They watch how you do it, copy you, bring you problems, take your advice, hand you decisions and jobs that matter and take your word on them. The deference is given, not owed to any place in a rank order (Rank). Being handed a decision or a job because of what you bring is part of it; being shown up before others as clumsy or mistaken on a matter of skill, or as falling short on your share for want of skill rather than will, lowers it. Whether the others count you a decent member, fair in your dealings and carrying your share of the work, is not (Repute); nor is whether anyone of standing has openly charged you with, or caught you at, wronging people, dodging your share or stepping out of your place (Face); and neither is whether help you give comes back to you (Reciprocity). It fades once what you bring does; any precedence that has by then settled into your place is Rank, not Esteem.",
+      "description": "How far you feel the others defer to you freely for what you bring the group: skill, knowledge or contribution it values. They watch how you do it, copy you, bring you problems, take your advice, hand you decisions and jobs that matter and take your word on them. The deference is given, not owed to any place in a rank order (Rank). Being handed a decision or a job because of what you bring is part of it; being shown up before others as clumsy or mistaken on a matter of skill, or as falling short on your share for want of skill rather than will, lowers it. Whether the others count you a decent member, fair in your dealings and carrying your share of the work, is not (Repute); nor is whether anyone of standing has openly charged you with, or caught you at, wronging people, dodging your share or stepping out of your place (Face); and neither is whether help you give comes back to you (Reciprocity) nor whether those above you hear you out and deal evenly with you (Parity). It fades once what you bring does; any precedence that has by then settled into your place is Rank, not Esteem.",
       "anchors": {
        "10": "Whenever your kind of skill or contribution counts, the others turn to you, watch and copy how you do it, bring you their problems and take your advice.",
        "1": "No one asks you, watches you or copies you; when your kind of skill or contribution is needed they turn to someone else."
@@ -2668,7 +2792,7 @@
      "H"
     ],
     "shared": true,
-    "description": "How fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), and not how much of yourself you put into the group (Engagement), which can be high in a group whose members you merely tolerate.",
+    "description": "How fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement), which can be high in a group whose members you merely tolerate.",
     "anchors": {
      "10": "You brighten at the sight of them, enjoy their company for its own sake and feel their troubles as partly yours.",
      "1": "Their company is a duty, their troubles leave you unmoved and you are glad when the gathering breaks up."
@@ -2731,12 +2855,69 @@
        }
       },
       "why": "In the hierarchical face, the clause 'not regard for their place (Rank) or admiration of their worth (Esteem)' points to the wrong perceptions. Rank is your own felt rung and Esteem is the deference others give you; neither reads your regard for or admiration of others. The fix keeps the exclusion and drops the two wrong labels. The general definition and the egalitarian face pass. Both read liking and empathic concern for the members (Batson on empathic concern) and keep clear of Belonging, Reciprocity and Engagement."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), and not how much of yourself you put into the group (Engagement), which can be high in a group whose members you merely tolerate.",
+       "anchors": {
+        "10": "You brighten at the sight of them, enjoy their company for its own sake and feel their troubles as partly yours.",
+        "1": "Their company is a duty, their troubles leave you unmoved and you are glad when the gathering breaks up."
+       },
+       "face_E": {
+        "description": "How fond you feel of the members at large, taken as fellows: whether you like being among them, are drawn to the band's company and feel any member's troubles as partly yours. The reading spans the whole membership and takes no account of anyone's place in an order. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), and not how much of yourself you put into the group (Engagement).",
+        "anchors": {
+         "10": "Whoever of the band you run into, you are glad to see them, happy to stay in their company and touched when any of them is in trouble.",
+         "1": "Being among the members at large feels like a chore, the trouble of any one of them leaves you cold and you slip away as soon as you can."
+        }
+       }
+      },
+      "why": "The new card E:OutResp->Warmth links counting on others to fondness for them, but Warmth names no Dependability boundary. Affect-based trust and cognition-based trust are separate constructs (McAllister 1995), so the reliable-but-unloved case and the loved-but-unreliable case need to stay separate. Smallest fix: add the clause to the general definition and to face_E, the deck where Dependability is in play. face_H and all anchors are unchanged. E:Repute->Warmth and E:Warmth->DivsExp raise no boundary problem: Repute is the others' verdict on you, Safety is the cost of showing yourself, and Warmth is your liking for them."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement), which can be high in a group whose members you merely tolerate.",
+       "anchors": {
+        "10": "You brighten at the sight of them, enjoy their company for its own sake and feel their troubles as partly yours.",
+        "1": "Their company is a duty, their troubles leave you unmoved and you are glad when the gathering breaks up."
+       },
+       "face_H": {
+        "description": "How fond you feel of the people you deal with up and down the order: peers, patrons and those below. The reading asks whether you like being with each of them, are drawn to their company and feel their troubles as partly yours, whatever their rank relative to yours. It is your liking for them, not regard for their place or admiration of their worth, not their acceptance of you (Belonging), and not whether favours come back (Reciprocity).",
+        "anchors": {
+         "10": "You are glad to see your peers, your patrons and those below you alike, enjoy time with each for its own sake and feel their troubles as partly yours.",
+         "1": "Dealings with those above, beside and below you are a duty you get through, their troubles leave you unmoved and you are relieved when each encounter ends."
+        }
+       }
+      },
+      "why": "The hierarchical face omits the Engagement exclusion that the general definition and the egalitarian face both carry. H:Engagement->Warmth (Easy company up and down) is in play on deck H, so the face itself needs the boundary to stop the two being read together. Dependability is left out because OutResp is not on deck H. General definition and egalitarian face pass."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement), which can be high in a group whose members you merely tolerate.",
+       "anchors": {
+        "10": "You brighten at the sight of them, enjoy their company for its own sake and feel their troubles as partly yours.",
+        "1": "Their company is a duty, their troubles leave you unmoved and you are glad when the gathering breaks up."
+       },
+       "face_H": {
+        "description": "How fond you feel of the people you deal with up and down the order: peers, patrons and those below. The reading asks whether you like being with each of them, are drawn to their company and feel their troubles as partly yours, whatever their rank relative to yours. It is your liking for them, not regard for their place or admiration of their worth, not their acceptance of you (Belonging), not whether favours come back (Reciprocity), and not how much of yourself you put into the group (Engagement).",
+        "anchors": {
+         "10": "You are glad to see your peers, your patrons and those below you alike, enjoy time with each for its own sake and feel their troubles as partly yours.",
+         "1": "Dealings with those above, beside and below you are a duty you get through, their troubles leave you unmoved and you are relieved when each encounter ends."
+        }
+       }
+      },
+      "why": "The hierarchical face drops the Dependability clause that the general definition and the egalitarian face both carry, so the boundary with Dependability is left unstated on that face. Fondness for a patron or a peer is easily confused with counting on them to carry their part and not turn a weak spot against you, and Dependability names Warmth as outside it, so the exclusion should run both ways on this face too. Other H faces (Team Confidence, Reciprocity) already name Dependability, so naming it here is consistent. Smallest fix: restore the clause."
      }
     ],
     "faces": {
      "E": {
       "label": "Fond of the band",
-      "description": "How fond you feel of the members at large, taken as fellows: whether you like being among them, are drawn to the band's company and feel any member's troubles as partly yours. The reading spans the whole membership and takes no account of anyone's place in an order. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), and not how much of yourself you put into the group (Engagement).",
+      "description": "How fond you feel of the members at large, taken as fellows: whether you like being among them, are drawn to the band's company and feel any member's troubles as partly yours. The reading spans the whole membership and takes no account of anyone's place in an order. It is your liking for them, not their acceptance of you (Belonging), not whether help comes back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).",
       "anchors": {
        "10": "Whoever of the band you run into, you are glad to see them, happy to stay in their company and touched when any of them is in trouble.",
        "1": "Being among the members at large feels like a chore, the trouble of any one of them leaves you cold and you slip away as soon as you can."
@@ -2750,7 +2931,7 @@
      },
      "H": {
       "label": "Fond of those around you in the order",
-      "description": "How fond you feel of the people you deal with up and down the order: peers, patrons and those below. The reading asks whether you like being with each of them, are drawn to their company and feel their troubles as partly yours, whatever their rank relative to yours. It is your liking for them, not regard for their place or admiration of their worth, not their acceptance of you (Belonging), and not whether favours come back (Reciprocity).",
+      "description": "How fond you feel of the people you deal with up and down the order: peers, patrons and those below. The reading asks whether you like being with each of them, are drawn to their company and feel their troubles as partly yours, whatever their rank relative to yours. It is your liking for them, not regard for their place or admiration of their worth, not their acceptance of you (Belonging), not whether favours come back (Reciprocity), not whether they can be counted on (Dependability), and not how much of yourself you put into the group (Engagement).",
       "anchors": {
        "10": "You are glad to see your peers, your patrons and those below you alike, enjoy time with each for its own sake and feel their troubles as partly yours.",
        "1": "Dealings with those above, beside and below you are a duty you get through, their troubles leave you unmoved and you are relieved when each encounter ends."
@@ -3694,135 +3875,6 @@
    }
   },
   {
-   "id": "E:DivsExp->OutResp",
-   "deck": "E",
-   "decks": [
-    "E"
-   ],
-   "continuum": "ECP",
-   "source": "DivsExp",
-   "target": "OutResp",
-   "type": "Reinforce",
-   "name": "No cover-ups",
-   "increment_logic": "When I feel safe to let my own slips show, I take it that no one here needs to dress up a report, so when a member says a part is done I take it as done and leave it in their hands: my confidence that they will do their part rises.",
-   "decrement_logic": "When I brace and mask my own slips, I take it that the others dress up their reports as I would, so 'done' no longer means done and I check what they say they have finished: my confidence that they will do their part falls.",
-   "explanation": "Where showing a slip draws a put-down, members cover their shortfalls, and raising problems goes with felt safety (Edmondson 1999; cross-sectional, so the direction is not established). In an unsafe group, then, a report that work is done cannot be taken at face value. Caution: in a small study of eight hospital units, more open units reported more detected errors (Edmondson 1996, Journal of Applied Behavioral Science 32), so in a safe group she also hears of more slips. Dependability moves here with whether reports can be trusted; the count of slips she hears of is a separate matter. A run of owned and fixed slips reads as reliability, and a run of unfixed ones belongs on a Dependability evidence card. The step from her own safety to her reading of others' reports rests on common sense: people judge others' candour by their own, and safety is a climate members share, so a member who need not hide her slips expects that the others need not hide theirs. No checked source tests that step, so keep the card modest.",
-   "pre_language": {
-    "increment": "When she is loose among them and shows her own fumbles, she leaves a shared task in another's hands and turns away without looking back.",
-    "decrement": "When she is braced and hides her own fumbles, she keeps glancing back at a shared task left with another, and goes over it herself."
-   },
-   "reactive_test": {
-    "verdict": "borderline",
-    "reason": "The wariness is felt, but the step from her own safety to others' candour about their work is an inference that can slide into reasoning."
-   },
-   "example": null,
-   "v1_id": "DivsExp->OutResp",
-   "origin": {
-    "kind": "v1-reworded",
-    "label": "V1 card DivsExp->OutResp (Rise to the Occasion), reworded by a clean reread for the draft Pillar texts (reword): The mechanism holds, but both lines turn on my ideas being heard or going unheard (the old being-listened-to reading) rather than my felt safety to put them forward."
-   },
-   "status": "Revised 3 Nov 2026 against the tightened Pillars (replace); provisional",
-   "review": {
-    "composite": 3.0,
-    "votes": 3,
-    "none_votes": 1,
-    "logic": "pass",
-    "logic_fault": "",
-    "candidates": 2,
-    "runner_up": {
-     "origin": "v1:DivsExp->OutResp:E:DivsExp->OutResp",
-     "composite": 2.75,
-     "type": "Reinforce"
-    },
-    "proposed_types": [],
-    "reactive_fail": 0
-   },
-   "review_recheck": {
-    "composite": 3.17,
-    "votes": 4,
-    "none_votes": 0,
-    "logic": "pass"
-   },
-   "edits_log": [
-    "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines stop at the behaviour (leaving work unchecked, checking up) and never close on what she then feels about the others' reliability, as the card style requires. Source and target readings, type and mechanism are sound: where slips draw a put-down, errors are concealed and reports cannot be taken on trust (Edmondson 1996, 1999). Smallest fix adds the felt ending only.",
-    "Ben, 5 Nov 2026, 12.04 pm (social psychologist's critique, docs/v3/expert-critiques/social-psych/): The old route ('I sense the others would own up too') is a projection with no support, and the error-reporting evidence could push the other way; the revised route runs through trustworthy reports.",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both definitions and stay inside OutResp (whether 'done' holds is keeping one's word). Edmondson 1996 and 1999 are cited correctly. The only fault is in the explanation: 'whether reports can be trusted, not how many slips she hears of' is a not-X-but-Y contrast, which the project prose style forbids. Smallest fix below. The framework field is null and could take 'Psychological safety (Edmondson 1999); error reporting and openness (Edmondson 1996)'.",
-    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation"
-   ],
-   "ripple_was": [
-    {
-     "type": "Reinforce",
-     "increment_logic": "When I feel safe to let my own slips show, I sense the others would own up to theirs too, and I leave work in their hands without checking.",
-     "decrement_logic": "When I brace and mask my own slips, I sense the others are hiding theirs, and I check up on what they say they have done.",
-     "explanation": "Where showing a slip draws a put-down, members cover their shortfalls, so a report that work is done cannot be taken on trust. A member's own felt safety is her read of whether that pressure to cover up bears on the others too."
-    },
-    {
-     "type": "Reinforce",
-     "increment_logic": "When I feel safe to let my own slips show, I take it that no one here needs to dress up a report, so when a member says a part is done I take it as done and leave it in their hands: my confidence that they will do their part rises.",
-     "decrement_logic": "When I brace and mask my own slips, I take it that the others dress up their reports as I would, so 'done' no longer means done and I check what they say they have finished: my confidence that they will do their part falls.",
-     "explanation": "Where showing a slip draws a put-down, members cover their shortfalls, and whether problems are raised depends on felt safety (Edmondson 1999), so a report that work is done cannot be taken at face value. Caution: units with more openness report more errors (Edmondson 1996), so in a safe group she also hears of more slips. The card holds because what moves OutResp here is whether reports can be trusted, not how many slips she hears of; a run of owned and fixed slips reads as reliability, a run of unfixed ones belongs on an OutResp evidence card. The step from her own safety to her reading of others' reports is a proposal; keep it modest."
-    }
-   ],
-   "sources": [
-    {
-     "source": "Edmondson 1996 (as reported in Harvard Magazine 2001)",
-     "claim": "More effective, more open units reported more errors",
-     "url": "https://www.harvardmagazine.com/2001/03/secret-errors-kill.html",
-     "verified": "searched"
-    },
-    {
-     "source": "Edmondson 1999, ASQ 44",
-     "claim": "Safety governs interpersonal risk such as raising problems",
-     "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Group_Performance/Edmondson%20Psychological%20safety.pdf",
-     "verified": "verified"
-    }
-   ],
-   "critique_was": [
-    {
-     "type": "Reinforce",
-     "increment_logic": "When I feel safe to let my own slips show, I sense the others would own up to theirs too, and I leave work in their hands without checking: my confidence that they will do their part rises.",
-     "decrement_logic": "When I brace and mask my own slips, I sense the others are hiding theirs, and I check up on what they say they have done: my confidence that they will do their part falls.",
-     "explanation": "Where showing a slip draws a put-down, members cover their shortfalls, so a report that work is done cannot be taken on trust. A member's own felt safety is her read of whether that pressure to cover up bears on the others too.",
-     "framework": null
-    }
-   ],
-   "timing": {
-    "scale": "seconds",
-    "typical": "on hearing a report that work is done",
-    "why": "Whether she takes 'done' at face value or decides to check is a felt judgement made as the report reaches her."
-   },
-   "era": {
-    "stage": "Homo sapiens",
-    "why": "The card runs through verbal reports of finished work and whether they are dressed up, which needs language."
-   },
-   "subtitle": "Open about slips, so reports are trusted",
-   "summary": "When I feel safe to show my own slips, I take it that no one here needs to dress up a report. A member who says a part is done is believed, and my sense of their Dependability rises. When I brace and mask my slips, I assume the others dress up their reports too, so I check their work and Dependability falls.",
-   "summary_status": "generated from the source texts, not canon; checked faithful",
-   "logic_status": {
-    "date": "2026-11-05",
-    "by": "logic checker (fresh Opus sessions), Ben reviews the flags (Ben, 5 Nov 2026, 4.12 pm)",
-    "verdict": "flagged",
-    "problems": [
-     {
-      "kind": "unsupported",
-      "where": "increment_logic: 'I take it that no one here needs to dress up a report'; decrement_logic: 'I take it that the others dress up their reports as I would'",
-      "detail": "This projection step is the card's core mechanism and no cited source supports it. The explanation calls it a proposal but does not state the common-sense grounds it rests on. It can stand as common sense only if it is labelled as such and kept small."
-     },
-     {
-      "kind": "overreach",
-      "where": "explanation: 'whether problems are raised depends on felt safety (Edmondson 1999)'",
-      "detail": "Checker rated this partly. The source is cross-sectional (one company, 51 teams) and the checker did not see raising problems named as the specific risk. 'Depends on' claims a causal direction the source does not establish."
-     },
-     {
-      "kind": "overreach",
-      "where": "explanation: 'Caution: units with more openness report more errors (Edmondson 1996)'",
-      "detail": "This is supported only through a magazine report (partly). The finding concerns detected error rates in eight units, and the cited source should be the journal paper (Journal of Applied Behavioral Science 32)."
-     }
-    ],
-    "common_sense": "The step from her own felt safety to her reading of others' reports (the others need not dress up reports, or dress them up as she would). Safe only as a small effect: people commonly judge others' candour by their own, and safety is a climate members share. No checked source tests it."
-   }
-  },
-  {
    "id": "E:DivsExp->Reciprocity",
    "deck": "E",
    "decks": [
@@ -3974,7 +4026,7 @@
    "name": "Reading the welcome through my own stake",
    "increment_logic": "When I am putting much of myself into this group, the small signs (a nod, a seat kept, a glance my way) read to me as welcome for one of their own, and my sense that they want me among them rises.",
    "decrement_logic": "When I am pulling out of this group, the same small signs read as mere politeness and the gaps read as edging me out, as if I were an outsider, and my sense that they want me among them falls.",
-   "explanation": "Most belonging cues in a small group are ambiguous, and people read them in line with how they themselves stand. The sociometer gauges felt relational value from such cues (Leary and Baumeister 2000), and people who anxiously expect rejection readily perceive it in others' behaviour (Downey and Feldman 1996, a disposition studied in romantic partners). Those works concern expectation, not investment, so the step from her own investment to that reading is a proposal on common sense. A person who puts much of herself into the group gives the others the benefit of the doubt. A person on her way out reads coolness into the same scene, and finds in it a felt reason for going. Her own investment colours how she reads their acceptance of her as one of their own; how they judge her conduct is Repute's ground, and the card moves only her reading of the others' treatment, not the treatment itself.",
+   "explanation": "Most belonging cues in a small group are ambiguous, and people read them in line with how they themselves stand. The sociometer gauges felt relational value from such cues (Leary and Baumeister 2000), and people who anxiously expect rejection readily perceive it in others' ambiguous behaviour, from strangers as well as romantic partners (Downey and Feldman 1996). Those works concern expectation, not investment, so the step from her own investment to that reading is a proposal on common sense. A person who puts much of herself into the group gives the others the benefit of the doubt. A person on her way out reads coolness into the same scene, and finds in it a felt reason for going. Her own investment colours how she reads their acceptance of her as one of their own; how they judge her conduct is Repute's ground, and the card moves only her reading of the others' treatment, not the treatment itself.",
    "pre_language": {
     "increment": "Bound up in the band, she takes the others' approaches and the room made beside her as welcome. Her feeling of being wanted among them rises.",
     "decrement": "Drifting away from the band, she reads the others' glances as indifferent and sees groups forming without her. Her feeling of being wanted among them falls."
@@ -4018,7 +4070,8 @@
     "Ripple round 8, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Inconsistent with its H twin on the evidence for the key step. This card presents the step from her own investment to how she reads ambiguous cues as resting on Kunda 1990 and Downey and Feldman 1996. H:Engagement->Belonging calls the same step own proposal. Neither source tests investment: Kunda concerns what the reader wants and Downey and Feldman concern expected rejection. Both cards should cite the cue-reading literature and mark the step from investment as a proposal.",
     "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
     "socpsych-r2-dependent: Dependent on Warmth being added: renamed so the card is not confused with the Warmth perception; lines and explanation unchanged. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
-    "orgpsych-r2-minor: Identity wording replaced by investment in the increment line and the explanation. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
+    "orgpsych-r2-minor: Identity wording replaced by investment in the increment line and the explanation. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Explanation misdescribes Downey and Feldman 1996: the rejection-sensitivity studies included an ambiguous rejection by a stranger (Study 2) as well as romantic partners (Study 3), so 'a disposition studied in romantic partners' understates the evidence nearest to this card. Lines pass."
    ],
    "ripple_was": [
     {
@@ -4038,6 +4091,12 @@
      "increment_logic": "When this group feels part of who I am, the small signs (a nod, a seat kept, a glance my way) read to me as welcome for one of their own, and my sense that they want me among them rises.",
      "decrement_logic": "When I am pulling out of this group, the same small signs read as mere politeness and the gaps read as edging me out, as if I were an outsider, and my sense that they want me among them falls.",
      "explanation": "Most belonging cues in a small group are ambiguous, and people read them in line with how they themselves stand. The sociometer gauges felt relational value from such cues (Leary and Baumeister 2000), and ambiguous cues are read in the direction the reader expects or wants (Kunda 1990; Downey and Feldman 1996 for expected rejection). A person for whom the group is part of who she is gives the others the benefit of the doubt. A person on her way out reads coolness into the same scene, and finds in it a felt reason for going. Primates that move to the edge of a troop are approached and groomed less, so drawing back is confirmed by what she then sees, but the card covers only the re-reading. Her own investment colours how she reads their acceptance of her as one of their own; how they judge her conduct is Repute's ground, and the card moves only her reading of the others' treatment, not the treatment itself."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am putting much of myself into this group, the small signs (a nod, a seat kept, a glance my way) read to me as welcome for one of their own, and my sense that they want me among them rises.",
+     "decrement_logic": "When I am pulling out of this group, the same small signs read as mere politeness and the gaps read as edging me out, as if I were an outsider, and my sense that they want me among them falls.",
+     "explanation": "Most belonging cues in a small group are ambiguous, and people read them in line with how they themselves stand. The sociometer gauges felt relational value from such cues (Leary and Baumeister 2000), and people who anxiously expect rejection readily perceive it in others' behaviour (Downey and Feldman 1996, a disposition studied in romantic partners). Those works concern expectation, not investment, so the step from her own investment to that reading is a proposal on common sense. A person who puts much of herself into the group gives the others the benefit of the doubt. A person on her way out reads coolness into the same scene, and finds in it a felt reason for going. Her own investment colours how she reads their acceptance of her as one of their own; how they judge her conduct is Repute's ground, and the card moves only her reading of the others' treatment, not the treatment itself."
     }
    ],
    "timing": {
@@ -4458,9 +4517,9 @@
    "target": "OutResp",
    "type": "Reinforce",
    "name": "Trusting those I am in it with",
-   "increment_logic": "When I am thrown into this group, I read the others warmly, and the way they carry their part looks dependable: I feel more confident that they will do what they take on.",
-   "decrement_logic": "When I have withdrawn from this group, I read the others coolly, and a task let drop weighs more with me than the ones carried through: I feel less confident that they will do what they take on.",
-   "explanation": "Two routes. Mood congruence acts in the moment: on common sense, being thrown into a group goes with a warmer mood and drawing back with a cooler one, and mood colours judgements of other people, including quick ones of whether they will keep their word (Forgas 1995). The affect infusion model predicts less infusion when she judges with a set aim in view (motivated processing), as she may when a teammate she depends on must deliver, so keep the card modest. Sampling adds a slower effect over many plays: an engaged member keeps relying on others, so a single let-down is soon corrected by tasks carried through; a disengaged member stops relying on them, so the last let-down stands as the verdict (Denrell 2005). The card moves reliability only, leaving her reading of the group's capability to Team Confidence. One caution: members who believe a partner is not pulling their weight cut their own effort (the sucker effect, Kerr 1983). That reaction is driven by seeing the coasting, so it belongs on a Dependability evidence card, not here.",
+   "increment_logic": "When I am thrown into this group, my mood lifts, and in that light the way the others carry their part looks dependable: I feel more confident that they will do what they take on.",
+   "decrement_logic": "When I have withdrawn from this group, my mood sinks, and a task let drop weighs more with me than the ones carried through: I feel less confident that they will do what they take on.",
+   "explanation": "Two routes. Mood congruence acts in the moment: on common sense, being thrown into a group goes with a warmer mood and drawing back with a cooler one, and mood colours judgements of other people (Forgas 1995); carrying that to quick judgements of whether they will keep their word is an extension. The affect infusion model predicts less infusion when she judges with a set aim in view (motivated processing), as she may when a teammate she depends on must deliver, so keep the card modest. Sampling adds a slower effect over many plays: an engaged member keeps relying on others, so a single let-down is soon corrected by tasks carried through; a disengaged member stops relying on them, so the last let-down stands as the verdict (Denrell 2005). The card moves reliability only, leaving her reading of the group's capability to Team Confidence. One caution: members who believe a partner is not pulling their weight cut their own effort (the sucker effect, Kerr 1983). That reaction is driven by seeing the coasting, so it belongs on a Dependability evidence card, not here.",
    "pre_language": {
     "increment": "Bound up in the band, she leaves tasks in others' hands and sees them done, and each task carried through sticks: her trust that those around her will do their part rises.",
     "decrement": "Withdrawn from the band, she stops leaving tasks with others, and the last task dropped is what she carries away: her trust that they will do their part falls."
@@ -4516,7 +4575,9 @@
     "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both definitions and the type. The explanation breaks the house prose rule with a sentence opening 'This is'. Minor, not fixable in this schema: the framework field lists gain spirals (Salanova et al.), which the explanation never uses and which concern efficacy and engagement rather than reliability.",
     "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Explanation names Prestige as 'her reading of their skill'. Prestige is the deference others give her for what she brings, not her reading of anyone's skill; only GrpProsp holds her reading of the group's capability. The framework field also lists gain spirals (Salanova et al.), which the explanation never uses; flagged for the editor, since the framework field is outside this brief's fix fields.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Decrement rests on the in-the-moment mood route; Engagement-to-mood step labelled common sense; motivated-processing hedge added to Forgas; Kerr claim cut to what was checked; unchecked Salanova gain spirals dropped from the framework.",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Check 5: the explanation misstates the affect infusion model. Forgas (1995) predicts more infusion under substantive processing (thinking hard), not less; infusion is low under direct access and under motivated processing, where the judge has a set aim in view. Both lines pass checks 1 to 4 and 6."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Check 5: the explanation misstates the affect infusion model. Forgas (1995) predicts more infusion under substantive processing (thinking hard), not less; infusion is low under direct access and under motivated processing, where the judge has a set aim in view. Both lines pass checks 1 to 4 and 6.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines say she reads the others 'warmly' or 'coolly'. That reads as fondness for them (Warmth), but the explanation's route is mood congruence (Forgas 1995). Engagement already has its own card into Warmth (E:Engagement->Warmth), and no card runs from Warmth into Dependability, so the wording slips an unlicensed Warmth route into this card. Stating the mood plainly fixes it. Type, target movement and literature (Forgas 1995; Denrell 2005; Kerr 1983) are otherwise sound.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Check 5: the explanation credits Forgas (1995) with showing that mood colours quick judgements of whether others will keep their word. The affect infusion review covers social judgement in general and does not test promise-keeping or reliability judgements, so that clause overreaches. Smallest fix: cite Forgas for the general effect and mark the move to reliability judgements as an extension. The lines pass. They cover only the carrying-through facet of the revised Dependability, which is allowed."
    ],
    "ripple_was": [
     {
@@ -4542,6 +4603,18 @@
      "increment_logic": "When I am thrown into this group, I read the others warmly, and the way they carry their part looks dependable: I feel more confident that they will do what they take on.",
      "decrement_logic": "When I have withdrawn from this group, I read the others coolly, and a task let drop weighs more with me than the ones carried through: I feel less confident that they will do what they take on.",
      "explanation": "Two routes. Mood congruence acts in the moment: on common sense, being thrown into a group goes with a warmer mood and drawing back with a cooler one, and mood colours judgements of other people, including quick ones of whether they will keep their word (Forgas 1995). The affect infusion model predicts less infusion when she thinks hard about a judgement that matters to her, as whether a teammate she depends on will deliver may well be, so keep the card modest. Sampling adds a slower effect over many plays: an engaged member keeps relying on others, so a single let-down is soon corrected by tasks carried through; a disengaged member stops relying on them, so the last let-down stands as the verdict (Denrell 2005). The card moves reliability only, leaving her reading of the group's capability to Team Confidence. One caution: members who believe a partner is not pulling their weight cut their own effort (the sucker effect, Kerr 1983). That reaction is driven by seeing the coasting, so it belongs on a Dependability evidence card, not here."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am thrown into this group, I read the others warmly, and the way they carry their part looks dependable: I feel more confident that they will do what they take on.",
+     "decrement_logic": "When I have withdrawn from this group, I read the others coolly, and a task let drop weighs more with me than the ones carried through: I feel less confident that they will do what they take on.",
+     "explanation": "Two routes. Mood congruence acts in the moment: on common sense, being thrown into a group goes with a warmer mood and drawing back with a cooler one, and mood colours judgements of other people, including quick ones of whether they will keep their word (Forgas 1995). The affect infusion model predicts less infusion when she judges with a set aim in view (motivated processing), as she may when a teammate she depends on must deliver, so keep the card modest. Sampling adds a slower effect over many plays: an engaged member keeps relying on others, so a single let-down is soon corrected by tasks carried through; a disengaged member stops relying on them, so the last let-down stands as the verdict (Denrell 2005). The card moves reliability only, leaving her reading of the group's capability to Team Confidence. One caution: members who believe a partner is not pulling their weight cut their own effort (the sucker effect, Kerr 1983). That reaction is driven by seeing the coasting, so it belongs on a Dependability evidence card, not here."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am thrown into this group, my mood lifts, and in that light the way the others carry their part looks dependable: I feel more confident that they will do what they take on.",
+     "decrement_logic": "When I have withdrawn from this group, my mood sinks, and a task let drop weighs more with me than the ones carried through: I feel less confident that they will do what they take on.",
+     "explanation": "Two routes. Mood congruence acts in the moment: on common sense, being thrown into a group goes with a warmer mood and drawing back with a cooler one, and mood colours judgements of other people, including quick ones of whether they will keep their word (Forgas 1995). The affect infusion model predicts less infusion when she judges with a set aim in view (motivated processing), as she may when a teammate she depends on must deliver, so keep the card modest. Sampling adds a slower effect over many plays: an engaged member keeps relying on others, so a single let-down is soon corrected by tasks carried through; a disengaged member stops relying on them, so the last let-down stands as the verdict (Denrell 2005). The card moves reliability only, leaving her reading of the group's capability to Team Confidence. One caution: members who believe a partner is not pulling their weight cut their own effort (the sucker effect, Kerr 1983). That reaction is driven by seeing the coasting, so it belongs on a Dependability evidence card, not here."
     }
    ],
    "timing": {
@@ -5283,7 +5356,7 @@
    "name": "Scapegoating",
    "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
    "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose shirking or broken word is dragging it down, and I come to expect that member, and others like them, to let their parts slip: my confidence that the others will do their part falls.",
-   "explanation": "A venture that looks within reach casts a warm light on the others' carrying-through, so she leaves work in their hands with less checking; this step rests on common sense, so keep the increment modest. One that looks beyond the group can set her looking for a culprit, and some of the blame may land on a member's unwillingness. Blame that lands on another member's want of skill moves Team Confidence, and blame on her own want of skill moves her Esteem; neither belongs to this card. Members' attributions for a group's outcome shift with its success or failure (Forsyth and Schlenker 1977). The further claims that members lay more of a failure on one another than on themselves (Schlenker and Miller 1977), and that observers credit a team for success but lay its failure on individual members (Naquin and Tynan 2003), are not yet checked. Those studies concern failure already suffered; the step to a felt forecast of failure is a proposal, so keep the decrement modest. Where the group lays the failure on an outside cause instead, no member is blamed, and the decrement should be small.",
+   "explanation": "A venture that looks within reach casts a warm light on the others' carrying-through, so she leaves work in their hands with less checking; this step rests on common sense, so keep the increment modest. One that looks beyond the group can set her looking for a culprit, and some of the blame may land on a member's unwillingness. Blame that lands on another member's want of skill moves Team Confidence, and blame that others lay openly on her own want of skill moves her Esteem; neither belongs to this card. Members' attributions for a group's outcome shift with its success or failure (Forsyth and Schlenker 1977). The further claims that members lay more of a failure on one another than on themselves (Schlenker and Miller 1977), and that observers credit a team for success but lay its failure on individual members (Naquin and Tynan 2003), are not yet checked. Those studies concern failure already suffered; the step to a felt forecast of failure is a proposal, so keep the decrement modest. Where the group lays the failure on an outside cause instead, no member is blamed, and the decrement should be small.",
    "pre_language": {
     "increment": "When the venture is going well, she watches those carrying it with approval and leaves them to their tasks without hovering.",
     "decrement": "When it is going badly, her frustration turns on whoever faltered: she glares at them, hovers over what they do and snatches tasks back from them."
@@ -5335,7 +5408,8 @@
     "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Decrement line: GrpProsp is a forecast of a venture not yet finished, but 'whose lapse is to blame' reads as blame for a failure already suffered, which the explanation itself flags as a step beyond the cited studies. The smallest fix puts the blame on a lapse she sees dragging the venture down now. The increment line, the type, the boundaries (lapse and slipping work stay on reliability, off skill) and the citations (Schlenker and Miller 1977; Forsyth and Schlenker 1977; Naquin and Tynan 2003; Taylor and Doria 1981) pass. There is no duplication: E:OutResp->GrpProsp runs the other way. Outside the fields given here, the framework label names group-serving attribution as the mechanism, yet the explanation uses group-serving attribution (Taylor and Doria 1981) as the case that weakens the card. The label should read along the lines of 'Self-serving blame within groups after failure (Schlenker and Miller 1977; Forsyth and Schlenker 1977); team halo (Naquin and Tynan 2003)'.",
     "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement lets the blamed 'lapse' be any failing, including a want of skill, which is GrpProsp's ground (and Prestige's); OutResp rates a willing but clumsy member high. The blame must land on will (shirking, broken word) for OutResp to fall. It also slides from 'that member' to 'the others'; the fix keeps the singular culprit feeding the reading of the others.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Increment labelled common sense; 'whatever the true cause' dropped; Schlenker and Miller and Naquin and Tynan marked not yet checked; unchecked Taylor and Doria removed; framework now names member-directed blame, the card's own mechanism.",
-    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Tier 3 boundary tidy. The explanation says blame on 'a member's want of skill moves Team Confidence or Esteem'. Esteem is the deference she herself draws, so another member's want of skill cannot move it; only blame on her own want of skill does. Lines and type pass."
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Tier 3 boundary tidy. The explanation says blame on 'a member's want of skill moves Team Confidence or Esteem'. Esteem is the deference she herself draws, so another member's want of skill cannot move it; only blame on her own want of skill does. Lines and type pass.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Check 3, in the explanation only: it says blame on her own want of skill moves her Esteem. Esteem is the deference others give her, and it falls when she is shown up before others as clumsy or falling short for want of skill. Her own self-blame is not that. Smallest fix: make it blame that others lay openly on her own want of skill. The lines pass against Team Confidence and the revised Dependability."
    ],
    "ripple_was": [
     {
@@ -5385,6 +5459,12 @@
      "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
      "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose shirking or broken word is dragging it down, and I come to expect that member, and others like them, to let their parts slip: my confidence that the others will do their part falls.",
      "explanation": "A venture that looks within reach casts a warm light on the others' carrying-through, so she leaves work in their hands with less checking; this step rests on common sense, so keep the increment modest. One that looks beyond the group can set her looking for a culprit, and some of the blame may land on a member's unwillingness. Blame that lands on a member's want of skill moves Team Confidence or Esteem, not this card. Members' attributions for a group's outcome shift with its success or failure (Forsyth and Schlenker 1977). The further claims that members lay more of a failure on one another than on themselves (Schlenker and Miller 1977), and that observers credit a team for success but lay its failure on individual members (Naquin and Tynan 2003), are not yet checked. Those studies concern failure already suffered; the step to a felt forecast of failure is a proposal, so keep the decrement modest. Where the group lays the failure on an outside cause instead, no member is blamed, and the decrement should be small."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the group's venture looks well within its reach, I credit the others with carrying their parts, and I feel I can leave work in their hands without checking: my confidence that they will do their part rises.",
+     "decrement_logic": "When the venture looks beyond the group, my frustration looks for whose shirking or broken word is dragging it down, and I come to expect that member, and others like them, to let their parts slip: my confidence that the others will do their part falls.",
+     "explanation": "A venture that looks within reach casts a warm light on the others' carrying-through, so she leaves work in their hands with less checking; this step rests on common sense, so keep the increment modest. One that looks beyond the group can set her looking for a culprit, and some of the blame may land on a member's unwillingness. Blame that lands on another member's want of skill moves Team Confidence, and blame on her own want of skill moves her Esteem; neither belongs to this card. Members' attributions for a group's outcome shift with its success or failure (Forsyth and Schlenker 1977). The further claims that members lay more of a failure on one another than on themselves (Schlenker and Miller 1977), and that observers credit a team for success but lay its failure on individual members (Naquin and Tynan 2003), are not yet checked. Those studies concern failure already suffered; the step to a felt forecast of failure is a proposal, so keep the decrement modest. Where the group lays the failure on an outside cause instead, no member is blamed, and the decrement should be small."
     }
    ],
    "timing": {
@@ -6515,9 +6595,9 @@
    "target": "DivsExp",
    "type": "Reinforce",
    "name": "Nobody hunting for cover",
-   "increment_logic": "When I can leave my part with any of them and count on them to carry it through and keep their word, I stop guarding my flank; I let slips, moods and needs show as they come, expecting no one to seize on them to cover a dropped part of their own: my felt safety to show myself rises.",
-   "decrement_logic": "When the others drop what they take on and I have seen a dropped part pinned on whoever was nearest, I expect a slip of mine to be seized on to cover theirs, so I mask my slips and keep my needs out of sight: my felt safety to show myself falls.",
-   "explanation": "Trust is the willingness to be vulnerable to others' actions, resting on judged ability, benevolence and integrity (Mayer, Davis and Schoorman 1995), and team psychological safety is the shared belief that interpersonal risk is tolerated (Edmondson 1999); felt reliance on the members is a direct ground of that belief. In 191 teams cognition-based trust fed affect-based trust and through it team psychological safety (Schaubroeck, Lam and Peng 2011, as reported by the reviewer and not checked here; trust in the leader, so carrying it to peers is an extension). Dependability reads ability and integrity, carrying parts through and keeping one's word; the step from there to expecting a slip to be let pass rather than seized on borrows the benevolence limb and is the model's, so keep the increment moderate. Blame contagion stays as a secondary route on the decrement: people who watch someone blame another are more likely to blame others for their own unrelated failures (Fast and Tiedens 2010, a laboratory effect), so where parts are dropped blame is in the air and lands on visible slips. Moderate. Distinct from E:Levelling->DivsExp (fear of one coercer) and E:GrpProsp->DivsExp (the stakes of the venture).",
+   "increment_logic": "When I can leave my part with any of them, count on them to carry it through and keep their word, and know a slip of mine would never be used against me, I stop guarding myself among them; I let slips, moods and needs show as they come, expecting no one to pounce on them, laugh at them or turn away: my felt safety to show myself rises.",
+   "decrement_logic": "When the others drop what they take on and I expect a slip of mine to be used against me, I take it that a slip shown here will also draw a sharp word or a sneer, and with blame in the air over dropped parts I mask my slips and keep my needs out of sight: my felt safety to show myself falls.",
+   "explanation": "Trust is the willingness to be vulnerable to others' actions, resting on judged ability, benevolence and integrity (Mayer, Davis and Schoorman 1995), and team psychological safety is the shared belief that interpersonal risk is tolerated (Edmondson 1999); on common sense, felt reliance on the members is one ground of that belief. In 191 teams cognition-based trust fed affect-based trust and through it team psychological safety (Schaubroeck, Lam and Peng 2011, as reported by the reviewer and not checked here; trust in the leader, so carrying it to peers is an extension). Dependability reads the integrity limb (carrying parts through and keeping one's word) and the benevolence limb (holding back from turning a slip, a need or a weak spot against her); ability is Team Confidence's ground. Because the benevolence limb sits close to Safety, keep the two apart: Dependability reads whether they would use a slip against her, Safety whether showing it would draw a put-down, mockery or rebuff. The card carries only the spill from the first to the second, so keep the increment moderate. Blame contagion stays as a secondary route on the decrement: people who watch someone blame another are more likely to blame others for their own unrelated failures (Fast and Tiedens 2010, a laboratory effect), so where parts are dropped blame is in the air and lands on visible slips. Moderate. Distinct from E:Levelling->DivsExp (fear of one coercer) and E:GrpProsp->DivsExp (the stakes of the venture).",
    "pre_language": {
     "increment": "When those around her do their share, she is loose and unguarded under their eyes when she fumbles.",
     "decrement": "When those around her slack off, she braces when she fumbles, expecting their glares and snarls to turn on her."
@@ -6595,7 +6675,10 @@
     "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
     "Ripple round 15, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and mechanism pass (Fast and Tiedens 2010 reports blame contagion through self-image protection, removed by self-affirmation). The closing distinction cites ids that do not exist in the model (E:Parity->Safety, E:Team Confidence->Safety); the cards are E:Levelling->DivsExp and E:GrpProsp->DivsExp. Explanation fix only.",
     "orgpsych-r2-minor: Main route moved to trust in the members' dependability feeding safety; blame contagion kept as secondary decrement route; benevolence step flagged as the model's extension rather than asserted as part of Dependability. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The increment line has her expecting slips, moods and needs 'to be covered', which reads as others stepping in to meet a shown need. Whether a shown need gets met is Reciprocity's ground under Safety's boundary clause. Safety reads only the expected cost of showing: whether a slip will be seized on. Dependability (carrying parts through, keeping one's word) also does not supply covering for others. Reword so the increment mirrors the decrement's blame route, and adjust the one explanation sentence that refers to the covering step."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The increment line has her expecting slips, moods and needs 'to be covered', which reads as others stepping in to meet a shown need. Whether a shown need gets met is Reciprocity's ground under Safety's boundary clause. Safety reads only the expected cost of showing: whether a slip will be seized on. Dependability (carrying parts through, keeping one's word) also does not supply covering for others. Reword so the increment mirrors the decrement's blame route, and adjust the one explanation sentence that refers to the covering step.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation is out of date. It says Dependability reads ability and integrity and that the step to Safety borrows the benevolence limb as the model's own move. The revised Dependability now holds benevolence directly (members holding back from turning a slip, a need or a weak spot against her), and it leaves ability to Team Confidence. The note needs to match the definition and to mark the boundary with Safety, which is now close, so the effect is not counted twice. The lines themselves pass.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines give Dependability's own ground as the reason and stop short of Safety's. The increment's 'expecting no one to seize on them to cover a dropped part' and the decrement's 'expect a slip of mine to be seized on to cover theirs' are whether others would turn a slip against her, which is Dependability's benevolence limb. The decrement nearly restates the Dependability 1 anchor ('expect any slip of yours to be used against you'). Neither line reaches what Safety reads: a put-down, mockery or rebuff for showing herself. The explanation says the card carries only the spill from one to the other, so the lines need to state that spill. The explanation also overstates the link: 'a direct ground' should be softened to one ground, which rests on common sense.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The increment's source level says a slip of hers 'would be covered rather than used'. Dependability's benevolence limb reads only whether the others would hold back from turning a slip against her (10 anchor: 'would never be used against you'). Covering a slip is active help, which goes past that ground and leans towards Reciprocity (a need met). The smallest fix brings the line back to the anchor. Decrement, type, mechanism, literature and overlap all pass."
    ],
    "critique_was": [
     {
@@ -6642,6 +6725,24 @@
      "increment_logic": "When I can leave my part with any of them and count on them to carry it through and keep their word, I stop guarding my flank; I let slips, moods and needs show as they come, expecting them to be covered rather than seized on: my felt safety to show myself rises.",
      "decrement_logic": "When the others drop what they take on and I have seen a dropped part pinned on whoever was nearest, I expect a slip of mine to be seized on to cover theirs, so I mask my slips and keep my needs out of sight: my felt safety to show myself falls.",
      "explanation": "Trust is the willingness to be vulnerable to others' actions, resting on judged ability, benevolence and integrity (Mayer, Davis and Schoorman 1995), and team psychological safety is the shared belief that interpersonal risk is tolerated (Edmondson 1999); felt reliance on the members is a direct ground of that belief. In 191 teams cognition-based trust fed affect-based trust and through it team psychological safety (Schaubroeck, Lam and Peng 2011, as reported by the reviewer and not checked here; trust in the leader, so carrying it to peers is an extension). Dependability reads ability and integrity, carrying parts through and keeping one's word; the step from there to expecting slips to be covered borrows the benevolence limb and is the model's, so keep the increment moderate. Blame contagion stays as a secondary route on the decrement: people who watch someone blame another are more likely to blame others for their own unrelated failures (Fast and Tiedens 2010, a laboratory effect), so where parts are dropped blame is in the air and lands on visible slips. Moderate. Distinct from E:Levelling->DivsExp (fear of one coercer) and E:GrpProsp->DivsExp (the stakes of the venture)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I can leave my part with any of them and count on them to carry it through and keep their word, I stop guarding my flank; I let slips, moods and needs show as they come, expecting no one to seize on them to cover a dropped part of their own: my felt safety to show myself rises.",
+     "decrement_logic": "When the others drop what they take on and I have seen a dropped part pinned on whoever was nearest, I expect a slip of mine to be seized on to cover theirs, so I mask my slips and keep my needs out of sight: my felt safety to show myself falls.",
+     "explanation": "Trust is the willingness to be vulnerable to others' actions, resting on judged ability, benevolence and integrity (Mayer, Davis and Schoorman 1995), and team psychological safety is the shared belief that interpersonal risk is tolerated (Edmondson 1999); felt reliance on the members is a direct ground of that belief. In 191 teams cognition-based trust fed affect-based trust and through it team psychological safety (Schaubroeck, Lam and Peng 2011, as reported by the reviewer and not checked here; trust in the leader, so carrying it to peers is an extension). Dependability reads ability and integrity, carrying parts through and keeping one's word; the step from there to expecting a slip to be let pass rather than seized on borrows the benevolence limb and is the model's, so keep the increment moderate. Blame contagion stays as a secondary route on the decrement: people who watch someone blame another are more likely to blame others for their own unrelated failures (Fast and Tiedens 2010, a laboratory effect), so where parts are dropped blame is in the air and lands on visible slips. Moderate. Distinct from E:Levelling->DivsExp (fear of one coercer) and E:GrpProsp->DivsExp (the stakes of the venture)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I can leave my part with any of them and count on them to carry it through and keep their word, I stop guarding my flank; I let slips, moods and needs show as they come, expecting no one to seize on them to cover a dropped part of their own: my felt safety to show myself rises.",
+     "decrement_logic": "When the others drop what they take on and I have seen a dropped part pinned on whoever was nearest, I expect a slip of mine to be seized on to cover theirs, so I mask my slips and keep my needs out of sight: my felt safety to show myself falls.",
+     "explanation": "Trust is the willingness to be vulnerable to others' actions, resting on judged ability, benevolence and integrity (Mayer, Davis and Schoorman 1995), and team psychological safety is the shared belief that interpersonal risk is tolerated (Edmondson 1999); felt reliance on the members is a direct ground of that belief. In 191 teams cognition-based trust fed affect-based trust and through it team psychological safety (Schaubroeck, Lam and Peng 2011, as reported by the reviewer and not checked here; trust in the leader, so carrying it to peers is an extension). Dependability reads the integrity limb (carrying parts through and keeping one's word) and the benevolence limb (holding back from turning a slip, a need or a weak spot against her); ability is Team Confidence's ground. Because the benevolence limb sits close to Safety, keep the two apart: Dependability reads whether they would use a slip against her, Safety whether showing it would draw a put-down, mockery or rebuff. The card carries only the spill from the first to the second, so keep the increment moderate. Blame contagion stays as a secondary route on the decrement: people who watch someone blame another are more likely to blame others for their own unrelated failures (Fast and Tiedens 2010, a laboratory effect), so where parts are dropped blame is in the air and lands on visible slips. Moderate. Distinct from E:Levelling->DivsExp (fear of one coercer) and E:GrpProsp->DivsExp (the stakes of the venture)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I can leave my part with any of them, count on them to carry it through and keep their word, and know a slip of mine would be covered rather than used, I stop guarding myself among them; I let slips, moods and needs show as they come, expecting no one to pounce on them, laugh at them or turn away: my felt safety to show myself rises.",
+     "decrement_logic": "When the others drop what they take on and I expect a slip of mine to be used against me, I take it that a slip shown here will also draw a sharp word or a sneer, and with blame in the air over dropped parts I mask my slips and keep my needs out of sight: my felt safety to show myself falls.",
+     "explanation": "Trust is the willingness to be vulnerable to others' actions, resting on judged ability, benevolence and integrity (Mayer, Davis and Schoorman 1995), and team psychological safety is the shared belief that interpersonal risk is tolerated (Edmondson 1999); on common sense, felt reliance on the members is one ground of that belief. In 191 teams cognition-based trust fed affect-based trust and through it team psychological safety (Schaubroeck, Lam and Peng 2011, as reported by the reviewer and not checked here; trust in the leader, so carrying it to peers is an extension). Dependability reads the integrity limb (carrying parts through and keeping one's word) and the benevolence limb (holding back from turning a slip, a need or a weak spot against her); ability is Team Confidence's ground. Because the benevolence limb sits close to Safety, keep the two apart: Dependability reads whether they would use a slip against her, Safety whether showing it would draw a put-down, mockery or rebuff. The card carries only the spill from the first to the second, so keep the increment moderate. Blame contagion stays as a secondary route on the decrement: people who watch someone blame another are more likely to blame others for their own unrelated failures (Fast and Tiedens 2010, a laboratory effect), so where parts are dropped blame is in the air and lands on visible slips. Moderate. Distinct from E:Levelling->DivsExp (fear of one coercer) and E:GrpProsp->DivsExp (the stakes of the venture)."
     }
    ],
    "logic_status": {
@@ -9921,7 +10022,7 @@
    "name": "Trading partners keep you close",
    "increment_logic": "When my partners pay me back and those I ask deliver, we are worth too much to each other to lose: they let me sit close, and after a clash with one of them I go to them soon, low and friendly, and am let close again. I am kept among them in my place, and my sense of being kept among them rises.",
    "decrement_logic": "When partners take and do not return and what I ask for goes unmet, no one makes room for me beside them, and a clash with one of them is left unmended; I keep out of their way, no one draws me back, and I am left at the margin: my sense of being kept among them falls.",
-   "explanation": "In ranked groups grooming and favours are exchanged for tolerance and support, a prediction that tests have mostly but not uniformly confirmed (Seyfarth 1977); grooming is reciprocated across primate groups (Schino and Aureli 2008), and partner value predicts reconciliation after conflict (Aureli, Cords and van Schaik 2002; Cords and Thurnheer 1993). A partner who repays is a valuable partner: she is tolerated close day to day, and repair with her after a clash keeps a member in the troop's company. An unrepaired rift with a partner who never repaid leaves her at the edge. Reconciliation repairs one partnership; reading it as being kept among the others as a whole is an extension, which holds best where her partners are the ones whose company makes up the group.",
+   "explanation": "In ranked groups grooming and favours are exchanged for tolerance and support, a prediction of Seyfarth's (1977) model that later tests have mostly but not uniformly confirmed (Schino 2001); grooming is reciprocated across primate groups (Schino and Aureli 2008), and partner value predicts reconciliation after conflict (Aureli, Cords and van Schaik 2002; Cords and Thurnheer 1993). A partner who repays is a valuable partner: she is tolerated close day to day, and repair with her after a clash keeps a member in the troop's company. An unrepaired rift with a partner who never repaid leaves her at the edge. Reconciliation repairs one partnership; reading it as being kept among the others as a whole is an extension, which holds best where her partners are the ones whose company makes up the group.",
    "pre_language": {
     "increment": "When her grooming is returned and partners back her, they tolerate her close by, and her feeling of being kept close grows.",
     "decrement": "When partners take her grooming and give none back, they drift from her, and her feeling of being kept close fades."
@@ -9993,7 +10094,8 @@
     "Ripple round 7, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines work only through a clash and its repair, so with no clash the card has no path, although the explanation also cites the plainer route of favours traded for tolerance and closeness. The smallest fix keeps the clash as one route and adds day-to-day closeness. The explanation carries reconciliation, which repairs a single partnership, over to being kept in the group's company without saying that this is an extension. Some citations lack years.",
     "Ripple round 12, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against both faces (hierarchical Reciprocity at the stated level, hierarchical Belonging read as being kept among them in one's place). Only the explanation fails: Schino and Aureli is cited without a year, unlike the same source on H:Status->Reciprocity (2008).",
     "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): (1) The increment has a gap in its logic. Saying the partners are 'worth too much to lose' makes them valuable to her, which gives no reason for them to let her sit close. In the valuable-relationships framework the value runs both ways, and the line should say so. (5) Schino and Aureli 2008 is a meta-analysis of grooming reciprocation, so it does not show grooming traded for tolerance. Henzi and Barrett 1999 covers grooming as a commodity traded for tolerance; check it before relying on it.",
-    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation"
+    "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
+    "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines pass against the revised hierarchical face of Belonging (read from treatment, kept in place) and against Reciprocity's hierarchical face. The explanation has a citation slip: it credits the confirming tests to Seyfarth (1977), but that paper is the model making the prediction. The meta-analytic test of it is Schino (2001), which found partial support. Tier 3 wording fix only."
    ],
    "ripple_was": [
     {
@@ -10025,6 +10127,12 @@
      "increment_logic": "When my partners pay me back and those I ask deliver, they are worth too much to lose: they let me sit close, and after a clash with one of them I go to them soon, low and friendly, and am let close again. I am kept among them in my place, and my sense of being kept among them rises.",
      "decrement_logic": "When partners take and do not return and what I ask for goes unmet, no one makes room for me beside them, and a clash with one of them is left unmended; I keep out of their way, no one draws me back, and I am left at the margin: my sense of being kept among them falls.",
      "explanation": "In ranked groups grooming and favours are traded for tolerance and proximity (Seyfarth 1977; Schino and Aureli 2008), and partner value predicts reconciliation after conflict (Aureli, Cords and van Schaik 2002; Cords and Thurnheer 1993). A partner who repays is a valuable partner: she is let close day to day, and repair with her after a clash keeps a member in the troop's company. An unrepaired rift with a partner who never repaid leaves her at the edge. Reconciliation repairs one partnership; reading it as being kept among the others as a whole is an extension, which holds best where her partners are the ones whose company makes up the group."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When my partners pay me back and those I ask deliver, we are worth too much to each other to lose: they let me sit close, and after a clash with one of them I go to them soon, low and friendly, and am let close again. I am kept among them in my place, and my sense of being kept among them rises.",
+     "decrement_logic": "When partners take and do not return and what I ask for goes unmet, no one makes room for me beside them, and a clash with one of them is left unmended; I keep out of their way, no one draws me back, and I am left at the margin: my sense of being kept among them falls.",
+     "explanation": "In ranked groups grooming and favours are exchanged for tolerance and support, a prediction that tests have mostly but not uniformly confirmed (Seyfarth 1977); grooming is reciprocated across primate groups (Schino and Aureli 2008), and partner value predicts reconciliation after conflict (Aureli, Cords and van Schaik 2002; Cords and Thurnheer 1993). A partner who repays is a valuable partner: she is tolerated close day to day, and repair with her after a clash keeps a member in the troop's company. An unrepaired rift with a partner who never repaid leaves her at the edge. Reconciliation repairs one partnership; reading it as being kept among the others as a whole is an extension, which holds best where her partners are the ones whose company makes up the group."
     }
    ],
    "timing": {
@@ -10195,7 +10303,7 @@
    "name": "Rank draws the circle",
    "increment_logic": "When I go first as a matter of course and take the first share and the best seat, the others cluster round me and I feel no threat of being dropped: my sense of being kept among them in my place rises.",
    "decrement_logic": "When I go last and take what is left, I feel how little slack my place gives me and that any step out of line would see me dropped: my sense of being kept among them falls a little.",
-   "explanation": "In ranked groups grooming tends to be directed up the order (Seyfarth 1977; tests mixed). Higher status is also accorded respect and voluntary deference (Anderson, Hildreth and Howland 2015), though their status includes deference freely given, which is Esteem's ground here, so it supports this card only loosely. Under this deck's face a place is made for members high or low who keep to it, so rank does not decide inclusion outright; what moves is the felt threat of being dropped. A member who goes first feels her keeping is beyond question; one who goes last feels how little slack her place gives her, and that any step out of line would see her dropped. Status shielded its holders from punishment for low-severity deviance but became a liability for high-severity deviance (Karelaia and Keck 2013), so the slack a high rung gives covers small lapses, not serious ones. That work concerns formal leaders and observers' punishment; carrying it to the felt security of being kept among peers is a proposal. A member settled at the bottom who keeps to her place may still feel fairly secure, so the fall there is modest. Anxiety about exclusion among middle-status members (Phillips and Zuckerman 2001) cannot be carried by a card that follows a single source level and is left to play.",
+   "explanation": "In ranked groups grooming tends to be directed up the order (Seyfarth 1977; tests have mostly but not uniformly confirmed it). Higher status is also accorded respect and voluntary deference (Anderson, Hildreth and Howland 2015), though their status includes deference freely given, which is Esteem's ground here, so it supports this card only loosely. Under this deck's face a place is made for members high or low who keep to it, so rank does not decide inclusion outright; what moves is the felt threat of being dropped. A member who goes first feels her keeping is beyond question; one who goes last feels how little slack her place gives her, and that any step out of line would see her dropped. Status shielded its holders from punishment for low-severity deviance but became a liability for high-severity deviance (Karelaia and Keck 2013), so the slack a high rung gives covers small lapses, not serious ones. That work concerns formal leaders and observers' punishment; carrying it to the felt security of being kept among peers is a proposal. A member settled at the bottom who keeps to her place may still feel fairly secure, so the fall there is modest. Anxiety about exclusion among middle-status members (Phillips and Zuckerman 2001) cannot be carried by a card that follows a single source level and is left to play.",
    "pre_language": {
     "increment": "When others yield her the first turn, they groom her and cluster near her, and her feeling of being kept close grows.",
     "decrement": "When she goes last to everything, others groom her less and she feels how easily she could be left at the edge, and her feeling of being kept close fades."
@@ -10255,7 +10363,8 @@
     "logic check Tier 2 fix (wording), facilitator's under Ben's rule of 5 Nov 2026, 4.33 pm: explanation",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines pass. The explanation cites Anderson, Hildreth and Howland 2015 as support, but their status is defined as respect, admiration and voluntary deference. In this model that is Esteem's ground, not Rank's, and the finding says nothing about being kept among the others. As written, the citation reaches across the Esteem/Rank boundary. Smallest fix (Tier 3): say what the citation does and does not support.",
     "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation calls the fall at the bottom modest, but the decrement line ends with an unqualified fall; it should say 'a little'. The explanation also cites idiosyncrasy credit (Hollander 1958) as plain support, while X:OutResp->NormExp drops it because direct tests are few and the leniency it implies is conditional. The credit Hollander describes is also earned through competence and earlier conformity, which sits nearer Esteem than settled precedence. Hedge the citation so the two cards agree.",
-    "socpsych-r2-minor: Replaced idiosyncrasy credit (Hollander) with Karelaia and Keck's shield for minor and liability for severe deviance, limit stated and carry to peers labelled a proposal; rest kept. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
+    "socpsych-r2-minor: Replaced idiosyncrasy credit (Hollander) with Karelaia and Keck's shield for minor and liability for severe deviance, limit stated and carry to peers labelled a proposal; rest kept. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation describes tests of Seyfarth's grooming-up-the-hierarchy model as 'mixed', while H:Reciprocity->Belonging says the tests have 'mostly but not uniformly confirmed' it. The two cards should agree; the meta-analytic evidence (Schino 2001, not cited here) leans to the second wording. Wording-only fix."
    ],
    "ripple_was": [
     {
@@ -10281,6 +10390,12 @@
      "increment_logic": "When I go first as a matter of course and take the first share and the best seat, the others cluster round me and I feel no threat of being dropped: my sense of being kept among them in my place rises.",
      "decrement_logic": "When I go last and take what is left, I feel how little slack my place gives me and that any step out of line would see me dropped: my sense of being kept among them falls.",
      "explanation": "In ranked groups grooming tends to be directed up the order (Seyfarth 1977; tests mixed). Higher status is also accorded respect and voluntary deference (Anderson, Hildreth and Howland 2015), though their status includes deference freely given, which is Esteem's ground here, so it supports this card only loosely. Under this deck's face a place is made for members high or low who keep to it, so rank does not decide inclusion outright; what moves is the felt threat of being dropped. A member who goes first feels her keeping is beyond question; one who goes last feels how little slack her place gives her, and that any step out of line would see her dropped. Higher standing permits more deviation from the group's expectations (Hollander 1958, idiosyncrasy credit). A member settled at the bottom who keeps to her place may still feel fairly secure, so the fall there is modest. Anxiety about exclusion among middle-status members (Phillips and Zuckerman 2001) cannot be carried by a card that follows a single source level and is left to play."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I go first as a matter of course and take the first share and the best seat, the others cluster round me and I feel no threat of being dropped: my sense of being kept among them in my place rises.",
+     "decrement_logic": "When I go last and take what is left, I feel how little slack my place gives me and that any step out of line would see me dropped: my sense of being kept among them falls a little.",
+     "explanation": "In ranked groups grooming tends to be directed up the order (Seyfarth 1977; tests mixed). Higher status is also accorded respect and voluntary deference (Anderson, Hildreth and Howland 2015), though their status includes deference freely given, which is Esteem's ground here, so it supports this card only loosely. Under this deck's face a place is made for members high or low who keep to it, so rank does not decide inclusion outright; what moves is the felt threat of being dropped. A member who goes first feels her keeping is beyond question; one who goes last feels how little slack her place gives her, and that any step out of line would see her dropped. Status shielded its holders from punishment for low-severity deviance but became a liability for high-severity deviance (Karelaia and Keck 2013), so the slack a high rung gives covers small lapses, not serious ones. That work concerns formal leaders and observers' punishment; carrying it to the felt security of being kept among peers is a proposal. A member settled at the bottom who keeps to her place may still feel fairly secure, so the fall there is modest. Anxiety about exclusion among middle-status members (Phillips and Zuckerman 2001) cannot be carried by a card that follows a single source level and is left to play."
     }
    ],
    "timing": {
@@ -10848,8 +10963,8 @@
    "target": "NormExp",
    "type": "Inverse",
    "name": "Shirkers sharpen the bristle",
-   "increment_logic": "When I keep having to check up on, chase and redo what others took on, the next member who departs from the way we do the shared work jars me at once as plainly wrong, as if it were one more corner cut, and I pull them up with a sharp word or a turned back: my indignation at breaches rises.",
-   "decrement_logic": "When I can leave any part of the work with any member, a member doing the shared work their own way strikes me as harmless, coming from people who deliver, and I let it pass: my indignation at breaches eases.",
+   "increment_logic": "When I keep having to check up on, chase and redo what others took on, the next member who departs from the way we do the shared work, in a way the group would condemn, jars me at once as plainly wrong, as if it were one more corner cut, and I pull them up with a sharp word or a turned back: my indignation at breaches rises.",
+   "decrement_logic": "When I can leave any part of the work with any member, a member doing the shared work their own way, even in a way the group would condemn, strikes me as harmless, coming from people who deliver, and I let it pass: my indignation at breaches eases.",
    "explanation": "Negative emotions toward free riders appear to underlie costly punishment of them (Fehr and Gächter 2002; the emotion evidence is questionnaire-based), and unaffected observers also punish breaches of a cooperation norm, though less than those harmed (Fehr and Fischbacher 2004). The evidence concerns falling short on the cooperative task. The card's step, a proposal resting on common sense, is that where she has been left to chase and redo others' work, a member doing the shared work a different way is read as another dodge; the card is limited to the way the shared work is done. Where nearly everyone shirks, a departure stands out less against what the group actually does, and the threat of exclusion fails against a majority of shirkers (Kerr et al. 2009), so the increment is weak or nil there; it holds while she still reads doing one's part as the group's way. On the decrement side, conditional cooperators keep giving when others are seen to contribute (Fischbacher, Gächter and Fehr 2001); the step from there to letting a departure pass among people who deliver is a proposal resting on common sense. Idiosyncrasy credit, used here before as the brake, is dropped as support: direct tests are few and the leniency it implies is conditional. Keep the decrement smaller than the increment. The public goods evidence concerns contributions to a common pool and is shared with X:Reciprocity->NormExp; here it is read as doing one's part of the work, there as the ways of sharing, and each reading is the model's step.",
    "pre_language": {
     "increment": "When the others keep leaving their end of the carry or the watch to her, she bristles sooner at any of them doing a thing the wrong way and moves to pull them up: a protest cry, a shove, a cold shoulder. Her norm guarding rises.",
@@ -10923,7 +11038,10 @@
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The two lines cover different breaches. The increment is about a member who cuts a corner, which is shirking and so sits on OutResp's ground (reliability). The decrement is about a member doing the shared work their own way, which is a departure from settled ways (NormExp). They should mirror each other, and both should be departures in how the shared work is done. Hollander's idiosyncrasy credit belongs to the individual deviant's own record, so applying it to the group's reliability in general only approximates it, and the explanation should say so.",
     "Ben, 5 Nov 2026, 1.47 pm (organisational psychologist's critique and Reputation pack questions): Its brake rested on idiosyncrasy credit, which is not substantively consistent with related work.",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation overstates its support for the brake. Fischbacher, Gächter and Fehr (2001) show that conditional cooperators match their own contributions to what they see others give. They do not show leniency towards a member who does the work a different way, so the decrement side needs to be marked as a proposal.",
-    "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): 'Drives' softened and Fehr and Fischbacher 2004 added; method-as-dodge marked as the card's step; near-everyone-shirks boundary added from Kerr et al. 2009; unchecked black sheep clause dropped; Hollander entry claiming support for the dropped brake removed; shared evidence described as on the sibling."
+    "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): 'Drives' softened and Fehr and Fischbacher 2004 added; method-as-dodge marked as the card's step; near-everyone-shirks boundary added from Kerr et al. 2009; unchecked black sheep clause dropped; Hollander entry claiming support for the dropped brake removed; shared evidence described as on the sibling.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Rule-Keeping is indignation at a departure the group would condemn. The increment makes any departure from the way the shared work is done jar her, which goes beyond the target's definition and moves towards her own conformity, which the definition excludes. A short qualifier keeps the line within the target. Decrement, type (Inverse; the increment correctly describes the source as low), deck X and literature (Fehr and Gächter 2002; Fehr and Fischbacher 2004; Kerr et al. 2009; Fischbacher, Gächter and Fehr 2001) pass.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement line drops the qualifier that the departure is one the group would condemn. Rule-Keeping reads only indignation at breaches the group would condemn, so a member merely doing the work their own way is not a falling Rule-Keeping reading unless the departure is one the group would frown on. The increment line carries the qualifier; the decrement should match it.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines say a departure 'the group would frown on', but Rule-Keeping is defined and anchored on breaks 'the group would condemn'. 'Frown on' reaches milder departures outside the target's ground, so the decrement in particular reads indignation easing over things Rule-Keeping does not cover. Swap to the definition's word. Type, mechanism and the revised Dependability text otherwise agree (the lines use the reliability half of Dependability, which suits a card limited to the shared work)."
    ],
    "ripple_was": [
     {
@@ -10937,6 +11055,24 @@
      "increment_logic": "When I keep having to check up on, chase and redo what others took on, the next member who departs from the way we do the shared work jars me at once as plainly wrong, as if it were one more corner cut, and I pull them up with a sharp word or a turned back: my indignation at breaches rises.",
      "decrement_logic": "When I can leave any part of the work with any member, a member doing the shared work their own way strikes me as harmless, coming from people who deliver, and I let it pass: my indignation at breaches eases.",
      "explanation": "Anger at free riders drives costly punishment of them (Fehr and Gächter 2002). The evidence concerns breaches of the cooperative task rather than any departure from the group's ways, so the card is limited to the way the shared work is done: where shirking is rife, a different way of doing the work is read as another dodge. On the decrement side, conditional cooperators relax when others are seen to contribute (Fischbacher, Gächter and Fehr 2001), so a departure among people who deliver reads as harmless. Idiosyncrasy credit, used here before as the brake, is dropped as support: direct tests are few, the leniency it implies is conditional, and the black sheep effect cuts across it. Keep the decrement smaller than the increment."
+    },
+    {
+     "type": "Inverse",
+     "increment_logic": "When I keep having to check up on, chase and redo what others took on, the next member who departs from the way we do the shared work jars me at once as plainly wrong, as if it were one more corner cut, and I pull them up with a sharp word or a turned back: my indignation at breaches rises.",
+     "decrement_logic": "When I can leave any part of the work with any member, a member doing the shared work their own way strikes me as harmless, coming from people who deliver, and I let it pass: my indignation at breaches eases.",
+     "explanation": "Negative emotions toward free riders appear to underlie costly punishment of them (Fehr and Gächter 2002; the emotion evidence is questionnaire-based), and unaffected observers also punish breaches of a cooperation norm, though less than those harmed (Fehr and Fischbacher 2004). The evidence concerns falling short on the cooperative task. The card's step, a proposal resting on common sense, is that where she has been left to chase and redo others' work, a member doing the shared work a different way is read as another dodge; the card is limited to the way the shared work is done. Where nearly everyone shirks, a departure stands out less against what the group actually does, and the threat of exclusion fails against a majority of shirkers (Kerr et al. 2009), so the increment is weak or nil there; it holds while she still reads doing one's part as the group's way. On the decrement side, conditional cooperators keep giving when others are seen to contribute (Fischbacher, Gächter and Fehr 2001); the step from there to letting a departure pass among people who deliver is a proposal resting on common sense. Idiosyncrasy credit, used here before as the brake, is dropped as support: direct tests are few and the leniency it implies is conditional. Keep the decrement smaller than the increment. The public goods evidence concerns contributions to a common pool and is shared with X:Reciprocity->NormExp; here it is read as doing one's part of the work, there as the ways of sharing, and each reading is the model's step."
+    },
+    {
+     "type": "Inverse",
+     "increment_logic": "When I keep having to check up on, chase and redo what others took on, the next member who departs from the way we do the shared work, in a way the group would frown on, jars me at once as plainly wrong, as if it were one more corner cut, and I pull them up with a sharp word or a turned back: my indignation at breaches rises.",
+     "decrement_logic": "When I can leave any part of the work with any member, a member doing the shared work their own way strikes me as harmless, coming from people who deliver, and I let it pass: my indignation at breaches eases.",
+     "explanation": "Negative emotions toward free riders appear to underlie costly punishment of them (Fehr and Gächter 2002; the emotion evidence is questionnaire-based), and unaffected observers also punish breaches of a cooperation norm, though less than those harmed (Fehr and Fischbacher 2004). The evidence concerns falling short on the cooperative task. The card's step, a proposal resting on common sense, is that where she has been left to chase and redo others' work, a member doing the shared work a different way is read as another dodge; the card is limited to the way the shared work is done. Where nearly everyone shirks, a departure stands out less against what the group actually does, and the threat of exclusion fails against a majority of shirkers (Kerr et al. 2009), so the increment is weak or nil there; it holds while she still reads doing one's part as the group's way. On the decrement side, conditional cooperators keep giving when others are seen to contribute (Fischbacher, Gächter and Fehr 2001); the step from there to letting a departure pass among people who deliver is a proposal resting on common sense. Idiosyncrasy credit, used here before as the brake, is dropped as support: direct tests are few and the leniency it implies is conditional. Keep the decrement smaller than the increment. The public goods evidence concerns contributions to a common pool and is shared with X:Reciprocity->NormExp; here it is read as doing one's part of the work, there as the ways of sharing, and each reading is the model's step."
+    },
+    {
+     "type": "Inverse",
+     "increment_logic": "When I keep having to check up on, chase and redo what others took on, the next member who departs from the way we do the shared work, in a way the group would frown on, jars me at once as plainly wrong, as if it were one more corner cut, and I pull them up with a sharp word or a turned back: my indignation at breaches rises.",
+     "decrement_logic": "When I can leave any part of the work with any member, a member doing the shared work their own way, even in a way the group would frown on, strikes me as harmless, coming from people who deliver, and I let it pass: my indignation at breaches eases.",
+     "explanation": "Negative emotions toward free riders appear to underlie costly punishment of them (Fehr and Gächter 2002; the emotion evidence is questionnaire-based), and unaffected observers also punish breaches of a cooperation norm, though less than those harmed (Fehr and Fischbacher 2004). The evidence concerns falling short on the cooperative task. The card's step, a proposal resting on common sense, is that where she has been left to chase and redo others' work, a member doing the shared work a different way is read as another dodge; the card is limited to the way the shared work is done. Where nearly everyone shirks, a departure stands out less against what the group actually does, and the threat of exclusion fails against a majority of shirkers (Kerr et al. 2009), so the increment is weak or nil there; it holds while she still reads doing one's part as the group's way. On the decrement side, conditional cooperators keep giving when others are seen to contribute (Fischbacher, Gächter and Fehr 2001); the step from there to letting a departure pass among people who deliver is a proposal resting on common sense. Idiosyncrasy credit, used here before as the brake, is dropped as support: direct tests are few and the leniency it implies is conditional. Keep the decrement smaller than the increment. The public goods evidence concerns contributions to a common pool and is shared with X:Reciprocity->NormExp; here it is read as doing one's part of the work, there as the ways of sharing, and each reading is the model's step."
     }
    ],
    "critique_was": [
@@ -11490,7 +11626,7 @@
    "name": "Backed into my place",
    "increment_logic": "When I am kept among them and a place is made for me as a matter of course, a turn or a share of mine that someone questions is let stand by the room, the questioner gives way, and I take it without a word: my felt rung in the order, shaken by the question, firms up again.",
    "decrement_logic": "When I am kept at the edge and my turn or my share is questioned in front of the others, no one speaks for me, I give way, and others step ahead of me at turns and shares: my felt rung in the order falls.",
-   "explanation": "In macaques, kin support matters for winning rank (Chapais and Larose 1988), though keeping rank among peers need not depend on it when subordinates cannot form coalitions (same source), and grooming is traded for agonistic support (Schino 2007), in line with Seyfarth's (1977) model of grooming directed up the hierarchy for rank-related benefits. Those findings concern support from particular partners in return for service. That is the ground of H Reciprocity, where a patron covers you. This card reads the acceptance of the group as a whole and takes from the primate work only that whether a challenge to a place succeeds depends partly on who backs it. The card therefore fires only when a turn or share of hers is contested, where backing decides who gives way; it does not carry a rank held steady by acceptance alone. The human step is a proposal, common sense in any committee: a member kept at the edge whose turn is questioned finds no one speaking for her and gives way, while one kept among them has her turn let stand. Hierarchical acceptance is held at any rung, high or low. The increment therefore only firms up a turn or share that was in doubt and never lifts her above her place; keep it smaller than the decrement. This carries the second half of the older model's most-used card. It is distinct from Esteem: the room's assent is for who she is to them, not for what she brings.",
+   "explanation": "In macaques, kin support matters for winning rank (Chapais and Larose 1988), though keeping rank among peers need not depend on it when subordinates cannot form coalitions (same source), and grooming is traded for agonistic support (Schino 2007), in line with Seyfarth's (1977) model of grooming directed up the hierarchy for rank-related benefits. Those findings concern support from particular partners in return for service. That is the ground of H Reciprocity, where a patron covers you. This card reads the acceptance of the group as a whole and takes from the primate work only that whether a challenge to a place succeeds depends partly on who backs it. The card therefore fires only when a turn or share of hers is contested, where backing decides who gives way; it does not carry a rank held steady by acceptance alone. The human step is a proposal, common sense in any committee: a member kept at the edge whose turn is questioned finds no one speaking for her and gives way, while one kept among them has her turn let stand. Hierarchical acceptance is held at any rung, high or low. The increment therefore only firms up a turn or share that was in doubt and never lifts her above her place; keep it smaller than the decrement. It is distinct from Esteem: the room's assent is for who she is to them, not for what she brings.",
    "sources": [
     {
      "source": "Schino, G., 2007, Grooming and agonistic support: a meta-analysis of primate reciprocal altruism, Behavioral Ecology 18: 115-120",
@@ -11520,7 +11656,8 @@
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against the revised hierarchical Belonging face and Status. The explanation cites Chapais without a year, so the source cannot be checked; the smallest fix adds it (Chapais 1992, on alliances and rank acquisition in macaques).",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass against the revised hierarchical Belonging face and Status. The explanation cites Chapais without a year, so the source cannot be checked; the smallest fix adds it (Chapais 1992, on alliances and rank acquisition in macaques).",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Hierarchical Belonging is held at any rung and is conditional on keeping the place, not on the place itself, and the explanation says the increment only firms up a turn in doubt and never lifts her above her place. Yet the increment line ends with the rung simply rising, which reads as acceptance lifting rank. The ending should match the explanation and stay smaller than the decrement.",
-    "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Card narrowed to contested turns and shares (per advice); citation moved to Chapais and Larose 1988 (add to sources) with its limit on keeping rank; Schino and Aureli dropped from the upward-grooming claim, Seyfarth labelled a model; increment no longer claims rank held."
+    "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Card narrowed to contested turns and shares (per advice); citation moved to Chapais and Larose 1988 (add to sources) with its limit on keeping rank; Schino and Aureli dropped from the upward-grooming claim, Seyfarth labelled a model; increment no longer claims rank held.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass: both fire only on a contested turn or share, the increment only restores a rung in doubt, and patron cover is left to H Reciprocity. Two tidy-ups. (a) The closing note on 'the older model's most-used card' is a stale V1 origin note that carries no weight; drop it. (b) The framework field is null; suggested framework: 'Coalitionary support in rank contests (Chapais; Schino 2007), read at the level of the group; proposal on contested turns and shares'. Chapais and Larose 1988 was not verified in this check."
    ],
    "ripple_was": [
     {
@@ -11564,6 +11701,12 @@
      "increment_logic": "When I am kept among them and a place is made for me as a matter of course, a turn or a share of mine that someone questions is let stand by the room, the questioner gives way, and I take it without a word: my felt rung in the order rises.",
      "decrement_logic": "When I am kept at the edge and my turn or my share is questioned in front of the others, no one speaks for me, I give way, and others step ahead of me at turns and shares: my felt rung in the order falls.",
      "explanation": "In macaques, kin and allied support is central to acquiring rank (Chapais 1992), and grooming is traded for agonistic support (Schino 2007), with grooming directed up the hierarchy for rank-related benefits (Seyfarth 1977; Schino and Aureli 2008). Those findings concern support from particular partners in return for service. That is the ground of H Reciprocity, where a patron covers you. This card reads the acceptance of the group as a whole and takes from the primate work only that a place in the order is held partly by who would let it stand. The human step is a proposal, common sense in any committee: a member kept at the edge whose turn is questioned finds no one speaking for her and gives way, while one kept among them has her turn let stand. Hierarchical acceptance is held at any rung, high or low. The increment therefore only firms up a turn or share that was in doubt and never lifts her above her place; keep it smaller than the decrement. This carries the second half of the older model's most-used card. It is distinct from Esteem: the room's assent is for who she is to them, not for what she brings."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am kept among them and a place is made for me as a matter of course, a turn or a share of mine that someone questions is let stand by the room, the questioner gives way, and I take it without a word: my felt rung in the order, shaken by the question, firms up again.",
+     "decrement_logic": "When I am kept at the edge and my turn or my share is questioned in front of the others, no one speaks for me, I give way, and others step ahead of me at turns and shares: my felt rung in the order falls.",
+     "explanation": "In macaques, kin support matters for winning rank (Chapais and Larose 1988), though keeping rank among peers need not depend on it when subordinates cannot form coalitions (same source), and grooming is traded for agonistic support (Schino 2007), in line with Seyfarth's (1977) model of grooming directed up the hierarchy for rank-related benefits. Those findings concern support from particular partners in return for service. That is the ground of H Reciprocity, where a patron covers you. This card reads the acceptance of the group as a whole and takes from the primate work only that whether a challenge to a place succeeds depends partly on who backs it. The card therefore fires only when a turn or share of hers is contested, where backing decides who gives way; it does not carry a rank held steady by acceptance alone. The human step is a proposal, common sense in any committee: a member kept at the edge whose turn is questioned finds no one speaking for her and gives way, while one kept among them has her turn let stand. Hierarchical acceptance is held at any rung, high or low. The increment therefore only firms up a turn or share that was in doubt and never lifts her above her place; keep it smaller than the decrement. This carries the second half of the older model's most-used card. It is distinct from Esteem: the room's assent is for who she is to them, not for what she brings."
     }
    ],
    "timing": {
@@ -11613,9 +11756,9 @@
    "target": "OutResp",
    "type": "Reinforce",
    "name": "Friends get the rope",
-   "increment_logic": "When the others draw me in as one of their own, I hand them parts of the shared work without a second thought and leave them to it, and I see them carry it through: my confidence that they will do their part rises.",
-   "decrement_logic": "When I am left at the edge, I keep the work in my own hands and check what little I hand over, so I see little of theirs carried through and nothing to set against the last let-down: my confidence that they will do their part falls.",
-   "explanation": "Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann 2016). Friendship there is a mutual bond, nearer her own fondness for the members (Warmth) than their acceptance of her; this card takes from the study only that being drawn in as one of their own makes her readier to leave work in their hands, a common-sense step. Trust games read whether what is entrusted comes back, which lies near Reciprocity; carrying the finding to confidence that members do their part of the work is by analogy. The felt shift at the cue is in how readily she trusts. The gain for Dependability builds across plays from sampling, a common-sense step pending a check of Fetchenhauer and Dunning 2010 and Denrell 2005: a member who trusts more sees more work carried through, while one who withholds trust sees little and has nothing to correct her last let-down. Control read as distrust lowers the other's effort (Falk and Kosfeld 2006), an effect that is real but usually small on replication (Ziegelmeyer, Schmelz and Ploner 2012), so over many plays withheld trust is partly self-fulfilling.",
+   "increment_logic": "When the others draw me in as one of their own, I expect them to do right by one of their own, so I hand them parts of the shared work without a second thought and leave them to it, and I see them carry it through: my confidence that they will do their part rises.",
+   "decrement_logic": "When I am left at the edge, I expect no allowance from them as one of their own, so I keep the work in my own hands and check what little I hand over, and I see little of theirs carried through and nothing to set against the last let-down: my confidence that they will do their part falls.",
+   "explanation": "The felt shift at the cue rests on group-based trust: people extend more trust to fellow members of their own group because they expect them to treat members well (Foddy, Platow and Yamagishi 2009, not checked here). Being drawn in as one of their own tells her she is a member they will favour, so she leaves work in their hands more readily and expects a slip of hers not to be turned against her. Chimpanzees likewise extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann 2016). Friendship there is a mutual bond, nearer her own fondness for the members (Warmth) than their acceptance of her, and trust games read whether what is entrusted comes back, which lies near Reciprocity; the card takes from that study only the readiness to entrust, by analogy. The gain for Dependability also builds across plays from sampling, a common-sense step pending a check of Fetchenhauer and Dunning 2010 and Denrell 2005: a member who trusts more sees more work carried through, while one who withholds trust sees little and has nothing to correct her last let-down. Control read as distrust lowers the other's effort (Falk and Kosfeld 2006), an effect that is real but usually small on replication (Ziegelmeyer, Schmelz and Ploner 2012), so over many plays withheld trust is partly self-fulfilling. Keep the card modest.",
    "sources": [
     {
      "source": "Engelmann, J., Herrmann, E., 2016, Chimpanzees trust their friends, Current Biology 26: 252-256",
@@ -11645,7 +11788,10 @@
     "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation's last clause sends a public exclusion 'read as a slight to her good name' to the Reputation expansion. The revised Face moves only on an open charge, or a witnessed instance, of wronging people or shirking one's share, and it excludes being wanted (Belonging). Repute reads the private verdict on her conduct. Being shut out is neither of these, so the clause misroutes the flare. Smallest fix: drop the clause. Also added the missing years for Engelmann and Herrmann (2016) and Falk and Kosfeld (2006), and noted that the control effect is small on replication, in line with E:OutResp->Repute.",
     "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines and type pass against both definitions, and the citations hold as stated. The trust games cited (Engelmann and Herrmann 2016; Fetchenhauer and Dunning 2010) measure trust that a partner will return what is entrusted, which is close to Reciprocity's ground (the return on what you give), while OutResp reads whether members carry through their part of shared work. The explanation presents them as direct evidence for OutResp without saying the carry-over is by analogy. Only Falk and Kosfeld, a principal-agent effort setting, bears on work directly. Smallest fix: one clause in the explanation saying so.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Lines restated as observable acts instead of recall bias; sampling step marked common sense pending a check of Fetchenhauer and Dunning and Denrell; aggression elaboration and Twenge source dropped as conduct outside Dependability.",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation leans on chimpanzee friendship, a mutual bond that now sits nearer the newly added Warmth (her own fondness for them) than Belonging (their acceptance of her). It has to say that this card takes from the study only the step from being drawn in to readier trust, so it does not quietly carry Warmth's ground."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation leans on chimpanzee friendship, a mutual bond that now sits nearer the newly added Warmth (her own fondness for them) than Belonging (their acceptance of her). It has to say that this card takes from the study only the step from being drawn in to readier trust, so it does not quietly carry Warmth's ground.",
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): (a) The framework is null; suggested framework: 'Trust towards friends (Engelmann and Herrmann 2016); group-based trust (Foddy, Platow and Yamagishi 2009, not checked here); asymmetric feedback and sampling (Fetchenhauer and Dunning 2010; Denrell 2005, pending check); hidden costs of control, small on replication (Ziegelmeyer et al. 2012).' (b) Cards act within minutes. Here the only immediate support is chimpanzee friendship, which the card itself says is nearer Warmth and nearer Reciprocity. The revised Dependability now includes trusting members not to use a slip against her, and that gives a direct in-the-moment route that fits the literature: people extend more trust to in-group members because they expect them to favour fellow members (Foddy, Platow and Yamagishi 2009). The explanation should rest the immediate shift on that route and leave the sampling route as the slower effect. The lines pass.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation puts the felt shift at the cue in group-based trust (expecting fellow members to treat one of their own well), but both lines carry only the slower sampling route (seeing work carried through or not), which builds over many plays. Cards act as felt reactions within minutes, so each line should state the immediate expectation first. Smallest fix: add that expectation to each line.",
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Explanation says she 'expects a slip of hers to be covered'. Covering a slip is help given, which is Reciprocity's ground. The revised Dependability reads whether others would hold back from turning a slip of hers against her. Smallest fix: align that clause with the target's second limb. Lines, type and sources pass."
    ],
    "ripple_was": [
     {
@@ -11683,6 +11829,24 @@
      "increment_logic": "When the others draw me in as one of their own, I hand them parts of the shared work without a second thought and leave them to it, and I see them carry it through: my confidence that they will do their part rises.",
      "decrement_logic": "When I am left at the edge, I keep the work in my own hands and check what little I hand over, so I see little of theirs carried through and nothing to set against the last let-down: my confidence that they will do their part falls.",
      "explanation": "Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann 2016). Trust games read whether what is entrusted comes back, which lies near Reciprocity; carrying the finding to confidence that members do their part of the work is by analogy. The felt shift at the cue is in how readily she trusts. The gain for Dependability builds across plays from sampling, a common-sense step pending a check of Fetchenhauer and Dunning 2010 and Denrell 2005: a member who trusts more sees more work carried through, while one who withholds trust sees little and has nothing to correct her last let-down. Control read as distrust lowers the other's effort (Falk and Kosfeld 2006), an effect that is real but usually small on replication (Ziegelmeyer, Schmelz and Ploner 2012), so over many plays withheld trust is partly self-fulfilling."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the others draw me in as one of their own, I hand them parts of the shared work without a second thought and leave them to it, and I see them carry it through: my confidence that they will do their part rises.",
+     "decrement_logic": "When I am left at the edge, I keep the work in my own hands and check what little I hand over, so I see little of theirs carried through and nothing to set against the last let-down: my confidence that they will do their part falls.",
+     "explanation": "Chimpanzees extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann 2016). Friendship there is a mutual bond, nearer her own fondness for the members (Warmth) than their acceptance of her; this card takes from the study only that being drawn in as one of their own makes her readier to leave work in their hands, a common-sense step. Trust games read whether what is entrusted comes back, which lies near Reciprocity; carrying the finding to confidence that members do their part of the work is by analogy. The felt shift at the cue is in how readily she trusts. The gain for Dependability builds across plays from sampling, a common-sense step pending a check of Fetchenhauer and Dunning 2010 and Denrell 2005: a member who trusts more sees more work carried through, while one who withholds trust sees little and has nothing to correct her last let-down. Control read as distrust lowers the other's effort (Falk and Kosfeld 2006), an effect that is real but usually small on replication (Ziegelmeyer, Schmelz and Ploner 2012), so over many plays withheld trust is partly self-fulfilling."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the others draw me in as one of their own, I hand them parts of the shared work without a second thought and leave them to it, and I see them carry it through: my confidence that they will do their part rises.",
+     "decrement_logic": "When I am left at the edge, I keep the work in my own hands and check what little I hand over, so I see little of theirs carried through and nothing to set against the last let-down: my confidence that they will do their part falls.",
+     "explanation": "The felt shift at the cue rests on group-based trust: people extend more trust to fellow members of their own group because they expect them to treat members well (Foddy, Platow and Yamagishi 2009, not checked here). Being drawn in as one of their own tells her she is a member they will favour, so she leaves work in their hands more readily and expects a slip of hers to be covered. Chimpanzees likewise extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann 2016). Friendship there is a mutual bond, nearer her own fondness for the members (Warmth) than their acceptance of her, and trust games read whether what is entrusted comes back, which lies near Reciprocity; the card takes from that study only the readiness to entrust, by analogy. The gain for Dependability also builds across plays from sampling, a common-sense step pending a check of Fetchenhauer and Dunning 2010 and Denrell 2005: a member who trusts more sees more work carried through, while one who withholds trust sees little and has nothing to correct her last let-down. Control read as distrust lowers the other's effort (Falk and Kosfeld 2006), an effect that is real but usually small on replication (Ziegelmeyer, Schmelz and Ploner 2012), so over many plays withheld trust is partly self-fulfilling. Keep the card modest."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the others draw me in as one of their own, I expect them to do right by one of their own, so I hand them parts of the shared work without a second thought and leave them to it, and I see them carry it through: my confidence that they will do their part rises.",
+     "decrement_logic": "When I am left at the edge, I expect no allowance from them as one of their own, so I keep the work in my own hands and check what little I hand over, and I see little of theirs carried through and nothing to set against the last let-down: my confidence that they will do their part falls.",
+     "explanation": "The felt shift at the cue rests on group-based trust: people extend more trust to fellow members of their own group because they expect them to treat members well (Foddy, Platow and Yamagishi 2009, not checked here). Being drawn in as one of their own tells her she is a member they will favour, so she leaves work in their hands more readily and expects a slip of hers to be covered. Chimpanzees likewise extend trust to friends more than to non-friends in a non-verbal trust game, though friends are no more trustworthy once trusted (Engelmann and Herrmann 2016). Friendship there is a mutual bond, nearer her own fondness for the members (Warmth) than their acceptance of her, and trust games read whether what is entrusted comes back, which lies near Reciprocity; the card takes from that study only the readiness to entrust, by analogy. The gain for Dependability also builds across plays from sampling, a common-sense step pending a check of Fetchenhauer and Dunning 2010 and Denrell 2005: a member who trusts more sees more work carried through, while one who withholds trust sees little and has nothing to correct her last let-down. Control read as distrust lowers the other's effort (Falk and Kosfeld 2006), an effect that is real but usually small on replication (Ziegelmeyer, Schmelz and Ploner 2012), so over many plays withheld trust is partly self-fulfilling. Keep the card modest."
     }
    ],
    "timing": {
@@ -12236,7 +12400,7 @@
    "target": "DivsExp",
    "type": "Reinforce",
    "name": "Credit to spend",
-   "increment_logic": "When the others turn to me for what I bring and take my advice, I feel a slip of mine would be put down to a bad day rather than held against me, and I let my doubts and disagreements show: my felt safety to show myself rises.",
+   "increment_logic": "When the others turn to me for what I bring and take my advice, I feel a slip of mine would be shrugged off as a bad day rather than met with a put-down or a laugh, and I let my doubts and disagreements show: my felt safety to show myself rises.",
    "decrement_logic": "When no one turns to me for anything I bring, I feel I have nothing to set against a slip, so I keep more of my doubts and disagreements masked: my felt safety to show myself falls a little.",
    "explanation": "Higher professional status goes with greater felt psychological safety (Nembhard and Edmondson 2006), and power releases approach and expression, while low power primes attention to threat and inhibition (Keltner, Gruenfeld and Anderson 2003). Both bear on settled place and power, which X:Status->DivsExp carries. The step to live deference is a proposal resting on common sense: a member the others turn to has something to set against a slip. Hollander's idiosyncrasy credit says members who have earned standing are allowed more latitude, but direct tests are few and weak, so it is not relied on. Standing can also raise the stakes of a slip: people react more strongly to the prospect of losing standing than to gaining it (Pettit, Yong and Spataro 2010), and a loss of status hurts performance more when it comes from a high position than from a lower one (Marr and Thau 2014). Deference that fades with what she brings is a thinner cushion than a settled place, so this card should be the weaker of the two. Boundary, resting on common sense: where a slip would show up the very skill the others look to her for, the card does not fire.",
    "sources": [
@@ -12278,7 +12442,8 @@
     "Ben, 5 Nov 2026, 3.56 pm (evolutionary anthropologist's critique: approve all): retyped from X:Prestige->DivsExp; Esteem is shared, so both ends are in deck E",
     "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation points to 'X:Rank->Safety', which is not a card id; the card that carries settled place into Safety is X:Status->DivsExp (Low in the order, guarded). Lines, type and mechanism pass.",
     "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement overstates the fall and edges into Repute's ground. 'Every slip would be counted against me' reads like a verdict already held on her conduct, but Esteem at 1 only means no one turns to her for skill. Under the E face a member who brings little is still one of their own, and levelling mockery goes after the boastful, not the unskilled. The explanation says this card should be the weaker one, so the line should show a modest loss of cushion and not a general expectation of being pounced on.",
-    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation leaves out literature that cuts against the increment: holding standing can raise the felt cost of a slip, since losses of standing weigh heavily, and they weigh most for those who stand high. The case for keeping the card weak should say so, and a boundary is needed for a slip that would show up the very skill she is looked to for, because on the Esteem definition that slip lowers the source itself."
+    "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation leaves out literature that cuts against the increment: holding standing can raise the felt cost of a slip, since losses of standing weigh heavily, and they weigh most for those who stand high. The case for keeping the card weak should say so, and a boundary is needed for a slip that would show up the very skill she is looked to for, because on the Esteem definition that slip lowers the source itself.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Increment line: 'held against me' can be read as a slip being turned against her, which the revised Dependability now claims (Safety's boundary clause sends whether others would turn a weak spot to their advantage to Dependability). Safety reads only the put-down, mockery or rebuff that showing herself draws; name that cost instead."
    ],
    "ripple_was": [
     {
@@ -12304,6 +12469,12 @@
      "increment_logic": "When the others turn to me for what I bring and take my advice, I feel a slip of mine would be put down to a bad day rather than held against me, and I let my doubts and disagreements show: my felt safety to show myself rises.",
      "decrement_logic": "When no one turns to me for anything I bring, I feel I have nothing to set against a slip, so I keep more of my doubts and disagreements masked: my felt safety to show myself falls a little.",
      "explanation": "Higher professional status goes with greater felt psychological safety (Nembhard and Edmondson 2006), and power releases approach and expression, while low power primes attention to threat and inhibition (Keltner, Gruenfeld and Anderson 2003). Both bear on settled place and power, which X:Status->DivsExp carries. The step to live deference is a proposal resting on common sense: a member the others turn to has something to set against a slip. Hollander's idiosyncrasy credit says members who have earned standing are allowed more latitude, but direct tests are few and weak, so it is not relied on. Deference that fades with what she brings is a thinner cushion than a settled place, so this card should be the weaker of the two."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the others turn to me for what I bring and take my advice, I feel a slip of mine would be put down to a bad day rather than held against me, and I let my doubts and disagreements show: my felt safety to show myself rises.",
+     "decrement_logic": "When no one turns to me for anything I bring, I feel I have nothing to set against a slip, so I keep more of my doubts and disagreements masked: my felt safety to show myself falls a little.",
+     "explanation": "Higher professional status goes with greater felt psychological safety (Nembhard and Edmondson 2006), and power releases approach and expression, while low power primes attention to threat and inhibition (Keltner, Gruenfeld and Anderson 2003). Both bear on settled place and power, which X:Status->DivsExp carries. The step to live deference is a proposal resting on common sense: a member the others turn to has something to set against a slip. Hollander's idiosyncrasy credit says members who have earned standing are allowed more latitude, but direct tests are few and weak, so it is not relied on. Standing can also raise the stakes of a slip: people react more strongly to the prospect of losing standing than to gaining it (Pettit, Yong and Spataro 2010), and a loss of status hurts performance more when it comes from a high position than from a lower one (Marr and Thau 2014). Deference that fades with what she brings is a thinner cushion than a settled place, so this card should be the weaker of the two. Boundary, resting on common sense: where a slip would show up the very skill the others look to her for, the card does not fire."
     }
    ],
    "timing": {
@@ -12460,7 +12631,7 @@
    "name": "Backs to each other",
    "increment_logic": "When the others draw me in as one of their own, I see us talk the work through, pass on what we know and pull the same way, and the venture looks within the reach of a side like ours: my confidence that the group, as it stands, can pull it off rises.",
    "decrement_logic": "When I am left at the edge, I see the work run in knots that do not talk it through or pass things on, and what I could bring left out of it, and the venture looks beyond the group as it stands: my confidence that the group can pull it off falls.",
-   "explanation": "Cohesion is related to group performance, and all three of its components count, most for behaviour and efficiency and where work flows intensively between members (Beal et al. 2003). Of the model's perceptions, Warmth, her liking for the members, sits nearest the social component, interpersonal attraction; Belonging, the others' acceptance of her, is further off, so the evidence for this card is indirect. Her Belonging reads the others' acceptance of her, not how close-knit the group is, so the step from her own inclusion to the group's cohesion is a proposal: a member left at the edge sees the group as split, and sees what she brings go unused. Where she is shut out by a group that plainly works well together, the decrement is weak or nil. Performance to cohesion is the stronger direction (Mullen and Copper 1994), carried by E:GrpProsp->Belonging, so set this card smaller than that one. It is distinct from E:Reciprocity->GrpProsp (help that comes back) and E:OutResp->GrpProsp (reliability).",
+   "explanation": "Cohesion is related to group performance, and all three of its components count, most for behaviour and efficiency and where work flows intensively between members (Beal et al. 2003). Of the model's perceptions, Warmth, her liking for the members, sits nearest the social component, interpersonal attraction; Belonging, the others' acceptance of her, is further off, so the evidence for this card is indirect. Her Belonging reads the others' acceptance of her, not how close-knit the group is, so the step from her own inclusion to the group's cohesion is a proposal: a member left at the edge sees the group as split, and sees what she brings go unused. Where she is shut out by a group that plainly works well together, the decrement is weak or nil. Performance to cohesion is the stronger direction (Mullen and Copper 1994), so keep this card small. E:GrpProsp->Belonging is Discretionary and carries that direction only in some circumstances. It is distinct from E:Reciprocity->GrpProsp (help that comes back) and E:OutResp->GrpProsp (reliability).",
    "sources": [
     {
      "source": "Beal, D., Cohen, R., Burke, M., McLendon, C., 2003, Cohesion and performance in groups, Journal of Applied Psychology 88",
@@ -12498,7 +12669,8 @@
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation cites card ids by plain names (E:Team Confidence->Belonging, E:Reciprocity->Team Confidence, E:Dependability->Team Confidence, E:Belonging->Dependability, E:Team Confidence->Reciprocity). Card ids use keys. The lines themselves pass.",
     "logic check Tier 1 flag, fixed on Ben's approval (5 Nov 2026, 4.43 pm): Dropped the unchecked Heuzé sentence and source (its likely finding runs the other way) and the contradicted task-commitment clause; card ids kept as keys.",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Stale note in the explanation: the claim that this card, with E:Belonging->OutResp and E:GrpProsp->Reciprocity, fills the last empty ordered pairs among the core deck E Pillars is false. E:OutResp->Levelling is a separate new card, and E:OutResp->Reciprocity is still empty (the Dependability and Reciprocity boundary clauses may justify leaving it so). Lines, type, boundaries and literature (Beal et al. 2003; Mullen and Copper 1994) pass.",
-    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation says Belonging sits nearest Beal et al.'s social component, interpersonal attraction. Now that Warmth (her liking for the members) is defined, Warmth sits nearer it, and Belonging is further off. The closing note about the one empty ordered pair among core deck E Pillars is a stale housekeeping note: with Warmth added it no longer holds unqualified, and it says nothing about the card's logic."
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation says Belonging sits nearest Beal et al.'s social component, interpersonal attraction. Now that Warmth (her liking for the members) is defined, Warmth sits nearer it, and Belonging is further off. The closing note about the one empty ordered pair among core deck E Pillars is a stale housekeeping note: with Warmth added it no longer holds unqualified, and it says nothing about the card's logic.",
+    "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The explanation says the stronger performance-to-cohesion direction (Mullen and Copper 1994) is carried by E:GrpProsp->Belonging and sizes this card against it. That card is Discretionary (Circle the Wagons) and may run the other way when the venture falters, so it cannot carry that direction reliably or serve as the size benchmark. Lines pass."
    ],
    "ripple_was": [
     {
@@ -12554,6 +12726,12 @@
      "increment_logic": "When the others draw me in as one of their own, I see us talk the work through, pass on what we know and pull the same way, and the venture looks within the reach of a side like ours: my confidence that the group, as it stands, can pull it off rises.",
      "decrement_logic": "When I am left at the edge, I see the work run in knots that do not talk it through or pass things on, and what I could bring left out of it, and the venture looks beyond the group as it stands: my confidence that the group can pull it off falls.",
      "explanation": "Cohesion is related to group performance, and all three of its components count, most for behaviour and efficiency and where work flows intensively between members (Beal et al. 2003). Belonging sits nearest the social component, interpersonal attraction, so the evidence for this card is indirect. Her Belonging reads the others' acceptance of her, not how close-knit the group is, so the step from her own inclusion to the group's cohesion is a proposal: a member left at the edge sees the group as split, and sees what she brings go unused. Where she is shut out by a group that plainly works well together, the decrement is weak or nil. Performance to cohesion is the stronger direction (Mullen and Copper 1994), carried by E:GrpProsp->Belonging, so set this card smaller than that one. It is distinct from E:Reciprocity->GrpProsp (help that comes back) and E:OutResp->GrpProsp (reliability). With E:Belonging->OutResp, E:GrpProsp->Reciprocity and E:OutResp->Levelling, it leaves E:OutResp->Reciprocity as the one empty ordered pair among the core deck E Pillars."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When the others draw me in as one of their own, I see us talk the work through, pass on what we know and pull the same way, and the venture looks within the reach of a side like ours: my confidence that the group, as it stands, can pull it off rises.",
+     "decrement_logic": "When I am left at the edge, I see the work run in knots that do not talk it through or pass things on, and what I could bring left out of it, and the venture looks beyond the group as it stands: my confidence that the group can pull it off falls.",
+     "explanation": "Cohesion is related to group performance, and all three of its components count, most for behaviour and efficiency and where work flows intensively between members (Beal et al. 2003). Of the model's perceptions, Warmth, her liking for the members, sits nearest the social component, interpersonal attraction; Belonging, the others' acceptance of her, is further off, so the evidence for this card is indirect. Her Belonging reads the others' acceptance of her, not how close-knit the group is, so the step from her own inclusion to the group's cohesion is a proposal: a member left at the edge sees the group as split, and sees what she brings go unused. Where she is shut out by a group that plainly works well together, the decrement is weak or nil. Performance to cohesion is the stronger direction (Mullen and Copper 1994), carried by E:GrpProsp->Belonging, so set this card smaller than that one. It is distinct from E:Reciprocity->GrpProsp (help that comes back) and E:OutResp->GrpProsp (reliability)."
     }
    ],
    "timing": {
@@ -13513,7 +13691,7 @@
    "name": "Warmth returned",
    "increment_logic": "When I am fond of them, I seek their company, tell them how things are with me and lend a hand, and they draw me closer for it: my sense that they want me among them rises.",
    "decrement_logic": "When I care little for them, I keep to myself and tell them nothing of me, and they leave me to it; I read the thinner contact as being wanted less: my sense that they want me among them falls a little.",
-   "explanation": "People like those who disclose to them and come to like those they disclose to (Collins and Miller 1994); liking is returned (Montoya and Insko 2008). Her fondness shows in approach and disclosure, the others warm to her, and she reads her acceptance from that. Under the E face the group still counts a reserved member in good standing as one of their own, so the decrement lies in her reading of thinner contact and is small; the card must never edge her out for reserve alone. Overlaps E:Safety->Belonging, which also runs on disclosure; where both fire, play this one small. Forms a loop with E:Belonging->Warmth; the brake is the others' own conduct.",
+   "explanation": "People like those who disclose to them and come to like those they disclose to (Collins and Miller 1994); liking is returned (Montoya and Insko 2008). Her fondness shows in approach and disclosure, the others warm to her, and she reads her acceptance from that. Under the E face the group still counts a reserved member in good standing as one of their own, so the decrement lies in her reading of thinner contact and is small; the card must never edge her out for reserve alone. Overlaps E:DivsExp->Belonging, which also runs on disclosure; where both fire, play this one small. Forms a loop with E:Belonging->Warmth; the brake is the others' own conduct.",
    "sources": [
     {
      "source": "Collins and Miller 1994, Psychological Bulletin 116",
@@ -13540,7 +13718,8 @@
     "label": "Proposed by the social psychologist's second-round review (5 Nov 2026)"
    },
    "edits_log": [
-    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement lets reserve alone lower Belonging at full size. On the E face, acceptance of a member in good standing changes only for shirking, cheating or turning on the group (anchor 10), so a reserved member who pulls her weight stays one of their own. As in E:Prestige->Belonging, the fall belongs in her reading of thinner contact, not in the group's acceptance, so it should be small and the explanation should say so."
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The decrement lets reserve alone lower Belonging at full size. On the E face, acceptance of a member in good standing changes only for shirking, cheating or turning on the group (anchor 10), so a reserved member who pulls her weight stays one of their own. As in E:Prestige->Belonging, the fall belongs in her reading of thinner contact, not in the group's acceptance, so it should be small and the explanation should say so.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Explanation names a card that does not exist: 'E:Safety->Belonging'. The overlapping card is E:DivsExp->Belonging (Discretionary, Open or masked). Lines pass."
    ],
    "ripple_was": [
     {
@@ -13548,6 +13727,12 @@
      "increment_logic": "When I am fond of them, I seek their company, tell them how things are with me and lend a hand, and they draw me closer for it: my sense that they want me among them rises.",
      "decrement_logic": "When I care little for them, I keep to myself and tell them nothing of me, and they leave me to it: my sense that they want me among them falls.",
      "explanation": "People like those who disclose to them and come to like those they disclose to (Collins and Miller 1994); liking is returned (Montoya and Insko 2008). Her fondness shows in approach and disclosure, the others warm to her, and she reads her acceptance from that. Overlaps E:DivsExp->Belonging, which also runs on disclosure; where both fire, play this one small. Forms a loop with E:Belonging->Warmth; the brake is the others' own conduct."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am fond of them, I seek their company, tell them how things are with me and lend a hand, and they draw me closer for it: my sense that they want me among them rises.",
+     "decrement_logic": "When I care little for them, I keep to myself and tell them nothing of me, and they leave me to it; I read the thinner contact as being wanted less: my sense that they want me among them falls a little.",
+     "explanation": "People like those who disclose to them and come to like those they disclose to (Collins and Miller 1994); liking is returned (Montoya and Insko 2008). Her fondness shows in approach and disclosure, the others warm to her, and she reads her acceptance from that. Under the E face the group still counts a reserved member in good standing as one of their own, so the decrement lies in her reading of thinner contact and is small; the card must never edge her out for reserve alone. Overlaps E:Safety->Belonging, which also runs on disclosure; where both fire, play this one small. Forms a loop with E:Belonging->Warmth; the brake is the others' own conduct."
     }
    ],
    "timing": {
@@ -13862,6 +14047,189 @@
    "subtitle": "Fair dealing from above builds hope of payoff",
    "summary": "When those above share out turns and chances by the same rules for everyone at my rung, and hear me before deciding, I feel that what I came for is mine to work towards, so my sense that staying will pay off rises. Favouritism and decisions made without hearing me lower it. The effect is moderate.",
    "summary_status": "generated from the source texts, not canon; checked faithful"
+  },
+  {
+   "id": "E:Warmth->DivsExp",
+   "deck": "E",
+   "decks": [
+    "E"
+   ],
+   "continuum": "ECP",
+   "source": "Warmth",
+   "target": "DivsExp",
+   "type": "Reinforce",
+   "name": "Among friends",
+   "increment_logic": "When I am fond of them and feel their troubles as partly mine, I take it that they feel much the same towards me, so a slip, a mood or a need of mine shown among them will draw no put-down or laugh: my felt safety to show myself rises.",
+   "decrement_logic": "When their company is a duty and I keep my distance, I cannot count on them to let a slip or a need of mine pass without a put-down, so I keep my guard up among them: my felt safety to show myself falls a little.",
+   "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->DivsExp (their acceptance of her) and E:Reciprocity->DivsExp (support received). Closes loops back to Warmth through Reciprocity (E:DivsExp->Reciprocity with E:Reciprocity->Warmth, or with E:Reciprocity->OutResp and E:OutResp->Warmth); watch them for drift.",
+   "sources": [
+    {
+     "source": "Carmeli, Brueller and Dutton 2009, SRBS 26",
+     "claim": "Relationship quality at time 1 predicted safety and then learning",
+     "url": "https://positiveorgs.bus.umich.edu/?p=535",
+     "verified": "verified"
+    },
+    {
+     "source": "May, Gilson and Harter 2004, JOOP 77",
+     "claim": "Rewarding co-worker relations positively associated with safety",
+     "url": "https://explore.psychsafety.com/n/may-gilson-harter-2004/",
+     "verified": "verified"
+    },
+    {
+     "source": "Schaubroeck, Lam and Peng 2011, JAP 96",
+     "claim": "Affect-based trust led to team psychological safety",
+     "url": "https://explore.psychsafety.com/n/schaubroeck-lam-peng-2011/",
+     "verified": "verified"
+    }
+   ],
+   "era": {
+    "stage": "early hominin",
+    "why": "Fondness for companions and relaxed self-display among bonded partners, against guardedness among those one avoids, have non-verbal analogues in primate affiliation and grooming bonds; the put-down or rebuff Safety reads can be shown by display or avoidance."
+   },
+   "evidence_rank": 2,
+   "status": "provisional",
+   "approved": "Ben, 5 Nov 2026, 6.29 pm (organisational psychologist, second round: items 2 to 4)",
+   "origin": {
+    "kind": "critique",
+    "label": "Proposed by the organisational psychologist's second-round review (5 Nov 2026)"
+   },
+   "timing": {
+    "scale": "seconds",
+    "typical": "5 to 30 seconds",
+    "why": "Her fondness is already present as she meets them; it colours at once how she expects a slip or need shown among them to be met, so felt safety shifts as the company forms."
+   },
+   "edits_log": [
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines stray into Reciprocity's ground: Safety's boundary clause excludes whether a need you show gets met, yet the increment has a slip or need 'met with care' and the decrement expects 'nothing kind to come back'. Safety reads only the expected cost of showing yourself (put-down, mockery, rebuff). The explanation also rests the step from her fondness to expecting the same back on E:Belonging->Warmth, which runs the other way (being liked, so liking). The step she needs is assumed reciprocity, the documented tendency to believe that those one likes like one back (Kenny and DePaulo 1993; Kenny 1994).",
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation's last sentence misstates the loop: there is no DivsExp->OutResp card, so the card does not form a loop with Dependability through E:OutResp->Warmth directly. The loops it closes run through Reciprocity (E:DivsExp->Reciprocity, then E:Reciprocity->Warmth, or E:Reciprocity->OutResp and E:OutResp->Warmth). Tier 3 tidy of the explanation only."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am fond of them and feel their troubles as partly mine, I take it that they feel much the same towards me, so a slip, a mood or a need of mine shown among them will be met with care: my felt safety to show myself rises.",
+     "decrement_logic": "When their company is a duty and I keep my distance, I expect nothing kind to come back if I slip or show a need, so I keep my guard up among them: my felt safety to show myself falls a little.",
+     "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting care back rests on reciprocity of liking, which Model B already uses (E:Belonging->Warmth). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->DivsExp (their acceptance of her) and E:Reciprocity->DivsExp (support received). Forms a loop with Dependability through E:OutResp->Warmth; watch it for drift."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am fond of them and feel their troubles as partly mine, I take it that they feel much the same towards me, so a slip, a mood or a need of mine shown among them will draw no put-down or laugh: my felt safety to show myself rises.",
+     "decrement_logic": "When their company is a duty and I keep my distance, I cannot count on them to let a slip or a need of mine pass without a put-down, so I keep my guard up among them: my felt safety to show myself falls a little.",
+     "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->DivsExp (their acceptance of her) and E:Reciprocity->DivsExp (support received). Forms a loop with Dependability through E:OutResp->Warmth; watch it for drift."
+    }
+   ]
+  },
+  {
+   "id": "E:OutResp->Warmth",
+   "deck": "E",
+   "decks": [
+    "E"
+   ],
+   "continuum": "ECP",
+   "source": "OutResp",
+   "target": "Warmth",
+   "type": "Reinforce",
+   "name": "Counted on, cared for",
+   "increment_logic": "When I can leave the work, and my slips, in their hands and they come through, I stop watching them, spend easier time in their company and come to care how they fare: my fondness for them rises.",
+   "decrement_logic": "When I keep having to chase and redo what they took on, their company turns into watching them, and I care less how they fare: my fondness for them falls.",
+   "explanation": "Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other Model B reading, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance).",
+   "sources": [
+    {
+     "source": "McAllister 1995, AMJ 38",
+     "claim": "Cognition-based and affect-based trust distinct foundations of cooperation",
+     "url": "https://explore.psychsafety.com/n/mcallister-1995/",
+     "verified": "searched"
+    },
+    {
+     "source": "Schaubroeck, Lam and Peng 2011, JAP 96",
+     "claim": "Cognition-based trust had an indirect effect on safety through affect-based trust",
+     "url": "https://explore.psychsafety.com/n/schaubroeck-lam-peng-2011/",
+     "verified": "verified"
+    },
+    {
+     "source": "Decrement step",
+     "claim": "Having to chase and redo others' work breeds resentment of them; common sense about the cost of vigilance",
+     "url": "",
+     "verified": "proposal"
+    }
+   ],
+   "era": {
+    "stage": "early hominin",
+    "why": "Relying on others to carry their part of joint work and not exploit one's weakness, and warming to or cooling on them accordingly, has analogues in cooperative foraging, coalitions and partner choice among social primates and early humans; the keeping of spoken promises is a later overlay."
+   },
+   "evidence_rank": 3,
+   "status": "provisional",
+   "approved": "Ben, 5 Nov 2026, 6.29 pm (organisational psychologist, second round: items 2 to 4)",
+   "origin": {
+    "kind": "critique",
+    "label": "Proposed by the organisational psychologist's second-round review (5 Nov 2026)"
+   },
+   "timing": {
+    "scale": "minutes",
+    "typical": "within the work session, 10 to 30 minutes",
+    "why": "She must see a member come through, or have to chase and redo their part, over a stretch of shared work before her ease in their company and her fondness shift."
+   },
+   "edits_log": [
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation undersells its main source: McAllister (1995) himself found cognition-based trust predicted affect-based trust, in managers' ratings of peers in their organisations, so the step to peers is supported directly and need not be called an extension of a leader study.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Increment line says she leaves 'my part' in their hands. Dependability reads whether she can leave the work, their part of it, in the others' hands, and her slips as well; 'my part' misstates the source at its high level. Smallest fix: name the work."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I can leave my part and my slips in their hands and they come through, I stop watching them, spend easier time in their company and come to care how they fare: my fondness for them rises.",
+     "decrement_logic": "When I keep having to chase and redo what they took on, their company turns into watching them, and I care less how they fare: my fondness for them falls.",
+     "explanation": "Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct (McAllister 1995). In 191 teams cognition-based trust fed affect-based trust (Schaubroeck, Lam and Peng 2011; trust in the leader, so carrying it to peers is an extension). Affect-based trust is mutual care, nearer Warmth than any other Model B reading, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance)."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I can leave my part and my slips in their hands and they come through, I stop watching them, spend easier time in their company and come to care how they fare: my fondness for them rises.",
+     "decrement_logic": "When I keep having to chase and redo what they took on, their company turns into watching them, and I care less how they fare: my fondness for them falls.",
+     "explanation": "Cognition-based trust, grounded in beliefs about others' reliability, and affect-based trust, grounded in reciprocated care, are distinct, and in managers' and professionals' ratings of peers at work the first predicted the second (McAllister 1995). In 191 teams cognition-based trust in the leader likewise fed affect-based trust (Schaubroeck, Lam and Peng 2011). Affect-based trust is mutual care, nearer Warmth than any other Model B reading, but not the same as her one-way fondness, so keep the step modest. The decrement, resentment of those she must chase, rests on common sense. Distinct from E:Reciprocity->Warmth (gratitude for help returned) and E:Belonging->Warmth (liking returned for acceptance)."
+    }
+   ]
+  },
+  {
+   "id": "H:Levelling->Prestige",
+   "deck": "H",
+   "decks": [
+    "H"
+   ],
+   "continuum": "HCP",
+   "source": "Levelling",
+   "target": "Prestige",
+   "type": "Reinforce",
+   "name": "Heard, so counted",
+   "increment_logic": "When those above hear me out and weigh what I put forward by the same rules as anyone's, what I bring gets a fair showing; the others see it taken up and bring me the next problem: my sense that they turn to me for what I bring rises.",
+   "decrement_logic": "When my say is waved aside and credit goes first to their favourites, what I bring never gets a fair showing, and the next problem goes past me to someone they favour: my sense that they turn to me for what I bring falls.",
+   "explanation": "In the group engagement model, fair procedure from authorities shapes members' sense of respect, their standing within the group, which with pride carries identification and cooperation (Tyler and Blader 2003). The dual-pathway model splits respect into status and liking and finds perceived status the stronger predictor of social engagement (Huo, Binning and Molina 2010). Model B carries the inclusion pathway (H:Levelling->Belonging, Heard, so kept) but not the status pathway; that pathway maps on Esteem, deference for what she brings. Respect in those works is a felt evaluation conveyed by treatment, close to Esteem but not identical (it does not need her to be copied or sought out), so keep it moderate. Distinct from H:Status->Prestige (her rung colouring how others judge what she brings).",
+   "sources": [
+    {
+     "source": "Tyler and Blader 2003, PSPR 7",
+     "claim": "Procedures shape identity judgements of pride and respect that drive cooperation",
+     "url": "https://www.scilit.net/publications/f9401728408e254d1eedd0752fc106cf",
+     "verified": "searched"
+    },
+    {
+     "source": "Huo, Binning and Molina 2010, PSPB 36",
+     "claim": "Status and inclusion dimensions of respect; status predicted social engagement",
+     "url": "https://sites.pitt.edu/~kbinning/Huo_et_al_2010.pdf",
+     "verified": "verified"
+    }
+   ],
+   "era": {
+    "stage": "Homo sapiens",
+    "why": "The source reads being heard out and weighed by the same rules as anyone at one's rung, and the card turns on her proposals getting a fair hearing; both need talk and explicit procedure."
+   },
+   "evidence_rank": 4,
+   "status": "provisional",
+   "approved": "Ben, 5 Nov 2026, 6.29 pm (organisational psychologist, second round: items 2 to 4)",
+   "origin": {
+    "kind": "critique",
+    "label": "Proposed by the organisational psychologist's second-round review (5 Nov 2026)"
+   },
+   "timing": {
+    "scale": "minutes",
+    "typical": "within the meeting",
+    "why": "Her say must be heard or waved aside, and the next problem be brought to her or passed to a favourite, which plays out over the course of a meeting."
+   }
   }
  ]
 }
