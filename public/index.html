@@ -87,7 +87,7 @@ section.view { display: grid; gap: 22px; }
 /* network */
 .netbox { position: relative; background: radial-gradient(circle at 50% 50%, #1b1428, var(--panel) 70%); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
 .netbox svg { display: block; width: 100%; height: auto; touch-action: manipulation; }
-.netbar { position: absolute; top: 10px; left: 12px; right: 12px; display: flex; justify-content: space-between; gap: 8px; pointer-events: none; }
+.netbar { position: static; padding: 10px 12px 0; display: flex; justify-content: space-between; gap: 8px; } /* above the network, never over it (Ben, 5 Nov 2026, 5.19 pm) */
 .netbar > * { pointer-events: auto; }
 .chip { font: 500 12px var(--mono); color: var(--muted); background: color-mix(in srgb, var(--panel-2) 85%, transparent); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
 /* deck switch inside the network bar; layer switches wear their part's colour (Ben, 5 Nov 2026, 5.15 pm) */
