@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T17:54+10:30",
+  "built": "2026-11-05T17:55+10:30",
   "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -332,8 +332,8 @@
     "short": "Team Confidence",
     "shared_note": {
      "id": "GrpProsp",
-     "why_shared": "Both faces read how far you feel the group, as it now stands, can pull off the venture it has taken on and not yet finished. The venture and the question are the same in either deck, so Team Confidence is a single level. The culture's face sets only where that capability is looked for.",
-     "differences": "The egalitarian face looks for capability spread across the members, skill included, with whoever the band follows for the day among them. The hierarchical face looks to those at the top of the order: whether they can read the ground, choose the course and right it when it goes wrong.",
+     "why_shared": "Both faces read one level: how far you feel the group, as it now stands, can pull off the venture it has taken on and not yet finished. It is confidence in the group's capability for that venture, not luck, not Payoff and not Dependability. Only where that capability is looked for differs.",
+     "differences": "The egalitarian face looks to capability spread across the members, skill included, and to whoever the band follows for the day, who leads by being followed and not by command. The hierarchical face looks to those at the top of the order: whether they can read the ground, choose the course, set members to their parts and right the course.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "the group's goals"
@@ -1332,6 +1332,12 @@
     },
     "shared": true,
     "short": "Parity",
+    "shared_note": {
+     "id": "Levelling",
+     "why_shared": "Both faces read how far you feel no one in the group sets themselves over you unfairly: by force or fear, by taking more than their due and keeping it, or by tilting shares, turns, chances, hearings or the settling of quarrels towards themselves or their favourites. The level is one; the culture only sets where the threat is looked for.",
+     "differences": "The egalitarian face watches among equals for a would-be boss: someone who forces, grabs or favours their own. The hierarchical face watches those above and the order's own ways of deciding: whether they hear you, hold you to the same rules, serve favourites first, rule by threat or treat you with the courtesy your place is owed.",
+     "status": "generated from the Pillar's texts; checked faithful"
+    },
     "tag": "dominance held in check"
    },
    "DivsExp": {
@@ -1936,8 +1942,8 @@
     "short": "Reciprocity",
     "shared_note": {
      "id": "Reciprocity",
-     "why_shared": "Both faces read whether help in this group comes back: what you give is returned and what you ask for is met. That felt reading holds until evidence moves it, so Reciprocity is one level. The culture's face sets only where the return is looked for.",
-     "differences": "The egalitarian face looks to the group at large, with the return conditional on being seen to share. The hierarchical face looks to the particular partner you helped, who returns help in kind between equals, or across rank as favour and protection passed down and loyalty and service passed up.",
+     "why_shared": "Both faces read your felt sense of whether help in this group comes back: what you give is returned and what you ask for is met. It holds until evidence moves it. A switch of culture changes the face without resetting the level, so the level is one and only the place the return is looked for differs.",
+     "differences": "The egalitarian face looks to the group at large: help goes to whoever needs it, one seen to share is given to and one seen to hoard is passed over. The hierarchical face looks to particular partners who return help to each other, in kind between equals or across rank, as favour and protection for loyalty and service.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "help given and sought"
@@ -2226,8 +2232,8 @@
     "short": "Belonging",
     "shared_note": {
      "id": "Belonging",
-     "why_shared": "Both faces read how far you feel the others want you among them: whether they make room for you and draw you in, or leave you at the edge. You read it from how they treat you, so Belonging is one level. The culture's face sets only what the acceptance rests on.",
-     "differences": "The egalitarian face reads being wanted as one of their own in good standing. It does not rise or fall with output or place, though shirkers and cheats are edged out. The hierarchical face reads inclusion conditional on keeping your place, high or low, with the standing threat of being dropped.",
+     "why_shared": "Both faces read how far you feel the others want you among them: whether they make room for you and draw you in, or leave you at the edge. It is their acceptance of you, read from how they treat you. The level is one; the culture's face sets what the acceptance rests on.",
+     "differences": "The egalitarian face reads being wanted as one of their own in good standing: acceptance does not rise or fall with output or place, though a member judged to shirk, cheat or feed on the others is edged out. The hierarchical face reads being kept among them while you keep your place and do not step out of line, under the standing threat of being dropped.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "being wanted among them"
@@ -2647,8 +2653,8 @@
     "short": "Esteem",
     "shared_note": {
      "id": "Prestige",
-     "why_shared": "Both faces read how far the others defer to you freely for what you bring: they turn to you, watch and copy how you do it, bring you their problems and take your advice. That is one level, Esteem. The culture's face sets only how far the deference reaches.",
-     "differences": "The egalitarian face reads being looked to for skill, knowledge or a good eye for the venture in hand, while you stay one of them with no right to command. The hierarchical face reads deference for what the group values, reaching to being handed decisions and jobs that matter and taken at your word.",
+     "why_shared": "Both faces read how far the others defer to you freely for what you bring: they turn to you, watch and copy how you do it, bring you their problems and take your advice. The level is one deference given for what you bring; the culture's face sets how far that deference reaches.",
+     "differences": "The egalitarian face keeps the deference modest: others follow your lead on the matter in hand, but you stay one of them with no right to command, and it lasts only while what you bring does. The hierarchical face reaches further, to being handed decisions and jobs that matter and having your word taken on them.",
      "status": "generated from the Pillar's texts; checked faithful"
     },
     "tag": "deference for what I bring"
@@ -2761,6 +2767,12 @@
     "summary": "Warmth is how fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them. It is not their acceptance of you, not whether help comes back, and not how much of yourself you put into the group, which can be high even when you merely tolerate the members.",
     "summary_status": "generated from the source texts, not canon; checked faithful",
     "short": "Warmth",
+    "shared_note": {
+     "id": "Warmth",
+     "why_shared": "Both faces read how fond you feel of the members: whether you like being with them, are drawn to their company and feel their troubles as partly yours. It is your liking for them, not their acceptance of you, not whether help comes back and not your Engagement. The level is one; the faces differ in whom it spans.",
+     "differences": "The egalitarian face spans the whole membership as fellows and takes no account of anyone's place in an order. The hierarchical face asks the same of the people you deal with up and down the order, peers, patrons and those below, whatever their rank relative to yours, and not regard for their place or admiration of their worth.",
+     "status": "generated from the Pillar's texts; checked faithful"
+    },
     "tag": ""
    }
   },
