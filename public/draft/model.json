@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T18:41+10:30",
+  "built": "2026-11-05T18:46+10:30",
   "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -1380,7 +1380,7 @@
     "name": "Diverse Expression (felt safety)",
     "continuum": "ECP",
     "axis": "Expression",
-    "description": "How safe you feel to show yourself in this group: to let a slip, a mood, a need or a disagreement show, or go about things your own way, expecting no put-down, mockery or rebuff for it. It is your reading of what showing yourself will cost you, not whether you speak up, whether a need you show gets met (Reciprocity), whether your word carries weight (Esteem), whether you are wanted (Belonging), whether anyone pushes you about by force or fear or whether those who decide hear you out before a call that touches you (Parity), the verdict already held on your conduct (Repute), being openly charged or caught out before those who count (Face), your own indignation at others' departures (Rule-Keeping) or whether others would turn a weak spot of yours to their own advantage or to do you harm (Dependability).",
+    "description": "How safe you feel to show yourself in this group: to let a slip, a mood, a need or a disagreement show, or go about things your own way, expecting no put-down, mockery or rebuff for it. It is your reading of what showing yourself will cost you, not whether you speak up, whether a need you show gets met (Reciprocity), whether your word carries weight (Esteem), whether you are wanted (Belonging), whether anyone pushes you about by force or fear, whether those who decide hear you out before a call that touches you or whether those above treat you with contempt whatever you show (Parity), the verdict already held on your conduct (Repute), being openly charged or caught out before those who count (Face), your own indignation at others' departures (Rule-Keeping) or whether others would turn a weak spot of yours to their own advantage or to do you harm (Dependability).",
     "anchors": {
      "10": "You feel free to let slips, moods, needs and disagreements show as they come and to go about things your own way, expecting no one to pounce on them, laugh at them or turn away.",
      "1": "You feel that letting a slip, a mood, a plain need, a disagreement or a way of your own show would draw a put-down, so you scan faces before you move and keep your reactions masked."
@@ -1501,6 +1501,18 @@
        }
       },
       "why": "The revised Dependability now reads whether others would turn a slip, a need or a weak spot of yours against you. That sits next to Safety's ground (what showing a slip or a need will cost you), and Safety has no clause that names Dependability, so this ground is claimed twice. Edmondson (1999, 2004) separates psychological safety, the expected interpersonal cost of a risk taken in the open, from trust in particular others, which covers whether they would exploit a vulnerability (Mayer, Davis and Schoorman 1995, benevolence). Smallest fix: add the boundary. The anchors are unchanged."
+     },
+     {
+      "date": "2026-11-05",
+      "by": "Ripple round 3, 5 Nov 2026 (Ben, 11.22 am: start the ripple process)",
+      "was": {
+       "description": "How safe you feel to show yourself in this group: to let a slip, a mood, a need or a disagreement show, or go about things your own way, expecting no put-down, mockery or rebuff for it. It is your reading of what showing yourself will cost you, not whether you speak up, whether a need you show gets met (Reciprocity), whether your word carries weight (Esteem), whether you are wanted (Belonging), whether anyone pushes you about by force or fear or whether those who decide hear you out before a call that touches you (Parity), the verdict already held on your conduct (Repute), being openly charged or caught out before those who count (Face), your own indignation at others' departures (Rule-Keeping) or whether others would turn a weak spot of yours to their own advantage or to do you harm (Dependability).",
+       "anchors": {
+        "10": "You feel free to let slips, moods, needs and disagreements show as they come and to go about things your own way, expecting no one to pounce on them, laugh at them or turn away.",
+        "1": "You feel that letting a slip, a mood, a plain need, a disagreement or a way of your own show would draw a put-down, so you scan faces before you move and keep your reactions masked."
+       }
+      },
+      "why": "One piece of ground is claimed twice by Safety and the hierarchical face of Parity. That face counts 'contempt from above' as lowering Parity, and it excludes only 'the cost of showing yourself (Safety)'. Face also names contempt as Parity's ground. Safety's Parity clause covers force or fear and the hearing before a call, but it says nothing about contempt. So when a superior sneers at a member's disagreement or slip, the event could be read under either perception. The smallest fix adds contempt from above to Safety's Parity clause. The split then becomes: a put-down drawn by what you show is Safety's ground, and standing discourtesy from those above, whatever you show, is Parity's. Everything else checks out. All other boundary clauses that name Safety (Dependability, Parity on both faces, Repute, Face) agree with this text. The newly revised card X:Levelling->DivsExp ('Heard before the call') already matches the hearing clause. The definition stays close to Edmondson's (1999) team psychological safety, the shared belief that interpersonal risk-taking is safe, read here at the individual level. It is also correct to exclude voice behaviour itself ('not whether you speak up'): that literature treats safety as an antecedent of voice, not part of it."
      }
     ],
     "pre_language": {
@@ -3058,7 +3070,12 @@
     }
    ]
   },
-  "plain_names": "Plain names chosen by Ben, 5 Nov 2026, 11.54 am and 12.06 pm; the technical keys stay as ids and are shown beside the plain names."
+  "plain_names": "Plain names chosen by Ben, 5 Nov 2026, 11.54 am and 12.06 pm; the technical keys stay as ids and are shown beside the plain names.",
+  "structure_principle": {
+   "text": "In any group both decks' Pillars run, weighted by the culture and by her own preference for a steeper or flatter order; a deck marks where a Pillar is native, not where it is allowed. Hierarchy works best when augmented by peer relationships that carry the egalitarian readings (Heslop 2021, ICCRTS). A Pillar is shared, with a face per deck, only where its reading differs by mode.",
+   "by": "Ben, 5 Nov 2026, 6.34 pm (continuum principle from the HQ paper; all accepted)",
+   "source": "Heslop, B. 2021. A Joint Headquarters that Embeds Collaboration? ICCRTS 2021 (sections 1.2 and 3.2, Figures 1 and 2)."
+  }
  },
  "forces": [
   {
@@ -7088,9 +7105,9 @@
    "target": "DivsExp",
    "type": "Reinforce",
    "name": "Here to Help",
-   "increment_logic": "When what I put in comes back and what I need is met, I take it that a need or a slip shown here will be met with a hand rather than a put-down, and after a clash we make it up soon; I let my moods, needs and slips show: my felt safety to show myself rises a little.",
-   "decrement_logic": "When what I give goes into a hole and my needs go unmet, I take it that a need or a slip shown here will be left to me or held against me, and a clash stays unmended; I mask what I need and brace for a put-down: my felt safety to show myself falls.",
-   "explanation": "Rewarding co-worker relations go with higher felt psychological safety (May, Gilson and Harter 2004), and high-quality relationships, which include mutual help, predicted later safety (Carmeli, Brueller and Dutton 2009); both as reported by the reviewer, not checked here. Help that comes back is the everyday evidence that a shown need will be answered and not punished. Reconciliation stays as a secondary route after clashes: primate victims of aggression show more self-scratching and run a higher risk of renewed attack, friendly reunions reduce both (Aureli and van Schaik 1991), and reunions happen most where the relationship is valuable (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002). That evidence is dyadic, and its extension to ties with any member is the model's step. The card takes only being braced for a put-down, since fear of force is Parity's ground (E:Reciprocity->Levelling). Overlaps E:Reciprocity->Belonging plus E:Belonging->DivsExp, so play this card small where both fire.",
+   "increment_logic": "When what I put in comes back and what I need is met, I take it that a need or a slip shown here will draw no put-down or rebuff, and after a clash we make it up soon; I let my moods, needs and slips show: my felt safety to show myself rises a little.",
+   "decrement_logic": "When what I give goes into a hole and my needs go unmet, I take it that a need or a slip shown here will draw a put-down or a turned back, and a clash stays unmended; I mask what I need and brace for a put-down: my felt safety to show myself falls.",
+   "explanation": "Rewarding co-worker relations go with higher felt psychological safety (May, Gilson and Harter 2004), and high-quality relationships, measured as emotional carrying capacity, tensility and connectivity, predicted later safety (Carmeli, Brueller and Dutton 2009); both as reported by the reviewer, not checked here. Help that comes back is the everyday evidence that a shown need will be answered and not punished. Reconciliation stays as a secondary route after clashes: primate victims of aggression show more self-scratching and run a higher risk of renewed attack, friendly reunions reduce both (Aureli and van Schaik 1991), and reunions happen most where the relationship is valuable (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002). That evidence is dyadic, and its extension to ties with any member is the model's step. The card takes only being braced for a put-down, since fear of force is Parity's ground (E:Reciprocity->Levelling). Overlaps E:Reciprocity->Belonging plus E:Belonging->DivsExp, so play this card small where both fire.",
    "pre_language": {
     "increment": "When the band meets her need and gives back what she shared, she feels safe among them, and lets her slips, moods and wants show without bracing for a slap-down.",
     "decrement": "When her need goes unmet and nothing she shared comes back, she feels unprotected, masks her moods and hides even a plain want, braced to be snapped at or turned from."
@@ -7144,7 +7161,9 @@
     "Ripple round 9, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Aureli and van Schaik 1991 measure anxiety about renewed attack. In the model that fear belongs to Levelling, which DivsExp's boundary excludes. The lines correctly speak of being braced for a put-down, but the explanation does not say this is a mapping, so it reads as direct support. The card shares its reconciliation route with E:Reciprocity->Belonging, and Belonging feeds DivsExp through E:Belonging->DivsExp, so one mend can be counted twice. The framework is null; proposed (outside the schema fields): \"Post-conflict anxiety and reconciliation (Aureli and van Schaik 1991); valuable-relationships hypothesis; group-level step is an extension.\"",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and literature pass (Aureli and van Schaik 1991; Cords and Thurnheer 1993). The explanation cites cards by plain name instead of key: E:Reciprocity->Parity should be E:Reciprocity->Levelling, and E:Belonging->Safety should be E:Belonging->DivsExp.",
     "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines, type and literature (Aureli and van Schaik 1991; Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002) check out. The explanation cites two cards by plain name where card ids use keys: 'E:Reciprocity->Parity' should be E:Reciprocity->Levelling and 'E:Belonging->Safety' should be E:Belonging->DivsExp. As written, neither id exists in the model.",
-    "orgpsych-r2-minor: Lines now run mainly on help returned signalling that shown needs are met, with human co-worker evidence; primate reconciliation demoted to a secondary dyadic route. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)"
+    "orgpsych-r2-minor: Lines now run mainly on help returned signalling that shown needs are met, with human co-worker evidence; primate reconciliation demoted to a secondary dyadic route. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines let the target expectation slip into Reciprocity's ground, which Safety's boundary clause now excludes ('whether a need you show gets met'). The increment has a shown need 'met with a hand', and the decrement has it 'left to me', which is the need going unmet, so the line restates the source. In the decrement, 'held against me' also edges towards Dependability (a weak spot turned against you) and Repute. Safety's own ground is the expected put-down, mockery or rebuff, so the fix states that alone. Type, mechanism and literature (May, Gilson and Harter 2004; Carmeli, Brueller and Dutton 2009; Aureli and van Schaik 1991; Cords and Thurnheer 1993) are sound.",
+    "Ripple round 5, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines, type and boundaries pass: the increment reads Reciprocity's egalitarian face high and ends in Safety rising; the decrement mirrors it; fear of force is left to Parity and the meeting of needs stays on the source side. One overreach in the explanation: Carmeli, Brueller and Dutton (2009) measured high-quality relationships as emotional carrying capacity, tensility and connectivity (after Dutton and Heaphy 2003), not as mutual help. Tensility, a tie's capacity to bend under strain and recover, actually backs the clash-mending route better, so the smallest fix is to name the measure and drop 'which include mutual help'."
    ],
    "ripple_was": [
     {
@@ -7176,6 +7195,18 @@
      "increment_logic": "When what I put in comes back from the group, a clash with one of them does not leave me braced: we make it up soon, the fidgeting and watchfulness after it fade, and I go back to letting slips, moods and disagreements show: my felt safety to show myself rises.",
      "decrement_logic": "When what I give goes into a hole, I have no ties here worth mending, so a clash is left unmended; I stay on edge around the one I clashed with, fidget and mask my moods and disagreements, braced for a put-down: my felt safety to show myself falls.",
      "explanation": "After aggression, primate victims show more self-scratching and self-grooming and run a higher risk of renewed attack, and friendly reunions reduce both (Aureli and van Schaik 1991). Reunions happen most where the relationship is valuable (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002). That evidence is dyadic. In the egalitarian face the return comes from the group, so a member who feels help comes back counts her ties with any member as worth repairing; that step is an extension. Conflict then leaves her less braced to show herself. The primate anxiety concerns renewed attack; the card takes only its milder human counterpart, being braced for a put-down, since fear of force is Parity's ground (E:Reciprocity->Parity). The same mend also moves Belonging (E:Reciprocity->Belonging), which feeds Safety (E:Belonging->Safety), so play this card small."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When what I put in comes back and what I need is met, I take it that a need or a slip shown here will be met with a hand rather than a put-down, and after a clash we make it up soon; I let my moods, needs and slips show: my felt safety to show myself rises a little.",
+     "decrement_logic": "When what I give goes into a hole and my needs go unmet, I take it that a need or a slip shown here will be left to me or held against me, and a clash stays unmended; I mask what I need and brace for a put-down: my felt safety to show myself falls.",
+     "explanation": "Rewarding co-worker relations go with higher felt psychological safety (May, Gilson and Harter 2004), and high-quality relationships, which include mutual help, predicted later safety (Carmeli, Brueller and Dutton 2009); both as reported by the reviewer, not checked here. Help that comes back is the everyday evidence that a shown need will be answered and not punished. Reconciliation stays as a secondary route after clashes: primate victims of aggression show more self-scratching and run a higher risk of renewed attack, friendly reunions reduce both (Aureli and van Schaik 1991), and reunions happen most where the relationship is valuable (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002). That evidence is dyadic, and its extension to ties with any member is the model's step. The card takes only being braced for a put-down, since fear of force is Parity's ground (E:Reciprocity->Levelling). Overlaps E:Reciprocity->Belonging plus E:Belonging->DivsExp, so play this card small where both fire."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When what I put in comes back and what I need is met, I take it that a need or a slip shown here will draw no put-down or rebuff, and after a clash we make it up soon; I let my moods, needs and slips show: my felt safety to show myself rises a little.",
+     "decrement_logic": "When what I give goes into a hole and my needs go unmet, I take it that a need or a slip shown here will draw a put-down or a turned back, and a clash stays unmended; I mask what I need and brace for a put-down: my felt safety to show myself falls.",
+     "explanation": "Rewarding co-worker relations go with higher felt psychological safety (May, Gilson and Harter 2004), and high-quality relationships, which include mutual help, predicted later safety (Carmeli, Brueller and Dutton 2009); both as reported by the reviewer, not checked here. Help that comes back is the everyday evidence that a shown need will be answered and not punished. Reconciliation stays as a secondary route after clashes: primate victims of aggression show more self-scratching and run a higher risk of renewed attack, friendly reunions reduce both (Aureli and van Schaik 1991), and reunions happen most where the relationship is valuable (Cords and Thurnheer 1993; Aureli, Cords and van Schaik 2002). That evidence is dyadic, and its extension to ties with any member is the model's step. The card takes only being braced for a put-down, since fear of force is Parity's ground (E:Reciprocity->Levelling). Overlaps E:Reciprocity->Belonging plus E:Belonging->DivsExp, so play this card small where both fire."
     }
    ],
    "timing": {
@@ -14061,7 +14092,7 @@
    "name": "Among friends",
    "increment_logic": "When I am fond of them and feel their troubles as partly mine, I take it that they feel much the same towards me, so a slip, a mood or a need of mine shown among them will draw no put-down or laugh: my felt safety to show myself rises.",
    "decrement_logic": "When their company is a duty and I keep my distance, I cannot count on them to let a slip or a need of mine pass without a put-down, so I keep my guard up among them: my felt safety to show myself falls a little.",
-   "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->Safety (their acceptance of her) and E:Reciprocity->Safety (support received). Closes loops back to Warmth through Reciprocity (E:Safety->Reciprocity with E:Reciprocity->Warmth, or with E:Reciprocity->Dependability and E:Dependability->Warmth); watch them for drift.",
+   "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->DivsExp (their acceptance of her) and E:Reciprocity->DivsExp (support received). Closes loops back to Warmth through Reciprocity (E:DivsExp->Reciprocity with E:Reciprocity->Warmth, or with E:Reciprocity->OutResp and E:OutResp->Warmth); watch them for drift.",
    "sources": [
     {
      "source": "Carmeli, Brueller and Dutton 2009, SRBS 26",
@@ -14100,7 +14131,8 @@
    },
    "edits_log": [
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Both lines stray into Reciprocity's ground: Safety's boundary clause excludes whether a need you show gets met, yet the increment has a slip or need 'met with care' and the decrement expects 'nothing kind to come back'. Safety reads only the expected cost of showing yourself (put-down, mockery, rebuff). The explanation also rests the step from her fondness to expecting the same back on E:Belonging->Warmth, which runs the other way (being liked, so liking). The step she needs is assumed reciprocity, the documented tendency to believe that those one likes like one back (Kenny and DePaulo 1993; Kenny 1994).",
-    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation's last sentence misstates the loop: there is no DivsExp->OutResp card, so the card does not form a loop with Dependability through E:OutResp->Warmth directly. The loops it closes run through Reciprocity (E:DivsExp->Reciprocity, then E:Reciprocity->Warmth, or E:Reciprocity->OutResp and E:OutResp->Warmth). Tier 3 tidy of the explanation only."
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Lines pass. The explanation's last sentence misstates the loop: there is no DivsExp->OutResp card, so the card does not form a loop with Dependability through E:OutResp->Warmth directly. The loops it closes run through Reciprocity (E:DivsExp->Reciprocity, then E:Reciprocity->Warmth, or E:Reciprocity->OutResp and E:OutResp->Warmth). Tier 3 tidy of the explanation only.",
+    "Ripple round 4, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The lines pass. The explanation cites card ids that use plain names where ids take keys (E:Belonging->Safety, E:Reciprocity->Safety, E:Safety->Reciprocity, E:Reciprocity->Dependability, E:Dependability->Warmth), so they match no card in the model. The fix gives the proper ids only."
    ],
    "ripple_was": [
     {
@@ -14114,6 +14146,12 @@
      "increment_logic": "When I am fond of them and feel their troubles as partly mine, I take it that they feel much the same towards me, so a slip, a mood or a need of mine shown among them will draw no put-down or laugh: my felt safety to show myself rises.",
      "decrement_logic": "When their company is a duty and I keep my distance, I cannot count on them to let a slip or a need of mine pass without a put-down, so I keep my guard up among them: my felt safety to show myself falls a little.",
      "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->DivsExp (their acceptance of her) and E:Reciprocity->DivsExp (support received). Forms a loop with Dependability through E:OutResp->Warmth; watch it for drift."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When I am fond of them and feel their troubles as partly mine, I take it that they feel much the same towards me, so a slip, a mood or a need of mine shown among them will draw no put-down or laugh: my felt safety to show myself rises.",
+     "decrement_logic": "When their company is a duty and I keep my distance, I cannot count on them to let a slip or a need of mine pass without a put-down, so I keep my guard up among them: my felt safety to show myself falls a little.",
+     "explanation": "High-quality relationships predicted later psychological safety, which predicted learning behaviour (Carmeli, Brueller and Dutton 2009, 212 employed students); rewarding co-worker relations went with felt safety (May, Gilson and Harter 2004); affect-based trust, reciprocated care, carried leader effects onto team safety (Schaubroeck, Lam and Peng 2011). Those studies measure relationship quality, which includes the others' care; Warmth is her own fondness. The step from her fondness to expecting no put-down rests on assumed reciprocity: people tend to believe that those they like like them back, more than the others' actual liking warrants (Kenny and DePaulo 1993; Kenny 1994). Keep moderate, and the decrement smaller: a member who cares little for the others may still expect no put-down from them. Distinct from E:Belonging->Safety (their acceptance of her) and E:Reciprocity->Safety (support received). Closes loops back to Warmth through Reciprocity (E:Safety->Reciprocity with E:Reciprocity->Warmth, or with E:Reciprocity->Dependability and E:Dependability->Warmth); watch them for drift."
     }
    ],
    "subtitle": "Fondness makes showing yourself safe",
@@ -14238,6 +14276,86 @@
    },
    "subtitle": "A fair hearing gets you turned to",
    "summary": "Parity drives Esteem. When those above hear you out and weigh what you put forward by the same rules as anyone's, what you bring gets a fair showing, and others bring you the next problem. When your say is waved aside and credit goes to their favourites, the next problem goes past you. The link is kept moderate.",
+   "summary_status": "generated from the source texts, not canon; checked faithful"
+  },
+  {
+   "id": "X:Levelling->DivsExp",
+   "deck": "X",
+   "decks": [
+    "E",
+    "H"
+   ],
+   "continuum": "cross",
+   "source": "Levelling",
+   "target": "DivsExp",
+   "type": "Reinforce",
+   "name": "Heard before the call",
+   "increment_logic": "When those above me hear me out before a call that touches me and weigh an objection of mine instead of waving it off, I expect a slip, a doubt or a disagreement shown in front of them to draw no put-down or rebuff, and I let it show: my felt safety to show myself rises.",
+   "decrement_logic": "When calls that touch me are made over my head and an objection gets me waved off or met with a threat from above, I expect anything I let show in front of them to draw a put-down or a rebuff, so I swallow my doubts, hide my slips and keep my face set: my felt safety to show myself falls.",
+   "explanation": "Leader inclusiveness, words and acts of those in charge that invite and value others' contributions, predicts psychological safety and weakens the inhibiting effect of status differences (Nembhard and Edmondson 2006, 23 neonatal units). Managerial openness was more consistently tied to improvement-oriented voice than transformational leadership, with psychological safety carrying the link (Detert and Burris 2007). Supportive supervisor relations go with higher felt safety (May, Gilson and Harter 2004), and positive leader relations are among the meta-analytic antecedents of safety (Frazier et al. 2017). The card reads Parity's hierarchical face, the hearing and even dealing of those above. Distinct from X:Rank->Safety (her own rung) and E:Parity->Safety (fear of a coercer among equals). Where this card and the rung card fire on one scene, play the rung card smaller: inclusiveness moderates the status gap. Mostly cross-sectional evidence; keep the step moderate. A cross card: Safety is an egalitarian Pillar that keeps running in a ranked group, and this card carries the hearing of those above into it.",
+   "sources": [
+    {
+     "source": "Nembhard and Edmondson 2006, JOB 27",
+     "claim": "Leader inclusiveness predicts safety and moderates the status-safety link",
+     "url": "https://explore.psychsafety.com/n/nembhard-edmondson-2006.md",
+     "verified": "verified"
+    },
+    {
+     "source": "Detert and Burris 2007, AMJ 50",
+     "claim": "Openness more consistently related to voice",
+     "url": "https://explore.psychsafety.com/n/detert-burris-2007/",
+     "verified": "verified"
+    },
+    {
+     "source": "May, Gilson and Harter 2004, JOOP 77",
+     "claim": "Supportive supervisor relations positively associated with safety",
+     "url": "https://explore.psychsafety.com/n/may-gilson-harter-2004/",
+     "verified": "verified"
+    },
+    {
+     "source": "Frazier et al. 2017, Personnel Psychology 70",
+     "claim": "Positive leader relations among ranked antecedents of safety",
+     "url": "https://mdsoar.org/handle/11603/4275",
+     "verified": "verified"
+    }
+   ],
+   "era": {
+    "stage": "Homo sapiens",
+    "why": "The source end on its hierarchical face is a spoken hearing before a call and an objection taken under the rules of one's place, which needs talk and explicit procedure; a dominant's tolerance or threat has a primate analogue, but being heard out before a decision does not, so the card is Homo sapiens."
+   },
+   "evidence_rank": 1,
+   "status": "provisional",
+   "approved": "Ben, 5 Nov 2026, 6.34 pm (continuum principle from the HQ paper; all accepted)",
+   "origin": {
+    "kind": "critique",
+    "label": "Proposed by the organisational psychologist's second-round review (5 Nov 2026); made a cross card under the continuum principle"
+   },
+   "source_face": "H",
+   "timing": {
+    "scale": "seconds",
+    "typical": "2 to 10 seconds after the superior's response to her objection",
+    "why": "The cue is the response from above, a hearing or a wave-off and cold look, and her guard rises or eases as she reads it, before she next decides whether to let a doubt or slip show."
+   },
+   "edits_log": [
+    "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Source readings, target movement and Reinforce type all fit, and the cited mechanism (Nembhard and Edmondson 2006; Detert and Burris 2007; May, Gilson and Harter 2004; Frazier et al. 2017) matches the literature. The card does not duplicate X:Status->DivsExp or E:Levelling->DivsExp. Three small faults. (a) Both lines frame the target as whether what she shows will be 'held against me' or 'count against me'. That is a lasting verdict on her conduct, which belongs to Repute or Face. Safety reads the put-down, mockery or rebuff that showing herself may draw on the spot. (b) The explanation names the rung card 'H:Status->DivsExp', but the model's card is X:Status->DivsExp. (c) The sentence 'If Safety is not made shared, run this as X:Levelling->DivsExp with the same text' is a stale note now that the card is in deck X.",
+    "Ripple round 2, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): Type, direction, face and mechanism pass, and the card does not duplicate X:Status->DivsExp or E:Levelling->DivsExp. Three small faults. (a) Increment: 'take an objection of mine without a mark against me' reads as a held verdict or a charge on my conduct, which is Repute's or Face's ground, not Parity's. Parity's hierarchical face reads whether the objection is heard or waved off, and Parity notes that a say heard and then brushed aside, never weighed, does not raise it. (b) Decrement: 'a cold look from above' is the cue Repute names ('a cool look from someone you have dealt with'). Parity's low anchor says objecting gets you 'waved off or met with a threat'. (c) Explanation overstates Detert and Burris (2007), who found managerial openness more consistently related to voice than transformational leadership, with psychological safety mediating. They did not rank it first among all leader behaviours. Other citations check out: Nembhard and Edmondson 2006 (23 NICUs; inclusiveness moderated the status to safety link), May, Gilson and Harter 2004, and Frazier et al. 2017."
+   ],
+   "ripple_was": [
+    {
+     "type": "Reinforce",
+     "increment_logic": "When those above me hear me out before a call that touches me and take an objection of mine without a mark against me, I expect a slip, a doubt or a disagreement shown in front of them to be heard rather than held against me, and I let it show: my felt safety to show myself rises.",
+     "decrement_logic": "When calls that touch me are made over my head and an objection gets me waved off or a cold look from above, I expect anything I let show in front of them to count against me, so I swallow my doubts, hide my slips and keep my face set: my felt safety to show myself falls.",
+     "explanation": "Leader inclusiveness, words and acts of those in charge that invite and value others' contributions, predicts psychological safety and weakens the inhibiting effect of status differences (Nembhard and Edmondson 2006, 23 neonatal units). Managerial openness is the leader behaviour most consistently tied to improvement-oriented voice (Detert and Burris 2007). Supportive supervisor relations go with higher felt safety (May, Gilson and Harter 2004), and positive leader relations are among the meta-analytic antecedents of safety (Frazier et al. 2017). The card reads Parity's hierarchical face, the hearing and even dealing of those above. Distinct from H:Status->DivsExp (her own rung) and E:Levelling->DivsExp (fear of a coercer among equals). Where this card and the rung card fire on one scene, play the rung card smaller: inclusiveness moderates the status gap. Mostly cross-sectional evidence; keep the step moderate. If Safety is not made shared, run this as X:Levelling->DivsExp with the same text. A cross card: Safety is an egalitarian Pillar that keeps running in a ranked group, and this card carries the hearing of those above into it."
+    },
+    {
+     "type": "Reinforce",
+     "increment_logic": "When those above me hear me out before a call that touches me and take an objection of mine without a mark against me, I expect a slip, a doubt or a disagreement shown in front of them to draw no put-down or rebuff, and I let it show: my felt safety to show myself rises.",
+     "decrement_logic": "When calls that touch me are made over my head and an objection gets me waved off or a cold look from above, I expect anything I let show in front of them to draw a put-down or a rebuff, so I swallow my doubts, hide my slips and keep my face set: my felt safety to show myself falls.",
+     "explanation": "Leader inclusiveness, words and acts of those in charge that invite and value others' contributions, predicts psychological safety and weakens the inhibiting effect of status differences (Nembhard and Edmondson 2006, 23 neonatal units). Managerial openness is the leader behaviour most consistently tied to improvement-oriented voice (Detert and Burris 2007). Supportive supervisor relations go with higher felt safety (May, Gilson and Harter 2004), and positive leader relations are among the meta-analytic antecedents of safety (Frazier et al. 2017). The card reads Parity's hierarchical face, the hearing and even dealing of those above. Distinct from X:Status->DivsExp (her own rung) and E:Levelling->DivsExp (fear of a coercer among equals). Where this card and the rung card fire on one scene, play the rung card smaller: inclusiveness moderates the status gap. Mostly cross-sectional evidence; keep the step moderate. A cross card: Safety is an egalitarian Pillar that keeps running in a ranked group, and this card carries the hearing of those above into it."
+    }
+   ],
+   "subtitle": "Being heard makes speaking up safe",
+   "summary": "When people above hear me out before a call that touches me, and weigh my objection fairly, I expect that showing a doubt or slip in front of them will not be punished. Parity in its hierarchical face, the hearing and even dealing of those above, therefore raises my sense of Safety to show myself. Being shut out or threatened lowers it.",
    "summary_status": "generated from the source texts, not canon; checked faithful"
   }
  ]
