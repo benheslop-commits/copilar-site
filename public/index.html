@@ -99,6 +99,10 @@ section.view { display: grid; gap: 22px; }
 .node-label { font: 600 13px var(--display); fill: var(--fg); paint-order: stroke; stroke: var(--bg); stroke-width: 4px; pointer-events: none; }
 .node-sub { font: 500 9.5px var(--mono); fill: var(--muted); letter-spacing: .06em; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; pointer-events: none; }
 .edge { fill: none; stroke-width: 2; opacity: .42; transition: opacity .25s, stroke-width .2s; cursor: pointer; }
+/* on selection each force glows by deck: purple egalitarian, yellow hierarchical, blue across (Ben, 5 Nov 2026, 4.58 pm) */
+.edge-glow { fill: none; stroke-width: 11; stroke-linecap: round; opacity: 0; pointer-events: none; transition: opacity .25s; }
+g[data-deck=E] .edge-glow { stroke: #c58bff; } g[data-deck=H] .edge-glow { stroke: #f2b84b; } g[data-deck=X] .edge-glow { stroke: #5aa9ff; }
+g:has(.shaft.on) .edge-glow { opacity: .3; }
 .edge-hit { fill: none; stroke: transparent; stroke-width: 14; cursor: pointer; }
 .edge.dim { opacity: .05; }
 .edge.chev { stroke-width: 2.2; stroke-dasharray: none !important; animation: none !important; stroke-linecap: round; stroke-linejoin: round; }
@@ -108,6 +112,8 @@ g.bg:not(:has(.edge.on)) .edge-hit, g.bg:not(:has(.edge.on)) .edge, g:has(.edge.
 .edge.on { opacity: .95; stroke-width: 2.6; }
 .edge.hover { opacity: 1; stroke-width: 3.4; }
 
+.facetag { font: 500 10px var(--mono); letter-spacing: .04em; text-transform: uppercase; padding: 1px 6px; border-radius: 999px; margin-left: 4px; }
+.facetag.E { color: #c58bff; background: #c58bff22; } .facetag.H { color: #f2b84b; background: #f2b84b22; }
 .face-seg { display: flex; gap: 6px; margin: 4px 0 10px; }
 .face-seg button { font: 500 12px var(--mono); color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
 .face-seg button[aria-selected=true] { color: var(--fg); background: color-mix(in srgb, var(--accent, #b46cff) 22%, transparent); border-color: transparent; }
