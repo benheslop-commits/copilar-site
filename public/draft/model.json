@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T15:37+10:30",
+  "built": "2026-11-05T15:39+10:30",
   "footer": "CoPILAR, in development (provisional). Model text is generated from canon_draft/ by site/build.py. Pillar texts await Ben Heslop's approval; cards are provisional. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
