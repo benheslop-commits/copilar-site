@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-05T15:19+10:30",
+  "built": "2026-11-05T15:30+10:30",
   "footer": "CoPILAR, in development (provisional). Model text is generated from canon_draft/ by site/build.py. Pillar texts await Ben Heslop's approval; cards are provisional. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -125,7 +125,10 @@
       "anchors": {
        "10": "You feel sure the group, as it stands, can pull off what it has set itself; the venture looks well within its reach.",
        "1": "You feel sure the group, as it stands, cannot pull off what it has set itself; the venture looks beyond it."
-      }
+      },
+      "subtitle": "Can the group pull this off?",
+      "summary": "Team Confidence, egalitarian face, is how far you feel the group as it now stands can finish the venture it has agreed to take on. It rests on the capability spread across its members, their skill included. It is not luck, not your own Payoff, not Dependability, and not a general sense that the group is strong.",
+      "summary_status": "generated from the face's description, not canon; checked faithful"
      },
      "H": {
       "label": "Confidence in those who steer",
@@ -136,7 +139,10 @@
       },
       "pre_language": {
        "core": "A felt sense, before any words, that the ones in front know where to take the band: the troop's readiness to rise and follow when the lead animal moves off, as subordinate chacma baboons follow the dominant male's foraging moves even at a cost to themselves (King et al. 2008), against hanging back, lagging or drifting off when the lead's moves have come to nothing. Read with care: in King's troops the closest followers were the leader's grooming partners, so following rests on ties as well as on any reading of where he leads; and in olive baboons movement is settled among many initiators and the dominant is not simply followed (Strandburg-Peshkin et al. 2015), so the form belongs to despotic orders. Intimates read it from how she meets a call from the top: moving with it at once, eyes on the task, or a pause, a glance at the others and a slow, half-hearted start; and, if she is at the front herself, from a sure, unhurried move off against a false start and a look back."
-      }
+      },
+      "subtitle": "Trust in the leaders' steering",
+      "summary": "Team Confidence, hierarchical face, is how far you feel those at the top can steer the group through the venture it has taken on. It judges their competence to direct this venture only. It is not whether they push people about (Fair Footing), your Rank, Esteem, Payoff or Dependability. A well-meaning leader out of their depth rates low.",
+      "summary_status": "generated from the face's description, not canon; checked faithful"
      }
     },
     "shared": true,
@@ -884,7 +890,10 @@
        "core": "Food handed over on demand within the band, with the return coming from whoever next has a surplus; those who hide food lose standing and are passed over. Intimates read it as a sign in her behaviour: whether she hands her surplus to anyone who asks and asks anyone who has, or holds back from both."
       },
       "engagement": "Where you feel that the norm of IndRecip is strong because the group can adapt to challenges smoothly by moving effort to where it is most urgently needed, without needing to debate or cajole, and there is joy in feeling part of collective endeavour where no one prioritises self-interest or their own immediate tasking.",
-      "status": "Tightened 3 Nov 2026; provisional"
+      "status": "Tightened 3 Nov 2026; provisional",
+      "subtitle": "The group pays you back",
+      "summary": "Give-and-Take, egalitarian face, is whether the group at large pays back what you put into it. Help goes to whoever needs it, and the return can come from any member, not only the one helped. It depends on being known as a sharer, not on a tally. Known hoarders are passed over.",
+      "summary_status": "generated from the face's description, not canon; checked faithful"
      },
      "H": {
       "label": "Return from the partner",
@@ -897,7 +906,10 @@
        "core": "Grooming returned by the one groomed and support in fights traded between the same two (Schino and Aureli 2008; Schino 2007), with asymmetric exchange across rank: tolerance and protection down, support and deference up. Intimates read it as a sign in her behaviour: whether she keeps giving to those who gave to her and turns from those who did not."
       },
       "engagement": "Where you feel that the norm of DirRecip is strong because the group can adapt to challenges smoothly by moving effort to where it is most urgently needed, by trusting each other's word (assuming there are favours that each can do for each other); there is joy in feeling part of an endeavour where promises to return favours are always kept, and your efforts end up being recognised and returned; this version of trust is more honouring a deal, rather than being trusted to carry out tasks reliably (as per IncResp and OutResp).",
-      "status": "Tightened 3 Nov 2026; provisional"
+      "status": "Tightened 3 Nov 2026; provisional",
+      "subtitle": "Your partners return your help",
+      "summary": "Give-and-Take, hierarchical face, is whether your particular partners pay you back. Help flows between partners who return it to each other, in kind between equals, or across rank as favour and protection passed down and loyalty and service passed up. It is not where you stand (Rank) or whether partners do their part of the shared work (Dependability).",
+      "summary_status": "generated from the face's description, not canon; checked faithful"
      }
     },
     "gloss": "Help given here comes back",
@@ -1205,7 +1217,10 @@
        "core": "Let into the huddle after a failed hunt as readily as after a good one, so long as she still pulls with the band; the one who shirks, cheats or feeds on the others is edged out, however able."
       },
       "engagement": "Where you feel comfortable and accepted by the group members, who 'have your back' and will support you in the event of any difficulties, and where you enjoy the power of influence (informal leadership).",
-      "status": "Tightened 3 Nov 2026; provisional"
+      "status": "Tightened 3 Nov 2026; provisional",
+      "subtitle": "Wanted as a member in good standing",
+      "summary": "Belonging, egalitarian face, is feeling that the others want you among them as one of their own, so long as you pull with the group and do not feed on it. It does not rise or fall with your output or any place in an order. A member who shirks or cheats is edged out.",
+      "summary_status": "generated from the face's description, not canon; checked faithful"
      },
      "H": {
       "label": "Included while you keep your place",
@@ -1218,7 +1233,10 @@
        "core": "Kept in the group, at whatever rank she holds, for as long as she does what her place calls for; the moment she oversteps, the others turn on her or shut her out, and she feels the edge of that long before it happens."
       },
       "engagement": null,
-      "status": "Tightened 3 Nov 2026; provisional"
+      "status": "Tightened 3 Nov 2026; provisional",
+      "subtitle": "Included while you keep your place",
+      "summary": "Belonging, hierarchical face, is feeling that the others keep you among them as long as you keep to what your place in the order calls for, high or low. The acceptance is real but depends on keeping the place, not on the place itself (Rank). You read it from how they treat you and from the standing threat of being dropped.",
+      "summary_status": "generated from the face's description, not canon; checked faithful"
      }
     },
     "gloss": "How far the others want you among them",
