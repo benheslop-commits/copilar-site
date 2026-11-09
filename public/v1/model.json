@@ -2,7 +2,7 @@
  "meta": {
   "label": "ComPILAR V1, published model",
   "source": "canon",
-  "built": "2026-11-09T13:24+10:30",
+  "built": "2026-11-09T13:38+10:30",
   "footer": "ComPILAR V1, published model. In Ben Heslop's wording. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {
    "pillar_status": "V1, published model",
