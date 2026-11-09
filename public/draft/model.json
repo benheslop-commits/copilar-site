@@ -2,7 +2,7 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-09T17:40+10:30",
+  "built": "2026-11-09T17:41+10:30",
   "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
@@ -4978,7 +4978,64 @@
     "logic": "pass"
    },
    "framework": "Common sense on her own reading of play, masking and pressing needs; shared laughter (Kurtz and Algoe 2015; Davila Ross et al. 2009), emotion suppression and disclosure, and excessive reassurance seeking (Starr and Davila 2008) bear on the others' response and belong to the scene.",
-   "sources": [],
+   "sources": [
+    {
+     "source": "Newheiser, A.-K., & Barreto, M. (2014). Hidden costs of hiding stigma: Ironic interpersonal consequences of concealing a stigmatized identity in social interactions. Journal of Experimental Social Psychology, 52, 58-70.",
+     "claim": null,
+     "url": "https://ore.exeter.ac.uk/articles/journal_contribution/Hidden_Costs_of_Hiding_Stigma_Ironic_Interpersonal_Consequences_of_Concealing_a_Stigmatized_Identity_in_Social_Interactions/29706647",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Chervonsky, E., & Hunt, C. (2017). Suppression and expression of emotion in social and interpersonal outcomes: A meta-analysis. Emotion, 17(4).",
+     "claim": null,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28080085",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Impett et al.-type daily-life series: Suppression and expression in daily interactions (four experience-sampling and longitudinal studies with internal meta-analysis). Emotion, 2018.",
+     "claim": null,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/28569538/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Butler, E. A., Egloff, B., Wilhelm, F. H., Smith, N. C., Erickson, E. A., & Gross, J. J. (2003). The social consequences of expressive suppression. Emotion, 3(1), 48-67.",
+     "claim": null,
+     "url": "https://contextualscience.org/publications/social_consequences_expressive_suppression",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Collins, N. L., & Miller, L. C. (1994). Self-disclosure and liking: A meta-analytic review. Psychological Bulletin, 116(3), 457-475.",
+     "claim": null,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/7809308/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Kurtz, L. E., & Algoe, S. B. (2015). Putting laughter in context: Shared laughter as behavioral indicator of relationship well-being. Personal Relationships, 22(4).",
+     "claim": null,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26957946/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Starr, L. R., & Davila, J. (2008). Excessive reassurance seeking, depression, and interpersonal rejection: A meta-analytic review. Journal of Abnormal Psychology, 117(4), 762-775.",
+     "claim": null,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19025224/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Davila Ross, M., Owren, M. J., & Zimmermann, E. (2009). Reconstructing the evolution of laughter in great apes and humans. Current Biology, 19(13), 1106-1111.",
+     "claim": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2889984",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    }
+   ],
    "edits_log": [
     "5 Nov 2026: Ben approved, 5 Nov 2026, 11.22 am (comparative psychologist's critique, docs/v3/sc-critique/): Framework was null; circumstance two (a run of needs becoming a burden) has support.",
     "Ripple round 1, 5 Nov 2026 (Ben, 11.22 am: start the ripple process): The Discretionary type is right, because the two circumstances flip the direction. Circumstance one has nothing to back it in the literature, though it has support: suppressing expression lowers partners' rapport and their wish to affiliate (Butler et al. 2003), and disclosure draws liking (Collins and Miller 1994). In circumstance two, the LOW branch describes a slow change ('the wariness that had been growing towards me fades, they warm to me again') that cannot happen within minutes of a cue, and it overstates the gain from masking: per Butler et al., masking itself costs closeness. The fix narrows that branch to a quick felt reaction: the edging away stops and she is let back in.",
@@ -5206,7 +5263,64 @@
     "pending_removal": false,
     "by": "evidence search for items added since 6 Nov, 9 Nov 2026"
    },
-   "sources": []
+   "sources": [
+    {
+     "source": "Edmondson, A. (1999). Psychological safety and learning behavior in work teams. Administrative Science Quarterly, 44(2), 350-383.",
+     "claim": null,
+     "url": "https://journals.sagepub.com/doi/10.2307/2666999",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Frazier, M. L., Fainshmidt, S., Klinger, R. L., Pezeshkan, A., & Vracheva, V. (2017). Psychological safety: A meta-analytic review and extension. Personnel Psychology, 70, 113-165.",
+     "claim": null,
+     "url": "https://digitalcommons.odu.edu/management_fac_pubs/13/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Sanner, B., & Bunderson, J. S. (2015). When feeling safe isn't enough: Contextualizing models of safety and learning in teams. Organizational Psychology Review, 5(3), 224-243.",
+     "claim": null,
+     "url": "https://explore.psychsafety.com/n/sanner-bunderson-2015.md",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Newman, A., Donohue, R., & Eva, N. (2017). Psychological safety: A systematic review of the literature. Human Resource Management Review, 27(3), 521-535.",
+     "claim": null,
+     "url": "https://explore.psychsafety.com/n/newman-donohue-eva-2017/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Majid, Zettinig & Mockaitis (2021). Psychological safety and learning behaviors in virtual work environments (work-in-progress paper).",
+     "claim": null,
+     "url": "https://research.utu.fi/converis/portal/detail/Publication/66457741?lang=en_US",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Longitudinal study of 71 automotive change-management teams on team potency and team effectiveness (found via search; citation not captured).",
+     "claim": null,
+     "url": "https://zendy.io/title/10.1348/096317902167685",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Deng, Leung, Lam & Huang (2019) on psychological safety climate and a strawman operationalisation (as discussed in a critique on the Field Guide).",
+     "claim": null,
+     "url": "https://explore.psychsafety.com/n/deng-leung-lam-huang-2019/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Google Project Aristotle (Google People Analytics, from 2012; press coverage).",
+     "claim": null,
+     "url": "https://weforum.org/agenda/2016/03/googles-secret-to-building-a-better-team",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    }
+   ]
   },
   {
    "id": "E:DivsExp->Levelling",
@@ -9699,7 +9813,64 @@
     "pending_removal": false,
     "by": "evidence search for items added since 6 Nov, 9 Nov 2026"
    },
-   "sources": []
+   "sources": [
+    {
+     "source": "LePine, Piccolo, Jackson, Mathieu and Saul. A meta-analysis of teamwork processes: tests of a multidimensional model and relationships with team effectiveness criteria. Personnel Psychology",
+     "claim": null,
+     "url": "https://stars.library.ucf.edu/scopus2000/10506",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Podsakoff, Whiting, Podsakoff and Blume. Individual- and organizational-level consequences of organizational citizenship behaviors: a meta-analysis. Journal of Applied Psychology 94(1):122-141",
+     "claim": null,
+     "url": "https://experts.arizona.edu/en/publications/individual-and-organizational-level-consequences-of-organizationa/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Nielsen, Hrivnak and Shaw. Organizational citizenship behavior and performance: a meta-analysis of group-level research. Small Group Research 40(5)",
+     "claim": null,
+     "url": "https://research.bond.edu.au/en/publications/organizational-citizenship-behavior-and-performance-a-meta-analys/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Barnes, Hollenbeck, Wagner, DeRue, Nahrgang and Schwind. Harmful help: the costs of backing-up behavior in teams. Journal of Applied Psychology 93(3):529-539",
+     "claim": null,
+     "url": "https://iro.uiowa.edu/esploro/outputs/journalArticle/Harmful-Help-The-Costs-of-Backing-Up/9984406150502771",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Stajkovic, Lee and Nyberg. Collective efficacy, group potency, and group performance: meta-analyses of their relationships, and test of a mediation model. Journal of Applied Psychology 94(3)",
+     "claim": null,
+     "url": "https://data.gesis.org/gesiskg/resource/zis-StajkovicLeeNyberg2009Collective",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Gully, Incalcaterra, Joshi and Beaubien. A meta-analysis of team-efficacy, potency, and performance: interdependence and level of analysis as moderators. Journal of Applied Psychology 87(5)",
+     "claim": null,
+     "url": "https://pure.psu.edu/en/publications/a-meta-analysis-of-team-efficacy-potency-and-performance-interdep/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Does backing up behavior explain the efficacy-performance relationship in teams? (Bilkent repository record; authors and journal to be confirmed)",
+     "claim": null,
+     "url": "https://repository.bilkent.edu.tr/items/8aaabb2b-7d1c-49cf-a427-21aa077d0d05",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Hawkes et al. / Gurven. Gurven M. To give and to give not: the behavioral ecology of human food transfers. Behavioral and Brain Sciences 27",
+     "claim": null,
+     "url": "https://gurven.anth.ucsb.edu/sites/secure.lsit.ucsb.edu.anth.d7_gurven/files/sitefiles/papers/gurvenBES2004.pdf",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    }
+   ]
   },
   {
    "id": "E:Reciprocity->Levelling",
@@ -12440,7 +12611,64 @@
     "pending_removal": false,
     "by": "evidence search for items added since 6 Nov, 9 Nov 2026"
    },
-   "sources": []
+   "sources": [
+    {
+     "source": "Henrich, J., and Gil-White, F. J. The evolution of prestige: freely conferred deference as a mechanism for enhancing the benefits of cultural transmission. Evolution and Human Behavior 22(3), 165-196",
+     "claim": null,
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11384884/",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Cheng, J. T., Tracy, J. L., Foulsham, T., Kingstone, A., and Henrich, J. Two ways to the top: evidence that dominance and prestige are distinct yet viable avenues to social rank and influence. Journal of Personality and Social Psychology 104(1), 103-125",
+     "claim": null,
+     "url": "https://coevolution.fas.harvard.edu/publications/two-ways-top-evidence-dominance-and-prestige-are-distinct",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Redhead, D., Cheng, J. T., Driver, C., Foulsham, T., and O'Gorman, R. On the dynamics of social hierarchy: a longitudinal investigation of the rise and fall of prestige, dominance, and social rank in naturalistic task groups. Evolution and Human Behavior 40, 222-234",
+     "claim": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6549959",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Replication-extension of Cheng et al. (2013) in established non-student groups, Royal Society Open Science 6:181621",
+     "claim": null,
+     "url": "https://royalsocietypublishing.org/doi/10.1098/rsos.181621",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "von Rueden, C., Gurven, M., and Kaplan, H. The multiple dimensions of male social status in an Amazonian society. Evolution and Human Behavior 29(6), 402-415",
+     "claim": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2598750",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Anderson, C., and Kilduff, G. J. Why do dominant personalities attain influence in face-to-face groups? The competence-signaling effects of trait dominance. Journal of Personality and Social Psychology 96(2), 491-503",
+     "claim": null,
+     "url": "https://doi.org/10.1037/a0014201",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Yuan et al., advice network features predict promotion and turnover (reviewed in Computational Socioeconomics, arXiv 1905.06166)",
+     "claim": null,
+     "url": "https://arxiv.org/pdf/1905.06166",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Li et al. (2020), humility, leader-member exchange and employee advice network centrality, Human Resource Management",
+     "claim": null,
+     "url": "https://zendy.io/title/10.1002/hrm.22025",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    }
+   ]
   },
   {
    "id": "H:Prestige->Reciprocity",
@@ -12945,7 +13173,64 @@
     "pending_removal": false,
     "by": "evidence search for items added since 6 Nov, 9 Nov 2026"
    },
-   "sources": []
+   "sources": [
+    {
+     "source": "Schino G. Grooming and agonistic support: a meta-analysis of primate reciprocal altruism. Behavioral Ecology 18:115-120",
+     "claim": null,
+     "url": "https://istc.cnr.it/en/node/71172",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Schino G, Aureli F. Grooming reciprocation among female primates: a meta-analysis. Biology Letters 4:9-11",
+     "claim": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2412934",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Jaeggi AV, Gurven M. Reciprocity explains food sharing in humans and other primates independent of kin selection and tolerated scrounging: a phylogenetic meta-analysis. Proc R Soc B 280:20131615",
+     "claim": null,
+     "url": "https://phys.org/news/2013-08-humans-apes-monkeys-generosity.html",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Majolo B, Schino G, Aureli F. The relative prevalence of direct, indirect and generalised reciprocity in macaque grooming exchanges. Animal Behaviour",
+     "claim": null,
+     "url": "https://istc.cnr.it/it/node/74154",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Gomes CM, Boesch C. Wild chimpanzees exchange meat for sex on a long-term basis. PLoS ONE 4:e5116",
+     "claim": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2663035",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "de Waal FBM. Food sharing and reciprocal obligations among chimpanzees. J Human Evolution 18:433-459",
+     "claim": null,
+     "url": "https://refinementdatabase.org/publications/food-sharing-and-reciprocal-obligations-among-chimpanzees",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Seyfarth RM. A model of social grooming among adult female monkeys. J Theor Biol 65:671-698",
+     "claim": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1689832",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Kurtessis JN, Eisenberger R, Ford MT, Buffardi LC, Stewart KA, Adis CS. Perceived organizational support: a meta-analytic evaluation of organizational support theory. J Management 43:1854-1884",
+     "claim": null,
+     "url": "https://bauer.uh.edu/workingfamilies/research/Kurtessis-Eisenberger-et-al.pdf",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    }
+   ]
   },
   {
    "id": "H:Status->Belonging",
@@ -13478,7 +13763,57 @@
     "pending_removal": false,
     "by": "evidence search for items added since 6 Nov, 9 Nov 2026"
    },
-   "sources": []
+   "sources": [
+    {
+     "source": "Majolo, Lehmann, de Bortoli Vizioli & Schino. Fitness-related benefits of dominance in primates. American Journal of Physical Anthropology 147:652-660",
+     "claim": null,
+     "url": "https://doi.org/10.1002/ajpa.22031",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Kokko & Johnstone. Social queuing in animal societies: a dynamic model of reproductive skew. Proceedings of the Royal Society B 266:571-578",
+     "claim": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1689809",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "von Rueden & Jaeggi. Men's status and reproductive success in 33 nonindustrial societies: effects of subsistence, marriage system, and reproductive strategy. PNAS 113:10824-10829",
+     "claim": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5047206",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Snyder-Mackler et al. Social status alters immune regulation and response to infection in macaques. Science 354:1041-1045",
+     "claim": null,
+     "url": "https://doi.org/10.1126/science.aah3580",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Anderson & Kilduff. Why do dominant personalities attain influence in face-to-face groups? The competence-signaling effects of trait dominance. Journal of Personality and Social Psychology 96:491-503",
+     "claim": null,
+     "url": "https://escholarship.org/content/qt5zz0q2r0/qt5zz0q2r0.pdf",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Minniti. Status-enabled optimism (University of Chicago MA thesis, three online experiments)",
+     "claim": null,
+     "url": "https://knowledge.uchicago.edu/record/12086?ln=en",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    },
+    {
+     "source": "Altmann. A field study of the sociobiology of rhesus monkeys, Macaca mulatta. Annals of the New York Academy of Sciences 102:338-435; Cowlishaw & Dunbar. Dominance rank and mating success in male primates. Animal Behaviour 41:1045-1056",
+     "claim": null,
+     "url": "",
+     "verified": "searched (found; abstract or summary only)",
+     "added": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    }
+   ]
   },
   {
    "id": "H:GrpProsp->NormExp",
