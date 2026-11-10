@@ -2,8 +2,8 @@
  "meta": {
   "label": "CoPILAR, in development (provisional)",
   "source": "canon_draft",
-  "built": "2026-11-09T17:41+10:30",
-  "footer": "CoPILAR, in development (provisional). Pillar texts and cards are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
+  "built": "2026-11-10T14:09+10:30",
+  "footer": "CoPILAR, in development (provisional). Pillar texts and forces are provisional while the model is developed. Synthetic reviews and simulated games show plausibility only. They generate hypotheses for human testing; they do not test the model.",
   "fallback": {}
  },
  "pillars": {
@@ -414,7 +414,7 @@
      "common_sense": "The exclusions (not luck, not Payoff, not Dependability, not general group strength) and 'yourself included if you are there' are definitional boundaries, safe because they only partition the model's own perceptions. The intimate signs (forward-leaning and in step against hesitant and watchful; moving at once against a pause and a glance) are ordinary observation of confidence. 'A well-meaning leader out of their depth rates low; a hard one who knows the way rates high' follows from defining the H face as competence only. The H face's location of confidence in the top rests on Dirks 2000 (supports) and Chen and Bliese 2002 (supports), with Meindl et al. 1985 (partly) as the caution; the E face's capability spread across members rests on Melis et al. 2006 (supports) and leaders who lead by being followed on von Rueden et al. 2014 (supports)."
     },
     "evidence": {
-     "grade": "provisional",
+     "grade": "supported",
      "dimensions": {
       "replication": "some (two meta-analyses, possibly overlapping, both without any publication-bias test)",
       "directness": "direct (member surveys of team capability; Gully et al. code efficacy as task-specific perceptions of team capability)",
@@ -426,7 +426,9 @@
      "caveat": "Both meta-analyses are bias-unchecked (no funnel, fail-safe N, trim-and-fill, Egger or selection-model test) and not preregistered, so their agreement supports the reading but does not by itself carry substantiated.",
      "pending_removal": false,
      "by": "evidence search, 6 Nov 2026",
-     "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+     "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+     "supported_why": "Two meta-analyses of member surveys about team capability (Stajkovic, Lee and Nyberg 2009; Gully et al. 2002) directly measure the felt reading and agree on a moderate positive association. Neither is bias-checked, their pools overlap and direction is untested, so the grade stops short of substantiated.",
+     "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
     },
     "short": "Team Confidence",
     "shared_note": {
@@ -2271,7 +2273,7 @@
      "common_sense": "Mood as one of the things shown (Edmondson's construct covers mistakes, problems, asking for help and being different, not mood by name): safe, since a mood is one more thing someone might mask for fear of a put-down. The loose-versus-braced body contrast as the felt sign: safe, a familiar reading of ease and wariness. The exclusions from Esteem, Belonging, Parity, Repute, Face and Rule-Keeping are model boundaries and fit the other items' texts."
     },
     "evidence": {
-     "grade": "provisional",
+     "grade": "supported",
      "dimensions": {
       "replication": "some (Frazier et al. 2017: published versus unpublished moderator only, inflation for performance and citizenship outcomes, no correction; Sanner and Bunderson 2015: no bias test; no registered or multi-lab test)",
       "directness": "direct (member surveys of psychological safety count as each member's felt reading, Ben 7 Nov 2026)",
@@ -2283,7 +2285,9 @@
      "caveat": "Pooled safety correlations are corrected for unreliability only, are mostly cross-sectional and same-source, and show published-study inflation for some outcomes; treat them as upper bounds.",
      "pending_removal": false,
      "by": "evidence search, 6 Nov 2026",
-     "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+     "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+     "supported_why": "Meta-analyses of member psychological safety surveys (Frazier et al. 2017; Sanner and Bunderson 2015) give direct, pooled evidence of the felt reading. It falls short of substantiated because the data are cross-sectional and same-source, show published-study inflation without correction, and the separation from trust is argued only.",
+     "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
     },
     "framework": "Evidence boundaries. The era rests on the relaxed against braced bearing among fellows; the claim that subordinate primates suppress displays near dominants is withdrawn, since the search did not support it (the bared-teeth display is a signal sent upward, not one withheld). The Pillar is the member's own reading, whereas the evidence is mostly a team-aggregate belief measured cross-sectionally. Its link to learning and performance depends on task demands and accountability (Sanner and Bunderson 2015; Higgins et al. 2022). Its separation from trust and leader support rests on conceptual argument more than discriminant tests. The exploitation clause (a weak spot turned against you) has no direct evidence yet and is common sense.",
     "short": "Safety",
@@ -3775,7 +3779,7 @@
      "common_sense": "Being shown up as clumsy or mistaken lowers Esteem: safe, since deference that tracks skill (Henrich and Gil-White 2001, partly) falls when skill is shown wanting. Esteem fading when what you bring fades, with settled precedence passing to Rank: safe, and consistent with prestige as freely conferred. E face's 'no right to command' and 'kept modest': safe, backed in part by Lee 1969 (the provider's meat disparaged) and the prestige-dominance distinction (Henrich and Gil-White 2001; Cheng et al. 2013). The will-not-skill boundary with Repute rests on Delton et al. 2012 (partly) in the Repute item."
     },
     "evidence": {
-     "grade": "provisional",
+     "grade": "supported",
      "dimensions": {
       "replication": "weak (one preregistered conceptual replication of Cheng et al. 2013 in established community groups, Brand and Mesoudi 2019, single site; Jimenez and Mesoudi 2019 count no adult copying test as replicated; no registered report, multi-lab study or bias-corrected meta-analysis)",
       "directness": "direct (rated prestige, liking and nomination as a learning model in real groups; copying in lab tasks)",
@@ -3787,7 +3791,9 @@
      "pending_removal": false,
      "by": "evidence search, 6 Nov 2026",
      "caveat": "Brand and Mesoudi model prestige as the outcome of influence, liking and learning-model status, so the direction 'prestige brings deference' is the model's reading of an association rated by the same people at the same time.",
-     "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+     "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+     "supported_why": "Cheng et al. 2013 and the preregistered conceptual replication by Brand and Mesoudi 2019 directly measure rated prestige in groups and find it separable from dominance and tied to liking, consistent across social psychology and cultural evolution. It stays short of substantiated because the evidence is same-source and cross-sectional, comes from a single site and is not bias-corrected, and adult copying evidence is mixed (Jimenez and Mesoudi 2019).",
+     "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
     },
     "short": "Esteem",
     "shared_note": {
@@ -4130,7 +4136,7 @@
    "exit": "Exit rule, kept outside the Engagement level (accepted from the engagement review, round 1). Outside options are a scene state, \"Outside options\": good or poor, and whether leaving is cheap. Options never change E. Keep the last three changes to E. At level 1 (E < 3): where her options are good or leaving is cheap, she leaves or plans to leave (the scene decides which); where her options are poor and leaving is costly, she stays as a reluctant stayer, giving minimum effort (neglect). At level 2 (3 <= E < 5): where her options are good and the last two changes to E were both falls, she starts planning to leave. Otherwise she stays. Evidence: alternatives favour exit and voice and discourage loyalty (Rusbult, Farrell, Rogers and Mainous 1988; Le and Agnew 2003); the reluctant stayer, who wants to leave but stays, is one of four withdrawal states (Hom, Mitchell, Lee and Griffeth 2012; checked against the abstract, which names the state but makes no claim that its attitudes match leavers'); a declining trajectory predicts quitting beyond the level itself (Chen et al. 2011; Bentein et al. 2005). The claim that good options damp a fall in E runs against this evidence and is not used.",
    "reflective_beat": "When step 1 or step 2 of the update changes E, the player plays one Engagement card on the Pillar most relevant to the scene that tipped it, in the direction E moved, as a reflective beat after the reaction (like a deferred reaction, rule 9.2c). Any one beat is capped at a small move: 0 or 1 on the target Pillar (engine.cli emove). The ambiguous-cue Engagement cards are treated as one mechanism: her stake colours how she reads ambiguous cues. The mechanism has adjacent replicated support in ingroup projection (Robbins and Krueger 2005) and no direct test, and the forward path from the Pillars to Engagement is the stronger one in longitudinal data (Lesener, Gusy and Wolter 2019), which is why the beat stays small. Loop brake: after the beat's Pillar move, recompute P and set P_ref = P, so the beat's own move can never by itself trigger the next update. Each Engagement card acts as a standing tilt set at the beat, and its time to impact runs from the Engagement update. Future Pillars need not each carry an Engagement card; where the most relevant Pillar has none, no beat is played (facilitator's reading, provisional until Ben rules).",
    "default_weights": "Ordinal defaults per deck, marked calibration: numbers are set to keep the order and the floor. E deck: high, Parity, Safety and Belonging; middle, Team Confidence, Reciprocity, Esteem and Dependability; low, Warmth. H deck: high, Parity, Payoff, Rank, Esteem and Belonging, with Rank and Esteem each weighing at least as much as Belonging (the floor, Ben, 5 Nov 2026, 2.20 pm); middle, Team Confidence and Reciprocity; low, Rule-Keeping. Repute and Face are weighted as ruled under pack_weights. Evidence: fair treatment is the most replicated input (Colquitt et al. 2013; Whitman et al. 2012; Brockner, Tyler and Cooper-Schneider 1992); development resources outweigh social ones (Mazzetti et al. 2023); status respect outweighs liking for engagement (Huo, Binning and Molina 2010; Mahadevan, Gregg and Sedikides 2016; Anderson, Hildreth and Howland 2015), which supports the H floor.",
-   "implementation_note": "Reference code: scripts/vx/engagement_rule.py (tested). Facilitator's reading, provisional until Ben rules (9 Nov 2026): while a grievance is open, drift waits, since the fall that opened it is held for its outcome (remedy, or the snake).",
+   "implementation_note": "Reference code: scripts/vx/engagement_rule.py (tested). While a grievance is open, drift waits: the fall that opened it is held for its outcome (remedy, or the snake) (Ben, 10 Nov 2026, 6.54 am, accepting the facilitator's reading).",
    "evidence": {
     "grade": "substantiated",
     "why": "Graded by the construct's central step: the definition (time, effort, thinking and feeling put into the group) matches personal engagement as Kahn defined it and Rich, LePine and Crawford (2010) measured it, and the inputs' directions are replicated in neighbouring forms (justice, safety, job and social resources meta-analyses). The levels, the update rule, its speed, the snake and the weights are provisional: their logic rests on field studies and consilience, and their sizes are calibration.",
@@ -4521,7 +4527,7 @@
    },
    "framework": "Perceived isolation and threat vigilance (Cacioppo and Hawkley 2009); social-evaluative threat (Dickerson and Kemeny 2004); interpersonal emotion regulation (Zaki and Williams 2013; Coan et al. 2006); consolation (Fraser et al. 2008; Koski and Sterck 2007) as secondary; psychological safety (Edmondson 1999).",
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some (Frazier et al. 2017 pooled support-safety correlations, no bias correction; Hartgerink et al. 2015, uncorrected asymmetry, analogous outcome)",
      "directness": "adjacent (peer support and supportive context as correlates of member-rated safety; exclusion effects on needs and mood)",
@@ -4533,7 +4539,9 @@
     "caveat": "Frazier et al. (2017) support correlations are adjacent evidence with no publication-bias correction; heterogeneity is substantial.",
     "pending_removal": false,
     "by": "evidence search, 6 Nov 2026",
-    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+    "supported_why": "Frazier et al. (2017) pools peer support and supportive context against member-rated safety at individual and group level (rho .49 to .62, k = 5 to 6), which touches the link itself, including the comfort-after-a-knock limb. It falls short of substantiated because the evidence is cross-sectional and often same-source, the direction is untested and nothing is bias-corrected.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -5963,7 +5971,7 @@
     "common_sense": "Only a small residual: an invested, enthusiastic member feels at ease to show herself. Common sense here is not one-sided, because the explanation itself weighs an Inverse reading (more to lose, more exposed). So the card has to rest mainly on the partly checked mood route."
    },
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some (association only, pooled without bias correction)",
      "directness": "adjacent",
@@ -5975,7 +5983,9 @@
     "caveat": "The safety and engagement association (Frazier et al. 2017) is uncorrected for publication bias and largely cross-sectional, so it cannot set direction.",
     "pending_removal": false,
     "by": "evidence search, 6 Nov 2026",
-    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+    "supported_why": "Frazier et al. (2017) pools the safety and engagement association at individual (rho .45, k = 13) and group level (.44), so replicated pooled evidence touches the link itself. It falls short of substantiated because the evidence is cross-sectional and same-source, the card's direction is untested and nothing is bias-corrected.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -6501,7 +6511,7 @@
     "common_sense": "Being invested in a group goes with a warmer mood towards its members, and drawing back with a cooler one. This is safe only as a modest default, because an invested member can also be frustrated."
    },
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some",
      "directness": "adjacent",
@@ -6512,7 +6522,9 @@
     "boundary": "Part of the link between own contribution and beliefs about others is reciprocal and endogenous (Smith 2013; Gächter and Renner 2010, to be checked). Fischbacher and Gächter (2010) support conditional cooperation, not decay led by beliefs, so they should not carry the decrement line. The step from beliefs about contributions to a felt reading of others' reliability is the model's proposal.",
     "caveat": null,
     "pending_removal": false,
-    "by": "evidence search, 6 Nov 2026"
+    "by": "evidence search, 6 Nov 2026",
+    "supported_why": "Projection of one's own cooperation onto expectations of others' cooperation is the same link in belief and behaviour, and it is replicated (false consensus in Many Labs 2, with prosocial expectations and conditional cooperation converging). It falls short of substantiated because the evidence is lab-only, partly reciprocal in direction, adjacent without strong consilience and unverified against the felt reading of others' reliability.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -9671,7 +9683,7 @@
    },
    "framework": "Post-conflict anxiety and reconciliation (primary); co-worker support and high-quality relationships with psychological safety (secondary, pending check).",
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some (small pooled sets for peer support, cross-sectional, no bias correction)",
      "directness": "adjacent",
@@ -9683,7 +9695,9 @@
     "caveat": "Frazier et al. give no discriminant test of safety against trust, and peer support pools several kinds of help, so the size of the link from returned help alone is unknown.",
     "pending_removal": false,
     "by": "evidence search, 6 Nov 2026",
-    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+    "supported_why": "Frazier et al. 2017 pools independent field studies linking peer support, a close neighbour of help that comes back, to psychological safety at individual (k = 6) and group (k = 5) level, and member safety surveys are direct evidence of the felt reading; it falls short of substantiated because the correlations are cross-sectional, often same-source and not bias-corrected.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -13750,7 +13764,7 @@
     "common_sense": "High place brings first turns and first shares, so a high-ranked member expects what she came for to reach her and a low-ranked one expects it to slip past. This is safe as plain sense about ordered access. The seniority-queue boundary is also common sense: a junior who expects to rise can read a low place as the start of the line."
    },
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some",
      "directness": "adjacent",
@@ -13761,7 +13775,9 @@
     "boundary": "Keep the seniority-queue boundary: a low place weakens the fall where the order is by seniority and a rise is expected. Rank benefits in humans are modest, and the primate evidence is mainly for mating, with no feeding-success effect for females, so the 'first share' leg is the weaker one. Precedence can also be a product of rank rather than a cue to it.",
     "caveat": null,
     "pending_removal": false,
-    "by": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    "by": "evidence search for items added since 6 Nov, 9 Nov 2026",
+    "supported_why": "Two meta-analyses, one in primatology (Majolo et al.) and one in anthropology (von Rueden and Jaeggi), pool independent studies showing that rank brings priority of access and payoffs, which is the same link in behaviour. It falls short of substantiated because bias correction is unconfirmed, the human effects are modest, and the member's felt reading of her own prospects is untested.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    },
    "sources": [
     {
@@ -14648,7 +14664,7 @@
     "common_sense": "A low place leads her to expect a put-down for a slip or objection, and a high place leads her to expect it to be let pass. This is safe as plain sense and agrees in direction with the checked power and status sources. The distinction between rank and safety, and the weakening of the card under an inclusive leader, are also common sense; the second agrees with the moderation reported by Nembhard and Edmondson."
    },
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "meta-analytic for the adjacent behaviour (rank and inhibited behaviour, k = 40); bias correction for this outcome implied, not shown",
      "directness": "adjacent (measured rank to inhibited behaviour, not felt safety)",
@@ -14660,7 +14676,9 @@
     "caveat": "The meta-analytic evidence is behavioural inhibition, a neighbour of felt safety to show oneself, and its bias-adjusted estimate for that outcome is not shown in the main text.",
     "pending_removal": false,
     "by": "evidence search, 6 Nov 2026",
-    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+    "supported_why": "Sabey et al. 2025 pools 40 samples in which measured hierarchical rank relates to inhibited behaviour (r = -.08), the same link in behaviour, and organisational and primate work agree on the direction. It falls short of substantiated because the bias-adjusted estimate is not shown, experiments with experienced power give a null, and felt safety itself is untested.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -17334,7 +17352,7 @@
    },
    "framework": "Prestige and liking (Cheng et al. 2013); prestige as access (Henrich and Gil-White 2001). Forager levelling of the successful (Lee 1969; Wiessner 1996) belongs to the scene.",
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some (Cheng et al. 2013 liking pattern conceptually replicated in one preregistered study, Brand and Mesoudi 2019)",
      "directness": "adjacent (others' liking and learning choices, not her felt belonging)",
@@ -17346,7 +17364,9 @@
     "caveat": "Brand and Mesoudi regressed prestige on likeability, so the direction of the liking link is not established.",
     "pending_removal": false,
     "by": "evidence search, 6 Nov 2026",
-    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+    "supported_why": "Others' greater liking of prestige-holders, the same link seen in others' behaviour towards her, appears in Cheng et al. 2013 and again in Brand and Mesoudi's 2019 preregistered conceptual replication in established community groups, and the Agta storyteller work points the same way. It falls short of substantiated because the ratings are same-source and cross-sectional, the direction is untested, and nothing measures her own felt belonging.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -17579,7 +17599,7 @@
     "common_sense": "That investment colours her reading of ambiguous glances and questions as deference, and that an invested member brings and shares more. Safe as a modest step at checkpoints."
    },
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "none",
      "directness": "adjacent",
@@ -17590,7 +17610,9 @@
     "boundary": "Holds where her contribution is visible to the others. In strongly egalitarian groups, giving that reads as status seeking can draw levelling rather than deference. The step from investment to reading ambiguous glances as deference is common sense, untested.",
     "caveat": null,
     "pending_removal": false,
-    "by": "evidence search, 6 Nov 2026"
+    "by": "evidence search, 6 Nov 2026",
+    "supported_why": "Two independent lab programmes (Willer 2009; Hardy and Van Vugt 2006), each with within-paper repeats, show that contributors are granted status, the same link in behaviour, and the correlational Tsimane fieldwork agrees from a second field. It falls short of substantiated because there is no registered replication, the evidence is adjacent, and the reading of the contributor's own glances and cues is untested.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -17858,7 +17880,7 @@
    "summary": "When those above hear you out, apply the same rules to you as to others and hand out turns and shares without favourites, you take it that you count and your place is secure, so your sense of being kept rises. When decisions are made over your head or favourites come first, you feel kept on sufferance and it falls, and the fall is stronger.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some",
      "directness": "adjacent",
@@ -17869,7 +17891,9 @@
     "boundary": "The lift from being heard is larger for members high in belongingness need or unsure of their place (de Cremer and Blader 2006; de Cremer, Brebels and Sedikides 2008, both unverified). Voice does not help when the outcome strikes a central part of her self (Mayer et al. 2009, via search). The claim that the decrement exceeds the increment is not tested and is not in the card text; keep it out.",
     "caveat": null,
     "pending_removal": false,
-    "by": "evidence search, 6 Nov 2026"
+    "by": "evidence search, 6 Nov 2026",
+    "supported_why": "Large meta-analyses (Colquitt et al. 2001; Chan et al. 2023) pool independent studies linking procedural justice from authorities to identification with the group, the same link at group level. It falls short of substantiated because bias correction is unconfirmed, the evidence is mostly cross-sectional, and identification is adjacent to felt belonging.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -18128,7 +18152,7 @@
    "summary": "When a member is putting much of herself into the group, an ambiguous call from above reads as made in good faith, so her sense that those above deal evenly with her holds or rises a little. When she is pulling out, the same call reads as favouritism and her Parity falls. Her stake colours how she reads unclear decisions.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "none",
      "directness": "adjacent",
@@ -18139,7 +18163,9 @@
     "boundary": "Holds only for calls that can be read either way. Plain unfairness hits the highly committed hardest (Brockner, Tyler and Cooper-Schneider 1992, unverified, URL to confirm); that effect belongs to the Engagement update rule and not to this card.",
     "caveat": null,
     "pending_removal": false,
-    "by": "evidence search, 6 Nov 2026"
+    "by": "evidence search, 6 Nov 2026",
+    "supported_why": "Correlational justice and commitment meta-analyses pool independent studies on the association between investment in the group and felt fair dealing from authority, so the link itself has pooled evidence; its direction is untested and the ambiguous-call mechanism rests on two unreplicated experiments, which keeps it short of substantiated.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -18779,7 +18805,7 @@
    "summary": "When people above hear me out before a call that touches me, and weigh my objection fairly, I expect that showing a doubt or slip in front of them will not be punished. Parity in its hierarchical face, the hearing and even dealing of those above, therefore raises my sense of Safety to show myself. Being shut out or threatened lowers it.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some (Frazier et al. 2017: individual-level positive leader relations rho .44, k = 30, and inclusive leadership .36; group level .39, k = 16; corrected for unreliability only, with the group-level leader effect larger in published than unpublished studies; 105-sample inclusive-leadership meta-analysis unread)",
      "directness": "direct (member surveys of felt safety against member ratings of leaders), though same-source",
@@ -18791,7 +18817,9 @@
     "caveat": "Frazier et al. (2017) gives no estimate that isolates leaders hearing members out from general supportive leadership, and its heterogeneity is substantial, so the card's specific mechanism rests on the single studies named in the explanation.",
     "pending_removal": false,
     "by": "evidence search, 6 Nov 2026",
-    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026"
+    "full_text": "full-text regrade (Ben's PDFs), applied by the facilitator, 9 Nov 2026",
+    "supported_why": "Frazier et al. 2017 pools member surveys of felt safety against member ratings of leaders (positive leader relations rho .44, k = 30; group level .39, k = 16), with longitudinal support and no null, which tests the link directly; it is same-source, corrected for unreliability only and shrinks in unpublished studies, so it falls short of substantiated.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -19242,7 +19270,7 @@
    "summary": "When I feel safe to show myself, I tell the members how things are with me, and in the telling I am drawn to them. When I brace and mask myself, I keep my news to myself and a coolness settles in. The rise scales with how much of the group I have told, and the fall is smaller.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some",
      "directness": "direct",
@@ -19253,7 +19281,9 @@
     "boundary": "The rise holds for good news, troubles and positive or general emotion told to a receptive listener; venting anger goes with worse social outcomes and negative emotion overall has a very small, mixed link (Chervonsky and Hunt 2017, searched only). A telling met badly should not raise fondness, which the scene handles. The decrement is smaller than the increment.",
     "caveat": null,
     "pending_removal": false,
-    "by": "evidence search, 6 Nov 2026"
+    "by": "evidence search, 6 Nov 2026",
+    "supported_why": "The Collins and Miller 1994 meta-analysis pools independent studies showing that disclosing raises the discloser's liking for the listener, which tests the link directly, and Srivastava et al. 2009 and Butler et al. 2003 back the suppression line. It falls short of substantiated only because the pooling predates bias correction and the core studies lack direct replications.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    },
    "edits_log": [
     "focal-trims: Rise comes from the telling itself; uptake evidence moved to scene. (facilitator, Tier 2 or 3, Ben's rule of 5 Nov 2026, 4.43 pm)",
@@ -20017,7 +20047,7 @@
     }
    ],
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some",
      "directness": "adjacent",
@@ -20028,7 +20058,9 @@
     "boundary": "Newcomers and members of working teams underestimate how much they are liked (liking gap: Boothby et al. 2018; Mastroianni et al. 2021, both still to verify), so the rise is smaller than her fondness would project. Where relations among members are competitive, projecting her own liking onto them is less accurate and the step weakens (Elfenbein and Eisenkraft, to verify).",
     "caveat": null,
     "pending_removal": false,
-    "by": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    "by": "evidence search for items added since 6 Nov, 9 Nov 2026",
+    "supported_why": "Assumed reciprocity of liking, where one's own liking predicts the belief that one is liked back, is a consistent round-robin finding across many studies (Kenny), so the same link has replicated evidence. It falls short of substantiated because the evidence is cross-sectional, has no bias-corrected pooled estimate, is unverified, and reaches the group level in only one adolescent study.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
@@ -20400,7 +20432,7 @@
    "summary": "When a patron above deals evenly with me, hears my case and treats me with due courtesy, I trust more that he will honour what he owes me, so my sense that my help comes back rises. Contempt or favouritism lowers it. It applies only where the superior is also my exchange partner, and the move scales to how much of my giving runs through him.",
    "summary_status": "generated from the source texts, not canon; checked faithful",
    "evidence": {
-    "grade": "provisional",
+    "grade": "supported",
     "dimensions": {
      "replication": "some",
      "directness": "adjacent",
@@ -20411,7 +20443,9 @@
     "boundary": "The card fires only where the superior is also her exchange partner, and the move scales with how much of her exchange runs through him. Fairness focused on the leader drives the link more than fairness focused on the organisation (Karam et al. 2019, to verify). Existing exchange quality may colour her fairness ratings (reverse causation), so the move stays small, and smaller still when Parity to Belonging or Parity to Payoff fires on the same call.",
     "caveat": null,
     "pending_removal": false,
-    "by": "evidence search for items added since 6 Nov, 9 Nov 2026"
+    "by": "evidence search for items added since 6 Nov, 9 Nov 2026",
+    "supported_why": "Large organisational meta-analyses (Colquitt et al. 2013; Masterson et al. 2000) consistently link a supervisor's fair, courteous treatment to exchange quality and trust in him, which is the card's link with a neighbouring outcome. It falls short of substantiated because the data are correlational self-reports, not bias-corrected, and never measure expected repayment.",
+    "supported_by": "supported regrade from existing records (Ben, 10 Nov 2026, 2.04 pm)"
    }
   },
   {
